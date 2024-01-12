@@ -1,0 +1,22 @@
+{
+  "name": "@core/providers",
+  "version": "1.0.0",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch"
+  },
+  "dependencies": {
+    "@configs/mui": "*"
+  },
+  "devDependencies": {
+    "@utils/mui": "*",
+    "@styles/ui-mui": "*",
+    "@configs/tsconfig": "*"
+  }
+}

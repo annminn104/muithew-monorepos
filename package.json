@@ -2,7 +2,7 @@
   "name": "muithew-monorepos",
   "private": true,
   "scripts": {
-    "build": "turbo build",
+    "build": "turbo build --no-cache",
     "dev": "turbo dev --no-cache  --continue --concurrency 11",
     "lint": "turbo lint",
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
@@ -40,7 +40,8 @@
     "apps/*",
     "packages/*",
     "packages/configs/*",
+    "packages/core/*",
     "packages/styles/*",
-    "packages/core/*"
+    "packages/utils/*"
   ]
 }

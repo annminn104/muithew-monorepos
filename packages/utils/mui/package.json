@@ -1,0 +1,19 @@
+{
+  "name": "@utils/mui",
+  "version": "1.0.0",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch"
+  },
+  "dependencies": {
+    "@core/global-types": "*",
+    "@core/enums": "*",
+    "@configs/tsconfig": "*"
+  }
+}
