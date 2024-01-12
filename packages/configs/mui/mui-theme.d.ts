@@ -1,10 +1,4 @@
-import {
-  AlignItems,
-  Display,
-  FlexDirection,
-  JustifyContent,
-  AdjustFlex,
-} from "@core/global-types";
+import { AdjustFlex } from "@core/global-types";
 import { Color } from "@mui/material";
 
 declare module "@mui/material/styles/createPalette" {
