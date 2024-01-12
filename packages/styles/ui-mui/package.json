@@ -1,0 +1,22 @@
+{
+  "name": "@styles/ui-mui",
+  "version": "1.0.0",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch"
+  },
+  "dependencies": {
+    "@configs/mui": "*"
+  },
+  "devDependencies": {
+    "@configs/storybook": "*",
+    "@configs/tsconfig": "*"
+  }
+}

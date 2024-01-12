@@ -1,0 +1,8 @@
+{
+  "name": "@configs/mui",
+  "version": "1.0.0",
+  "main": "index.ts",
+  "dependencies": {
+    "@core/global-types": "*"
+  }
+}
