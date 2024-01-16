@@ -8,10 +8,12 @@ This repository is set up as a Monorepo using Vercel's Turbo Repos. It consists 
 
 - **Framework**: React 18
 - **Build Tool**: Vite
+- **Demo**: `https://muithew-admin.vercel.app`
 
 ### Landing Page
 
 - **Framework**: Next.js 14
+- **Demo**: `https://muithew-landing.vercel.app`
 
 #### Packages Used
 
