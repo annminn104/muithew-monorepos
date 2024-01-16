@@ -4,6 +4,7 @@
   "main": "index.ts",
   "scripts": {},
   "dependencies": {
-    "@configs/mui": "*"
+    "@configs/mui": "*",
+    "@core/providers": "*"
   }
 }
