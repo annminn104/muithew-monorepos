@@ -232,7 +232,7 @@ const componentOverrides = [
   UseMediaQuery,
 ];
 
-export default function componentsOverrides(theme: Theme) {
+export function componentsOverrides(theme: Theme) {
   return componentOverrides.reduce((overrides, Component) => {
     return Object.assign(overrides, Component(theme));
   }, {});
