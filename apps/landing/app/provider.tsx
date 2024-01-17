@@ -1,7 +1,7 @@
 'use client';
 
-import React from 'react';
 import { MuiProvider } from '@core/providers';
+import React from 'react';
 
 interface RootProviderProps {
   children?: React.ReactNode;
