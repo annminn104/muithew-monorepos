@@ -1,14 +1,10 @@
-import type { StorybookConfig } from "@storybook/react-vite";
+import { StorybookConfig } from "@storybook/react-vite";
 
-const config: StorybookConfig = {
+import { addOnGlobalConfigs } from "../global-config";
+
+export const reactConfigStorybook: StorybookConfig = {
   stories: ["../src/**/*.mdx", "../src/**/*.stories.@(js|jsx|mjs|ts|tsx)"],
-  addons: [
-    "@storybook/addon-links",
-    "@storybook/addon-essentials",
-    "@storybook/addon-onboarding",
-    "@storybook/addon-interactions",
-    "storybook-addon-react-router-v6",
-  ],
+  addons: [...addOnGlobalConfigs, "storybook-addon-react-router-v6"],
   framework: {
     name: "@storybook/react-vite",
     options: {},
@@ -17,4 +13,3 @@ const config: StorybookConfig = {
     autodocs: "tag",
   },
 };
-export default config;

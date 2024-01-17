@@ -16,7 +16,6 @@
     "@configs/mui": "*"
   },
   "devDependencies": {
-    "@configs/storybook": "*",
     "@configs/tsconfig": "*"
   }
 }
