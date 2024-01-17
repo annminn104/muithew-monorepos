@@ -9,7 +9,8 @@
   ],
   "scripts": {
     "build": "tsup",
-    "dev": "tsup --watch"
+    "dev": "tsup --watch",
+    "clean": "rm -rf dist .turbo"
   },
   "dependencies": {
     "@configs/mui": "*"

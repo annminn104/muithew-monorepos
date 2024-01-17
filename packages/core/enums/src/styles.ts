@@ -1,5 +1,5 @@
 export enum StyleBaseEnum {
-  fontSizeDefault = 16,
+  fontSizeDefault = 16
 }
 
 export enum StyleBreakPointEnum {
@@ -9,7 +9,7 @@ export enum StyleBreakPointEnum {
   lg = 992,
   xl = 1200,
   xxl = 1400,
-  xxxl = 1600,
+  xxxl = 1600
 }
 
 export enum StyleBreakPointDeviceEnum {
@@ -18,5 +18,5 @@ export enum StyleBreakPointDeviceEnum {
   desktop = StyleBreakPointEnum.xl,
   small = StyleBreakPointEnum.sm,
   medium = StyleBreakPointEnum.lg,
-  large = StyleBreakPointEnum.xl,
+  large = StyleBreakPointEnum.xl
 }

@@ -5,9 +5,10 @@
     "build": "turbo build --no-cache",
     "dev": "turbo dev --no-cache  --continue --concurrency 15",
     "lint": "turbo lint",
-    "format": "prettier --write \"**/*.{ts,tsx,md}\"",
+    "format": "prettier --write \"**/*.{ts,tsx,md,js}\"",
     "storybook": "turbo storybook",
-    "storybook-build": "turbo storybook-build"
+    "storybook-build": "turbo storybook-build",
+    "clean-build": "turbo clean"
   },
   "dependencies": {
     "react": "^18.2.0",
@@ -39,7 +40,9 @@
     "@storybook/addon-onboarding": "^1.0.10",
     "@storybook/react-vite": "^7.6.8",
     "storybook-addon-react-router-v6": "^2.0.10",
-    "@storybook/addons": "^7.6.8"
+    "@storybook/addons": "^7.6.8",
+    "@storybook/react": "^7.6.8",
+    "@turbo/gen": "^1.11.3"
   },
   "engines": {
     "node": ">=18"

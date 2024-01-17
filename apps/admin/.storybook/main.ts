@@ -1,3 +1,3 @@
-import { reactConfigStorybook } from "@configs/storybook";
+import { reactMainConfigStorybook } from '@configs/storybook';
 
-export default reactConfigStorybook;
+export default reactMainConfigStorybook;

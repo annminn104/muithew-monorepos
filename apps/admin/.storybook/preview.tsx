@@ -1,2 +1,2 @@
-import { reactReviewStorybook } from "@configs/storybook";
-export default reactReviewStorybook;
+import { reactPreviewStorybook } from '@configs/storybook';
+export default reactPreviewStorybook;

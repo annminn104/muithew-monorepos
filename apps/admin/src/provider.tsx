@@ -1,5 +1,5 @@
-import React from "react";
-import { MuiProvider } from "@core/providers";
+import React from 'react';
+import { MuiProvider } from '@core/providers';
 
 interface RootProviderProps {
   children?: React.ReactNode;

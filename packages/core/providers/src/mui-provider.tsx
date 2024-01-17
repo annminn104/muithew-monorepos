@@ -1,15 +1,11 @@
-"use client";
+'use client';
 
-import React from "react";
+import React from 'react';
 
-import palette from "@configs/mui/theme";
-import {
-  createTheme,
-  CssBaseline,
-  ThemeProvider as MUIThemeProvider,
-} from "@mui/material";
-import { componentsOverrides } from "@styles/ui-mui";
-import { adjustFlex, pxToRem } from "@utils/mui";
+import palette from '@configs/mui/theme';
+import { createTheme, CssBaseline, ThemeProvider as MUIThemeProvider } from '@mui/material';
+import { componentsOverrides } from '@styles/ui-mui';
+import { adjustFlex, pxToRem } from '@utils/mui';
 
 interface MuiProviderProps {
   children?: React.ReactNode;
@@ -17,11 +13,11 @@ interface MuiProviderProps {
 
 export const MuiProvider: React.FC<MuiProviderProps> = ({ children }) => {
   const theme = createTheme({
-    palette: palette("light"),
+    palette: palette('light'),
     functions: {
       pxToRem: pxToRem,
-      adjustFlex: adjustFlex,
-    },
+      adjustFlex: adjustFlex
+    }
   });
 
   theme.components = componentsOverrides(theme);

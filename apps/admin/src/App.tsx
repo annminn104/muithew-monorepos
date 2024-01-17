@@ -1,5 +1,5 @@
-import RootProvider from "./provider";
-import { Button } from "@mui/material";
+import RootProvider from './provider';
+import { Button } from '@mui/material';
 
 function App() {
   return (

@@ -1,13 +1,13 @@
-import React from "react";
-import { withRouter } from "storybook-addon-react-router-v6";
+import React from 'react';
+import { withRouter } from 'storybook-addon-react-router-v6';
 
-import { MuiProvider } from "@core/providers";
+import { MuiProvider } from '@core/providers';
 
-import { parameterGlobalConfigs } from "../global-config";
+import { parameterGlobalConfigs } from '../global-config';
 
-import { Preview } from "@storybook/react";
+import { Preview } from '@storybook/react';
 
-export const reactReviewStorybook: Preview = {
+export const reactPreviewStorybook: Preview = {
   parameters: parameterGlobalConfigs,
   decorators: [
     withRouter,
@@ -15,6 +15,6 @@ export const reactReviewStorybook: Preview = {
       <MuiProvider>
         <Story />
       </MuiProvider>
-    ),
-  ],
+    )
+  ]
 };

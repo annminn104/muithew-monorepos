@@ -8,8 +8,9 @@
     "build": "tsc && vite build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "storybook": "storybook dev -p 6101 --quiet",
-    "storybook-build": "storybook build -o build-storybook-static"
+    "storybook": "storybook dev",
+    "storybook-build": "storybook build -o build-storybook-static",
+    "clean": "rm -rf dist .turbo node_modules"
   },
   "dependencies": {
     "@configs/storybook": "*",

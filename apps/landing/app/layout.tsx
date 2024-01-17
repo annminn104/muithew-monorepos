@@ -1,19 +1,15 @@
-import RootProvider from "./provider";
+import RootProvider from './provider';
 
-import type { Metadata } from "next";
+import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: "Muithew Landing",
-  description: "",
+  title: 'Muithew Landing',
+  description: ''
 };
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}): JSX.Element {
+export default function RootLayout({ children }: { children: React.ReactNode }): JSX.Element {
   return (
-    <html lang="en">
+    <html lang='en'>
       <body>
         <RootProvider>{children}</RootProvider>
       </body>
