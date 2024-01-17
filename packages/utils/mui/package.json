@@ -10,7 +10,7 @@
   "scripts": {
     "build": "tsup",
     "dev": "tsup --watch",
-    "clean": "rm -rf dist .turbo"
+    "clean": "rm -rf dist/ .turbo/"
   },
   "dependencies": {
     "@core/global-types": "*",

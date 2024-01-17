@@ -8,7 +8,7 @@
     "react-internal.js"
   ],
   "scripts": {
-    "clean": "rm -rf node_modules"
+    "clean": "rm -rf .turbo/ node_modules/"
   },
   "devDependencies": {
     "@vercel/style-guide": "^5.1.0",

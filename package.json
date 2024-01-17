@@ -2,8 +2,8 @@
   "name": "muithew-monorepos",
   "private": true,
   "scripts": {
-    "build": "turbo build --no-cache",
-    "dev": "turbo dev --no-cache  --continue --concurrency 15",
+    "build": "turbo build",
+    "dev": "turbo dev --concurrency 15",
     "lint": "turbo lint",
     "format": "prettier --write \"**/*.{ts,tsx,md,js}\"",
     "storybook": "turbo storybook",
