@@ -17,5 +17,6 @@
     "@core/providers": "*",
     "@styles/ui-mui": "*",
     "@utils/version": "*"
-  }
+  },
+  "devDependencies": {}
 }
