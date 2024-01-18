@@ -20,10 +20,10 @@
     "storybook": {
       "dependsOn": ["build"]
     },
-    "storybook-build": {
+    "storybook:build": {
       "dependsOn": ["build"],
       "outputs": ["build-storybook-static/**"]
     },
-    "clean": {}
+    "clean:build": {}
   }
 }

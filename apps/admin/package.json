@@ -8,15 +8,30 @@
     "build": "tsc && vite build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "storybook": "storybook dev",
-    "storybook-build": "storybook build -o build-storybook-static",
-    "clean": "rm -rf dist/ .turbo/ node_modules/"
+    "storybook": "storybook dev -p 6006",
+    "storybook:build": "storybook build -o build-storybook-static",
+    "clean:build": "rm -rf dist/ .turbo/ node_modules/ build-storybook-static/"
   },
   "dependencies": {
     "@configs/storybook": "*",
     "@core/providers": "*",
     "@styles/ui-mui": "*",
-    "@utils/version": "*"
+    "@utils/version": "*",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-router-dom": "^6.21.2"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "@storybook/addon-essentials": "^7.6.9",
+    "@storybook/addon-interactions": "^7.6.9",
+    "@storybook/addon-links": "^7.6.9",
+    "@storybook/addon-onboarding": "1.0.10",
+    "@storybook/blocks": "^7.6.9",
+    "@storybook/react": "^7.6.9",
+    "@storybook/react-vite": "^7.6.9",
+    "@storybook/test": "^7.6.9",
+    "eslint-plugin-storybook": "^0.6.15",
+    "prop-types": "15.8.1",
+    "storybook": "^7.6.9"
+  }
 }

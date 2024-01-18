@@ -8,16 +8,16 @@
     "react-internal.js"
   ],
   "scripts": {
-    "clean": "rm -rf .turbo/ node_modules/"
+    "clean:build": "rm -rf .turbo/ node_modules/"
   },
   "devDependencies": {
-    "@vercel/style-guide": "^5.1.0",
-    "eslint-config-turbo": "^1.11.3",
-    "eslint-config-prettier": "^9.1.0",
-    "eslint-plugin-only-warn": "^1.1.0",
-    "eslint-config-next": "^14.0.4",
-    "@typescript-eslint/parser": "^6.17.0",
     "@typescript-eslint/eslint-plugin": "^6.17.0",
+    "@typescript-eslint/parser": "^6.17.0",
+    "@vercel/style-guide": "^5.1.0",
+    "eslint-config-next": "^14.0.4",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-config-turbo": "^1.11.3",
+    "eslint-plugin-only-warn": "^1.1.0",
     "typescript": "^5.3.3"
   }
 }

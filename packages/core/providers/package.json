@@ -10,14 +10,14 @@
   "scripts": {
     "build": "tsup",
     "dev": "tsup --watch",
-    "clean": "rm -rf dist/ .turbo/"
+    "clean:build": "rm -rf dist/ .turbo/"
   },
   "dependencies": {
     "@configs/mui": "*"
   },
   "devDependencies": {
-    "@utils/mui": "*",
+    "@configs/tsconfig": "*",
     "@styles/ui-mui": "*",
-    "@configs/tsconfig": "*"
+    "@utils/mui": "*"
   }
 }

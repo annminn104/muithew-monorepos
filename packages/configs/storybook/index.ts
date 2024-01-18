@@ -1,2 +1,2 @@
-export * from './react/main';
-export * from './react/preview';
+export * from './next';
+export * from './react';

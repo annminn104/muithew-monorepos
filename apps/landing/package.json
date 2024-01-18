@@ -7,15 +7,29 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint . --max-warnings 0",
-    "clean": "rm -rf .next/ .turbo/ node_modules/"
+    "clean:build": "rm -rf .next/ .turbo/ node_modules/ build-storybook-static/",
+    "storybook": "storybook dev -p 9009",
+    "storybook:build": "storybook build -o build-storybook-static"
   },
   "dependencies": {
+    "@core/providers": "*",
     "@styles/ui": "*",
-    "@core/providers": "*"
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
   },
   "devDependencies": {
-    "@next/eslint-plugin-next": "^14.0.4",
     "@configs/eslint": "*",
-    "@configs/typescript": "*"
+    "@configs/typescript": "*",
+    "@next/eslint-plugin-next": "^14.0.4",
+    "@storybook/addon-essentials": "^7.6.9",
+    "@storybook/addon-interactions": "^7.6.9",
+    "@storybook/addon-links": "^7.6.9",
+    "@storybook/addon-onboarding": "1.0.10",
+    "@storybook/blocks": "^7.6.9",
+    "@storybook/nextjs": "^7.6.9",
+    "@storybook/react": "^7.6.9",
+    "@storybook/test": "^7.6.9",
+    "eslint-plugin-storybook": "^0.6.15",
+    "storybook": "^7.6.9"
   }
 }
