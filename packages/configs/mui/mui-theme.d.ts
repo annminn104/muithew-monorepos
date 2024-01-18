@@ -18,7 +18,7 @@ declare module '@mui/material/styles/createTheme' {
 }
 
 declare module '@mui/material' {
-  interface SvgIconProps {
+  interface SvgIconOwnProps {
     linearColor?: string;
   }
 }

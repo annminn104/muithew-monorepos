@@ -21,6 +21,7 @@ export const MuiProvider: React.FC<MuiProviderProps> = ({ children }) => {
   });
 
   theme.components = componentsOverrides(theme);
+
   return (
     <MUIThemeProvider theme={theme}>
       <CssBaseline />

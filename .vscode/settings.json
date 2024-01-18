@@ -49,5 +49,5 @@
       "source.sortMembers": "explicit"
     }
   },
-  "cSpell.words": ["colour", "commitlint", "esbenp", "stylelint", "muithew", "tsup"]
+  "cSpell.words": ["colour", "commitlint", "esbenp", "muithew", "stylelint", "Swipeable", "tsup"]
 }

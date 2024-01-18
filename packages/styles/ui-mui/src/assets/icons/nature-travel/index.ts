@@ -1,0 +1,9 @@
+export { default as BonfireIcon } from './bonfire';
+export { default as FireIcon } from './fire';
+export { default as FireMinimalisticIcon } from './fire-minimalistic';
+export { default as FireSquareIcon } from './fire-square';
+export { default as FlameIcon } from './flame';
+export { default as LeafIcon } from './leaf';
+export { default as SuitcaseIcon } from './suitcase';
+export { default as SuitcaseLinesIcon } from './suitcase-lines';
+export { default as SuitcaseTagIcon } from './suitcase-tag';

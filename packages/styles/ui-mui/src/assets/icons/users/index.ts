@@ -1,0 +1,9 @@
+export { default as UserBlockRoundedIcon } from './user-block-rounded';
+export { default as UserCheckRoundedIcon } from './user-check-rounded';
+export { default as UserCrossRoundedIcon } from './user-cross-rounded';
+export { default as UserMinusRoundedIcon } from './user-minus-rounded';
+export { default as UserPlusRoundedIcon } from './user-plus-rounded';
+export { default as UserRoundedIcon } from './user-rounded';
+export { default as UsersRoundedIcon } from './users-rounded';
+export { default as UsersTwoRoundedIcon } from './users-two-rounded';
+export { default as UserSpeakRoundedIcon } from './user-speak-rounded';
