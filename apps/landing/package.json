@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
+    "dev": "URL=http://localhost:3200 && (open $URL || cmd.exe /c start $URL) && next dev -p 3200",
     "build": "next build",
     "start": "next start",
     "lint": "eslint . --max-warnings 0",
