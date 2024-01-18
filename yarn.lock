@@ -35,22 +35,8 @@ __metadata:
   dependencies:
     "@configs/storybook": "npm:*"
     "@core/providers": "npm:*"
-    "@storybook/addon-essentials": "npm:^7.6.9"
-    "@storybook/addon-interactions": "npm:^7.6.9"
-    "@storybook/addon-links": "npm:^7.6.9"
-    "@storybook/addon-onboarding": "npm:1.0.10"
-    "@storybook/blocks": "npm:^7.6.9"
-    "@storybook/react": "npm:^7.6.9"
-    "@storybook/react-vite": "npm:^7.6.9"
-    "@storybook/test": "npm:^7.6.9"
     "@styles/ui-mui": "npm:*"
     "@utils/version": "npm:*"
-    eslint-plugin-storybook: "npm:^0.6.15"
-    prop-types: "npm:15.8.1"
-    react: "npm:18.2.0"
-    react-dom: "npm:18.2.0"
-    react-router-dom: "npm:^6.21.2"
-    storybook: "npm:^7.6.9"
   languageName: unknown
   linkType: soft
 
@@ -61,20 +47,7 @@ __metadata:
     "@configs/eslint": "npm:*"
     "@configs/typescript": "npm:*"
     "@core/providers": "npm:*"
-    "@next/eslint-plugin-next": "npm:^14.0.4"
-    "@storybook/addon-essentials": "npm:^7.6.9"
-    "@storybook/addon-interactions": "npm:^7.6.9"
-    "@storybook/addon-links": "npm:^7.6.9"
-    "@storybook/addon-onboarding": "npm:1.0.10"
-    "@storybook/blocks": "npm:^7.6.9"
-    "@storybook/nextjs": "npm:^7.6.9"
-    "@storybook/react": "npm:^7.6.9"
-    "@storybook/test": "npm:^7.6.9"
     "@styles/ui": "npm:*"
-    eslint-plugin-storybook: "npm:^0.6.15"
-    react: "npm:18.2.0"
-    react-dom: "npm:18.2.0"
-    storybook: "npm:^7.6.9"
   languageName: unknown
   linkType: soft
 
@@ -1650,15 +1623,6 @@ __metadata:
 "@configs/eslint@npm:*, @configs/eslint@workspace:packages/configs/eslint":
   version: 0.0.0-use.local
   resolution: "@configs/eslint@workspace:packages/configs/eslint"
-  dependencies:
-    "@typescript-eslint/eslint-plugin": "npm:^6.17.0"
-    "@typescript-eslint/parser": "npm:^6.17.0"
-    "@vercel/style-guide": "npm:^5.1.0"
-    eslint-config-next: "npm:^14.0.4"
-    eslint-config-prettier: "npm:^9.1.0"
-    eslint-config-turbo: "npm:^1.11.3"
-    eslint-plugin-only-warn: "npm:^1.1.0"
-    typescript: "npm:^5.3.3"
   languageName: unknown
   linkType: soft
 
@@ -3641,7 +3605,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/addon-essentials@npm:^7.6.8, @storybook/addon-essentials@npm:^7.6.9":
+"@storybook/addon-essentials@npm:^7.6.8":
   version: 7.6.9
   resolution: "@storybook/addon-essentials@npm:7.6.9"
   dependencies:
@@ -3675,7 +3639,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/addon-interactions@npm:^7.6.8, @storybook/addon-interactions@npm:^7.6.9":
+"@storybook/addon-interactions@npm:^7.6.8":
   version: 7.6.9
   resolution: "@storybook/addon-interactions@npm:7.6.9"
   dependencies:
@@ -3688,7 +3652,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/addon-links@npm:^7.6.8, @storybook/addon-links@npm:^7.6.9":
+"@storybook/addon-links@npm:^7.6.8":
   version: 7.6.9
   resolution: "@storybook/addon-links@npm:7.6.9"
   dependencies:
@@ -3714,7 +3678,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/addon-onboarding@npm:1.0.10, @storybook/addon-onboarding@npm:^1.0.10":
+"@storybook/addon-onboarding@npm:^1.0.10":
   version: 1.0.10
   resolution: "@storybook/addon-onboarding@npm:1.0.10"
   dependencies:
@@ -4163,15 +4127,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/csf@npm:^0.0.1":
-  version: 0.0.1
-  resolution: "@storybook/csf@npm:0.0.1"
-  dependencies:
-    lodash: "npm:^4.17.15"
-  checksum: 7b0f75763415f9147692a460b44417ee56ea9639433716a1fd4d1df4c8b0221cbc71b8da0fbed4dcecb3ccd6c7ed64be39f5c255c713539a6088a1d6488aaa24
-  languageName: node
-  linkType: hard
-
 "@storybook/csf@npm:^0.1.2":
   version: 0.1.2
   resolution: "@storybook/csf@npm:0.1.2"
@@ -4428,7 +4383,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/react-vite@npm:^7.6.8, @storybook/react-vite@npm:^7.6.9":
+"@storybook/react-vite@npm:^7.6.8":
   version: 7.6.9
   resolution: "@storybook/react-vite@npm:7.6.9"
   dependencies:
@@ -4447,7 +4402,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@storybook/react@npm:7.6.9, @storybook/react@npm:^7.6.8, @storybook/react@npm:^7.6.9":
+"@storybook/react@npm:7.6.9, @storybook/react@npm:^7.6.8":
   version: 7.6.9
   resolution: "@storybook/react@npm:7.6.9"
   dependencies:
@@ -4572,7 +4527,6 @@ __metadata:
   dependencies:
     "@configs/eslint": "npm:*"
     "@configs/typescript": "npm:*"
-    "@turbo/gen": "npm:^1.11.3"
   languageName: unknown
   linkType: soft
 
@@ -5358,7 +5312,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/eslint-plugin@npm:^6.14.0, @typescript-eslint/eslint-plugin@npm:^6.17.0, @typescript-eslint/eslint-plugin@npm:^6.5.0":
+"@typescript-eslint/eslint-plugin@npm:^6.14.0, @typescript-eslint/eslint-plugin@npm:^6.5.0":
   version: 6.19.0
   resolution: "@typescript-eslint/eslint-plugin@npm:6.19.0"
   dependencies:
@@ -5383,7 +5337,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/parser@npm:^5.4.2 || ^6.0.0, @typescript-eslint/parser@npm:^6.14.0, @typescript-eslint/parser@npm:^6.17.0, @typescript-eslint/parser@npm:^6.5.0":
+"@typescript-eslint/parser@npm:^5.4.2 || ^6.0.0, @typescript-eslint/parser@npm:^6.14.0, @typescript-eslint/parser@npm:^6.5.0":
   version: 6.19.0
   resolution: "@typescript-eslint/parser@npm:6.19.0"
   dependencies:
@@ -5506,7 +5460,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/utils@npm:^5.10.0, @typescript-eslint/utils@npm:^5.45.0, @typescript-eslint/utils@npm:^5.58.0":
+"@typescript-eslint/utils@npm:^5.10.0, @typescript-eslint/utils@npm:^5.58.0":
   version: 5.62.0
   resolution: "@typescript-eslint/utils@npm:5.62.0"
   dependencies:
@@ -8865,20 +8819,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint-plugin-storybook@npm:^0.6.15":
-  version: 0.6.15
-  resolution: "eslint-plugin-storybook@npm:0.6.15"
-  dependencies:
-    "@storybook/csf": "npm:^0.0.1"
-    "@typescript-eslint/utils": "npm:^5.45.0"
-    requireindex: "npm:^1.1.0"
-    ts-dedent: "npm:^2.2.0"
-  peerDependencies:
-    eslint: ">=6"
-  checksum: c61f5f2af72b614c30e8b36644672cfa25ca28e963e5e6cfab438f0cb287a6270f875a2dd8cd600a04c9864b9c549e269d95ea8da88c412e2b868fcd6a3605a4
-  languageName: node
-  linkType: hard
-
 "eslint-plugin-testing-library@npm:^6.0.1":
   version: 6.2.0
   resolution: "eslint-plugin-testing-library@npm:6.2.0"
@@ -12011,26 +11951,38 @@ __metadata:
     "@emotion/react": "npm:^11.11.3"
     "@emotion/styled": "npm:^11.11.0"
     "@mui/material": "npm:^5.15.4"
+    "@next/eslint-plugin-next": "npm:^14.0.4"
     "@storybook/addon-essentials": "npm:^7.6.8"
     "@storybook/addon-interactions": "npm:^7.6.8"
     "@storybook/addon-links": "npm:^7.6.8"
     "@storybook/addon-onboarding": "npm:^1.0.10"
     "@storybook/addons": "npm:^7.6.8"
+    "@storybook/blocks": "npm:^7.6.9"
+    "@storybook/nextjs": "npm:^7.6.9"
     "@storybook/react": "npm:^7.6.8"
     "@storybook/react-vite": "npm:^7.6.8"
+    "@storybook/test": "npm:^7.6.9"
     "@turbo/gen": "npm:^1.11.3"
     "@types/react": "npm:^18.2.43"
     "@types/react-dom": "npm:^18.2.17"
     "@typescript-eslint/eslint-plugin": "npm:^6.14.0"
     "@typescript-eslint/parser": "npm:^6.14.0"
+    "@vercel/style-guide": "npm:^5.1.0"
     "@vitejs/plugin-react-swc": "npm:^3.5.0"
     eslint: "npm:^8.55.0"
+    eslint-config-next: "npm:^14.0.4"
+    eslint-config-prettier: "npm:^9.1.0"
+    eslint-config-turbo: "npm:^1.11.3"
+    eslint-plugin-only-warn: "npm:^1.1.0"
     eslint-plugin-react-hooks: "npm:^4.6.0"
     eslint-plugin-react-refresh: "npm:^0.4.5"
     next: "npm:^14.0.4"
     prettier: "npm:^3.1.1"
+    prop-types: "npm:15.8.1"
     react: "npm:^18.2.0"
     react-dom: "npm:^18.2.0"
+    react-router-dom: "npm:^6.21.2"
+    storybook: "npm:^7.6.9"
     storybook-addon-react-router-v6: "npm:^2.0.10"
     tsup: "npm:^8.0.1"
     turbo: "npm:latest"
@@ -13589,7 +13541,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-dom@npm:18.2.0, react-dom@npm:^18.2.0":
+"react-dom@npm:^18.2.0":
   version: 18.2.0
   resolution: "react-dom@npm:18.2.0"
   dependencies:
@@ -13750,7 +13702,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react@npm:18.2.0, react@npm:^18.2.0":
+"react@npm:^18.2.0":
   version: 18.2.0
   resolution: "react@npm:18.2.0"
   dependencies:
@@ -14029,13 +13981,6 @@ __metadata:
   version: 2.0.2
   resolution: "require-from-string@npm:2.0.2"
   checksum: aaa267e0c5b022fc5fd4eef49d8285086b15f2a1c54b28240fdf03599cbd9c26049fee3eab894f2e1f6ca65e513b030a7c264201e3f005601e80c49fb2937ce2
-  languageName: node
-  linkType: hard
-
-"requireindex@npm:^1.1.0":
-  version: 1.2.0
-  resolution: "requireindex@npm:1.2.0"
-  checksum: 7fb42aed73bf8de9acc4d6716cf07acc7fbe180e58729433bafcf702e76e7bb10e54f8266c06bfec62d752e0ac14d50e8758833de539e6f4e2cd642077866153
   languageName: node
   linkType: hard
 
@@ -15923,7 +15868,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@npm:^5.2.2, typescript@npm:^5.3.3":
+"typescript@npm:^5.2.2":
   version: 5.3.3
   resolution: "typescript@npm:5.3.3"
   bin:
@@ -15933,7 +15878,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@npm%3A^5.2.2#optional!builtin<compat/typescript>, typescript@patch:typescript@npm%3A^5.3.3#optional!builtin<compat/typescript>":
+"typescript@patch:typescript@npm%3A^5.2.2#optional!builtin<compat/typescript>":
   version: 5.3.3
   resolution: "typescript@patch:typescript@npm%3A5.3.3#optional!builtin<compat/typescript>::version=5.3.3&hash=e012d7"
   bin:

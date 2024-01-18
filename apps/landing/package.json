@@ -13,23 +13,10 @@
   },
   "dependencies": {
     "@core/providers": "*",
-    "@styles/ui": "*",
-    "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "@styles/ui": "*"
   },
   "devDependencies": {
     "@configs/eslint": "*",
-    "@configs/typescript": "*",
-    "@next/eslint-plugin-next": "^14.0.4",
-    "@storybook/addon-essentials": "^7.6.9",
-    "@storybook/addon-interactions": "^7.6.9",
-    "@storybook/addon-links": "^7.6.9",
-    "@storybook/addon-onboarding": "1.0.10",
-    "@storybook/blocks": "^7.6.9",
-    "@storybook/nextjs": "^7.6.9",
-    "@storybook/react": "^7.6.9",
-    "@storybook/test": "^7.6.9",
-    "eslint-plugin-storybook": "^0.6.15",
-    "storybook": "^7.6.9"
+    "@configs/typescript": "*"
   }
 }

@@ -14,7 +14,6 @@
   },
   "devDependencies": {
     "@configs/eslint": "*",
-    "@configs/typescript": "*",
-    "@turbo/gen": "^1.11.3"
+    "@configs/typescript": "*"
   }
 }

@@ -16,22 +16,6 @@
     "@configs/storybook": "*",
     "@core/providers": "*",
     "@styles/ui-mui": "*",
-    "@utils/version": "*",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
-    "react-router-dom": "^6.21.2"
-  },
-  "devDependencies": {
-    "@storybook/addon-essentials": "^7.6.9",
-    "@storybook/addon-interactions": "^7.6.9",
-    "@storybook/addon-links": "^7.6.9",
-    "@storybook/addon-onboarding": "1.0.10",
-    "@storybook/blocks": "^7.6.9",
-    "@storybook/react": "^7.6.9",
-    "@storybook/react-vite": "^7.6.9",
-    "@storybook/test": "^7.6.9",
-    "eslint-plugin-storybook": "^0.6.15",
-    "prop-types": "15.8.1",
-    "storybook": "^7.6.9"
+    "@utils/version": "*"
   }
 }
