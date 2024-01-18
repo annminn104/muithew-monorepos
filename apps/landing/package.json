@@ -7,9 +7,9 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint . --max-warnings 0",
-    "clean:build": "rm -rf .next/ .turbo/ node_modules/ build-storybook-static/",
     "storybook": "storybook dev -p 9009",
-    "storybook:build": "storybook build -o build-storybook-static"
+    "clean:build": "rm -rf dist/ .turbo/ node_modules/ storybook-static/",
+    "storybook:build": "storybook build --quiet -o storybook-static"
   },
   "dependencies": {
     "@core/providers": "*",

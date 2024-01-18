@@ -17,12 +17,9 @@
       "cache": false,
       "persistent": true
     },
-    "storybook": {
-      "dependsOn": ["build"]
-    },
+    "storybook": {},
     "storybook:build": {
-      "dependsOn": ["build"],
-      "outputs": ["build-storybook-static/**"]
+      "outputs": ["storybook-static/**"]
     },
     "clean:build": {}
   }

@@ -38,4 +38,4 @@ yarn-error.log*
 *.pem
 .yarn
 
-build-storybook-static
+storybook-static

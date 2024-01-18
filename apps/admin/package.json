@@ -9,8 +9,8 @@
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "storybook": "storybook dev -p 6006",
-    "storybook:build": "storybook build -o build-storybook-static",
-    "clean:build": "rm -rf dist/ .turbo/ node_modules/ build-storybook-static/"
+    "clean:build": "rm -rf dist/ .turbo/ node_modules/ storybook-static/",
+    "storybook:build": "storybook build --quiet -o storybook-static"
   },
   "dependencies": {
     "@configs/storybook": "*",

@@ -3,12 +3,13 @@
   "private": true,
   "scripts": {
     "build": "turbo build",
-    "dev": "turbo dev --concurrency 15",
+    "dev": "turbo dev --parallel --concurrency 15",
     "lint": "turbo lint",
     "format": "prettier --write \"**/*.{ts,tsx,md,js}\"",
-    "storybook": "turbo storybook",
-    "storybook:build": "turbo storybook:build",
+    "storybook:dev": "turbo run storybook:dev --parallel",
+    "storybook:build": "turbo run storybook:build --parallel",
     "clean:build": "turbo clean:build",
+    "start": "yarn clean:build && yarn build && yarn dev",
     "prepare": "husky install"
   },
   "dependencies": {
