@@ -1,6 +1,4 @@
-# README
-
-## Turbo Repos - Monorepos by Vercel
+# Turbo Repos - Monorepos by Vercel
 
 This repository is set up as a Monorepo using Vercel's Turbo Repos. It consists of two main projects: the admin dashboard and the landing page.
 
