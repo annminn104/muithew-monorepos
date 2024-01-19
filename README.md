@@ -31,4 +31,10 @@ yarn # Using Node version hydrogen (v18.19.0)
 yarn build
 
 yarn dev # Start all apps 🚀
+
+# Storybook documentation:
+
+yarn storybook:build
+
+yarn storybook:move
 ```
