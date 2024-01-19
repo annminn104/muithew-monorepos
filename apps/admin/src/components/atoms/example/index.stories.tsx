@@ -1,6 +1,6 @@
 import { Meta, StoryObj } from '@storybook/react';
 
-import Example from '.';
+import { Example } from '.';
 
 const meta = {
   title: 'Components/Atoms/Example',

@@ -1,4 +1,4 @@
-import { AdjustFlex } from '@core/global-types';
+import { UiMuiFunctions } from '@core/global-types';
 import { Color } from '@mui/material';
 
 declare module '@mui/material/styles/createPalette' {
@@ -10,10 +10,10 @@ declare module '@mui/material/styles/createPalette' {
 
 declare module '@mui/material/styles/createTheme' {
   interface ThemeOptions {
-    functions: AdjustFlex;
+    functions: UiMuiFunctions;
   }
   interface Theme {
-    functions: AdjustFlex;
+    functions: UiMuiFunctions;
   }
 }
 

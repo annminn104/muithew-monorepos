@@ -52,7 +52,7 @@ export type FontWeightRelative = 'lighter' | 'bolder';
 
 export type FontWeight = 'normal' | 'bold' | 100 | 200 | 300 | 400 | 600 | 700 | 800 | 900 | FontWeightRelative | GlobalValues;
 
-export type AdjustFlex = {
+export type UiMuiFunctions = {
   pxToRem: (pixel: number, fontSize?: number) => string;
   adjustFlex: (
     display?: Display,

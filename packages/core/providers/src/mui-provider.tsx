@@ -3,7 +3,7 @@
 import React from 'react';
 
 import palette from '@configs/mui/theme';
-import { createTheme, CssBaseline, ThemeProvider as MUIThemeProvider } from '@mui/material';
+import { createTheme, CssBaseline, GlobalStyles, ThemeProvider as MUIThemeProvider, StyledEngineProvider } from '@mui/material';
 import { componentsOverrides } from '@styles/ui-mui';
 import { adjustFlex, pxToRem } from '@utils/mui';
 
@@ -23,9 +23,12 @@ export const MuiProvider: React.FC<MuiProviderProps> = ({ children }) => {
   theme.components = componentsOverrides(theme);
 
   return (
-    <MUIThemeProvider theme={theme}>
-      <CssBaseline />
-      {children}
-    </MUIThemeProvider>
+    <StyledEngineProvider injectFirst>
+      <MUIThemeProvider theme={theme}>
+        <CssBaseline />
+        <GlobalStyles styles={{}} />
+        {children}
+      </MUIThemeProvider>
+    </StyledEngineProvider>
   );
 };

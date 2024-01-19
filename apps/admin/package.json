@@ -14,9 +14,11 @@
     "storybook:move": "mv storybook-static ../../storybook-static/admin"
   },
   "dependencies": {
+    "@configs/mui": "*",
     "@configs/storybook": "*",
     "@core/providers": "*",
     "@styles/ui-mui": "*",
+    "@utils/mui": "*",
     "@utils/version": "*"
   },
   "devDependencies": {}

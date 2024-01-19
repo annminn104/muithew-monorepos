@@ -1,10 +1,13 @@
-import { Button } from '@mui/material';
+import { RouterProvider } from 'react-router-dom';
+
+import router from '@/common/routes';
+
 import RootProvider from './provider';
 
 function App() {
   return (
     <RootProvider>
-      <Button>Matthew Button</Button>
+      <RouterProvider router={router} />
     </RootProvider>
   );
 }

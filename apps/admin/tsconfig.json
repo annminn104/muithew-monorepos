@@ -18,8 +18,15 @@
     "strict": true,
     "noUnusedLocals": false,
     "noUnusedParameters": false,
-    "noFallthroughCasesInSwitch": true
+    "noFallthroughCasesInSwitch": true,
+
+    /* Importing */
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"]
+    }
   },
-  "include": ["src"],
+
+  "include": ["src", "../../packages/configs/mui/mui-theme.d.ts"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
