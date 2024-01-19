@@ -1,12 +1,10 @@
-module.exports = {
-  refs: [
-    {
-      title: 'Admin',
-      url: process.env.NODE_ENV === 'development' ? 'http://localhost:6006/' : 'admin/'
-    },
-    {
-      title: 'Landing',
-      url: process.env.NODE_ENV === 'development' ? 'http://localhost:9009/' : 'landing/'
-    }
-  ]
+import { StorybookConfig } from '@storybook/react-vite';
+
+import { reactMainConfigStorybook } from '@configs/storybook';
+
+const main: StorybookConfig = {
+  ...reactMainConfigStorybook,
+  stories: ['../src/**/*.mdx', '../src/components/**/*.stories.@(js|jsx|mjs|ts|tsx)']
 };
+
+export default main;

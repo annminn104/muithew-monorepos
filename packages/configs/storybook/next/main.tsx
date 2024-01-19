@@ -10,5 +10,8 @@ export const nextMainConfigStorybook: Omit<StorybookConfig, 'stories'> = {
   },
   docs: {
     autodocs: 'tag'
+  },
+  features: {
+    storyStoreV7: true
   }
 };

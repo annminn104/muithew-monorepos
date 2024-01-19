@@ -17,9 +17,14 @@
       "cache": false,
       "persistent": true
     },
-    "storybook": {},
+    "storybook": {
+      "cache": false
+    },
     "storybook:build": {
       "outputs": ["storybook-static/**"]
+    },
+    "storybook:move": {
+      "cache": false
     },
     "clean:build": {}
   }
