@@ -1,4 +1,13 @@
 {
   "name": "@apps/docs",
-  "version": "1.0.0"
+  "version": "1.0.0",
+  "scripts": {
+    "storybook": "storybook dev -p 6006",
+    "storybook:build": "storybook build --quiet -o storybook-static",
+    "storybook:move": "mv storybook-static ../../storybook-static",
+    "clean:build": "rm -rf .turbo/ node_modules/ storybook-static/"
+  },
+  "dependencies": {
+    "@styles/ui-mui": "*"
+  }
 }

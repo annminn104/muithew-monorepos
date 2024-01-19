@@ -1,4 +1,4 @@
-import { Button as MUIButton, ButtonTypeMap, ExtendButtonBase } from '@mui/material';
+import { ButtonTypeMap, ExtendButtonBase, Button as MUIButton } from '@mui/material';
 
 type ButtonProps = ExtendButtonBase<ButtonTypeMap<unknown, 'button'>>;
 

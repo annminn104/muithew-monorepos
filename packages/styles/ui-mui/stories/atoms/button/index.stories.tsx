@@ -1,9 +1,9 @@
 import { Meta, StoryObj } from '@storybook/react';
 
-import Button from './';
+import Button from '.';
 
 const meta = {
-  title: 'Atoms/Button',
+  title: 'Components/Atoms/Button',
   component: Button,
   parameters: {
     layout: 'fullscreen'

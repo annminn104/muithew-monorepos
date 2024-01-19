@@ -11,7 +11,10 @@
   "scripts": {
     "build": "tsup",
     "dev": "tsup --watch",
-    "clean:build": "rm -rf dist/ .turbo/"
+    "storybook": "storybook dev -p 8008",
+    "storybook:build": "storybook build --quiet -o storybook-static",
+    "storybook:move": "mv storybook-static ../../../storybook-static/ui-mui",
+    "clean:build": "rm -rf dist/ .turbo/ storybook-static/ node_modules/"
   },
   "dependencies": {
     "@configs/mui": "*"

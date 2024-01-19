@@ -1,3 +1,5 @@
+'use client';
+
 import { Components, Theme } from '@mui/material/styles';
 
 export default function FormControl(theme: Theme): Components<Omit<Theme, 'components'>> {

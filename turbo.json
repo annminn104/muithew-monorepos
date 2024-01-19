@@ -21,7 +21,8 @@
       "cache": false
     },
     "storybook:build": {
-      "outputs": ["storybook-static/**"]
+      "outputs": ["storybook-static/**"],
+      "cache": true
     },
     "storybook:move": {
       "cache": false

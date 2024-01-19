@@ -4,8 +4,8 @@ module.exports = {
 
   parserOptions: {
     project: true,
-    tsconfigRootDir: __dirname,
+    tsconfigRootDir: __dirname
   },
 
-  extends: ["eslint-config-base"],
+  extends: ['eslint-config-base', '@configs/eslint/library.js', 'plugin:storybook/recommended']
 };

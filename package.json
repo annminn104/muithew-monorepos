@@ -6,9 +6,10 @@
     "dev": "turbo dev --parallel --concurrency 15",
     "lint": "turbo lint",
     "format": "prettier --write \"**/*.{ts,tsx,md,js}\"",
-    "storybook:dev": "turbo run storybook:dev --parallel",
+    "storybook": "turbo run storybook --parallel",
     "storybook:build": "turbo run storybook:build --parallel",
     "storybook:move": "turbo run storybook:move --filter=docs && turbo run storybook:move --filter=!docs",
+    "clean:storybook": "rm -rf storybook-static",
     "clean:build": "turbo clean:build",
     "start": "yarn clean:build && yarn build && yarn dev",
     "prepare": "husky install"

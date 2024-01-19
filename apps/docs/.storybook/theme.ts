@@ -5,6 +5,6 @@ import { version } from '../package.json';
 
 export const theme = create({
   base: 'light',
-  brandTitle: `Muithew Admin - ${getVersionInfo(version)}`,
+  brandTitle: `Muithew Docs - ${getVersionInfo(version)}`,
   brandUrl: 'https://github.com/annminn104/muithew-monorepos'
 });
