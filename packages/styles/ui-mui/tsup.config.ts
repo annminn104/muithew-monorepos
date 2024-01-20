@@ -6,12 +6,8 @@ const tsupConfig = defineConfig({
   dts: true,
   external: ['react', 'react-dom', '@mui/material', /^@emotion/],
   splitting: false,
+  minify: true,
   clean: true,
-  minifyIdentifiers: false,
-  minify: false,
-  minifySyntax: false,
-  minifyWhitespace: false,
-  keepNames: true,
   tsconfig: 'tsconfig.prod.json'
 });
 
