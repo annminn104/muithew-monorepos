@@ -6,6 +6,6 @@
       ".": ["."]
     }
   },
-  "include": ["src/**/*", "../../configs/mui/mui-theme.d.ts", "../../helpers/dist/*"],
+  "include": ["src/**/*", "../../configs/mui/mui-theme.d.ts"],
   "exclude": ["src/**/*.test.ts", "src/**/*.test.tsx", "src/**/*.stories.tsx"]
 }

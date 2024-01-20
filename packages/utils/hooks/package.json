@@ -13,6 +13,7 @@
     "clean:build": "rm -rf dist/ .turbo/"
   },
   "dependencies": {
-    "@configs/tsconfig": "*"
+    "@configs/tsconfig": "*",
+    "@utils/helpers": "*"
   }
 }
