@@ -2,21 +2,27 @@ import { sortBy } from 'lodash';
 
 export class IconUtils {
   /**
-   * The function sorts an object's values based on a given array of names.
-   * @param {object} obj - An object containing icons. Each icon has a "type" property which has a
-   * "name" property.
-   * @param {string[]} names - The `names` parameter is an array of strings that represents the desired
-   * order in which the objects should be sorted.
-   * @returns an array of sorted values.
+   * The function `sortByName` takes an object and an array of names, sorts the values of the object
+   * based on the index of their names in the array, and returns an array of objects with the sorted
+   * values and their corresponding names.
+   * @param {object} obj - An object containing icons as its values. Each icon has a "type" property
+   * which has a "name" property representing the name of the icon component.
+   * @param {string[]} names - An array of strings representing the desired order of names for sorting.
+   * @returns an array of objects with two properties: "component" and "name".
    */
   static sortByName(obj: object, names: string[]) {
-    const values = Object.values(obj);
+    const entries = Object.entries(obj);
 
-    const sortedValues = sortBy(values, (icon) => {
-      const name = icon.type.name;
-      const index = names.indexOf(name);
-      return index !== -1 ? index : names.length;
+    const sortedEntries = sortBy(entries, ([key]) => {
+      const currentIndex = names.indexOf(key);
+      return currentIndex !== -1 ? currentIndex : names.length;
     });
-    return sortedValues;
+
+    const resultArray = sortedEntries.map(([key, value], index) => ({
+      component: value,
+      name: key || 'Name not defined'
+    }));
+
+    return resultArray;
   }
 }

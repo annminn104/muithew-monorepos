@@ -1,19 +1,18 @@
 import React, { useState } from 'react';
 
-import * as arrowActionIcons from '@styles/ui-mui/src/assets/icons/arrows-action';
-import * as designToolIcons from '@styles/ui-mui/src/assets/icons/design-tools';
-import * as foodKitchenIcons from '@styles/ui-mui/src/assets/icons/food-kitchen';
-import * as likeIcons from '@styles/ui-mui/src/assets/icons/likes';
-import * as natureTravelIcons from '@styles/ui-mui/src/assets/icons/nature-travel';
-import * as noteDocumentIcons from '@styles/ui-mui/src/assets/icons/notes-documents';
-import * as notificationIcons from '@styles/ui-mui/src/assets/icons/notifications';
-import * as schoolIcons from '@styles/ui-mui/src/assets/icons/school';
-import * as userIcons from '@styles/ui-mui/src/assets/icons/users';
-
 import { Alert, IconButton, SvgIcon as MUIIcon, Snackbar, Tooltip, Typography } from '@mui/material';
 import { IconUtils, IconsSortMock } from '@styles/ui-mui/src/modules/icon';
 import { useCopyToClipboard } from '@utils/hooks';
 
+import * as arrowActionIcons from '../../../assets/icons/arrows-action';
+import * as designToolIcons from '../../../assets/icons/design-tools';
+import * as foodKitchenIcons from '../../../assets/icons/food-kitchen';
+import * as likeIcons from '../../../assets/icons/likes';
+import * as natureTravelIcons from '../../../assets/icons/nature-travel';
+import * as noteDocumentIcons from '../../../assets/icons/notes-documents';
+import * as notificationIcons from '../../../assets/icons/notifications';
+import * as schoolIcons from '../../../assets/icons/school';
+import * as userIcons from '../../../assets/icons/users';
 import * as S from './styled';
 
 const Icon = () => {
@@ -46,9 +45,9 @@ const Icon = () => {
           </Typography>
           {Object.values(icon.components).map((item, index) => (
             <React.Fragment key={index}>
-              <Tooltip title={item.type.name}>
-                <IconButton onClick={() => handleClipboardClick(item.type.name)}>
-                  <MUIIcon component={item} fontSize='large' />
+              <Tooltip title={item.name}>
+                <IconButton onClick={() => handleClipboardClick(item.name)}>
+                  <MUIIcon component={item.component} fontSize='large' />
                 </IconButton>
               </Tooltip>
             </React.Fragment>

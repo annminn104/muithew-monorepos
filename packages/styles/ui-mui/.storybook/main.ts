@@ -3,7 +3,7 @@ import { StorybookConfig } from '@storybook/react-vite';
 
 const main: StorybookConfig = {
   ...reactMainConfigStorybook,
-  stories: ['../stories/**/*.mdx', '../stories/**/**/*.stories.@(js|jsx|mjs|ts|tsx)'],
+  stories: ['../src/components/**/**/*.stories.@(js|jsx|mjs|ts|tsx)'],
   features: {
     storyStoreV7: true
   }

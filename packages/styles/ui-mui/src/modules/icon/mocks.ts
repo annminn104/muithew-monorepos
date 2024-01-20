@@ -123,12 +123,14 @@ export const IconsSortMock = {
     'RollingPinIcon',
     'CorkscrewIcon',
     'LadleIcon',
+    'WhiskIcon',
     'ChefHatIcon',
     'ChefHatMinimalisticIcon',
     'ChefHatHeartIcon',
     'OvenMittsIcon',
     'OvenMittsMinimalisticIcon',
-    'WineglassTriangleIcon'
+    'WineglassTriangleIcon',
+    'WineglassIcon'
   ],
   designTools: [
     'PaletteIcon',
