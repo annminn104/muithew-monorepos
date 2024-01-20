@@ -14,9 +14,7 @@
   },
   "dependencies": {
     "@core/providers": "*",
-    "@styles/ui": "*"
-  },
-  "devDependencies": {
+    "@styles/ui": "*",
     "@configs/eslint": "*",
     "@configs/typescript": "*"
   }

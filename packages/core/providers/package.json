@@ -13,9 +13,7 @@
     "clean:build": "rm -rf dist/ .turbo/"
   },
   "dependencies": {
-    "@configs/mui": "*"
-  },
-  "devDependencies": {
+    "@configs/mui": "*",
     "@configs/tsconfig": "*",
     "@styles/ui-mui": "*",
     "@utils/mui": "*"

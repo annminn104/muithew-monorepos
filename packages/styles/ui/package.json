@@ -12,7 +12,7 @@
     "generate:component": "turbo gen react-component",
     "clean:build": "rm -rf node_modules/ .turbo/"
   },
-  "devDependencies": {
+  "dependencies": {
     "@configs/eslint": "*",
     "@configs/typescript": "*"
   }
