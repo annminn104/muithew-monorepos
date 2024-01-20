@@ -6,7 +6,7 @@ const main: StorybookConfig = {
   stories: ['../stories/**/*.mdx', '../stories/**/**/*.stories.@(js|jsx|mjs|ts|tsx)'],
   features: {
     storyStoreV7: true
-  }
+  },
 };
 
 export default main;

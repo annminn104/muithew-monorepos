@@ -27,6 +27,8 @@
     "storybook:move": {
       "cache": false
     },
-    "clean:build": {}
+    "clean:build": {
+      "cache": false
+    }
   }
 }

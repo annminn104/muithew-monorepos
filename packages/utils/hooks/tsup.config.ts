@@ -8,7 +8,7 @@ const tsupConfig = defineConfig({
   splitting: false,
   minify: true,
   clean: true,
-  tsconfig: 'tsconfig.prod.json',
+  tsconfig: 'tsconfig.prod.json'
 });
 
 export default tsupConfig;

@@ -8,6 +8,8 @@
     "clean:build": "rm -rf .turbo/ node_modules/ storybook-static/"
   },
   "dependencies": {
-    "@styles/ui-mui": "*"
+    "@styles/ui-mui": "*",
+    "@configs/mui": "*",
+    "@utils/mui": "*"
   }
 }

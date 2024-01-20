@@ -4,6 +4,6 @@ export const Header = styled(
   'div',
   {}
 )(({ theme }) => ({
-  ...theme.functions.adjustFlex('flex', 'row', 'space-between'),
+  ...theme.functions.adjustFlex('flex', 'row', 'flex-start', 'center'),
   columnGap: '16px'
 }));

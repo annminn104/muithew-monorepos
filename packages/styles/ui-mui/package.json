@@ -17,9 +17,10 @@
     "clean:build": "rm -rf dist/ .turbo/ storybook-static/ node_modules/"
   },
   "dependencies": {
-    "@configs/mui": "*"
-  },
-  "devDependencies": {
-    "@configs/tsconfig": "*"
+    "@configs/mui": "*",
+    "@utils/mui": "*",
+    "@configs/tsconfig": "*",
+    "@utils/hooks": "*",
+    "@utils/helpers": "*"
   }
 }

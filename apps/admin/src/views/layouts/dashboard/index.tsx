@@ -10,6 +10,8 @@ type DashboardLayoutProps = {
 };
 
 const DashboardLayout: React.FC<DashboardLayoutProps> = ({ children }) => {
+  const handleExtendSidebar = () => {};
+
   return (
     <S.DashBoard>
       <S.DashBoardSidebar>
@@ -17,7 +19,7 @@ const DashboardLayout: React.FC<DashboardLayoutProps> = ({ children }) => {
       </S.DashBoardSidebar>
       <S.DashBoardMain>
         <S.DashBoardHeader>
-          <Header />
+          <Header onExtendSidebar={handleExtendSidebar} />
         </S.DashBoardHeader>
         <S.DashBoardBreadcrumb>
           <Breadcrumb />
