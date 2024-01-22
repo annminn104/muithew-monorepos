@@ -5,6 +5,7 @@ import { IconUtils, IconsSortMock } from '@styles/ui-mui/src/modules/icon';
 import { useCopyToClipboard } from '@utils/hooks';
 
 import * as arrowActionIcons from '../../../assets/icons/arrows-action';
+import * as businessStatisticIcons from '../../../assets/icons/business-statistic';
 import * as designToolIcons from '../../../assets/icons/design-tools';
 import * as foodKitchenIcons from '../../../assets/icons/food-kitchen';
 import * as likeIcons from '../../../assets/icons/likes';
@@ -12,7 +13,9 @@ import * as natureTravelIcons from '../../../assets/icons/nature-travel';
 import * as noteDocumentIcons from '../../../assets/icons/notes-documents';
 import * as notificationIcons from '../../../assets/icons/notifications';
 import * as schoolIcons from '../../../assets/icons/school';
+import * as shoppingECommerceIcons from '../../../assets/icons/shopping-e-commerce';
 import * as userIcons from '../../../assets/icons/users';
+
 import * as S from './styled';
 
 const Icon = () => {
@@ -28,7 +31,9 @@ const Icon = () => {
     { label: 'Design - Tools', components: IconUtils.sortByName(designToolIcons, IconsSortMock.designTools) },
     { label: 'School', components: IconUtils.sortByName(schoolIcons, IconsSortMock.school) },
     { label: 'Nature - Travel', components: IconUtils.sortByName(natureTravelIcons, IconsSortMock.natureTravel) },
-    { label: 'User', components: IconUtils.sortByName(userIcons, IconsSortMock.users) }
+    { label: 'User', components: IconUtils.sortByName(userIcons, IconsSortMock.users) },
+    { label: 'Shopping - ECommerce', components: IconUtils.sortByName(shoppingECommerceIcons, IconsSortMock.shoppingECommerce) },
+    { label: 'Business - Statistic', components: IconUtils.sortByName(businessStatisticIcons, IconsSortMock.businessStatistic) }
   ];
 
   const handleClipboardClick = (clipboard: string) => {
