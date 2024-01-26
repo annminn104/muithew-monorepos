@@ -258,5 +258,41 @@ export const IconsSortMock = {
     'ShopMinimalisticIcon',
     'Shop2Icon'
   ],
-  businessStatistic: ['PieChartIcon', 'PieChart2Icon', 'PieChart3Icon', 'RoundGraphIcon', 'GraphIcon', 'GraphNewIcon', 'GraphUpIcon']
+  businessStatistic: [
+    'PieChartIcon',
+    'PieChart2Icon',
+    'PieChart3Icon',
+    'RoundGraphIcon',
+    'GraphIcon',
+    'GraphNewIcon',
+    'GraphUpIcon',
+    'GraphUpNewIcon',
+    'GraphDownIcon',
+    'GraphDownNewIcon',
+    'PresentationGraphIcon',
+    'DiagramUpIcon',
+    'DiagramDownIcon',
+    'ChartIcon',
+    'Chart2Icon',
+    'ChartSquareIcon',
+    'ChartSquare2Icon',
+    'CourseUpIcon',
+    'CourseDownIcon'
+  ],
+  textFormatting: [
+    'TextItalicIcon',
+    'TextIcon',
+    'TextCrossIcon',
+    'TextUnderlineIcon',
+    'TextBoldIcon',
+    'EraserIcon',
+    'TextItalicSquareIcon',
+    'TextSquareIcon',
+    'TextCrossSquareIcon',
+    'TextUnderlineCrossIcon',
+    'TextBoldCrossIcon',
+    'EraserSquareIcon',
+    'TextItalicCircleIcon',
+    'TextCircleIcon'
+  ]
 };

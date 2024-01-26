@@ -1,0 +1,14 @@
+export { default as EraserIcon } from './eraser';
+export { default as EraserSquareIcon } from './eraser-square';
+export { default as TextIcon } from './text';
+export { default as TextBoldIcon } from './text-bold';
+export { default as TextBoldCrossIcon } from './text-bold-cross';
+export { default as TextCircleIcon } from './text-circle';
+export { default as TextCrossIcon } from './text-cross';
+export { default as TextCrossSquareIcon } from './text-cross-square';
+export { default as TextItalicIcon } from './text-italic';
+export { default as TextItalicCircleIcon } from './text-italic-circle';
+export { default as TextItalicSquareIcon } from './text-italic-square';
+export { default as TextSquareIcon } from './text-square';
+export { default as TextUnderlineIcon } from './text-underline';
+export { default as TextUnderlineCrossIcon } from './text-underline-cross';

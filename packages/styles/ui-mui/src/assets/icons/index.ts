@@ -8,3 +8,4 @@ export * from './notes-documents';
 export * from './notifications';
 export * from './school';
 export * from './shopping-e-commerce';
+export * from './text-formatting';

@@ -14,6 +14,7 @@ import * as noteDocumentIcons from '../../../assets/icons/notes-documents';
 import * as notificationIcons from '../../../assets/icons/notifications';
 import * as schoolIcons from '../../../assets/icons/school';
 import * as shoppingECommerceIcons from '../../../assets/icons/shopping-e-commerce';
+import * as textFormattingIcons from '../../../assets/icons/text-formatting';
 import * as userIcons from '../../../assets/icons/users';
 
 import * as S from './styled';
@@ -33,7 +34,8 @@ const Icon = () => {
     { label: 'Nature - Travel', components: IconUtils.sortByName(natureTravelIcons, IconsSortMock.natureTravel) },
     { label: 'User', components: IconUtils.sortByName(userIcons, IconsSortMock.users) },
     { label: 'Shopping - ECommerce', components: IconUtils.sortByName(shoppingECommerceIcons, IconsSortMock.shoppingECommerce) },
-    { label: 'Business - Statistic', components: IconUtils.sortByName(businessStatisticIcons, IconsSortMock.businessStatistic) }
+    { label: 'Business - Statistic', components: IconUtils.sortByName(businessStatisticIcons, IconsSortMock.businessStatistic) },
+    { label: 'Text formatting', components: IconUtils.sortByName(textFormattingIcons, IconsSortMock.textFormatting) }
   ];
 
   const handleClipboardClick = (clipboard: string) => {
