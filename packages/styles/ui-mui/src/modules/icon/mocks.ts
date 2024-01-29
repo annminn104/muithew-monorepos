@@ -293,6 +293,25 @@ export const IconsSortMock = {
     'TextBoldCrossIcon',
     'EraserSquareIcon',
     'TextItalicCircleIcon',
-    'TextCircleIcon'
+    'TextCircleIcon',
+    'TextCrossCircleIcon',
+    'TextUnderlineCircleIcon',
+    'TextBoldCircleIcon',
+    'EraserCircleIcon',
+    'TextSquare2Icon',
+    'LinkIcon',
+    'LinkBrokenIcon',
+    'LinkMinimalisticIcon',
+    'LinkMinimalistic2Icon',
+    'LinkRoundIcon',
+    'LinkRoundAngleIcon',
+    'LinkCircleIcon',
+    'LinkSquareIcon',
+    'LinkBrokenMinimalisticIcon',
+    'TextSelectionIcon',
+    'ParagraphSpacingIcon',
+    'BackspaceIcon',
+    'TextFieldIcon',
+    'TextFieldFocusIcon'
   ]
 };
