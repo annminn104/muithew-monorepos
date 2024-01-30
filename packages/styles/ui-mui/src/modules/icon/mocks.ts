@@ -313,5 +313,33 @@ export const IconsSortMock = {
     'BackspaceIcon',
     'TextFieldIcon',
     'TextFieldFocusIcon'
+  ],
+  buildingInfrastructure: ['CityIcon', 'BuildingsIcon', 'Buildings2Icon', 'Buildings3Icon', 'GarageIcon', 'HomeIcon', 'HospitalIcon'],
+  settingsFineTuning: [
+    'SettingsMinimalisticIcon',
+    'SettingsIcon',
+    'WidgetIcon',
+    'Widget2Icon',
+    'Widget3Icon',
+    'Widget4Icon',
+    'Widget5Icon',
+    'Widget6Icon',
+    'WidgetAddIcon',
+    'TuningSquareIcon',
+    'TuningSquare2Icon',
+    'TuningIcon',
+    'Tuning2Icon',
+    'Tuning3Icon',
+    'Tuning4Icon'
+  ],
+  networkItProgramming: [
+    'WifiRouterRoundIcon',
+    'WifiRouterMinimalisticIcon',
+    'WifiRouterIcon',
+    'ScreencastIcon',
+    'StructureIcon',
+    'CommandIcon',
+    'BugMinimalisticIcon',
+    'BugIcon'
   ]
 };

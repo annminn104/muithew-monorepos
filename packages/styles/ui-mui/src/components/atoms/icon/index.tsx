@@ -4,20 +4,24 @@ import { Alert, IconButton, SvgIcon as MUIIcon, Snackbar, Tooltip, Typography } 
 import { IconUtils, IconsSortMock } from '@styles/ui-mui/src/modules/icon';
 import { useCopyToClipboard } from '@utils/hooks';
 
-import * as arrowActionIcons from '../../../assets/icons/arrows-action';
-import * as businessStatisticIcons from '../../../assets/icons/business-statistic';
-import * as designToolIcons from '../../../assets/icons/design-tools';
-import * as foodKitchenIcons from '../../../assets/icons/food-kitchen';
-import * as likeIcons from '../../../assets/icons/likes';
-import * as natureTravelIcons from '../../../assets/icons/nature-travel';
-import * as noteDocumentIcons from '../../../assets/icons/notes-documents';
-import * as notificationIcons from '../../../assets/icons/notifications';
-import * as schoolIcons from '../../../assets/icons/school';
-import * as shoppingECommerceIcons from '../../../assets/icons/shopping-e-commerce';
-import * as textFormattingIcons from '../../../assets/icons/text-formatting';
-import * as userIcons from '../../../assets/icons/users';
-
+import { icons } from '../../../assets/icons';
 import * as S from './styled';
+
+const notificationIcons = icons['notificationIcons'];
+const arrowActionIcons = icons['arrowActionIcons'];
+const businessStatisticIcons = icons['businessStatisticIcons'];
+const designToolIcons = icons['designToolIcons'];
+const noteDocumentIcons = icons['noteDocumentIcons'];
+const likeIcons = icons['likeIcons'];
+const foodKitchenIcons = icons['foodKitchenIcons'];
+const schoolIcons = icons['schoolIcons'];
+const natureTravelIcons = icons['natureTravelIcons'];
+const userIcons = icons['userIcons'];
+const shoppingECommerceIcons = icons['shoppingECommerceIcons'];
+const textFormattingIcons = icons['textFormattingIcons'];
+const buildingInfrastructureIcons = icons['buildingInfrastructureIcons'];
+const settingsFineTuningIcons = icons['settingsFineTuningIcons'];
+const networkItProgrammingIcons = icons['networkItProgrammingIcons'];
 
 const Icon = () => {
   const [value, copy] = useCopyToClipboard();
@@ -35,7 +39,10 @@ const Icon = () => {
     { label: 'User', components: IconUtils.sortByName(userIcons, IconsSortMock.users) },
     { label: 'Shopping - ECommerce', components: IconUtils.sortByName(shoppingECommerceIcons, IconsSortMock.shoppingECommerce) },
     { label: 'Business - Statistic', components: IconUtils.sortByName(businessStatisticIcons, IconsSortMock.businessStatistic) },
-    { label: 'Text formatting', components: IconUtils.sortByName(textFormattingIcons, IconsSortMock.textFormatting) }
+    { label: 'Text formatting', components: IconUtils.sortByName(textFormattingIcons, IconsSortMock.textFormatting) },
+    { label: 'Building - Infrastructure', components: IconUtils.sortByName(buildingInfrastructureIcons, IconsSortMock.buildingInfrastructure) },
+    { label: 'Settings, Fine Tunning', components: IconUtils.sortByName(settingsFineTuningIcons, IconsSortMock.settingsFineTuning) },
+    { label: 'Settings, Fine Tunning', components: IconUtils.sortByName(networkItProgrammingIcons, IconsSortMock.networkItProgramming) }
   ];
 
   const handleClipboardClick = (clipboard: string) => {

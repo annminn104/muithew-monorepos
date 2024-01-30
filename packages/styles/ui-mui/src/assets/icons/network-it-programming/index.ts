@@ -1,0 +1,10 @@
+export { default as BugMinimalisticIcon } from './bug-minimalistic';
+export { default as CommandIcon } from './command';
+export { default as ScreencastIcon } from './screencast';
+export { default as Screencast2Icon } from './screencast-2';
+export { default as StructureIcon } from './structure';
+export { default as TranslationIcon } from './translation';
+export { default as WifiRouterIcon } from './wifi-router';
+export { default as WifiRouterMinimalisticIcon } from './wifi-router-minimalistic';
+export { default as WifiRouterRoundIcon } from './wifi-router-round';
+export { default as BugIcon } from './bug';
