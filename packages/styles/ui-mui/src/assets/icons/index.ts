@@ -3,6 +3,7 @@ import * as buildingInfrastructureIcons from './building-infrastructure';
 import * as businessStatisticIcons from './building-infrastructure';
 import * as designToolIcons from './design-tools';
 import * as foodKitchenIcons from './food-kitchen';
+import * as homeFurnitureIcons from './home-furniture';
 import * as likeIcons from './likes';
 import * as natureTravelIcons from './nature-travel';
 import * as networkItProgrammingIcons from './network-it-programming';
@@ -20,6 +21,7 @@ export const icons = {
   businessStatisticIcons,
   designToolIcons,
   foodKitchenIcons,
+  homeFurnitureIcons,
   likeIcons,
   natureTravelIcons,
   networkItProgrammingIcons,

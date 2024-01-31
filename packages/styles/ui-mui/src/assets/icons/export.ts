@@ -2,6 +2,7 @@ export * from './arrows-action';
 export * from './building-infrastructure';
 export * from './design-tools';
 export * from './food-kitchen';
+export * from './home-furniture';
 export * from './likes';
 export * from './nature-travel';
 export * from './notes-documents';

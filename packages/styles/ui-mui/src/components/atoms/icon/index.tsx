@@ -22,6 +22,7 @@ const textFormattingIcons = icons['textFormattingIcons'];
 const buildingInfrastructureIcons = icons['buildingInfrastructureIcons'];
 const settingsFineTuningIcons = icons['settingsFineTuningIcons'];
 const networkItProgrammingIcons = icons['networkItProgrammingIcons'];
+const homeFurnitureIcons = icons['homeFurnitureIcons'];
 
 const Icon = () => {
   const [value, copy] = useCopyToClipboard();
@@ -42,7 +43,8 @@ const Icon = () => {
     { label: 'Text formatting', components: IconUtils.sortByName(textFormattingIcons, IconsSortMock.textFormatting) },
     { label: 'Building - Infrastructure', components: IconUtils.sortByName(buildingInfrastructureIcons, IconsSortMock.buildingInfrastructure) },
     { label: 'Settings, Fine Tunning', components: IconUtils.sortByName(settingsFineTuningIcons, IconsSortMock.settingsFineTuning) },
-    { label: 'Settings, Fine Tunning', components: IconUtils.sortByName(networkItProgrammingIcons, IconsSortMock.networkItProgramming) }
+    { label: 'Settings, Fine Tunning', components: IconUtils.sortByName(networkItProgrammingIcons, IconsSortMock.networkItProgramming) },
+    { label: 'Home, Furniture', components: IconUtils.sortByName(homeFurnitureIcons, IconsSortMock.homeFurniture) }
   ];
 
   const handleClipboardClick = (clipboard: string) => {

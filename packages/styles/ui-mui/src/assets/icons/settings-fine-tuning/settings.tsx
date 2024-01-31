@@ -5,7 +5,7 @@ import { SvgIcon, SvgIconOwnProps } from '@mui/material';
 function SettingsIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   return (
     <SvgIcon {...props} className='linear'>
-      <circle cx='12' cy='12' r='3' stroke={linearColor} strokeWidth='1.5'></circle>
+      <circle cx='12' cy='12' r='3' stroke={linearColor} strokeWidth='1.5' />
       <path
         stroke={linearColor}
         strokeWidth='1.5'
