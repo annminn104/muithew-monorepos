@@ -32,3 +32,4 @@ export { default as SpeakerMinimalisticIcon } from './speaker-minimalistic';
 export { default as TrellisIcon } from './trellis';
 export { default as WashingMachineIcon } from './washing-machine';
 export { default as WashingMachineMinimalisticIcon } from './washing-machine-minimalistic';
+export { default as VolumeKnobIcon } from './volume-knob';

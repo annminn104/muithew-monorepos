@@ -1,3 +1,6 @@
+import { pathIcons } from '../../assets/icons';
+import { IconUtils } from './utils';
+
 export const IconsSortMock = {
   notifications: [
     'NotificationUnreadIcon',
@@ -399,6 +402,79 @@ export const IconsSortMock = {
     'FloorLampMinimalisticIcon',
     'BathIcon',
     'ChandelierIcon',
-    'FridgeIcon'
-  ]
+    'FridgeIcon',
+    'VolumeKnobIcon'
+  ],
+  medicine: []
 };
+
+export const IconsListingMock = [
+  {
+    label: 'Notifications',
+    components: IconUtils.sortByName(pathIcons['notificationIcons'], IconsSortMock.notifications)
+  },
+  {
+    label: 'Notes - Documents',
+    components: IconUtils.sortByName(pathIcons['noteDocumentIcons'], IconsSortMock.noteDocuments)
+  },
+  {
+    label: 'Arrows Action',
+    components: IconUtils.sortByName(pathIcons['arrowActionIcons'], IconsSortMock.arrowActions)
+  },
+  {
+    label: 'Likes',
+    components: IconUtils.sortByName(pathIcons['likeIcons'], IconsSortMock.likes)
+  },
+  {
+    label: 'Food - KitChen',
+    components: IconUtils.sortByName(pathIcons['foodKitchenIcons'], IconsSortMock.foodKitchen)
+  },
+  {
+    label: 'Design - Tools',
+    components: IconUtils.sortByName(pathIcons['designToolIcons'], IconsSortMock.designTools)
+  },
+  {
+    label: 'School',
+    components: IconUtils.sortByName(pathIcons['schoolIcons'], IconsSortMock.school)
+  },
+  {
+    label: 'Nature - Travel',
+    components: IconUtils.sortByName(pathIcons['natureTravelIcons'], IconsSortMock.natureTravel)
+  },
+  {
+    label: 'User',
+    components: IconUtils.sortByName(pathIcons['userIcons'], IconsSortMock.users)
+  },
+  {
+    label: 'Shopping - ECommerce',
+    components: IconUtils.sortByName(pathIcons['shoppingECommerceIcons'], IconsSortMock.shoppingECommerce)
+  },
+  {
+    label: 'Business - Statistic',
+    components: IconUtils.sortByName(pathIcons['businessStatisticIcons'], IconsSortMock.businessStatistic)
+  },
+  {
+    label: 'Text formatting',
+    components: IconUtils.sortByName(pathIcons['textFormattingIcons'], IconsSortMock.textFormatting)
+  },
+  {
+    label: 'Building - Infrastructure',
+    components: IconUtils.sortByName(pathIcons['buildingInfrastructureIcons'], IconsSortMock.buildingInfrastructure)
+  },
+  {
+    label: 'Settings, Fine Tunning',
+    components: IconUtils.sortByName(pathIcons['settingsFineTuningIcons'], IconsSortMock.settingsFineTuning)
+  },
+  {
+    label: 'Settings, Fine Tunning',
+    components: IconUtils.sortByName(pathIcons['networkItProgrammingIcons'], IconsSortMock.networkItProgramming)
+  },
+  {
+    label: 'Home, Furniture',
+    components: IconUtils.sortByName(pathIcons['homeFurnitureIcons'], IconsSortMock.homeFurniture)
+  },
+  {
+    label: 'Medicine',
+    components: IconUtils.sortByName(pathIcons['medicineIcons'], IconsSortMock.medicine)
+  }
+];
