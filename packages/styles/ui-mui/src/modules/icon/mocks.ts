@@ -405,7 +405,60 @@ export const IconsSortMock = {
     'FridgeIcon',
     'VolumeKnobIcon'
   ],
-  medicine: []
+  medicine: [
+    'PillIcon',
+    'PillsIcon',
+    'Pills2Icon',
+    'Pills3Icon',
+    'AdhesivePlasterIcon',
+    'AdhesivePlaster2Icon',
+    'DNAIcon',
+    'TestTubeIcon',
+    'TestTubeMinimalisticIcon',
+    'BoneIcon',
+    'BoneCrackIcon',
+    'BoneBrokenIcon',
+    'BonesIcon',
+    'SyringeIcon',
+    'JarOfPillsIcon',
+    'JarOfPills2Icon',
+    'StethoscopeIcon',
+    'BenzeneRingIcon',
+    'ThermometerIcon',
+    'DropperIcon',
+    'Dropper2Icon',
+    'Dropper3Icon',
+    'DropperMinimalisticIcon',
+    'DropperMinimalistic2Icon',
+    'PulseIcon',
+    'Pulse2Icon',
+    'HeartPulseIcon',
+    'HeartPulse2Icon',
+    'BacteriaIcon',
+    'MedicalKitIcon',
+    'HealthIcon',
+    'VirusIcon'
+  ],
+  call: [],
+  security: [],
+  essentialUi: [],
+  list: [],
+  hands: [],
+  transportPartsService: [],
+  time: [],
+  search: [],
+  sports: [],
+  facesEmotionsStickers: [],
+  folders: [],
+  astronomy: [],
+  files: [],
+  weather: [],
+  electronicDevices: [],
+  money: [],
+  videoAudioSound: [],
+  mapLocation: [],
+  arrows: [],
+  messagesConversation: []
 };
 
 export const IconsListingMock = [
@@ -476,5 +529,81 @@ export const IconsListingMock = [
   {
     label: 'Medicine',
     components: IconUtils.sortByName(pathIcons['medicineIcons'], IconsSortMock.medicine)
+  },
+  {
+    label: 'Call',
+    components: IconUtils.sortByName(pathIcons['callIcons'], IconsSortMock.call)
+  },
+  {
+    label: 'Security',
+    components: IconUtils.sortByName(pathIcons['securityIcons'], IconsSortMock.security)
+  },
+  {
+    label: 'Essential UI',
+    components: IconUtils.sortByName(pathIcons['essentialUiIcons'], IconsSortMock.essentialUi)
+  },
+  {
+    label: 'List',
+    components: IconUtils.sortByName(pathIcons['listIcons'], IconsSortMock.list)
+  },
+  {
+    label: 'Hands',
+    components: IconUtils.sortByName(pathIcons['handsIcons'], IconsSortMock.hands)
+  },
+  {
+    label: 'Transport - Parts - Service',
+    components: IconUtils.sortByName(pathIcons['transportPartsServiceIcons'], IconsSortMock.transportPartsService)
+  },
+  {
+    label: 'Time',
+    components: IconUtils.sortByName(pathIcons['timeIcons'], IconsSortMock.time)
+  },
+  {
+    label: 'Sports',
+    components: IconUtils.sortByName(pathIcons['sportsIcons'], IconsSortMock.sports)
+  },
+  {
+    label: 'Faces - Emotions - Stickers',
+    components: IconUtils.sortByName(pathIcons['facesEmotionsStickersIcons'], IconsSortMock.facesEmotionsStickers)
+  },
+  {
+    label: 'Folders',
+    components: IconUtils.sortByName(pathIcons['foldersIcons'], IconsSortMock.folders)
+  },
+  {
+    label: 'Astronomy',
+    components: IconUtils.sortByName(pathIcons['astronomyIcons'], IconsSortMock.astronomy)
+  },
+  {
+    label: 'Files',
+    components: IconUtils.sortByName(pathIcons['filesIcons'], IconsSortMock.files)
+  },
+  {
+    label: 'Weather',
+    components: IconUtils.sortByName(pathIcons['weatherIcons'], IconsSortMock.weather)
+  },
+  {
+    label: 'Electronic - Devices',
+    components: IconUtils.sortByName(pathIcons['electronicDevicesIcons'], IconsSortMock.electronicDevices)
+  },
+  {
+    label: 'Money',
+    components: IconUtils.sortByName(pathIcons['moneyIcons'], IconsSortMock.money)
+  },
+  {
+    label: 'Video - Audio - Sound',
+    components: IconUtils.sortByName(pathIcons['videoAudioSoundIcons'], IconsSortMock.videoAudioSound)
+  },
+  {
+    label: 'Map & Location',
+    components: IconUtils.sortByName(pathIcons['mapLocationIcons'], IconsSortMock.mapLocation)
+  },
+  {
+    label: 'Arrows',
+    components: IconUtils.sortByName(pathIcons['arrowsIcons'], IconsSortMock.arrows)
+  },
+  {
+    label: 'Messages - Conversation',
+    components: IconUtils.sortByName(pathIcons['messagesConversationIcons'], IconsSortMock.messagesConversation)
   }
 ];
