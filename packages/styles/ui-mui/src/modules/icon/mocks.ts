@@ -439,26 +439,26 @@ export const IconsSortMock = {
     'HealthIcon',
     'VirusIcon'
   ],
-  call: [],
-  security: [],
-  essentialUi: [],
-  list: [],
-  hands: [],
-  transportPartsService: [],
-  time: [],
-  search: [],
-  sports: [],
-  facesEmotionsStickers: [],
-  folders: [],
-  astronomy: [],
-  files: [],
-  weather: [],
-  electronicDevices: [],
-  money: [],
-  videoAudioSound: [],
-  mapLocation: [],
-  arrows: [],
-  messagesConversation: []
+  call: ['EndCallRoundedIcon', 'PhoneRoundedIcon'],
+  security: ['BombIcon'],
+  essentialUi: ['CheckCircleIcon'],
+  list: ['SortFromTopToBottomIcon'],
+  hands: ['HandHeartIcon'],
+  transportPartsService: ['TramIcon'],
+  time: ['ClockCircleIcon'],
+  search: ['SearchIcon'],
+  sports: ['BicyclingRoundedIcon'],
+  facesEmotionsStickers: ['SmileCircleIcon'],
+  folders: ['FolderIcon'],
+  astronomy: ['PlanetIcon'],
+  files: ['FileIcon'],
+  weather: ['CloudIcon'],
+  electronicDevices: ['GamepadOldIcon'],
+  money: ['TagIcon'],
+  videoAudioSound: ['GalleryIcon'],
+  mapLocation: ['MapPointIcon'],
+  arrows: ['SquareDoubleAltArrowDownIcon'],
+  messagesConversation: ['ChatRoundDotsIcon']
 };
 
 export const IconsListingMock = [
@@ -557,6 +557,10 @@ export const IconsListingMock = [
   {
     label: 'Time',
     components: IconUtils.sortByName(pathIcons['timeIcons'], IconsSortMock.time)
+  },
+  {
+    label: 'Search',
+    components: IconUtils.sortByName(pathIcons['searchIcons'], IconsSortMock.search)
   },
   {
     label: 'Sports',
