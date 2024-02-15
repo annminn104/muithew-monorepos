@@ -2,7 +2,7 @@ import React from 'react';
 
 import { SvgIcon, SvgIconOwnProps } from '@mui/material';
 
-function EndCallRoundedIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
+function CallEndRoundedIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   return (
     <SvgIcon {...props} className='linear'>
       <path
@@ -15,4 +15,4 @@ function EndCallRoundedIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnPro
   );
 }
 
-export default React.memo(EndCallRoundedIcon);
+export default React.memo(CallEndRoundedIcon);
