@@ -7,15 +7,15 @@ const main: StorybookConfig = {
   refs: {
     landing: {
       title: 'Landing',
-      url: 'landing/'
+      url: process.env.NODE_ENV === 'development' ? 'http://localhost:9009/' : 'landing/'
     },
     admin: {
       title: 'Admin',
-      url: 'admin/'
+      url: process.env.NODE_ENV === 'development' ? 'http://localhost:7007/' : 'admin/'
     },
     'ui-mui': {
       title: 'UI-MUI',
-      url: 'ui-mui/'
+      url: process.env.NODE_ENV === 'development' ? 'http://localhost:8008/' : 'ui-mui/'
     }
   },
   features: {
