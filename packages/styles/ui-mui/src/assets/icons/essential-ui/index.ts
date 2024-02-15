@@ -1,1 +1,14 @@
+export { default as AddCircleIcon } from './add-circle';
+export { default as AddSquareIcon } from './add-square';
 export { default as CheckCircleIcon } from './check-circle';
+export { default as CheckSquareIcon } from './check-square';
+export { default as CloseCircleIcon } from './close-circle';
+export { default as CloseSquareIcon } from './close-square';
+export { default as DangerIcon } from './danger';
+export { default as DangerCircleIcon } from './danger-circle';
+export { default as DangerTriangleIcon } from './danger-triangle';
+export { default as ForbiddenIcon } from './forbidden';
+export { default as ForbiddenCircleIcon } from './forbidden-circle';
+export { default as InfoCircleIcon } from './info-circle';
+export { default as MinusCircleIcon } from './minus-circle';
+export { default as QuestionCircleIcon } from './question-circle';

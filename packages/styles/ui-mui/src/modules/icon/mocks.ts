@@ -509,7 +509,22 @@ export const IconsSortMock = {
     'ObjectScanIcon',
     'CodeScanIcon'
   ],
-  essentialUi: ['CheckCircleIcon'],
+  essentialUi: [
+    'CheckCircleIcon',
+    'CloseCircleIcon',
+    'AddCircleIcon',
+    'QuestionCircleIcon',
+    'DangerCircleIcon',
+    'InfoCircleIcon',
+    'MinusCircleIcon',
+    'ForbiddenCircleIcon',
+    'ForbiddenIcon',
+    'DangerIcon',
+    'DangerTriangleIcon',
+    'CheckSquareIcon',
+    'CloseSquareIcon',
+    'AddSquareIcon'
+  ],
   list: ['SortFromTopToBottomIcon'],
   hands: ['HandHeartIcon'],
   transportPartsService: ['TramIcon'],
