@@ -8,7 +8,7 @@ function BombEmojiIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
       <circle cx='9.5' cy='14.5' r='7.5' stroke={linearColor} strokeWidth='1.5' />
       <path stroke={linearColor} strokeLinecap='round' strokeWidth='1.5' d='M10 16h2' />
       <path fill={linearColor} d='M14 12.5c0 .828-.448 1.5-1 1.5s-1-.672-1-1.5.448-1.5 1-1.5 1 .672 1 1.5z' />
-      <ellipse cx='9' cy='12.5' fill={linearColor} rx='1' ry='1.5'></ellipse>
+      <ellipse cx='9' cy='12.5' fill={linearColor} rx='1' ry='1.5' />
       <path stroke={linearColor} strokeLinecap='round' strokeWidth='1.5' d='M17 7l-2 2' />
       <path
         stroke={linearColor}

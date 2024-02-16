@@ -7,7 +7,9 @@ const meta = {
   component: Icon,
   parameters: {
     layout: 'fullscreen'
-  }
+  },
+  tags: ['autodocs'],
+  argTypes: {}
 } satisfies Meta<typeof Icon>;
 
 export default meta;
