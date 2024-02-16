@@ -2,7 +2,7 @@ import React from 'react';
 
 import { SvgIcon, SvgIconOwnProps } from '@mui/material';
 
-function HomeIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
+function HouseIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   return (
     <SvgIcon {...props} className='linear'>
       <path stroke={linearColor} strokeLinecap='round' strokeWidth='1.5' d='M22 22H2M2 11l8.126-6.5a3 3 0 013.748 0L22 11' />
@@ -17,4 +17,4 @@ function HomeIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(HomeIcon);
+export default React.memo(HouseIcon);

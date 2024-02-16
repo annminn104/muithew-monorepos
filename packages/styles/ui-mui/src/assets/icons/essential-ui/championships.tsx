@@ -2,7 +2,7 @@ import React from 'react';
 
 import { SvgIcon, SvgIconOwnProps } from '@mui/material';
 
-function CupIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
+function ChampionshipsIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   return (
     <SvgIcon {...props} className='linear'>
       <path
@@ -28,4 +28,4 @@ function CupIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(CupIcon);
+export default React.memo(ChampionshipsIcon);

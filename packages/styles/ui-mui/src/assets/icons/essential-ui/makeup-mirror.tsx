@@ -2,7 +2,7 @@ import React from 'react';
 
 import { SvgIcon, SvgIconOwnProps } from '@mui/material';
 
-function MirrorIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
+function MakeupMirrorIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   return (
     <SvgIcon {...props} className='linear'>
       <path
@@ -20,4 +20,4 @@ function MirrorIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(MirrorIcon);
+export default React.memo(MakeupMirrorIcon);
