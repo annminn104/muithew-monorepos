@@ -1,1 +1,12 @@
 export { default as SearchIcon } from './search';
+export { default as SearchZoomInIcon } from './search-zoom-in';
+export { default as SearchZoomOutIcon } from './search-zoom-out';
+export { default as SearchBugIcon } from './search-bug';
+export { default as SearchMinimalisticIcon } from './search-minimalistic';
+export { default as SearchZoomInMinimalisticIcon } from './search-zoom-in-minimalistic';
+export { default as SearchZoomOutMinimalisticIcon } from './search-zoom-out-minimalistic';
+export { default as SearchBugMinimalisticIcon } from './search-bug-minimalistic';
+export { default as SearchRoundedIcon } from './search-rounded';
+export { default as SearchZoomInRoundedIcon } from './search-zoom-in-rounded';
+export { default as SearchZoomOutRoundedIcon } from './search-zoom-out-rounded';
+export { default as SearchBugRoundedIcon } from './search-bug-rounded';
