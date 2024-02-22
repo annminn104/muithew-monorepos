@@ -31,7 +31,7 @@ git clone https://github.com/annminn104/muithew-monorepos.git
 
 cd muithew-monorepos
 
-yarn # Using Node version hydrogen (v18.19.0)
+yarn # Using Node version 18
 
 yarn build
 
