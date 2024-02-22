@@ -851,7 +851,7 @@ export const IconsSortMock = {
     'StarFailIcon',
     'StarFail2Icon',
     'StarRainbowIcon',
-    'StarIcon',
+    'StarlightIcon',
     'StarsIcon',
     'StarsLineIcon',
     'StarsMinimalisticIcon',

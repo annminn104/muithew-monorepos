@@ -13,7 +13,7 @@ export { default as Planet4Icon } from './planet-4';
 export { default as RocketIcon } from './rocket';
 export { default as Rocket2Icon } from './rocket-2';
 export { default as SatelliteIcon } from './satellite';
-export { default as StarIcon } from './star';
+export { default as StarlightIcon } from './starlight';
 export { default as StarAngleIcon } from './star-angle';
 export { default as StarCircleIcon } from './star-circle';
 export { default as StarFailIcon } from './star-fail';

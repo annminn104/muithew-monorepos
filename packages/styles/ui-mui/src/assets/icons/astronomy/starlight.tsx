@@ -2,7 +2,7 @@ import React from 'react';
 
 import { SvgIcon, SvgIconOwnProps } from '@mui/material';
 
-function StarIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
+function StarlightIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   return (
     <SvgIcon {...props} className='linear'>
       <path
@@ -15,4 +15,4 @@ function StarIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(StarIcon);
+export default React.memo(StarlightIcon);
