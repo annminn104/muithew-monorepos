@@ -1,1 +1,14 @@
+export { default as AddFolderIcon } from './add-folder';
 export { default as FolderIcon } from './folder';
+export { default as Folder2Icon } from './folder-2';
+export { default as FolderCheckIcon } from './folder-check';
+export { default as FolderCloudIcon } from './folder-cloud';
+export { default as FolderErrorIcon } from './folder-error';
+export { default as FolderFavoriteBookmarkIcon } from './folder-favorite-bookmark';
+export { default as FolderFavoriteStarIcon } from './folder-favorite-star';
+export { default as FolderOpenIcon } from './folder-open';
+export { default as FolderPathConnectIcon } from './folder-path-connect';
+export { default as FolderSecurityIcon } from './folder-security';
+export { default as FolderWithFilesIcon } from './folder-with-files';
+export { default as MoveToFolderIcon } from './move-to-folder';
+export { default as RemoveFolderIcon } from './remove-folder';
