@@ -1002,10 +1002,10 @@ export const IconsSortMock = {
     'LightningIcon',
     'WeightScaleIcon',
     'LightbulbIcon',
-    'circl',
+    'LightbulbBoltIcon',
     'LightbulbMinimalisticIcon'
   ],
-  money: ['TagIcon'],
+  money: ['TagIcon', 'TagPriceIcon', 'TagHorizontalIcon', 'TickerStarIcon'],
   videoAudioSound: ['GalleryIcon'],
   mapLocation: ['MapPointIcon'],
   arrows: ['SquareDoubleAltArrowDownIcon'],

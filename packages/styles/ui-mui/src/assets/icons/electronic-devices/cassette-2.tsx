@@ -15,7 +15,7 @@ function Cassette2Icon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
         strokeWidth='1.5'
         d='M13.5 13.75a2.25 2.25 0 114.5 0 2.25 2.25 0 01-4.5 0zM6 13.75a2.25 2.25 0 114.5 0 2.25 2.25 0 01-4.5 0z'
       />
-      <path stroke={linearColor} strokeLinecap='round' strokeWidth='1.5' d='M8.5 11.5H16M8.5 16H16'></path>
+      <path stroke={linearColor} strokeLinecap='round' strokeWidth='1.5' d='M8.5 11.5H16M8.5 16H16' />
       <path
         stroke={linearColor}
         strokeLinecap='round'

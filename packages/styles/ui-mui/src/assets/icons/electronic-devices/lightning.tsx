@@ -11,8 +11,8 @@ function LightningIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
         strokeWidth='1.5'
         d='M13.2 8h-2.4c-2.263 0-3.394 0-4.097.692C6 9.385 6 10.5 6 12.727v2.546c0 2.228 0 3.342.703 4.035C7.406 20 8.537 20 10.8 20h2.4M10.8 8h2.4c2.263 0 3.394 0 4.097.692C18 9.385 18 10.5 18 12.727v2.546c0 2.228 0 3.342-.703 4.035C16.594 20 15.463 20 13.2 20h-2.4M12 20v2'
       />
-      <path stroke={linearColor} strokeLinecap='round' strokeLinejoin='round' strokeWidth='1.5' d='M12 12l-1.5 2h3L12 16'></path>
-      <path stroke={linearColor} strokeLinecap='round' strokeWidth='1.5' d='M11 5h2'></path>
+      <path stroke={linearColor} strokeLinecap='round' strokeLinejoin='round' strokeWidth='1.5' d='M12 12l-1.5 2h3L12 16' />
+      <path stroke={linearColor} strokeLinecap='round' strokeWidth='1.5' d='M11 5h2' />
       <path
         stroke={linearColor}
         strokeWidth='1.5'

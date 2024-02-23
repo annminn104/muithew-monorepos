@@ -15,7 +15,7 @@ function DisketteIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
         strokeWidth='1.5'
         d='M17 22v-1c0-1.886 0-2.828-.586-3.414C15.828 17 14.886 17 13 17h-2c-1.886 0-2.828 0-3.414.586C7 18.172 7 19.114 7 21v1'
       />
-      <path stroke={linearColor} strokeLinecap='round' strokeWidth='1.5' d='M7 8h6'></path>
+      <path stroke={linearColor} strokeLinecap='round' strokeWidth='1.5' d='M7 8h6' />
     </SvgIcon>
   );
 }

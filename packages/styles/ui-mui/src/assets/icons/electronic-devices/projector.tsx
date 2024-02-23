@@ -15,8 +15,8 @@ function ProjectorIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
         d='M18.33 20.335a.75.75 0 101.34-.67l-1.34.67zm-1-2l1 2 1.34-.67-1-2-1.34.67zM5.67 20.335a.75.75 0 11-1.34-.67l1.34.67zm1-2l-1 2-1.34-.67 1-2 1.34.67z'
       />
       <circle cx='14' cy='9' r='5' stroke={linearColor} strokeWidth='1.5' />
-      <path stroke={linearColor} strokeLinecap='round' strokeWidth='1.5' d='M12 9a2 2 0 102-2'></path>
-      <path stroke={linearColor} strokeLinecap='round' strokeLinejoin='round' strokeWidth='1.5' d='M5.5 9.5V11'></path>
+      <path stroke={linearColor} strokeLinecap='round' strokeWidth='1.5' d='M12 9a2 2 0 102-2' />
+      <path stroke={linearColor} strokeLinecap='round' strokeLinejoin='round' strokeWidth='1.5' d='M5.5 9.5V11' />
     </SvgIcon>
   );
 }

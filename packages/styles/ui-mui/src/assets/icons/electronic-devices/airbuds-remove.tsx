@@ -16,9 +16,9 @@ function AirbudsRemoveIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProp
         strokeWidth='1.5'
         d='M10.5 19v.75a2.25 2.25 0 01-4.5 0V19m4.5 0V9.312c0-.29 0-.435-.006-.557a5 5 0 00-4.749-4.749C5.623 4 5.478 4 5.187 4c-.174 0-.26 0-.334.004a3 3 0 00-2.85 2.849C2 6.926 2 7.013 2 7.188V9.3a3 3 0 003 3 1 1 0 011 1V19m4.5 0H6'
       />
-      <path stroke={linearColor} strokeLinecap='round' strokeWidth='1.5' d='M19.5 5v2.5M4.5 7v2.5'></path>
+      <path stroke={linearColor} strokeLinecap='round' strokeWidth='1.5' d='M19.5 5v2.5M4.5 7v2.5' />
       <circle cx='18' cy='18' r='4' stroke={linearColor} strokeWidth='1.5' />
-      <path stroke={linearColor} strokeLinecap='round' strokeWidth='1.5' d='M17 19l2-2m0 2l-2-2'></path>
+      <path stroke={linearColor} strokeLinecap='round' strokeWidth='1.5' d='M17 19l2-2m0 2l-2-2' />
     </SvgIcon>
   );
 }

@@ -16,7 +16,7 @@ function DevicesIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
         strokeWidth='1.5'
         d='M2 14.5c0-1.405 0-2.107.337-2.611a2 2 0 01.552-.552C3.393 11 4.096 11 5.5 11c1.404 0 2.107 0 2.611.337a2 2 0 01.552.552C9 12.393 9 13.096 9 14.5v4c0 1.404 0 2.107-.337 2.611a2 2 0 01-.552.552C7.607 22 6.904 22 5.5 22c-1.404 0-2.107 0-2.611-.337a2 2 0 01-.552-.552C2 20.607 2 19.904 2 18.5v-4z'
       />
-      <path stroke={linearColor} strokeLinecap='round' strokeWidth='1.5' d='M17 19h-5'></path>
+      <path stroke={linearColor} strokeLinecap='round' strokeWidth='1.5' d='M17 19h-5' />
     </SvgIcon>
   );
 }

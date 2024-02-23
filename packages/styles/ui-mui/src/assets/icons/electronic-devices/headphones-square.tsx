@@ -10,7 +10,7 @@ function HeadphonesSquareIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnP
         strokeWidth='1.5'
         d='M21 18v-6c0-3.75 0-5.625-.955-6.939a5 5 0 00-1.106-1.106C17.625 3 15.749 3 12 3c-3.75 0-5.625 0-6.939.955A5 5 0 003.955 5.06C3 6.375 3 8.251 3 12v6'
       />
-      <path stroke={linearColor} strokeLinecap='round' strokeWidth='1.5' d='M22 15.5v2M2 15.5v2'></path>
+      <path stroke={linearColor} strokeLinecap='round' strokeWidth='1.5' d='M22 15.5v2M2 15.5v2' />
       <path
         stroke={linearColor}
         strokeWidth='1.5'

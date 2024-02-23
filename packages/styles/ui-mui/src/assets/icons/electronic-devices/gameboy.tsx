@@ -15,7 +15,7 @@ function GameboyIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
         strokeWidth='1.5'
         d='M7 8c0-.465 0-.697.051-.888a1.5 1.5 0 011.06-1.06C8.304 6 8.536 6 9 6h6c.465 0 .697 0 .888.051a1.5 1.5 0 011.06 1.06C17 7.304 17 7.536 17 8s0 .697-.051.888a1.5 1.5 0 01-1.06 1.06C15.697 10 15.464 10 15 10H9c-.465 0-.697 0-.888-.051a1.5 1.5 0 01-1.06-1.06C7 8.696 7 8.464 7 8z'
       />
-      <path stroke={linearColor} strokeLinecap='round' strokeLinejoin='round' strokeWidth='1.5' d='M8.5 14v3M7 15.5h3'></path>
+      <path stroke={linearColor} strokeLinecap='round' strokeLinejoin='round' strokeWidth='1.5' d='M8.5 14v3M7 15.5h3' />
       <path
         fill={linearColor}
         d='M16.333 13.833a.833.833 0 11-1.666 0 .833.833 0 011.666 0zM16.333 17.167a.833.833 0 11-1.666 0 .833.833 0 011.666 0zM14.667 15.5a.833.833 0 11-1.667 0 .833.833 0 011.667 0zM18 15.5a.833.833 0 11-1.667 0 .833.833 0 011.667 0z'

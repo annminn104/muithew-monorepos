@@ -22,7 +22,7 @@ function CassetteIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
         strokeWidth='1.5'
         d='M17.5 4.5l-.527 1.404c-.47 1.256-.706 1.884-1.22 2.24-.514.356-1.184.356-2.525.356h-2.456c-1.34 0-2.011 0-2.525-.356-.514-.356-.75-.984-1.22-2.24L6.5 4.5'
       />
-      <path stroke={linearColor} strokeLinecap='round' strokeWidth='1.5' d='M12 4v4.5'></path>
+      <path stroke={linearColor} strokeLinecap='round' strokeWidth='1.5' d='M12 4v4.5' />
     </SvgIcon>
   );
 }

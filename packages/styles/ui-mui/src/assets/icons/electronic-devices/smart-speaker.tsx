@@ -9,7 +9,7 @@ function SmartSpeakerIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps
         fill={linearColor}
         d='M2.507 14.615c.877.765 3.318 2.635 9.493 2.635v-1.5c-5.807 0-7.9-1.736-8.507-2.266l-.986 1.131zM12 17.25c3.15 0 5.325-.48 6.823-1.066 1.509-.59 2.3-1.278 2.684-1.632l-1.015-1.104c-.297.273-.932.836-2.216 1.339-1.294.507-3.278.963-6.276.963v1.5z'
       />
-      <path stroke={linearColor} strokeWidth='1.5' d='M15.5 16c-.582-1.748-1.653-2.5-3.5-2.5s-2.918.752-3.5 2.5'></path>
+      <path stroke={linearColor} strokeWidth='1.5' d='M15.5 16c-.582-1.748-1.653-2.5-3.5-2.5s-2.918.752-3.5 2.5' />
       <path
         stroke={linearColor}
         strokeLinecap='round'

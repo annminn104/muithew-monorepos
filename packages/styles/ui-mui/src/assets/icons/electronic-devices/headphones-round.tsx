@@ -5,8 +5,8 @@ import { SvgIcon, SvgIconOwnProps } from '@mui/material';
 function HeadphonesRoundIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   return (
     <SvgIcon {...props} className='linear'>
-      <path stroke={linearColor} strokeWidth='1.5' d='M21 17v-5a9 9 0 10-18 0v5'></path>
-      <path stroke={linearColor} strokeLinecap='round' strokeWidth='1.5' d='M22 15.5v2M2 15.5v2'></path>
+      <path stroke={linearColor} strokeWidth='1.5' d='M21 17v-5a9 9 0 10-18 0v5' />
+      <path stroke={linearColor} strokeLinecap='round' strokeWidth='1.5' d='M22 15.5v2M2 15.5v2' />
       <path
         stroke={linearColor}
         strokeWidth='1.5'

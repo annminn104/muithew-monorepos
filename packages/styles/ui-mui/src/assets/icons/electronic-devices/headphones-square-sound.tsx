@@ -15,7 +15,7 @@ function HeadphonesSquareSoundIcon({ linearColor = '#1C274C', ...props }: SvgIco
         strokeWidth='1.5'
         d='M22 17v-5c0-4.714 0-7.071-1.465-8.536C19.072 2 16.714 2 12 2S4.929 2 3.464 3.464C2 4.93 2 7.286 2 12v5'
       />
-      <path stroke={linearColor} strokeLinecap='round' strokeWidth='1.5' d='M12 6.5v5M15 8v2M9 8v2'></path>
+      <path stroke={linearColor} strokeLinecap='round' strokeWidth='1.5' d='M12 6.5v5M15 8v2M9 8v2' />
     </SvgIcon>
   );
 }

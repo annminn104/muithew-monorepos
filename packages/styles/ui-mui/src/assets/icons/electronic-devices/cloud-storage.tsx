@@ -16,7 +16,7 @@ function CloudStorageIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps
         strokeWidth='1.5'
         d='M8.5 17c0-1.414 0-2.121.44-2.56.439-.44 1.146-.44 2.56-.44h1c1.414 0 2.121 0 2.56.44.44.439.44 1.146.44 2.56v2c0 1.414 0 2.121-.44 2.56-.439.44-1.146.44-2.56.44h-1c-1.414 0-2.121 0-2.56-.44-.44-.439-.44-1.146-.44-2.56v-2z'
       />
-      <path stroke={linearColor} strokeLinecap='round' strokeLinejoin='round' strokeWidth='1.5' d='M11 18h2'></path>
+      <path stroke={linearColor} strokeLinecap='round' strokeLinejoin='round' strokeWidth='1.5' d='M11 18h2' />
     </SvgIcon>
   );
 }

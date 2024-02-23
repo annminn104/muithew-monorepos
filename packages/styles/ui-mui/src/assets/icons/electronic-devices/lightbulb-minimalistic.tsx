@@ -5,7 +5,7 @@ import { SvgIcon, SvgIconOwnProps } from '@mui/material';
 function LightbulbMinimalisticIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   return (
     <SvgIcon {...props} className='linear'>
-      <path stroke={linearColor} strokeLinecap='round' strokeWidth='1.5' d='M10 19.5h4M10.667 22h2.666'></path>
+      <path stroke={linearColor} strokeLinecap='round' strokeWidth='1.5' d='M10 19.5h4M10.667 22h2.666' />
       <path
         stroke={linearColor}
         strokeWidth='1.5'

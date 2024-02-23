@@ -16,7 +16,7 @@ function MonitorSmartphoneIcon({ linearColor = '#1C274C', ...props }: SvgIconOwn
         strokeWidth='1.5'
         d='M14 15c0-1.886 0-2.828.586-3.414C15.172 11 16.114 11 18 11c1.886 0 2.828 0 3.414.586C22 12.172 22 13.114 22 15v3c0 1.886 0 2.828-.586 3.414C20.828 22 19.886 22 18 22c-1.886 0-2.828 0-3.414-.586C14 20.828 14 19.886 14 18v-3z'
       />
-      <path stroke={linearColor} strokeLinecap='round' strokeWidth='1.5' d='M19 20h-2M11 22H8M11 22v-5M11 13H2'></path>
+      <path stroke={linearColor} strokeLinecap='round' strokeWidth='1.5' d='M19 20h-2M11 22H8M11 22v-5M11 13H2' />
     </SvgIcon>
   );
 }
