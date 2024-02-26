@@ -64,7 +64,8 @@
     "eslint-plugin-only-warn": "^1.1.0",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.5",
-    "storybook-addon-react-router-v6": "^2.0.10"
+    "storybook-addon-react-router-v6": "^2.0.10",
+    "next-intl": "^3.9.1"
   },
   "engines": {
     "node": ">=18"

@@ -9,6 +9,10 @@ const main: StorybookConfig = {
       title: 'Landing',
       url: process.env.NODE_ENV === 'development' ? 'http://localhost:9009/' : 'landing/'
     },
+    maruhachi: {
+      title: 'Maruhachi',
+      url: process.env.NODE_ENV === 'development' ? 'http://localhost:5005/' : 'maruhachi/'
+    },
     admin: {
       title: 'Admin',
       url: process.env.NODE_ENV === 'development' ? 'http://localhost:7007/' : 'admin/'

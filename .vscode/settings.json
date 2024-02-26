@@ -49,5 +49,19 @@
       "source.sortMembers": "explicit"
     }
   },
-  "cSpell.words": ["Airbuds", "colour", "commitlint", "esbenp", "Gameboy", "muithew", "Screencast", "stylelint", "Swipeable", "tsup", "winrar"]
+  "cSpell.words": [
+    "Airbuds",
+    "colour",
+    "commitlint",
+    "esbenp",
+    "Gameboy",
+    "maruhachi",
+    "Maruhachinousan",
+    "muithew",
+    "Screencast",
+    "stylelint",
+    "Swipeable",
+    "tsup",
+    "winrar"
+  ]
 }

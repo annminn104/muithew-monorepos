@@ -1,4 +1,16 @@
 export { default as TagIcon } from './tag';
-export { default as TagPriceIcon } from './tag-price';
 export { default as TagHorizontalIcon } from './tag-horizontal';
+export { default as TagPriceIcon } from './tag-price';
 export { default as TickerStarIcon } from './ticker-star';
+export { default as TicketIcon } from './ticket';
+export { default as TicketSaleIcon } from './ticket-sale';
+export { default as SafeSquareIcon } from './safe-square';
+export { default as SafeCircleIcon } from './safe-circle';
+export { default as Safe2Icon } from './safe-2';
+export { default as CashOutIcon } from './cash-out';
+export { default as EuroIcon } from './euro';
+export { default as RubleIcon } from './ruble';
+export { default as DollarIcon } from './dollar';
+export { default as DollarMinimalisticIcon } from './dollar-minimalistic';
+export { default as VerifiedCheckIcon } from './verified-check';
+export { default as SaleIcon } from './sale';

@@ -1,0 +1,22 @@
+{
+  "name": "@apps/maruhachi",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 3300",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint . --max-warnings 0",
+    "storybook": "storybook dev -p 5005",
+    "clean:build": "rm -rf dist/ .turbo/ node_modules/ storybook-static/",
+    "storybook:build": "storybook build --quiet -o storybook-static",
+    "storybook:move": "mv storybook-static ../../storybook-static/maruhachi"
+  },
+  "dependencies": {
+    "@configs/eslint": "*",
+    "@configs/typescript": "*",
+    "@core/providers": "*",
+    "@styles/ui": "*",
+    "@styles/ui-mui": "*"
+  }
+}
