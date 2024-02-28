@@ -12,4 +12,4 @@ function RemoteController2Icon({ linearColor = '#1C274C', ...props }: SvgIconOwn
   );
 }
 
-export default React.memo(RemoteController2Icon);
+export default RemoteController2Icon;

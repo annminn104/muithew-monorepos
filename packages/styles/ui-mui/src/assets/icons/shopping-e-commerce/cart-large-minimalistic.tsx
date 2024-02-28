@@ -14,4 +14,4 @@ function CartLargeMinimalisticIcon({ linearColor = '#1C274C', ...props }: SvgIco
   );
 }
 
-export default React.memo(CartLargeMinimalisticIcon);
+export default CartLargeMinimalisticIcon;

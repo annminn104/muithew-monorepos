@@ -24,4 +24,4 @@ function MeditationRoundedIcon({ linearColor = '#1C274C', ...props }: SvgIconOwn
   );
 }
 
-export default React.memo(MeditationRoundedIcon);
+export default MeditationRoundedIcon;

@@ -23,4 +23,4 @@ function EmojiFunnySquareIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnP
   );
 }
 
-export default React.memo(EmojiFunnySquareIcon);
+export default EmojiFunnySquareIcon;

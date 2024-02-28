@@ -17,4 +17,4 @@ function ExpressionlessSquareIcon({ linearColor = '#1C274C', ...props }: SvgIcon
   );
 }
 
-export default React.memo(ExpressionlessSquareIcon);
+export default ExpressionlessSquareIcon;

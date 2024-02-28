@@ -22,4 +22,4 @@ function FlashDriveIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) 
   );
 }
 
-export default React.memo(FlashDriveIcon);
+export default FlashDriveIcon;

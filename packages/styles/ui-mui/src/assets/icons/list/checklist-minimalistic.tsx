@@ -16,4 +16,4 @@ function ChecklistMinimalisticIcon({ linearColor = '#1C274C', ...props }: SvgIco
   );
 }
 
-export default React.memo(ChecklistMinimalisticIcon);
+export default ChecklistMinimalisticIcon;

@@ -15,4 +15,4 @@ function HashtagSquareIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProp
   );
 }
 
-export default React.memo(HashtagSquareIcon);
+export default HashtagSquareIcon;

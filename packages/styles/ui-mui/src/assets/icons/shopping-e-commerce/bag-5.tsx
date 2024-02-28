@@ -17,4 +17,4 @@ function Bag5Icon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(Bag5Icon);
+export default Bag5Icon;

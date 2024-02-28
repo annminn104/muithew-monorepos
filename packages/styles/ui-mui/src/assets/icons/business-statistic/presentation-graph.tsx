@@ -20,4 +20,4 @@ function PresentationGraphIcon({ linearColor = '#1C274C', ...props }: SvgIconOwn
   );
 }
 
-export default React.memo(PresentationGraphIcon);
+export default PresentationGraphIcon;

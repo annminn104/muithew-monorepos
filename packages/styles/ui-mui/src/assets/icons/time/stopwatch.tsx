@@ -12,4 +12,4 @@ function StopwatchIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(StopwatchIcon);
+export default StopwatchIcon;

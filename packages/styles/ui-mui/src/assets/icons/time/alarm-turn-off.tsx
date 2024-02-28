@@ -17,4 +17,4 @@ function AlarmTurnOffIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps
   );
 }
 
-export default React.memo(AlarmTurnOffIcon);
+export default AlarmTurnOffIcon;

@@ -16,4 +16,4 @@ function BatteryChargeMinimalisticIcon({ linearColor = '#1C274C', ...props }: Sv
   );
 }
 
-export default React.memo(BatteryChargeMinimalisticIcon);
+export default BatteryChargeMinimalisticIcon;

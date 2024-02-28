@@ -15,4 +15,4 @@ function LightbulbMinimalisticIcon({ linearColor = '#1C274C', ...props }: SvgIco
   );
 }
 
-export default React.memo(LightbulbMinimalisticIcon);
+export default LightbulbMinimalisticIcon;

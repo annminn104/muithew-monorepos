@@ -15,4 +15,4 @@ function TextSquare2Icon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps)
   );
 }
 
-export default React.memo(TextSquare2Icon);
+export default TextSquare2Icon;

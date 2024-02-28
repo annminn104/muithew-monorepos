@@ -15,4 +15,4 @@ function FileCheckIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(FileCheckIcon);
+export default FileCheckIcon;

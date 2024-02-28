@@ -17,4 +17,4 @@ function ScooterIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(ScooterIcon);
+export default ScooterIcon;

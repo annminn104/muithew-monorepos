@@ -11,4 +11,4 @@ function UndoRightRoundIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnPro
   );
 }
 
-export default React.memo(UndoRightRoundIcon);
+export default UndoRightRoundIcon;

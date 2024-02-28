@@ -11,4 +11,4 @@ function RecordMinimalisticIcon({ linearColor = '#1C274C', ...props }: SvgIconOw
   );
 }
 
-export default React.memo(RecordMinimalisticIcon);
+export default RecordMinimalisticIcon;

@@ -15,4 +15,4 @@ function NoteBookIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(NoteBookIcon);
+export default NoteBookIcon;

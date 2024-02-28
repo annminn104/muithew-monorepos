@@ -11,4 +11,4 @@ function SortFromBottomToTopIcon({ linearColor = '#1C274C', ...props }: SvgIconO
   );
 }
 
-export default React.memo(SortFromBottomToTopIcon);
+export default SortFromBottomToTopIcon;

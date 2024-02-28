@@ -22,4 +22,4 @@ function SirenIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(SirenIcon);
+export default SirenIcon;

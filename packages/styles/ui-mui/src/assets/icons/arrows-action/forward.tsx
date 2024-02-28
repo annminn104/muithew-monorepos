@@ -10,4 +10,4 @@ function ForwardIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(ForwardIcon);
+export default ForwardIcon;

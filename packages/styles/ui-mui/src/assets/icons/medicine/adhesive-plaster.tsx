@@ -23,4 +23,4 @@ function AdhesivePlasterIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnPr
   );
 }
 
-export default React.memo(AdhesivePlasterIcon);
+export default AdhesivePlasterIcon;

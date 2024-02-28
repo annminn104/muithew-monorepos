@@ -20,4 +20,4 @@ function StarFailMinimalistic2Icon({ linearColor = '#1C274C', ...props }: SvgIco
   );
 }
 
-export default React.memo(StarFailMinimalistic2Icon);
+export default StarFailMinimalistic2Icon;

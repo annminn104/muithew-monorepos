@@ -20,4 +20,4 @@ function Armchair2Icon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(Armchair2Icon);
+export default Armchair2Icon;

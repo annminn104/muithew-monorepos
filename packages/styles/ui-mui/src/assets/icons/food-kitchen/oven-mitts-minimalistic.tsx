@@ -15,4 +15,4 @@ function OvenMittsMinimalisticIcon({ linearColor = '#1C274C', ...props }: SvgIco
   );
 }
 
-export default React.memo(OvenMittsMinimalisticIcon);
+export default OvenMittsMinimalisticIcon;

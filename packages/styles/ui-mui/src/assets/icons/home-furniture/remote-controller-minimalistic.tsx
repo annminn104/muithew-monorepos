@@ -17,4 +17,4 @@ function RemoteControllerMinimalisticIcon({ linearColor = '#1C274C', ...props }:
   );
 }
 
-export default React.memo(RemoteControllerMinimalisticIcon);
+export default RemoteControllerMinimalisticIcon;

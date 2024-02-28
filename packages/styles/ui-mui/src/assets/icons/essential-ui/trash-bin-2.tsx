@@ -20,4 +20,4 @@ function TrashBin2Icon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(TrashBin2Icon);
+export default TrashBin2Icon;

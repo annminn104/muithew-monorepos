@@ -16,4 +16,4 @@ function BlackHole3Icon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) 
   );
 }
 
-export default React.memo(BlackHole3Icon);
+export default BlackHole3Icon;

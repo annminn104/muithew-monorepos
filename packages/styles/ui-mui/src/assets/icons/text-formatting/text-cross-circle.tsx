@@ -14,4 +14,4 @@ function TextCrossCircleIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnPr
   );
 }
 
-export default React.memo(TextCrossCircleIcon);
+export default TextCrossCircleIcon;

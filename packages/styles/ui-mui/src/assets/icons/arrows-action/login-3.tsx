@@ -21,4 +21,4 @@ function Login3Icon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(Login3Icon);
+export default Login3Icon;

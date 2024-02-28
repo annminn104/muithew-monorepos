@@ -13,4 +13,4 @@ function SafeCircleIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) 
   );
 }
 
-export default React.memo(SafeCircleIcon);
+export default SafeCircleIcon;

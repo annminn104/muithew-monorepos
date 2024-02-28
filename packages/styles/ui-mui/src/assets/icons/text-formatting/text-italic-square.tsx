@@ -15,4 +15,4 @@ function TextItalicSquareIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnP
   );
 }
 
-export default React.memo(TextItalicSquareIcon);
+export default TextItalicSquareIcon;

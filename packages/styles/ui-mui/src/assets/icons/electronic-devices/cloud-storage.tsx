@@ -21,4 +21,4 @@ function CloudStorageIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps
   );
 }
 
-export default React.memo(CloudStorageIcon);
+export default CloudStorageIcon;

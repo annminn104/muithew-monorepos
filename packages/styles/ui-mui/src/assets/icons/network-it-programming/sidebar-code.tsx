@@ -16,4 +16,4 @@ function SidebarCodeIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps)
   );
 }
 
-export default React.memo(SidebarCodeIcon);
+export default SidebarCodeIcon;

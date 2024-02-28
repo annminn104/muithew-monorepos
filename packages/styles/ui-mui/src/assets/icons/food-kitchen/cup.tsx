@@ -15,4 +15,4 @@ function CupIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(CupIcon);
+export default CupIcon;

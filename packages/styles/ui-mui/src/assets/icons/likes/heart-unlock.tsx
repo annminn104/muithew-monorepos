@@ -14,4 +14,4 @@ function HeartUnLockIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps)
   );
 }
 
-export default React.memo(HeartUnLockIcon);
+export default HeartUnLockIcon;

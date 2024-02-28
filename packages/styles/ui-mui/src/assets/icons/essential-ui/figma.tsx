@@ -16,4 +16,4 @@ function FigmaIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(FigmaIcon);
+export default FigmaIcon;

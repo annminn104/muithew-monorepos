@@ -13,4 +13,4 @@ function Volleyball2Icon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps)
   );
 }
 
-export default React.memo(Volleyball2Icon);
+export default Volleyball2Icon;

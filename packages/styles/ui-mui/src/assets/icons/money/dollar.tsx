@@ -16,4 +16,4 @@ function DollarIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(DollarIcon);
+export default DollarIcon;

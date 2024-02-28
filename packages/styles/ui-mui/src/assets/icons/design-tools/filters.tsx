@@ -10,4 +10,4 @@ function FiltersIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(FiltersIcon);
+export default FiltersIcon;

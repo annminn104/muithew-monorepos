@@ -16,4 +16,4 @@ function UserHandsIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(UserHandsIcon);
+export default UserHandsIcon;

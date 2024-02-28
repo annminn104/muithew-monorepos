@@ -20,4 +20,4 @@ function BatteryHalfIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps)
   );
 }
 
-export default React.memo(BatteryHalfIcon);
+export default BatteryHalfIcon;

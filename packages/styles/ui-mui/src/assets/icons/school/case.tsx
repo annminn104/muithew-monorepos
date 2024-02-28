@@ -25,4 +25,4 @@ function CaseIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(CaseIcon);
+export default CaseIcon;

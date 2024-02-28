@@ -15,4 +15,4 @@ function ScissorsIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(ScissorsIcon);
+export default ScissorsIcon;

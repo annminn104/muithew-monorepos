@@ -17,4 +17,4 @@ function SmartSpeaker2Icon({ linearColor = '#1C274C', ...props }: SvgIconOwnProp
   );
 }
 
-export default React.memo(SmartSpeaker2Icon);
+export default SmartSpeaker2Icon;

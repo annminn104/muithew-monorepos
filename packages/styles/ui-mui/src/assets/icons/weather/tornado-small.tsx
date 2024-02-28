@@ -15,4 +15,4 @@ function TornadoSmallIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps
   );
 }
 
-export default React.memo(TornadoSmallIcon);
+export default TornadoSmallIcon;

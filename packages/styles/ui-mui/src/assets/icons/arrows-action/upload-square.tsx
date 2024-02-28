@@ -16,4 +16,4 @@ function UploadSquareIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps
   );
 }
 
-export default React.memo(UploadSquareIcon);
+export default UploadSquareIcon;

@@ -26,4 +26,4 @@ function CatIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(CatIcon);
+export default CatIcon;

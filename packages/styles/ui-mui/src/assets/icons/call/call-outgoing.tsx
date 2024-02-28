@@ -14,4 +14,4 @@ function CallOutgoingIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps
   );
 }
 
-export default React.memo(CallOutgoingIcon);
+export default CallOutgoingIcon;

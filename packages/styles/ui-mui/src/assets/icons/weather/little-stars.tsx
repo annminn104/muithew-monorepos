@@ -14,4 +14,4 @@ function LittleStarsIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps)
   );
 }
 
-export default React.memo(LittleStarsIcon);
+export default LittleStarsIcon;

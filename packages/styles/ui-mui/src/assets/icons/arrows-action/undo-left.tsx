@@ -16,4 +16,4 @@ function UndoLeftIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(UndoLeftIcon);
+export default UndoLeftIcon;

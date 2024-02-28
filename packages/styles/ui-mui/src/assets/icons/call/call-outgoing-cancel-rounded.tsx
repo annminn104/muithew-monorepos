@@ -16,4 +16,4 @@ function CallOutgoingCancelRoundedIcon({ linearColor = '#1C274C', ...props }: Sv
   );
 }
 
-export default React.memo(CallOutgoingCancelRoundedIcon);
+export default CallOutgoingCancelRoundedIcon;

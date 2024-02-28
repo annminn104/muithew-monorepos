@@ -12,4 +12,4 @@ function SunFogIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(SunFogIcon);
+export default SunFogIcon;

@@ -16,4 +16,4 @@ function BedsideTable4Icon({ linearColor = '#1C274C', ...props }: SvgIconOwnProp
   );
 }
 
-export default React.memo(BedsideTable4Icon);
+export default BedsideTable4Icon;

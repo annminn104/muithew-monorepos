@@ -16,4 +16,4 @@ function ClosetIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(ClosetIcon);
+export default ClosetIcon;

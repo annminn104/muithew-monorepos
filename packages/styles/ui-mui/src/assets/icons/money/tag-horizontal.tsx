@@ -15,4 +15,4 @@ function TagHorizontalIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProp
   );
 }
 
-export default React.memo(TagHorizontalIcon);
+export default TagHorizontalIcon;

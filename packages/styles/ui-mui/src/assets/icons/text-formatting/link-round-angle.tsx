@@ -21,4 +21,4 @@ function LinkRoundAngleIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnPro
   );
 }
 
-export default React.memo(LinkRoundAngleIcon);
+export default LinkRoundAngleIcon;

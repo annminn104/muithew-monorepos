@@ -15,4 +15,4 @@ function AirbudsCaseMinimalisticIcon({ linearColor = '#1C274C', ...props }: SvgI
   );
 }
 
-export default React.memo(AirbudsCaseMinimalisticIcon);
+export default AirbudsCaseMinimalisticIcon;

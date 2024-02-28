@@ -25,4 +25,4 @@ function ObjectScanIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) 
   );
 }
 
-export default React.memo(ObjectScanIcon);
+export default ObjectScanIcon;

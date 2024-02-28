@@ -11,4 +11,4 @@ function UserRoundedIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps)
   );
 }
 
-export default React.memo(UserRoundedIcon);
+export default UserRoundedIcon;

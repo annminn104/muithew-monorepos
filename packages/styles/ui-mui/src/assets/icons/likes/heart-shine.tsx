@@ -19,4 +19,4 @@ function HeartShineIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) 
   );
 }
 
-export default React.memo(HeartShineIcon);
+export default HeartShineIcon;

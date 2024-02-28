@@ -22,4 +22,4 @@ function Planet4Icon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(Planet4Icon);
+export default Planet4Icon;

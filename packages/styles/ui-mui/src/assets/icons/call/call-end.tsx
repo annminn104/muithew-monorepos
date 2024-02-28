@@ -13,4 +13,4 @@ function CallEndIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(CallEndIcon);
+export default CallEndIcon;

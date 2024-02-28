@@ -18,4 +18,4 @@ function FaceScanCircleIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnPro
   );
 }
 
-export default React.memo(FaceScanCircleIcon);
+export default FaceScanCircleIcon;

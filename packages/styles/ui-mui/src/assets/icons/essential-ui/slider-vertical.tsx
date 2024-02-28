@@ -14,4 +14,4 @@ function SliderVerticalIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnPro
   );
 }
 
-export default React.memo(SliderVerticalIcon);
+export default SliderVerticalIcon;

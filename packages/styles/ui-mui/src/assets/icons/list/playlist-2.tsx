@@ -15,4 +15,4 @@ function Playlist2Icon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(Playlist2Icon);
+export default Playlist2Icon;

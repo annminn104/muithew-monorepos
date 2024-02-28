@@ -20,4 +20,4 @@ function BackpackIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(BackpackIcon);
+export default BackpackIcon;

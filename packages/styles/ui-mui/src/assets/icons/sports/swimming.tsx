@@ -16,4 +16,4 @@ function SwimmingIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(SwimmingIcon);
+export default SwimmingIcon;

@@ -28,4 +28,4 @@ function ChampionshipsIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProp
   );
 }
 
-export default React.memo(ChampionshipsIcon);
+export default ChampionshipsIcon;

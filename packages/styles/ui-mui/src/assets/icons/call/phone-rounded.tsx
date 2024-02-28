@@ -15,4 +15,4 @@ function PhoneRoundedIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps
   );
 }
 
-export default React.memo(PhoneRoundedIcon);
+export default PhoneRoundedIcon;

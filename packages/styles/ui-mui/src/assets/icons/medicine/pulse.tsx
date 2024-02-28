@@ -20,4 +20,4 @@ function PulseIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(PulseIcon);
+export default PulseIcon;

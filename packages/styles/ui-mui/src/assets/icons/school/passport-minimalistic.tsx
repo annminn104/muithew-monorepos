@@ -15,4 +15,4 @@ function PassportMinimalisticIcon({ linearColor = '#1C274C', ...props }: SvgIcon
   );
 }
 
-export default React.memo(PassportMinimalisticIcon);
+export default PassportMinimalisticIcon;

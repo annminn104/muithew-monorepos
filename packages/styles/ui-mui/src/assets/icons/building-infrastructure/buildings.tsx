@@ -22,4 +22,4 @@ function BuildingsIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(BuildingsIcon);
+export default BuildingsIcon;

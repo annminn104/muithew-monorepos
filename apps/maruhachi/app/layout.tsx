@@ -7,12 +7,6 @@ export const metadata: Metadata = {
   description: 'Maruhachinousan'
 };
 
-export default function RootLayout({ children }: { children: React.ReactNode }): JSX.Element {
-  return (
-    <html lang='en'>
-      <body>
-        <RootProvider>{children}</RootProvider>
-      </body>
-    </html>
-  );
+export default function RootLayout({ children }: { children: React.ReactNode }): React.JSX.Element {
+  return <RootProvider>{children}</RootProvider>;
 }

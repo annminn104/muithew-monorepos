@@ -16,4 +16,4 @@ function Book2Icon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(Book2Icon);
+export default Book2Icon;

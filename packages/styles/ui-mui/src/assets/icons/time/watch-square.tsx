@@ -25,4 +25,4 @@ function WatchSquareIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps)
   );
 }
 
-export default React.memo(WatchSquareIcon);
+export default WatchSquareIcon;

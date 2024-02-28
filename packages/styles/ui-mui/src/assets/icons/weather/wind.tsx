@@ -11,4 +11,4 @@ function WindIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(WindIcon);
+export default WindIcon;

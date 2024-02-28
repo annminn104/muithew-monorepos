@@ -16,4 +16,4 @@ function SearchBugMinimalisticIcon({ linearColor = '#1C274C', ...props }: SvgIco
   );
 }
 
-export default React.memo(SearchBugMinimalisticIcon);
+export default SearchBugMinimalisticIcon;

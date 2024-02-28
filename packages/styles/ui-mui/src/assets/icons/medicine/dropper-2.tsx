@@ -27,4 +27,4 @@ function Dropper2Icon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(Dropper2Icon);
+export default Dropper2Icon;

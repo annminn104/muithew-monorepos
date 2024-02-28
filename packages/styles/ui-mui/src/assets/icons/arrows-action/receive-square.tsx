@@ -16,4 +16,4 @@ function ReceiveSquareIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProp
   );
 }
 
-export default React.memo(ReceiveSquareIcon);
+export default ReceiveSquareIcon;

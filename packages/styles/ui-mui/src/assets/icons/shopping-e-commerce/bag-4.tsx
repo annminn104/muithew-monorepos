@@ -17,4 +17,4 @@ function Bag4Icon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(Bag4Icon);
+export default Bag4Icon;

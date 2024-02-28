@@ -20,4 +20,4 @@ function ProgrammingIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps)
   );
 }
 
-export default React.memo(ProgrammingIcon);
+export default ProgrammingIcon;

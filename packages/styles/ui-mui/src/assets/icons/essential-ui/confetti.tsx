@@ -34,4 +34,4 @@ function ConfettiIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(ConfettiIcon);
+export default ConfettiIcon;

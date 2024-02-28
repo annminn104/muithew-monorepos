@@ -15,4 +15,4 @@ function StructureIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(StructureIcon);
+export default StructureIcon;

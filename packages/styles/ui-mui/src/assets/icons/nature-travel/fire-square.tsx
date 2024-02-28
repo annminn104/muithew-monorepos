@@ -19,4 +19,4 @@ function FireSquareIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) 
   );
 }
 
-export default React.memo(FireSquareIcon);
+export default FireSquareIcon;

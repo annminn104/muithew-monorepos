@@ -17,4 +17,4 @@ function BluetoothCircleIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnPr
   );
 }
 
-export default React.memo(BluetoothCircleIcon);
+export default BluetoothCircleIcon;

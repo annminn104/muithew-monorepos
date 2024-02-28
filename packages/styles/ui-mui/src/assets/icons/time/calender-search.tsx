@@ -17,4 +17,4 @@ function CalenderSearchIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnPro
   );
 }
 
-export default React.memo(CalenderSearchIcon);
+export default CalenderSearchIcon;

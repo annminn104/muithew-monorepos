@@ -20,4 +20,4 @@ function PostsCarouselHorizontalIcon({ linearColor = '#1C274C', ...props }: SvgI
   );
 }
 
-export default React.memo(PostsCarouselHorizontalIcon);
+export default PostsCarouselHorizontalIcon;

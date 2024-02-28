@@ -1,5 +1,14 @@
 {
-  "MainPage": {
-    "title": "next-intl english"
+  "localeLayout": {
+    "title": "Maruhachinousan"
+  },
+  "mainLayout": {
+    "homePage": {
+      "title": "Lorem ipsum dolor sit amet"
+    },
+    "footer": {
+      "companyName": "Maruhachinousan",
+      "followUs": "Follow us"
+    }
   }
 }

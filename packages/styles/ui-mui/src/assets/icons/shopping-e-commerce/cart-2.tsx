@@ -21,4 +21,4 @@ function Cart2Icon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(Cart2Icon);
+export default Cart2Icon;

@@ -20,4 +20,4 @@ function Chair2Icon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(Chair2Icon);
+export default Chair2Icon;

@@ -22,4 +22,4 @@ function LightningIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(LightningIcon);
+export default LightningIcon;

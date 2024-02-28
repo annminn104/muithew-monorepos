@@ -15,4 +15,4 @@ function WineglassTriangleIcon({ linearColor = '#1C274C', ...props }: SvgIconOwn
   );
 }
 
-export default React.memo(WineglassTriangleIcon);
+export default WineglassTriangleIcon;

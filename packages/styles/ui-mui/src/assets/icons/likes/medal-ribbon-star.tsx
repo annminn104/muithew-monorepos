@@ -21,4 +21,4 @@ function MedalRibbonStarIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnPr
   );
 }
 
-export default React.memo(MedalRibbonStarIcon);
+export default MedalRibbonStarIcon;

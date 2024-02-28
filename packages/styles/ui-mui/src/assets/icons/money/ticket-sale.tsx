@@ -16,4 +16,4 @@ function TicketSaleIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) 
   );
 }
 
-export default React.memo(TicketSaleIcon);
+export default TicketSaleIcon;

@@ -20,4 +20,4 @@ function HeadphonesSquareSoundIcon({ linearColor = '#1C274C', ...props }: SvgIco
   );
 }
 
-export default React.memo(HeadphonesSquareSoundIcon);
+export default HeadphonesSquareSoundIcon;

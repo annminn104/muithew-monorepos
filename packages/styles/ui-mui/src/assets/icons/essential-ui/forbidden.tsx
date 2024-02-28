@@ -15,4 +15,4 @@ function ForbiddenIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(ForbiddenIcon);
+export default ForbiddenIcon;

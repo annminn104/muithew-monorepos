@@ -20,4 +20,4 @@ function PostsCarouselVerticalIcon({ linearColor = '#1C274C', ...props }: SvgIco
   );
 }
 
-export default React.memo(PostsCarouselVerticalIcon);
+export default PostsCarouselVerticalIcon;

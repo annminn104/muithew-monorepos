@@ -14,4 +14,4 @@ function Widget5Icon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(Widget5Icon);
+export default Widget5Icon;

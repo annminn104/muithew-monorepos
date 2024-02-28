@@ -15,4 +15,4 @@ function BatteryChargeIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProp
   );
 }
 
-export default React.memo(BatteryChargeIcon);
+export default BatteryChargeIcon;

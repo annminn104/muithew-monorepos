@@ -11,4 +11,4 @@ function SearchZoomOutIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProp
   );
 }
 
-export default React.memo(SearchZoomOutIcon);
+export default SearchZoomOutIcon;

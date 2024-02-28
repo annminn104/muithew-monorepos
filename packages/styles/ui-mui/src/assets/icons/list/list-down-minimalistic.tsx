@@ -11,4 +11,4 @@ function ListDownMinimalisticIcon({ linearColor = '#1C274C', ...props }: SvgIcon
   );
 }
 
-export default React.memo(ListDownMinimalisticIcon);
+export default ListDownMinimalisticIcon;

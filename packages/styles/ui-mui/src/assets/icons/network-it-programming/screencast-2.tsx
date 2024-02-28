@@ -20,4 +20,4 @@ function Screencast2Icon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps)
   );
 }
 
-export default React.memo(Screencast2Icon);
+export default Screencast2Icon;

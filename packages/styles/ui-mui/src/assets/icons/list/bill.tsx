@@ -16,4 +16,4 @@ function BillIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(BillIcon);
+export default BillIcon;

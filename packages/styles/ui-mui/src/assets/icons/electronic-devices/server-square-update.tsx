@@ -18,4 +18,4 @@ function ServerSquareUpdateIcon({ linearColor = '#1C274C', ...props }: SvgIconOw
   );
 }
 
-export default React.memo(ServerSquareUpdateIcon);
+export default ServerSquareUpdateIcon;

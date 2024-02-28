@@ -18,4 +18,4 @@ function KeyMinimalisticSquareIcon({ linearColor = '#1C274C', ...props }: SvgIco
   );
 }
 
-export default React.memo(KeyMinimalisticSquareIcon);
+export default KeyMinimalisticSquareIcon;

@@ -21,4 +21,4 @@ function UndoRightSquareIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnPr
   );
 }
 
-export default React.memo(UndoRightSquareIcon);
+export default UndoRightSquareIcon;

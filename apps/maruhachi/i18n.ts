@@ -2,10 +2,12 @@ import { getRequestConfig } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import { locales } from './config';
 
-getRequestConfig(async ({ locale }) => {
+export default getRequestConfig(async ({ locale }) => {
   if (!locales.includes(locale as any)) notFound();
 
+  const messages: Messages = await (locale === 'en' ? import('./messages/en.json') : import(`./messages/${locale}.json`));
+
   return {
-    messages: await (locale === 'en' ? import('./messages/en.json') : import(`./messages/${locale}.json`))
+    messages: messages
   };
 });

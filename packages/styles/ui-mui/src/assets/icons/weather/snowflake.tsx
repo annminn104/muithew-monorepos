@@ -15,4 +15,4 @@ function SnowflakeIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(SnowflakeIcon);
+export default SnowflakeIcon;

@@ -33,4 +33,4 @@ function PerfumeIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(PerfumeIcon);
+export default PerfumeIcon;

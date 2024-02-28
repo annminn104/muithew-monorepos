@@ -20,4 +20,4 @@ function CupHotIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(CupHotIcon);
+export default CupHotIcon;

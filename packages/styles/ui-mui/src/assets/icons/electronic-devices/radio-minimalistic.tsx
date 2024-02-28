@@ -16,4 +16,4 @@ function RadioMinimalisticIcon({ linearColor = '#1C274C', ...props }: SvgIconOwn
   );
 }
 
-export default React.memo(RadioMinimalisticIcon);
+export default RadioMinimalisticIcon;

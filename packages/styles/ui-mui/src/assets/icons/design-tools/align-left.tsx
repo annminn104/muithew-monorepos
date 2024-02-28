@@ -15,4 +15,4 @@ function AlignLeftIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(AlignLeftIcon);
+export default AlignLeftIcon;

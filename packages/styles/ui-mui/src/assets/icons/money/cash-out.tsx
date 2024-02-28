@@ -21,4 +21,4 @@ function CashOutIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(CashOutIcon);
+export default CashOutIcon;

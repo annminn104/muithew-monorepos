@@ -15,4 +15,4 @@ function ShieldMinusIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps)
   );
 }
 
-export default React.memo(ShieldMinusIcon);
+export default ShieldMinusIcon;

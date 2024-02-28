@@ -21,4 +21,4 @@ function CloudSnowfallMinimalisticIcon({ linearColor = '#1C274C', ...props }: Sv
   );
 }
 
-export default React.memo(CloudSnowfallMinimalisticIcon);
+export default CloudSnowfallMinimalisticIcon;

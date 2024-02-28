@@ -10,4 +10,4 @@ function HashtagIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(HashtagIcon);
+export default HashtagIcon;

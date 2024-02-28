@@ -14,4 +14,4 @@ function PinCircleIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(PinCircleIcon);
+export default PinCircleIcon;

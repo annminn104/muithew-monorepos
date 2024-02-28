@@ -16,4 +16,4 @@ function LampIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(LampIcon);
+export default LampIcon;

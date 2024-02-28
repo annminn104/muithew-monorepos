@@ -23,4 +23,4 @@ function GraphDownNewIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps
   );
 }
 
-export default React.memo(GraphDownNewIcon);
+export default GraphDownNewIcon;

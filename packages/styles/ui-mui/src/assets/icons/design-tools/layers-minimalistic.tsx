@@ -20,4 +20,4 @@ function LayersMinimalisticIcon({ linearColor = '#1C274C', ...props }: SvgIconOw
   );
 }
 
-export default React.memo(LayersMinimalisticIcon);
+export default LayersMinimalisticIcon;

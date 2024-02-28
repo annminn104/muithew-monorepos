@@ -28,4 +28,4 @@ function CupStarIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(CupStarIcon);
+export default CupStarIcon;

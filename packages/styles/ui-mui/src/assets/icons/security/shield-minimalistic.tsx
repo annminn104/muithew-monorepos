@@ -14,4 +14,4 @@ function ShieldMinimalisticIcon({ linearColor = '#1C274C', ...props }: SvgIconOw
   );
 }
 
-export default React.memo(ShieldMinimalisticIcon);
+export default ShieldMinimalisticIcon;

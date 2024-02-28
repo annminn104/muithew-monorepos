@@ -11,4 +11,4 @@ function HashtagCircleIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProp
   );
 }
 
-export default React.memo(HashtagCircleIcon);
+export default HashtagCircleIcon;

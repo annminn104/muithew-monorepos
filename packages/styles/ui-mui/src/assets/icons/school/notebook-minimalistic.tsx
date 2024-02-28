@@ -14,4 +14,4 @@ function NotebookMinimalisticIcon({ linearColor = '#1C274C', ...props }: SvgIcon
   );
 }
 
-export default React.memo(NotebookMinimalisticIcon);
+export default NotebookMinimalisticIcon;

@@ -15,4 +15,4 @@ function CartLarge3Icon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) 
   );
 }
 
-export default React.memo(CartLarge3Icon);
+export default CartLarge3Icon;

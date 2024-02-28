@@ -20,4 +20,4 @@ function MentionSquareIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProp
   );
 }
 
-export default React.memo(MentionSquareIcon);
+export default MentionSquareIcon;

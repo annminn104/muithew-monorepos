@@ -21,4 +21,4 @@ function DumbbellLargeMinimalisticIcon({ linearColor = '#1C274C', ...props }: Sv
   );
 }
 
-export default React.memo(DumbbellLargeMinimalisticIcon);
+export default DumbbellLargeMinimalisticIcon;

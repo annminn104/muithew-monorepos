@@ -21,4 +21,4 @@ function BluetoothSquareIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnPr
   );
 }
 
-export default React.memo(BluetoothSquareIcon);
+export default BluetoothSquareIcon;

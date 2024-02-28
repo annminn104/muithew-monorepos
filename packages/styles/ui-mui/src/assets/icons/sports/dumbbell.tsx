@@ -13,4 +13,4 @@ function DumbbellIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(DumbbellIcon);
+export default DumbbellIcon;

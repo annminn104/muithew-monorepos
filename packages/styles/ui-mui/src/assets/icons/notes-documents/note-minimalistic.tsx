@@ -19,4 +19,4 @@ function NoteMinimalisticIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnP
   );
 }
 
-export default React.memo(NoteMinimalisticIcon);
+export default NoteMinimalisticIcon;

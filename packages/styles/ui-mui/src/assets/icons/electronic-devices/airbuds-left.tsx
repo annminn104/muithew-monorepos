@@ -18,4 +18,4 @@ function AirbudsLeftIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps)
   );
 }
 
-export default React.memo(AirbudsLeftIcon);
+export default AirbudsLeftIcon;

@@ -19,4 +19,4 @@ function ServerSquareCloudIcon({ linearColor = '#1C274C', ...props }: SvgIconOwn
   );
 }
 
-export default React.memo(ServerSquareCloudIcon);
+export default ServerSquareCloudIcon;

@@ -15,4 +15,4 @@ function ShieldCrossIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps)
   );
 }
 
-export default React.memo(ShieldCrossIcon);
+export default ShieldCrossIcon;

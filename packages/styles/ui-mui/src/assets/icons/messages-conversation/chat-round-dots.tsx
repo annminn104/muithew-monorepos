@@ -15,4 +15,4 @@ function ChatRoundDotsIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProp
   );
 }
 
-export default React.memo(ChatRoundDotsIcon);
+export default ChatRoundDotsIcon;

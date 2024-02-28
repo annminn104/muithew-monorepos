@@ -21,4 +21,4 @@ function CropIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(CropIcon);
+export default CropIcon;

@@ -15,4 +15,4 @@ function LightbulbBoltIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProp
   );
 }
 
-export default React.memo(LightbulbBoltIcon);
+export default LightbulbBoltIcon;

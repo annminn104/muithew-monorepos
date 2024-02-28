@@ -16,4 +16,4 @@ function CloudSunIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(CloudSunIcon);
+export default CloudSunIcon;

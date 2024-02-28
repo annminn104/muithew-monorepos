@@ -15,4 +15,4 @@ function BalloonIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(BalloonIcon);
+export default BalloonIcon;

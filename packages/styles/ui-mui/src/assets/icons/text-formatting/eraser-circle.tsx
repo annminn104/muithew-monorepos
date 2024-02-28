@@ -14,4 +14,4 @@ function EraserCircleIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps
   );
 }
 
-export default React.memo(EraserCircleIcon);
+export default EraserCircleIcon;

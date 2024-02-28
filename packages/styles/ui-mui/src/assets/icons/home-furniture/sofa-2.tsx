@@ -20,4 +20,4 @@ function Sofa2Icon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(Sofa2Icon);
+export default Sofa2Icon;

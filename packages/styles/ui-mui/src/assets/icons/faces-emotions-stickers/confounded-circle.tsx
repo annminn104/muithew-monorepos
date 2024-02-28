@@ -17,4 +17,4 @@ function ConfoundedCircleIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnP
   );
 }
 
-export default React.memo(ConfoundedCircleIcon);
+export default ConfoundedCircleIcon;

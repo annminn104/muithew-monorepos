@@ -21,4 +21,4 @@ function PlaylistMinimalistic3Icon({ linearColor = '#1C274C', ...props }: SvgIco
   );
 }
 
-export default React.memo(PlaylistMinimalistic3Icon);
+export default PlaylistMinimalistic3Icon;

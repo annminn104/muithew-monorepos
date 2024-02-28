@@ -20,4 +20,4 @@ function StarShineIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(StarShineIcon);
+export default StarShineIcon;

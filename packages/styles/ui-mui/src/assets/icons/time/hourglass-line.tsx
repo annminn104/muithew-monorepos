@@ -15,4 +15,4 @@ function HourglassLineIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProp
   );
 }
 
-export default React.memo(HourglassLineIcon);
+export default HourglassLineIcon;

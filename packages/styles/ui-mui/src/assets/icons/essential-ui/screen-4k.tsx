@@ -20,4 +20,4 @@ function Screen4KIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(Screen4KIcon);
+export default Screen4KIcon;

@@ -16,4 +16,4 @@ function BombIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(BombIcon);
+export default BombIcon;

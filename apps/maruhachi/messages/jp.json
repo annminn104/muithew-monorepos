@@ -1,5 +1,14 @@
 {
-  "MainPage": {
-    "title": "next-intl jp"
+  "localeLayout": {
+    "title": "丸八農産"
+  },
+  "mainLayout": {
+    "homePage": {
+      "title": "ロレム・イプサム・ドール・シット・アメット"
+    },
+    "footer": {
+      "companyName": "丸八農産",
+      "followUs": "Follow us"
+    }
   }
 }

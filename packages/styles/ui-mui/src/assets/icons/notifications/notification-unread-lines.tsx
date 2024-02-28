@@ -17,4 +17,4 @@ function NotificationUnreadLinesIcon({ linearColor = '#1C274C', ...props }: SvgI
   );
 }
 
-export default React.memo(NotificationUnreadLinesIcon);
+export default NotificationUnreadLinesIcon;

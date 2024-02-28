@@ -16,4 +16,4 @@ function SearchZoomInRoundedIcon({ linearColor = '#1C274C', ...props }: SvgIconO
   );
 }
 
-export default React.memo(SearchZoomInRoundedIcon);
+export default SearchZoomInRoundedIcon;

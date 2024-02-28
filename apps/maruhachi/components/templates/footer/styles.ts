@@ -1,3 +1,5 @@
+'use client';
+
 import { Container, Typography, styled } from '@mui/material';
 
 export const FooterWrapper = styled(
@@ -18,9 +20,9 @@ export const FooterLogoImg = styled(
   'div',
   {}
 )(({ theme }) => ({
-  width: 60,
-  height: 60,
-  backgroundColor: theme.palette.info['light']
+  width: 48,
+  height: 48,
+  backgroundColor: theme.palette.grey['400']
 }));
 
 export const FooterLogoName = styled(
@@ -29,3 +31,5 @@ export const FooterLogoName = styled(
 )(({ theme }) => ({
   color: theme.palette.info['main']
 }));
+
+export const FooterTitle = styled(Typography, {})(({ theme }) => ({}));

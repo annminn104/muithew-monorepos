@@ -14,4 +14,4 @@ function MenIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(MenIcon);
+export default MenIcon;

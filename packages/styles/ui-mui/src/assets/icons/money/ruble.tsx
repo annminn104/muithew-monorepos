@@ -16,4 +16,4 @@ function RubleIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(RubleIcon);
+export default RubleIcon;

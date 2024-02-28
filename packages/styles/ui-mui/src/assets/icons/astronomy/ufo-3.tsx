@@ -23,4 +23,4 @@ function UFO3Icon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(UFO3Icon);
+export default UFO3Icon;

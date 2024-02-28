@@ -10,4 +10,4 @@ function TrafficIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(TrafficIcon);
+export default TrafficIcon;

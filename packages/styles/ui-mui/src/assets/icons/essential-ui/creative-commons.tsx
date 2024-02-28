@@ -20,4 +20,4 @@ function CreativeCommonsIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnPr
   );
 }
 
-export default React.memo(CreativeCommonsIcon);
+export default CreativeCommonsIcon;

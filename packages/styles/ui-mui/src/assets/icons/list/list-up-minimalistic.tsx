@@ -11,4 +11,4 @@ function ListUpMinimalisticIcon({ linearColor = '#1C274C', ...props }: SvgIconOw
   );
 }
 
-export default React.memo(ListUpMinimalisticIcon);
+export default ListUpMinimalisticIcon;

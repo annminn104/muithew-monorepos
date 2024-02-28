@@ -15,4 +15,4 @@ function MinusSquareIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps)
   );
 }
 
-export default React.memo(MinusSquareIcon);
+export default MinusSquareIcon;

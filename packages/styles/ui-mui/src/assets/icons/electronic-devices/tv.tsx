@@ -16,4 +16,4 @@ function TVIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(TVIcon);
+export default TVIcon;

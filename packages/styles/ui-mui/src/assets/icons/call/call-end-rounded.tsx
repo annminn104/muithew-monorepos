@@ -15,4 +15,4 @@ function CallEndRoundedIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnPro
   );
 }
 
-export default React.memo(CallEndRoundedIcon);
+export default CallEndRoundedIcon;

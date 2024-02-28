@@ -15,4 +15,4 @@ function RemoveFolderIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps
   );
 }
 
-export default React.memo(RemoveFolderIcon);
+export default RemoveFolderIcon;

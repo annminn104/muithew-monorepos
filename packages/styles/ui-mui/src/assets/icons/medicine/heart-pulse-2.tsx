@@ -19,4 +19,4 @@ function HeartPulse2Icon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps)
   );
 }
 
-export default React.memo(HeartPulse2Icon);
+export default HeartPulse2Icon;

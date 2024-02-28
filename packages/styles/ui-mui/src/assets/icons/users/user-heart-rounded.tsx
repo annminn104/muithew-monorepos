@@ -15,4 +15,4 @@ function UserHeartRoundedIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnP
   );
 }
 
-export default React.memo(UserHeartRoundedIcon);
+export default UserHeartRoundedIcon;

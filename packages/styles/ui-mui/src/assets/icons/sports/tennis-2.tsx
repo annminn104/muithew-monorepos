@@ -20,4 +20,4 @@ function Tennis2Icon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(Tennis2Icon);
+export default Tennis2Icon;

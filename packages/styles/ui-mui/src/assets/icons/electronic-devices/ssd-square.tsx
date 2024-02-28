@@ -14,4 +14,4 @@ function SSDSquareIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(SSDSquareIcon);
+export default SSDSquareIcon;

@@ -15,4 +15,4 @@ function CallCancelRoundedIcon({ linearColor = '#1C274C', ...props }: SvgIconOwn
   );
 }
 
-export default React.memo(CallCancelRoundedIcon);
+export default CallCancelRoundedIcon;

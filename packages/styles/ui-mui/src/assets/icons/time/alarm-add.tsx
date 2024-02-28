@@ -12,4 +12,4 @@ function AlarmAddIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(AlarmAddIcon);
+export default AlarmAddIcon;

@@ -24,4 +24,4 @@ function LayersIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(LayersIcon);
+export default LayersIcon;

@@ -21,4 +21,4 @@ function ShieldNetworkIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProp
   );
 }
 
-export default React.memo(ShieldNetworkIcon);
+export default ShieldNetworkIcon;

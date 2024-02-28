@@ -15,4 +15,4 @@ function SliderHorizontalMinimalisticIcon({ linearColor = '#1C274C', ...props }:
   );
 }
 
-export default React.memo(SliderHorizontalMinimalisticIcon);
+export default SliderHorizontalMinimalisticIcon;

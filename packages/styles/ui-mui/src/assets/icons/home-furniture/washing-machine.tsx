@@ -19,4 +19,4 @@ function WashingMachineIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnPro
   );
 }
 
-export default React.memo(WashingMachineIcon);
+export default WashingMachineIcon;

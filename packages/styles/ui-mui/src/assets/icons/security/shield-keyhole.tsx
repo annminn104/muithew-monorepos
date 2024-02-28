@@ -20,4 +20,4 @@ function ShieldKeyholeIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProp
   );
 }
 
-export default React.memo(ShieldKeyholeIcon);
+export default ShieldKeyholeIcon;

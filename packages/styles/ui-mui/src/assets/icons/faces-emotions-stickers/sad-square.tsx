@@ -17,4 +17,4 @@ function SadSquareIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(SadSquareIcon);
+export default SadSquareIcon;

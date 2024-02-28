@@ -20,4 +20,4 @@ function HighQualityIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps)
   );
 }
 
-export default React.memo(HighQualityIcon);
+export default HighQualityIcon;

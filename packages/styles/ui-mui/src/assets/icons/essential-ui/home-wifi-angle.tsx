@@ -20,4 +20,4 @@ function HomeWifiAngleIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProp
   );
 }
 
-export default React.memo(HomeWifiAngleIcon);
+export default HomeWifiAngleIcon;

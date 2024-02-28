@@ -15,4 +15,4 @@ function AsteroidIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(AsteroidIcon);
+export default AsteroidIcon;

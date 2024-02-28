@@ -19,4 +19,4 @@ function FireIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(FireIcon);
+export default FireIcon;

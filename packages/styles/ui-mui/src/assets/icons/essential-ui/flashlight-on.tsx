@@ -15,4 +15,4 @@ function FlashlightOnIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps
   );
 }
 
-export default React.memo(FlashlightOnIcon);
+export default FlashlightOnIcon;

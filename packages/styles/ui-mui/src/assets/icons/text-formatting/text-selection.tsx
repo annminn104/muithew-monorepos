@@ -16,4 +16,4 @@ function TextSelectionIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProp
   );
 }
 
-export default React.memo(TextSelectionIcon);
+export default TextSelectionIcon;

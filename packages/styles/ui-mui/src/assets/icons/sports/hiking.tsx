@@ -21,4 +21,4 @@ function HikingIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(HikingIcon);
+export default HikingIcon;

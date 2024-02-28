@@ -12,4 +12,4 @@ function MouseIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(MouseIcon);
+export default MouseIcon;

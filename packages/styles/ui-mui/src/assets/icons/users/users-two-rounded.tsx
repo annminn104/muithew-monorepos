@@ -23,4 +23,4 @@ function UsersTwoRoundedIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnPr
   );
 }
 
-export default React.memo(UsersTwoRoundedIcon);
+export default UsersTwoRoundedIcon;

@@ -15,4 +15,4 @@ function BodyIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(BodyIcon);
+export default BodyIcon;

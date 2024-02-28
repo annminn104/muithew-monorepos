@@ -21,4 +21,4 @@ function BookBookmarkMinimalisticIcon({ linearColor = '#1C274C', ...props }: Svg
   );
 }
 
-export default React.memo(BookBookmarkMinimalisticIcon);
+export default BookBookmarkMinimalisticIcon;

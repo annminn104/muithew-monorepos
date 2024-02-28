@@ -11,4 +11,4 @@ function ListArrowUpMinimalisticIcon({ linearColor = '#1C274C', ...props }: SvgI
   );
 }
 
-export default React.memo(ListArrowUpMinimalisticIcon);
+export default ListArrowUpMinimalisticIcon;

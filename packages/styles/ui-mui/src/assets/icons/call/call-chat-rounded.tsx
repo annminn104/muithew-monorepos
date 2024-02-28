@@ -20,4 +20,4 @@ function CallChatRoundedIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnPr
   );
 }
 
-export default React.memo(CallChatRoundedIcon);
+export default CallChatRoundedIcon;

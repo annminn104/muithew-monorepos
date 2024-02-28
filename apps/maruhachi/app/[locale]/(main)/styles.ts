@@ -5,9 +5,9 @@ import Footer from '@components/templates/footer';
 import Header from '@components/templates/header';
 import { styled } from '@mui/material';
 
-export const MainWrapper = styled('div', {})(() => ({}));
+export const LocaleWrapper = styled('div', {})(() => ({}));
 
-export const MainHeader = styled(
+export const LocaleHeader = styled(
   'header',
   {}
 )(({ theme }) => ({
@@ -15,9 +15,9 @@ export const MainHeader = styled(
   padding: '8px 16px'
 }));
 
-export const MainHeaderContent = styled(Header, {})(() => ({}));
+export const LocaleHeaderContent = styled(Header, {})(() => ({}));
 
-export const MainBody = styled(
+export const LocaleBody = styled(
   'main',
   {}
 )(({ theme }) => ({
@@ -25,9 +25,9 @@ export const MainBody = styled(
   padding: '8px 16px'
 }));
 
-export const MainBodyContent = styled(Body, {})(() => ({}));
+export const LocaleBodyContent = styled(Body, {})(() => ({}));
 
-export const MainFooter = styled(
+export const LocaleFooter = styled(
   'footer',
   {}
 )(({ theme }) => ({
@@ -35,4 +35,4 @@ export const MainFooter = styled(
   padding: '8px 16px'
 }));
 
-export const MainFooterContent = styled(Footer, {})(() => ({}));
+export const LocaleFooterContent = styled(Footer, {})(() => ({}));

@@ -14,4 +14,4 @@ function FileCorruptedIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProp
   );
 }
 
-export default React.memo(FileCorruptedIcon);
+export default FileCorruptedIcon;

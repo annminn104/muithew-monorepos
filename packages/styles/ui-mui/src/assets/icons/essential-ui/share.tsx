@@ -12,4 +12,4 @@ function ShareIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(ShareIcon);
+export default ShareIcon;

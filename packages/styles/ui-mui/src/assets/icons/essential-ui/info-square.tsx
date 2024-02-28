@@ -16,4 +16,4 @@ function InfoSquareIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) 
   );
 }
 
-export default React.memo(InfoSquareIcon);
+export default InfoSquareIcon;

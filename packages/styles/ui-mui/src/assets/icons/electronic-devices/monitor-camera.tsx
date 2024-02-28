@@ -20,4 +20,4 @@ function MonitorCameraIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProp
   );
 }
 
-export default React.memo(MonitorCameraIcon);
+export default MonitorCameraIcon;

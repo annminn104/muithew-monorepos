@@ -17,4 +17,4 @@ function UserPlusIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(UserPlusIcon);
+export default UserPlusIcon;

@@ -21,4 +21,4 @@ function MaximizeSquare3Icon({ linearColor = '#1C274C', ...props }: SvgIconOwnPr
   );
 }
 
-export default React.memo(MaximizeSquare3Icon);
+export default MaximizeSquare3Icon;

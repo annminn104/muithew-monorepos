@@ -18,4 +18,4 @@ function HandPillsIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(HandPillsIcon);
+export default HandPillsIcon;

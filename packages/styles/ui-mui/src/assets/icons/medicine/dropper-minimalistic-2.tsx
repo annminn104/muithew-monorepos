@@ -21,4 +21,4 @@ function DropperMinimalistic2Icon({ linearColor = '#1C274C', ...props }: SvgIcon
   );
 }
 
-export default React.memo(DropperMinimalistic2Icon);
+export default DropperMinimalistic2Icon;

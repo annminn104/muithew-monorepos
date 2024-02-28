@@ -16,4 +16,4 @@ function DiagramUpIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(DiagramUpIcon);
+export default DiagramUpIcon;

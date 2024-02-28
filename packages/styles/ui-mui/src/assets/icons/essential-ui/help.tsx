@@ -12,4 +12,4 @@ function HelpIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(HelpIcon);
+export default HelpIcon;

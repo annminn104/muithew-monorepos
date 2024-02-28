@@ -16,4 +16,4 @@ function ShieldWarningIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProp
   );
 }
 
-export default React.memo(ShieldWarningIcon);
+export default ShieldWarningIcon;

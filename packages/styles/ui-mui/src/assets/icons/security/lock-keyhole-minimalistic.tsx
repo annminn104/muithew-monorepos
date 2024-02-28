@@ -15,4 +15,4 @@ function LockKeyholeMinimalisticIcon({ linearColor = '#1C274C', ...props }: SvgI
   );
 }
 
-export default React.memo(LockKeyholeMinimalisticIcon);
+export default LockKeyholeMinimalisticIcon;

@@ -11,4 +11,4 @@ function ListArrowUpIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps)
   );
 }
 
-export default React.memo(ListArrowUpIcon);
+export default ListArrowUpIcon;

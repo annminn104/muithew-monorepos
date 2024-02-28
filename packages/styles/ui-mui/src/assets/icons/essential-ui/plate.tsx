@@ -15,4 +15,4 @@ function PlateIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(PlateIcon);
+export default PlateIcon;

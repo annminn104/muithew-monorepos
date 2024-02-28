@@ -27,4 +27,4 @@ function Cassette2Icon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(Cassette2Icon);
+export default Cassette2Icon;

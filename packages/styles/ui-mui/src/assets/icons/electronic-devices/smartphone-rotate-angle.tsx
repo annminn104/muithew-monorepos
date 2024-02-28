@@ -20,4 +20,4 @@ function SmartphoneRotateAngleIcon({ linearColor = '#1C274C', ...props }: SvgIco
   );
 }
 
-export default React.memo(SmartphoneRotateAngleIcon);
+export default SmartphoneRotateAngleIcon;

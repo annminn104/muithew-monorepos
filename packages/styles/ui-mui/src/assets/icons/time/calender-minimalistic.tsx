@@ -15,4 +15,4 @@ function CalenderMinimalisticIcon({ linearColor = '#1C274C', ...props }: SvgIcon
   );
 }
 
-export default React.memo(CalenderMinimalisticIcon);
+export default CalenderMinimalisticIcon;

@@ -12,4 +12,4 @@ function UserSpeakRoundedIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnP
   );
 }
 
-export default React.memo(UserSpeakRoundedIcon);
+export default UserSpeakRoundedIcon;

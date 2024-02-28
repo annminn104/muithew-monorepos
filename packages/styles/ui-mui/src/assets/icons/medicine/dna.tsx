@@ -15,4 +15,4 @@ function DNAIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(DNAIcon);
+export default DNAIcon;

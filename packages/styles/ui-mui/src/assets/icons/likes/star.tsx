@@ -14,4 +14,4 @@ function StarIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(StarIcon);
+export default StarIcon;

@@ -11,4 +11,4 @@ function ListCheckIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(ListCheckIcon);
+export default ListCheckIcon;

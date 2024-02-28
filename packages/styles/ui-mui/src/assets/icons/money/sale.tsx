@@ -16,4 +16,4 @@ function SaleIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(SaleIcon);
+export default SaleIcon;

@@ -20,4 +20,4 @@ function TestTubeIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(TestTubeIcon);
+export default TestTubeIcon;

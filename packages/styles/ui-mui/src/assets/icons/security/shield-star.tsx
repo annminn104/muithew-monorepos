@@ -19,4 +19,4 @@ function ShieldStarIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) 
   );
 }
 
-export default React.memo(ShieldStarIcon);
+export default ShieldStarIcon;

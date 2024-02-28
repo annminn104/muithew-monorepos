@@ -6,10 +6,10 @@ type MainPageProps = {
   params: { locale: string };
 };
 
-export default function MainPage({ params: { locale } }: MainPageProps): JSX.Element {
+export default function HomePage({ params: { locale } }: MainPageProps): React.JSX.Element {
   unstable_setRequestLocale(locale);
 
-  const t = useTranslations('MainPage');
+  const t = useTranslations('mainLayout.homePage');
 
   return (
     <React.Fragment>

@@ -18,4 +18,4 @@ function StationIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(StationIcon);
+export default StationIcon;

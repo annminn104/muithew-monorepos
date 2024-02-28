@@ -11,4 +11,4 @@ function SearchZoomOutMinimalisticIcon({ linearColor = '#1C274C', ...props }: Sv
   );
 }
 
-export default React.memo(SearchZoomOutMinimalisticIcon);
+export default SearchZoomOutMinimalisticIcon;

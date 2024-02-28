@@ -19,4 +19,4 @@ function FolderFavoriteBookmarkIcon({ linearColor = '#1C274C', ...props }: SvgIc
   );
 }
 
-export default React.memo(FolderFavoriteBookmarkIcon);
+export default FolderFavoriteBookmarkIcon;

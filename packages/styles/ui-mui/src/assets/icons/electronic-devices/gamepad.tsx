@@ -19,4 +19,4 @@ function GamepadIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(GamepadIcon);
+export default GamepadIcon;

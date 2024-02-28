@@ -16,4 +16,4 @@ function WatchSquareMinimalisticIcon({ linearColor = '#1C274C', ...props }: SvgI
   );
 }
 
-export default React.memo(WatchSquareMinimalisticIcon);
+export default WatchSquareMinimalisticIcon;

@@ -18,4 +18,4 @@ function TurntableMusicNoteIcon({ linearColor = '#1C274C', ...props }: SvgIconOw
   );
 }
 
-export default React.memo(TurntableMusicNoteIcon);
+export default TurntableMusicNoteIcon;

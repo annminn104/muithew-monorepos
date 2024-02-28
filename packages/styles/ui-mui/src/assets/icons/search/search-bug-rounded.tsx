@@ -16,4 +16,4 @@ function SearchBugRoundedIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnP
   );
 }
 
-export default React.memo(SearchBugRoundedIcon);
+export default SearchBugRoundedIcon;

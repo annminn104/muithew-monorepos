@@ -16,4 +16,4 @@ function GhostIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(GhostIcon);
+export default GhostIcon;

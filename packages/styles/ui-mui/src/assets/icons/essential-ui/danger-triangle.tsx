@@ -16,4 +16,4 @@ function DangerTriangleIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnPro
   );
 }
 
-export default React.memo(DangerTriangleIcon);
+export default DangerTriangleIcon;

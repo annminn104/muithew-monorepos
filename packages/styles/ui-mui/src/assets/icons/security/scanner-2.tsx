@@ -15,4 +15,4 @@ function Scanner2Icon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(Scanner2Icon);
+export default Scanner2Icon;

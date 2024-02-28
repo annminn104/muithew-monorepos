@@ -15,4 +15,4 @@ function TrashBinMinimalistic2Icon({ linearColor = '#1C274C', ...props }: SvgIco
   );
 }
 
-export default React.memo(TrashBinMinimalistic2Icon);
+export default TrashBinMinimalistic2Icon;

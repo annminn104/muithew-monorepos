@@ -14,4 +14,4 @@ function WhiskIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(WhiskIcon);
+export default WhiskIcon;

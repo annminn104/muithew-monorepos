@@ -18,4 +18,4 @@ function MagicStick2Icon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps)
   );
 }
 
-export default React.memo(MagicStick2Icon);
+export default MagicStick2Icon;

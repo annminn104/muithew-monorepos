@@ -20,4 +20,4 @@ function BasketballIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) 
   );
 }
 
-export default React.memo(BasketballIcon);
+export default BasketballIcon;

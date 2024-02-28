@@ -11,4 +11,4 @@ function TextItalicCircleIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnP
   );
 }
 
-export default React.memo(TextItalicCircleIcon);
+export default TextItalicCircleIcon;

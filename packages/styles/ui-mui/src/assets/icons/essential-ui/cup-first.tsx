@@ -29,4 +29,4 @@ function CupFirstIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(CupFirstIcon);
+export default CupFirstIcon;

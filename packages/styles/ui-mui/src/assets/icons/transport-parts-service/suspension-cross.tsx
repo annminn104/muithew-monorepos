@@ -15,4 +15,4 @@ function SuspensionCrossIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnPr
   );
 }
 
-export default React.memo(SuspensionCrossIcon);
+export default SuspensionCrossIcon;

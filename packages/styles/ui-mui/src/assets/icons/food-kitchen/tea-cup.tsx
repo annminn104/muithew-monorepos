@@ -22,4 +22,4 @@ function TeaCupIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(TeaCupIcon);
+export default TeaCupIcon;

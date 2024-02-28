@@ -21,4 +21,4 @@ function MaximizeSquareMinimalisticIcon({ linearColor = '#1C274C', ...props }: S
   );
 }
 
-export default React.memo(MaximizeSquareMinimalisticIcon);
+export default MaximizeSquareMinimalisticIcon;

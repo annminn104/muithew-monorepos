@@ -17,4 +17,4 @@ function AccessibilityIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProp
   );
 }
 
-export default React.memo(AccessibilityIcon);
+export default AccessibilityIcon;

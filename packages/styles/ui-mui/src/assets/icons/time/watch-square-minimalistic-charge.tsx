@@ -16,4 +16,4 @@ function WatchSquareMinimalisticChargeIcon({ linearColor = '#1C274C', ...props }
   );
 }
 
-export default React.memo(WatchSquareMinimalisticChargeIcon);
+export default WatchSquareMinimalisticChargeIcon;

@@ -24,4 +24,4 @@ function TransmissionIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps
   );
 }
 
-export default React.memo(TransmissionIcon);
+export default TransmissionIcon;

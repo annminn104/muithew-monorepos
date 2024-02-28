@@ -15,4 +15,4 @@ function AlignHorizontalSpacingIcon({ linearColor = '#1C274C', ...props }: SvgIc
   );
 }
 
-export default React.memo(AlignHorizontalSpacingIcon);
+export default AlignHorizontalSpacingIcon;

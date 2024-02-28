@@ -15,4 +15,4 @@ function AlignVerticalSpacingIcon({ linearColor = '#1C274C', ...props }: SvgIcon
   );
 }
 
-export default React.memo(AlignVerticalSpacingIcon);
+export default AlignVerticalSpacingIcon;

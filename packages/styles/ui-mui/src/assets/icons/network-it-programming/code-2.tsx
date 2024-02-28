@@ -15,4 +15,4 @@ function Code2Icon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(Code2Icon);
+export default Code2Icon;

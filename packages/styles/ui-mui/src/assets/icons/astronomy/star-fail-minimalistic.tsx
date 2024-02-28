@@ -15,4 +15,4 @@ function StarFailMinimalisticIcon({ linearColor = '#1C274C', ...props }: SvgIcon
   );
 }
 
-export default React.memo(StarFailMinimalisticIcon);
+export default StarFailMinimalisticIcon;

@@ -20,4 +20,4 @@ function StarsMinimalisticIcon({ linearColor = '#1C274C', ...props }: SvgIconOwn
   );
 }
 
-export default React.memo(StarsMinimalisticIcon);
+export default StarsMinimalisticIcon;

@@ -20,4 +20,4 @@ function CaseRoundMinimalisticIcon({ linearColor = '#1C274C', ...props }: SvgIco
   );
 }
 
-export default React.memo(CaseRoundMinimalisticIcon);
+export default CaseRoundMinimalisticIcon;

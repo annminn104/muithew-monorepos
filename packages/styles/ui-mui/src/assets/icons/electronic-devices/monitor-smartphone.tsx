@@ -21,4 +21,4 @@ function MonitorSmartphoneIcon({ linearColor = '#1C274C', ...props }: SvgIconOwn
   );
 }
 
-export default React.memo(MonitorSmartphoneIcon);
+export default MonitorSmartphoneIcon;

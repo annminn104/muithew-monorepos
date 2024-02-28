@@ -20,4 +20,4 @@ function StarsLineIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(StarsLineIcon);
+export default StarsLineIcon;

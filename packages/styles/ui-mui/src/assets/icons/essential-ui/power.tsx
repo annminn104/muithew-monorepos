@@ -10,4 +10,4 @@ function PowerIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(PowerIcon);
+export default PowerIcon;

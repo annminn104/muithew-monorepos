@@ -11,4 +11,4 @@ function MenuDotsCircleIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnPro
   );
 }
 
-export default React.memo(MenuDotsCircleIcon);
+export default MenuDotsCircleIcon;

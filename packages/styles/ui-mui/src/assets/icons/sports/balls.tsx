@@ -26,4 +26,4 @@ function BallsIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(BallsIcon);
+export default BallsIcon;

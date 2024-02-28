@@ -20,4 +20,4 @@ function PieChartIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(PieChartIcon);
+export default PieChartIcon;

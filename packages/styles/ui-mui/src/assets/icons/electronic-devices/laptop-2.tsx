@@ -20,4 +20,4 @@ function Laptop2Icon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(Laptop2Icon);
+export default Laptop2Icon;

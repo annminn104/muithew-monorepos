@@ -16,4 +16,4 @@ function CourseUpIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(CourseUpIcon);
+export default CourseUpIcon;

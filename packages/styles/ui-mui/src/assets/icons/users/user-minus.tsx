@@ -17,4 +17,4 @@ function UserMinusIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(UserMinusIcon);
+export default UserMinusIcon;

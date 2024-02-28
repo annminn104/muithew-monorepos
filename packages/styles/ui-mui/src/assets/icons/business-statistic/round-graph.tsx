@@ -15,4 +15,4 @@ function RoundGraphIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) 
   );
 }
 
-export default React.memo(RoundGraphIcon);
+export default RoundGraphIcon;

@@ -27,4 +27,4 @@ function FloorLampIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(FloorLampIcon);
+export default FloorLampIcon;

@@ -22,4 +22,4 @@ function BusIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(BusIcon);
+export default BusIcon;

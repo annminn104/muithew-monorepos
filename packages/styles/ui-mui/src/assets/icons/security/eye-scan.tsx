@@ -21,4 +21,4 @@ function EyeScanIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(EyeScanIcon);
+export default EyeScanIcon;

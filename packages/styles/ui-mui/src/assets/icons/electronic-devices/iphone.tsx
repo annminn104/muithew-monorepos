@@ -20,4 +20,4 @@ function IphoneIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(IphoneIcon);
+export default IphoneIcon;

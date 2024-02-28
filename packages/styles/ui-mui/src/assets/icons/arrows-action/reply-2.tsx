@@ -10,4 +10,4 @@ function Reply2Icon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(Reply2Icon);
+export default Reply2Icon;

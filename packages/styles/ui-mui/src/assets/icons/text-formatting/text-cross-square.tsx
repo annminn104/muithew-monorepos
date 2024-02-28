@@ -18,4 +18,4 @@ function TextCrossSquareIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnPr
   );
 }
 
-export default React.memo(TextCrossSquareIcon);
+export default TextCrossSquareIcon;

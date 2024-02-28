@@ -21,4 +21,4 @@ function MinimizeSquare2Icon({ linearColor = '#1C274C', ...props }: SvgIconOwnPr
   );
 }
 
-export default React.memo(MinimizeSquare2Icon);
+export default MinimizeSquare2Icon;

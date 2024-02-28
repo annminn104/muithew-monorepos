@@ -14,4 +14,4 @@ function FireMinimalisticIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnP
   );
 }
 
-export default React.memo(FireMinimalisticIcon);
+export default FireMinimalisticIcon;

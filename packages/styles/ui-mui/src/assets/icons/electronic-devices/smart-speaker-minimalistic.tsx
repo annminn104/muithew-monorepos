@@ -15,4 +15,4 @@ function SmartSpeakerMinimalisticIcon({ linearColor = '#1C274C', ...props }: Svg
   );
 }
 
-export default React.memo(SmartSpeakerMinimalisticIcon);
+export default SmartSpeakerMinimalisticIcon;

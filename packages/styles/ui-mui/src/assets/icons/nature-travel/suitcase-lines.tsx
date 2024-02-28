@@ -15,4 +15,4 @@ function SuitcaseLinesIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProp
   );
 }
 
-export default React.memo(SuitcaseLinesIcon);
+export default SuitcaseLinesIcon;

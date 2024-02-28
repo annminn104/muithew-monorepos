@@ -1,1 +1,1 @@
-export * from './mui-provider';
+export * from './mui-react-provider';

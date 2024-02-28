@@ -14,4 +14,4 @@ function RollingPinIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) 
   );
 }
 
-export default React.memo(RollingPinIcon);
+export default RollingPinIcon;

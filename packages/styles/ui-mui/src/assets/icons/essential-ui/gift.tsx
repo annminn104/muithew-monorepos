@@ -20,4 +20,4 @@ function GiftIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(GiftIcon);
+export default GiftIcon;

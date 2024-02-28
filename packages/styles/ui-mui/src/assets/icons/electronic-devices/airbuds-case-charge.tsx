@@ -16,4 +16,4 @@ function AirbudsCaseChargeIcon({ linearColor = '#1C274C', ...props }: SvgIconOwn
   );
 }
 
-export default React.memo(AirbudsCaseChargeIcon);
+export default AirbudsCaseChargeIcon;

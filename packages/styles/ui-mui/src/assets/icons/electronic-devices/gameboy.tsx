@@ -24,4 +24,4 @@ function GameboyIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(GameboyIcon);
+export default GameboyIcon;

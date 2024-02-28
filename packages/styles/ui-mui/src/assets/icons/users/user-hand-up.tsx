@@ -16,4 +16,4 @@ function UserHandUpIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) 
   );
 }
 
-export default React.memo(UserHandUpIcon);
+export default UserHandUpIcon;

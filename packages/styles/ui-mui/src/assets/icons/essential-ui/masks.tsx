@@ -30,4 +30,4 @@ function MasksIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(MasksIcon);
+export default MasksIcon;

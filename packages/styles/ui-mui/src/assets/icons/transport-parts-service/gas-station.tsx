@@ -26,4 +26,4 @@ function GasStationIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) 
   );
 }
 
-export default React.memo(GasStationIcon);
+export default GasStationIcon;

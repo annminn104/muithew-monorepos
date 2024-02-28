@@ -16,4 +16,4 @@ function CopyrightIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(CopyrightIcon);
+export default CopyrightIcon;

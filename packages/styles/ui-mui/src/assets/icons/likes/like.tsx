@@ -13,4 +13,4 @@ function LikeIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(LikeIcon);
+export default LikeIcon;

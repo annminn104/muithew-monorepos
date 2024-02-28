@@ -16,4 +16,4 @@ function WatchRoundIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) 
   );
 }
 
-export default React.memo(WatchRoundIcon);
+export default WatchRoundIcon;

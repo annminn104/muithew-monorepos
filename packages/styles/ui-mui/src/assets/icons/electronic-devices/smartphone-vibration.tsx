@@ -22,4 +22,4 @@ function SmartphoneVibrationIcon({ linearColor = '#1C274C', ...props }: SvgIconO
   );
 }
 
-export default React.memo(SmartphoneVibrationIcon);
+export default SmartphoneVibrationIcon;

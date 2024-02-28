@@ -21,4 +21,4 @@ function PrinterIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(PrinterIcon);
+export default PrinterIcon;

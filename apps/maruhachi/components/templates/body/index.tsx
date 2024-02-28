@@ -8,7 +8,7 @@ type BodyProps = {
 
 const Body: React.FC<BodyProps> = ({ children }) => {
   return (
-    <S.BodyWrapper maxWidth='lg'>
+    <S.BodyWrapper maxWidth='xl'>
       Body
       {children}
     </S.BodyWrapper>

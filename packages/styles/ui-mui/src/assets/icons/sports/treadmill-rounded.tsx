@@ -26,4 +26,4 @@ function TreadmillRoundedIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnP
   );
 }
 
-export default React.memo(TreadmillRoundedIcon);
+export default TreadmillRoundedIcon;

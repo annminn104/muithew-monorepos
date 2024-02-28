@@ -14,4 +14,4 @@ function EraserIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(EraserIcon);
+export default EraserIcon;

@@ -22,4 +22,4 @@ function SmartphoneRotateOrientationIcon({ linearColor = '#1C274C', ...props }: 
   );
 }
 
-export default React.memo(SmartphoneRotateOrientationIcon);
+export default SmartphoneRotateOrientationIcon;

@@ -16,4 +16,4 @@ function CloudCheckIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) 
   );
 }
 
-export default React.memo(CloudCheckIcon);
+export default CloudCheckIcon;

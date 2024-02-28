@@ -20,4 +20,4 @@ function CloudWaterDropsIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnPr
   );
 }
 
-export default React.memo(CloudWaterDropsIcon);
+export default CloudWaterDropsIcon;

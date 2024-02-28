@@ -18,4 +18,4 @@ function StickerSmileCircle2Icon({ linearColor = '#1C274C', ...props }: SvgIconO
   );
 }
 
-export default React.memo(StickerSmileCircle2Icon);
+export default StickerSmileCircle2Icon;

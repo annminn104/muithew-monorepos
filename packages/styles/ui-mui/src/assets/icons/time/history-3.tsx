@@ -18,4 +18,4 @@ function History3Icon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(History3Icon);
+export default History3Icon;

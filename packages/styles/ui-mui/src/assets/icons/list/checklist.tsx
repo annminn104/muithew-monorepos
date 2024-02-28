@@ -17,4 +17,4 @@ function ChecklistIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(ChecklistIcon);
+export default ChecklistIcon;

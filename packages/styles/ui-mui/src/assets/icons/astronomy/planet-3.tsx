@@ -16,4 +16,4 @@ function Planet3Icon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(Planet3Icon);
+export default Planet3Icon;

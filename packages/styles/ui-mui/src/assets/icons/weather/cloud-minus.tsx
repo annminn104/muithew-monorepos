@@ -15,4 +15,4 @@ function CloudMinusIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) 
   );
 }
 
-export default React.memo(CloudMinusIcon);
+export default CloudMinusIcon;

@@ -19,4 +19,4 @@ function BottleIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(BottleIcon);
+export default BottleIcon;

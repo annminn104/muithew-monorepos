@@ -16,4 +16,4 @@ function CloudUploadIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps)
   );
 }
 
-export default React.memo(CloudUploadIcon);
+export default CloudUploadIcon;

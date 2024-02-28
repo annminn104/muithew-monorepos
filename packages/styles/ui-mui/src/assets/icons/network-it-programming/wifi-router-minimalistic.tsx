@@ -22,4 +22,4 @@ function WifiRouterMinimalisticIcon({ linearColor = '#1C274C', ...props }: SvgIc
   );
 }
 
-export default React.memo(WifiRouterMinimalisticIcon);
+export default WifiRouterMinimalisticIcon;

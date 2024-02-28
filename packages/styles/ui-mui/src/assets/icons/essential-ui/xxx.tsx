@@ -20,4 +20,4 @@ function XXXIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(XXXIcon);
+export default XXXIcon;

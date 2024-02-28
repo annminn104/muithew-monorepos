@@ -21,4 +21,4 @@ function BonesIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(BonesIcon);
+export default BonesIcon;

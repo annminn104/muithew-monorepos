@@ -17,4 +17,4 @@ function MagnetWaveIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) 
   );
 }
 
-export default React.memo(MagnetWaveIcon);
+export default MagnetWaveIcon;

@@ -20,4 +20,4 @@ function KeySquareIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(KeySquareIcon);
+export default KeySquareIcon;

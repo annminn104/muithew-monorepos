@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 
 import { Alert, IconButton, SvgIcon as MUIIcon, Snackbar, Tooltip, Typography } from '@mui/material';
-import { IconsListingMock } from '@styles/ui-mui/src/modules/icon';
 import { useCopyToClipboard } from '@utils/hooks';
+import { IconsListingMock } from '../../../modules/icon';
 
 import * as S from './styled';
 

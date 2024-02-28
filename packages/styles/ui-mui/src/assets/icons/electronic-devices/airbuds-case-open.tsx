@@ -15,4 +15,4 @@ function AirbudsCaseOpenIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnPr
   );
 }
 
-export default React.memo(AirbudsCaseOpenIcon);
+export default AirbudsCaseOpenIcon;

@@ -11,4 +11,4 @@ function ListCrossIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(ListCrossIcon);
+export default ListCrossIcon;

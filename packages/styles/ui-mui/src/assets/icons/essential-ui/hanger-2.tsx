@@ -20,4 +20,4 @@ function Hanger2Icon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(Hanger2Icon);
+export default Hanger2Icon;

@@ -14,4 +14,4 @@ function ListHeartIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(ListHeartIcon);
+export default ListHeartIcon;

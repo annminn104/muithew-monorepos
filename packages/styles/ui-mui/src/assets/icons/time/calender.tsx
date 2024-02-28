@@ -19,4 +19,4 @@ function CalenderIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(CalenderIcon);
+export default CalenderIcon;

@@ -16,4 +16,4 @@ function UploadMinimalisticIcon({ linearColor = '#1C274C', ...props }: SvgIconOw
   );
 }
 
-export default React.memo(UploadMinimalisticIcon);
+export default UploadMinimalisticIcon;

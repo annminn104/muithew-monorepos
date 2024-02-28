@@ -16,4 +16,4 @@ function MentionCircleIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProp
   );
 }
 
-export default React.memo(MentionCircleIcon);
+export default MentionCircleIcon;

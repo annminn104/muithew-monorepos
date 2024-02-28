@@ -21,4 +21,4 @@ function FerrisWheelIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps)
   );
 }
 
-export default React.memo(FerrisWheelIcon);
+export default FerrisWheelIcon;

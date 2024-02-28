@@ -11,4 +11,4 @@ function LadleIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(LadleIcon);
+export default LadleIcon;

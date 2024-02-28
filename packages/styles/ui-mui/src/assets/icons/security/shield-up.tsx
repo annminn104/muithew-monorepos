@@ -21,4 +21,4 @@ function ShieldUpIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(ShieldUpIcon);
+export default ShieldUpIcon;

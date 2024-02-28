@@ -17,4 +17,4 @@ function BagMusic2Icon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(BagMusic2Icon);
+export default BagMusic2Icon;

@@ -16,4 +16,4 @@ function CloudBoltMinimalisticIcon({ linearColor = '#1C274C', ...props }: SvgIco
   );
 }
 
-export default React.memo(CloudBoltMinimalisticIcon);
+export default CloudBoltMinimalisticIcon;

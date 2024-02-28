@@ -16,4 +16,4 @@ function CloudDownloadIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProp
   );
 }
 
-export default React.memo(CloudDownloadIcon);
+export default CloudDownloadIcon;

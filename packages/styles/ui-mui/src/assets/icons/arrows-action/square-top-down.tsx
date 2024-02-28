@@ -16,4 +16,4 @@ function SquareTopDownIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProp
   );
 }
 
-export default React.memo(SquareTopDownIcon);
+export default SquareTopDownIcon;

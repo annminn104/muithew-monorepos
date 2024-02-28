@@ -13,4 +13,4 @@ function StarRainbowIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps)
   );
 }
 
-export default React.memo(StarRainbowIcon);
+export default StarRainbowIcon;

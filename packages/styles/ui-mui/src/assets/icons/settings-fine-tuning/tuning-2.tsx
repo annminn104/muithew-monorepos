@@ -11,4 +11,4 @@ function Tuning2Icon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(Tuning2Icon);
+export default Tuning2Icon;

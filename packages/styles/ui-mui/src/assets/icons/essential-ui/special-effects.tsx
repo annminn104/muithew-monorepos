@@ -18,4 +18,4 @@ function SpecialEffectsIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnPro
   );
 }
 
-export default React.memo(SpecialEffectsIcon);
+export default SpecialEffectsIcon;

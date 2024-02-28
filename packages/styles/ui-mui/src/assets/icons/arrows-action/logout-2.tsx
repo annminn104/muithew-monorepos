@@ -16,4 +16,4 @@ function Logout2Icon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(Logout2Icon);
+export default Logout2Icon;

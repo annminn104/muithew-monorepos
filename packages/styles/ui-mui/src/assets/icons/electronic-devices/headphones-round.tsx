@@ -16,4 +16,4 @@ function HeadphonesRoundIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnPr
   );
 }
 
-export default React.memo(HeadphonesRoundIcon);
+export default HeadphonesRoundIcon;

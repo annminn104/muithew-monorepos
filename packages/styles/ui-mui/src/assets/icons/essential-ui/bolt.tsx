@@ -14,4 +14,4 @@ function BoltIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(BoltIcon);
+export default BoltIcon;

@@ -21,4 +21,4 @@ function SpeedometerMiddleIcon({ linearColor = '#1C274C', ...props }: SvgIconOwn
   );
 }
 
-export default React.memo(SpeedometerMiddleIcon);
+export default SpeedometerMiddleIcon;

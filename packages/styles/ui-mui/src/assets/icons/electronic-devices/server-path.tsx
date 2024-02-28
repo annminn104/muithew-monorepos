@@ -19,4 +19,4 @@ function ServerPathIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) 
   );
 }
 
-export default React.memo(ServerPathIcon);
+export default ServerPathIcon;

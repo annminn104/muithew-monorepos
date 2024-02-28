@@ -16,4 +16,4 @@ function ClipboardListIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProp
   );
 }
 
-export default React.memo(ClipboardListIcon);
+export default ClipboardListIcon;

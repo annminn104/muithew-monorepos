@@ -27,4 +27,4 @@ function UsbCircleIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(UsbCircleIcon);
+export default UsbCircleIcon;

@@ -16,4 +16,4 @@ function DiagramDownIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps)
   );
 }
 
-export default React.memo(DiagramDownIcon);
+export default DiagramDownIcon;

@@ -20,4 +20,4 @@ function CalculatorMinimalisticIcon({ linearColor = '#1C274C', ...props }: SvgIc
   );
 }
 
-export default React.memo(CalculatorMinimalisticIcon);
+export default CalculatorMinimalisticIcon;

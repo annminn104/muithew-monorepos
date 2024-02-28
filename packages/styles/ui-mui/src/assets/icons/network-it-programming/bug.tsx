@@ -17,4 +17,4 @@ function BugIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(BugIcon);
+export default BugIcon;

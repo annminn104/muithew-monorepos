@@ -15,4 +15,4 @@ function DocumentMinimalisticIcon({ linearColor = '#1C274C', ...props }: SvgIcon
   );
 }
 
-export default React.memo(DocumentMinimalisticIcon);
+export default DocumentMinimalisticIcon;

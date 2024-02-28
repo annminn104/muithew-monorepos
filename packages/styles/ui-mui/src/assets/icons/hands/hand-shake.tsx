@@ -19,4 +19,4 @@ function HandShakeIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(HandShakeIcon);
+export default HandShakeIcon;

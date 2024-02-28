@@ -13,4 +13,4 @@ function Rocket2Icon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(Rocket2Icon);
+export default Rocket2Icon;

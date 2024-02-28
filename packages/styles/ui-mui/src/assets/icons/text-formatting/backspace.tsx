@@ -15,4 +15,4 @@ function BackspaceIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(BackspaceIcon);
+export default BackspaceIcon;

@@ -12,12 +12,14 @@
     "clean:storybook": "rm -rf storybook-static",
     "clean:build": "turbo clean:build",
     "start": "yarn clean:build && yarn build && yarn dev",
-    "prepare": "husky install"
+    "prepare": "husky install && yarn build --filter ./packages/**"
   },
   "dependencies": {
     "@emotion/react": "^11.11.3",
     "@emotion/styled": "^11.11.0",
-    "@mui/material": "^5.15.4",
+    "@mui/material": "^5.15.11",
+    "@emotion/cache": "^11.11.0",
+    "@mui/material-nextjs": "^5.15.11",
     "@turbo/gen": "^1.11.3",
     "eslint": "^8.55.0",
     "eslint-plugin-mdx": "^3.1.5",

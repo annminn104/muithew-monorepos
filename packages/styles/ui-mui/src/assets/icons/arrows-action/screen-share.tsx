@@ -15,4 +15,4 @@ function ScreenShareIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps)
   );
 }
 
-export default React.memo(ScreenShareIcon);
+export default ScreenShareIcon;

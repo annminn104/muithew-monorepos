@@ -15,4 +15,4 @@ function Folder2Icon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(Folder2Icon);
+export default Folder2Icon;

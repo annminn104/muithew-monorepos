@@ -15,4 +15,4 @@ function ExplicitIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(ExplicitIcon);
+export default ExplicitIcon;

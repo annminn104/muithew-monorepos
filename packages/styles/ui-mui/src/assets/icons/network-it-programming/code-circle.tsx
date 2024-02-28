@@ -16,4 +16,4 @@ function CodeCircleIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) 
   );
 }
 
-export default React.memo(CodeCircleIcon);
+export default CodeCircleIcon;

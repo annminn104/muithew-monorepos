@@ -27,4 +27,4 @@ function VirusIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(VirusIcon);
+export default VirusIcon;

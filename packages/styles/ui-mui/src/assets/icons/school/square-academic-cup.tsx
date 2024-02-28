@@ -20,4 +20,4 @@ function SquareAcademicCupIcon({ linearColor = '#1C274C', ...props }: SvgIconOwn
   );
 }
 
-export default React.memo(SquareAcademicCupIcon);
+export default SquareAcademicCupIcon;

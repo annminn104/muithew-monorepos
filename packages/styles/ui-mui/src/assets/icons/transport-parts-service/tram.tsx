@@ -21,4 +21,4 @@ function TramIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(TramIcon);
+export default TramIcon;

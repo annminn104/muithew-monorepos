@@ -15,4 +15,4 @@ function PillIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(PillIcon);
+export default PillIcon;

@@ -16,4 +16,4 @@ function OvenMittsIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(OvenMittsIcon);
+export default OvenMittsIcon;

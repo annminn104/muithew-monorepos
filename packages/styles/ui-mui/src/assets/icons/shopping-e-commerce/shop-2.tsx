@@ -22,4 +22,4 @@ function Shop2Icon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(Shop2Icon);
+export default Shop2Icon;

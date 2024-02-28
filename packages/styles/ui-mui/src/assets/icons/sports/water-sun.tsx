@@ -22,4 +22,4 @@ function WaterSunIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(WaterSunIcon);
+export default WaterSunIcon;

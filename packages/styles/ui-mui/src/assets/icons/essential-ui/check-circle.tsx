@@ -11,4 +11,4 @@ function CheckCircleIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps)
   );
 }
 
-export default React.memo(CheckCircleIcon);
+export default CheckCircleIcon;

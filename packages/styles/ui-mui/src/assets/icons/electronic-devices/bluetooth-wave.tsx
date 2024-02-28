@@ -17,4 +17,4 @@ function BluetoothWaveIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProp
   );
 }
 
-export default React.memo(BluetoothWaveIcon);
+export default BluetoothWaveIcon;

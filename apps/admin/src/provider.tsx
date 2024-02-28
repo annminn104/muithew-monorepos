@@ -1,13 +1,13 @@
 import React from 'react';
 
-import { MuiProvider } from '@core/providers';
+import { MuiReactProvider } from '@core/providers';
 
 interface RootProviderProps {
   children?: React.ReactNode;
 }
 
 const RootProvider: React.FC<RootProviderProps> = ({ children }) => {
-  return <MuiProvider>{children}</MuiProvider>;
+  return <MuiReactProvider>{children}</MuiReactProvider>;
 };
 
 export default RootProvider;

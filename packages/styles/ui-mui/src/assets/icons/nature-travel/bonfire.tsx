@@ -15,4 +15,4 @@ function BonfireIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(BonfireIcon);
+export default BonfireIcon;

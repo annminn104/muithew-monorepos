@@ -25,4 +25,4 @@ function ConfettiMinimalisticIcon({ linearColor = '#1C274C', ...props }: SvgIcon
   );
 }
 
-export default React.memo(ConfettiMinimalisticIcon);
+export default ConfettiMinimalisticIcon;

@@ -15,4 +15,4 @@ function VerifiedCheckIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProp
   );
 }
 
-export default React.memo(VerifiedCheckIcon);
+export default VerifiedCheckIcon;

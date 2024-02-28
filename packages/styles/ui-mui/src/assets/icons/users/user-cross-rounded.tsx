@@ -17,4 +17,4 @@ function UserCrossRoundedIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnP
   );
 }
 
-export default React.memo(UserCrossRoundedIcon);
+export default UserCrossRoundedIcon;

@@ -15,4 +15,4 @@ function FlipVerticalIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps
   );
 }
 
-export default React.memo(FlipVerticalIcon);
+export default FlipVerticalIcon;

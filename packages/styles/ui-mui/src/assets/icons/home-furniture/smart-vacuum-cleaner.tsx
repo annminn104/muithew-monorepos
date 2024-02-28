@@ -16,4 +16,4 @@ function SmartVacuumCleanerIcon({ linearColor = '#1C274C', ...props }: SvgIconOw
   );
 }
 
-export default React.memo(SmartVacuumCleanerIcon);
+export default SmartVacuumCleanerIcon;

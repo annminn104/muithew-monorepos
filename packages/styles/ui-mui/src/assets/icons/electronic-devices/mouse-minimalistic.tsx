@@ -11,4 +11,4 @@ function MouseMinimalisticIcon({ linearColor = '#1C274C', ...props }: SvgIconOwn
   );
 }
 
-export default React.memo(MouseMinimalisticIcon);
+export default MouseMinimalisticIcon;

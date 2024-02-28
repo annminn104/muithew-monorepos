@@ -16,4 +16,4 @@ function BenzeneRingIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps)
   );
 }
 
-export default React.memo(BenzeneRingIcon);
+export default BenzeneRingIcon;

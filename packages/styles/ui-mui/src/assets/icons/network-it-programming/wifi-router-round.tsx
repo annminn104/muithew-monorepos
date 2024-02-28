@@ -22,4 +22,4 @@ function WifiRouterRoundIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnPr
   );
 }
 
-export default React.memo(WifiRouterRoundIcon);
+export default WifiRouterRoundIcon;

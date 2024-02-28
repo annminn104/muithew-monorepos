@@ -21,4 +21,4 @@ function TagPriceIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(TagPriceIcon);
+export default TagPriceIcon;

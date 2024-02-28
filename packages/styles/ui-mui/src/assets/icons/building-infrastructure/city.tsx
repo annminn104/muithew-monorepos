@@ -25,4 +25,4 @@ function CityIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(CityIcon);
+export default CityIcon;

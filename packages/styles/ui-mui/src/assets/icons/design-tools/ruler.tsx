@@ -20,4 +20,4 @@ function RulerIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(RulerIcon);
+export default RulerIcon;

@@ -11,4 +11,4 @@ function AlarmRemoveIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps)
   );
 }
 
-export default React.memo(AlarmRemoveIcon);
+export default AlarmRemoveIcon;

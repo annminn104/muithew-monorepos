@@ -24,4 +24,4 @@ function MeditationIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) 
   );
 }
 
-export default React.memo(MeditationIcon);
+export default MeditationIcon;

@@ -19,4 +19,4 @@ function KeyMinimalisticSquare2Icon({ linearColor = '#1C274C', ...props }: SvgIc
   );
 }
 
-export default React.memo(KeyMinimalisticSquare2Icon);
+export default KeyMinimalisticSquare2Icon;

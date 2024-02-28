@@ -18,4 +18,4 @@ function AugmentedRealityIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnP
   );
 }
 
-export default React.memo(AugmentedRealityIcon);
+export default AugmentedRealityIcon;

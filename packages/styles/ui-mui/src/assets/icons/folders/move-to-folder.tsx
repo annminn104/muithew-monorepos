@@ -16,4 +16,4 @@ function MoveToFolderIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps
   );
 }
 
-export default React.memo(MoveToFolderIcon);
+export default MoveToFolderIcon;

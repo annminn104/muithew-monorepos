@@ -15,4 +15,4 @@ function SpeakerIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(SpeakerIcon);
+export default SpeakerIcon;

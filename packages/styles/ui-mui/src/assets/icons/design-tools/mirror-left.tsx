@@ -22,4 +22,4 @@ function MirrorLeftIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) 
   );
 }
 
-export default React.memo(MirrorLeftIcon);
+export default MirrorLeftIcon;

@@ -21,4 +21,4 @@ function ArchiveDownIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps)
   );
 }
 
-export default React.memo(ArchiveDownIcon);
+export default ArchiveDownIcon;

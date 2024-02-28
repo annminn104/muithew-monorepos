@@ -15,4 +15,4 @@ function SliderVerticalMinimalisticIcon({ linearColor = '#1C274C', ...props }: S
   );
 }
 
-export default React.memo(SliderVerticalMinimalisticIcon);
+export default SliderVerticalMinimalisticIcon;

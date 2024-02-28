@@ -26,4 +26,4 @@ function TreadmillIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(TreadmillIcon);
+export default TreadmillIcon;

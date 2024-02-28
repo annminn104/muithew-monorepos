@@ -15,4 +15,4 @@ function MapPointIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(MapPointIcon);
+export default MapPointIcon;

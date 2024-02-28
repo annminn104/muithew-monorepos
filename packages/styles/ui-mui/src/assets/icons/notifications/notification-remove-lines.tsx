@@ -15,4 +15,4 @@ function NotificationRemoveLinesIcon({ linearColor = '#1C274C', ...props }: SvgI
   );
 }
 
-export default React.memo(NotificationRemoveLinesIcon);
+export default NotificationRemoveLinesIcon;

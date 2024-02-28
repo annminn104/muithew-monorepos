@@ -21,4 +21,4 @@ function DiplomaIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(DiplomaIcon);
+export default DiplomaIcon;

@@ -20,4 +20,4 @@ function Conditioner2Icon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps
   );
 }
 
-export default React.memo(Conditioner2Icon);
+export default Conditioner2Icon;

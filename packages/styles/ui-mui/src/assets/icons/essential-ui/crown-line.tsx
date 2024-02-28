@@ -15,4 +15,4 @@ function CrownLineIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(CrownLineIcon);
+export default CrownLineIcon;

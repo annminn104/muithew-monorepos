@@ -20,4 +20,4 @@ function PasswordIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(PasswordIcon);
+export default PasswordIcon;

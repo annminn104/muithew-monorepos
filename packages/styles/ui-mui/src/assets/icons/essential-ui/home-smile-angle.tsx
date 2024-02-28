@@ -15,4 +15,4 @@ function HomeSmileAngleIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnPro
   );
 }
 
-export default React.memo(HomeSmileAngleIcon);
+export default HomeSmileAngleIcon;

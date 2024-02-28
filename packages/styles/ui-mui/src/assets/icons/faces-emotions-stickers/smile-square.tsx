@@ -17,4 +17,4 @@ function SmileSquareIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps)
   );
 }
 
-export default React.memo(SmileSquareIcon);
+export default SmileSquareIcon;

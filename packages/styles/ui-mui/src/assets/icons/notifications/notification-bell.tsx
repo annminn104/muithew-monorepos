@@ -15,4 +15,4 @@ function NotificationBellIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnP
   );
 }
 
-export default React.memo(NotificationBellIcon);
+export default NotificationBellIcon;

@@ -15,4 +15,4 @@ function LaptopMinimalisticIcon({ linearColor = '#1C274C', ...props }: SvgIconOw
   );
 }
 
-export default React.memo(LaptopMinimalisticIcon);
+export default LaptopMinimalisticIcon;

@@ -26,4 +26,4 @@ function RunningIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(RunningIcon);
+export default RunningIcon;

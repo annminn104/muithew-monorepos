@@ -18,4 +18,4 @@ function RulerCrossPenIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProp
   );
 }
 
-export default React.memo(RulerCrossPenIcon);
+export default RulerCrossPenIcon;

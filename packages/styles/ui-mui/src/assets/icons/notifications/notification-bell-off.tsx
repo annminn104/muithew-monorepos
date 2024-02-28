@@ -16,4 +16,4 @@ function NotificationBellOffIcon({ linearColor = '#1C274C', ...props }: SvgIconO
   );
 }
 
-export default React.memo(NotificationBellOffIcon);
+export default NotificationBellOffIcon;

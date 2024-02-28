@@ -20,4 +20,4 @@ function ArchiveUpMinimalisticIcon({ linearColor = '#1C274C', ...props }: SvgIco
   );
 }
 
-export default React.memo(ArchiveUpMinimalisticIcon);
+export default ArchiveUpMinimalisticIcon;

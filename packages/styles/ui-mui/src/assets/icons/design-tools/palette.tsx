@@ -25,4 +25,4 @@ function PaletteIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(PaletteIcon);
+export default PaletteIcon;

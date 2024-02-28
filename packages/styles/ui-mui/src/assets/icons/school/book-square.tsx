@@ -20,4 +20,4 @@ function BookSquareIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) 
   );
 }
 
-export default React.memo(BookSquareIcon);
+export default BookSquareIcon;

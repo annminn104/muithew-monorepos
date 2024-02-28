@@ -11,4 +11,4 @@ function SearchZoomInMinimalisticIcon({ linearColor = '#1C274C', ...props }: Svg
   );
 }
 
-export default React.memo(SearchZoomInMinimalisticIcon);
+export default SearchZoomInMinimalisticIcon;

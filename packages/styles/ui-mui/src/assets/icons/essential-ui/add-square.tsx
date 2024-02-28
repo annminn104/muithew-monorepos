@@ -15,4 +15,4 @@ function AddSquareIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(AddSquareIcon);
+export default AddSquareIcon;

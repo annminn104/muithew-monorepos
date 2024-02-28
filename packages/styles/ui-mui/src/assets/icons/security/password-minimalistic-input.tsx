@@ -17,4 +17,4 @@ function PasswordMinimalisticInputIcon({ linearColor = '#1C274C', ...props }: Sv
   );
 }
 
-export default React.memo(PasswordMinimalisticInputIcon);
+export default PasswordMinimalisticInputIcon;

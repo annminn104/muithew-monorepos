@@ -15,4 +15,4 @@ function AlignHorizontalCenterIcon({ linearColor = '#1C274C', ...props }: SvgIco
   );
 }
 
-export default React.memo(AlignHorizontalCenterIcon);
+export default AlignHorizontalCenterIcon;

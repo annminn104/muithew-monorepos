@@ -17,4 +17,4 @@ function Smartphone2Icon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps)
   );
 }
 
-export default React.memo(Smartphone2Icon);
+export default Smartphone2Icon;

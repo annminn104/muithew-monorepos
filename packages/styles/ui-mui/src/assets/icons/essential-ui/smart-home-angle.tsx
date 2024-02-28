@@ -15,4 +15,4 @@ function SmartHomeAngleIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnPro
   );
 }
 
-export default React.memo(SmartHomeAngleIcon);
+export default SmartHomeAngleIcon;

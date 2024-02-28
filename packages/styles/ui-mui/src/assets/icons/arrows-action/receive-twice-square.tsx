@@ -22,4 +22,4 @@ function ReceiveTwiceSquareIcon({ linearColor = '#1C274C', ...props }: SvgIconOw
   );
 }
 
-export default React.memo(ReceiveTwiceSquareIcon);
+export default ReceiveTwiceSquareIcon;

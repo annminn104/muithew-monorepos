@@ -16,4 +16,4 @@ function StretchingRoundedIcon({ linearColor = '#1C274C', ...props }: SvgIconOwn
   );
 }
 
-export default React.memo(StretchingRoundedIcon);
+export default StretchingRoundedIcon;

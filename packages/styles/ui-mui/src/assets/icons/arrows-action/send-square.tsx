@@ -16,4 +16,4 @@ function SendSquareIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) 
   );
 }
 
-export default React.memo(SendSquareIcon);
+export default SendSquareIcon;

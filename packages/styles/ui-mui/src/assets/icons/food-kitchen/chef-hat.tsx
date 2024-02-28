@@ -14,4 +14,4 @@ function ChefHatIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(ChefHatIcon);
+export default ChefHatIcon;

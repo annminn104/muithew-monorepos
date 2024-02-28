@@ -11,4 +11,4 @@ function CircleTopUpIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps)
   );
 }
 
-export default React.memo(CircleTopUpIcon);
+export default CircleTopUpIcon;

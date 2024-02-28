@@ -16,4 +16,4 @@ function WindowFrameIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps)
   );
 }
 
-export default React.memo(WindowFrameIcon);
+export default WindowFrameIcon;

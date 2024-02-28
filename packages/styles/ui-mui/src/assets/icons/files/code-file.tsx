@@ -15,4 +15,4 @@ function CodeFileIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(CodeFileIcon);
+export default CodeFileIcon;

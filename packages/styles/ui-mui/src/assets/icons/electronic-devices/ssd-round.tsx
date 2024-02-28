@@ -15,4 +15,4 @@ function SSDRoundIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(SSDRoundIcon);
+export default SSDRoundIcon;

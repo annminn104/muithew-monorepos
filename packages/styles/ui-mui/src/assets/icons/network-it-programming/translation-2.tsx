@@ -21,4 +21,4 @@ function Translation2Icon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps
   );
 }
 
-export default React.memo(Translation2Icon);
+export default Translation2Icon;

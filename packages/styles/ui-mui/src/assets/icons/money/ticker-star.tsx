@@ -19,4 +19,4 @@ function TickerStarIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) 
   );
 }
 
-export default React.memo(TickerStarIcon);
+export default TickerStarIcon;

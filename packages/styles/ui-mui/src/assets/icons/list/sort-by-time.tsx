@@ -12,4 +12,4 @@ function SortByTimeIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) 
   );
 }
 
-export default React.memo(SortByTimeIcon);
+export default SortByTimeIcon;

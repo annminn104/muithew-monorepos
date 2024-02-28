@@ -10,4 +10,4 @@ function TextUnderlineIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProp
   );
 }
 
-export default React.memo(TextUnderlineIcon);
+export default TextUnderlineIcon;

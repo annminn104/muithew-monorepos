@@ -18,4 +18,4 @@ function CallChatIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(CallChatIcon);
+export default CallChatIcon;

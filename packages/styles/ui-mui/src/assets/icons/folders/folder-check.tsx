@@ -15,4 +15,4 @@ function FolderCheckIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps)
   );
 }
 
-export default React.memo(FolderCheckIcon);
+export default FolderCheckIcon;

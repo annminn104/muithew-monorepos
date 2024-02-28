@@ -15,4 +15,4 @@ function TestTubeMinimalisticIcon({ linearColor = '#1C274C', ...props }: SvgIcon
   );
 }
 
-export default React.memo(TestTubeMinimalisticIcon);
+export default TestTubeMinimalisticIcon;

@@ -13,4 +13,4 @@ function MoonIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(MoonIcon);
+export default MoonIcon;

@@ -17,4 +17,4 @@ function BodyShapeMinimalisticIcon({ linearColor = '#1C274C', ...props }: SvgIco
   );
 }
 
-export default React.memo(BodyShapeMinimalisticIcon);
+export default BodyShapeMinimalisticIcon;

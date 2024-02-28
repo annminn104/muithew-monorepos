@@ -14,4 +14,4 @@ function TextCircleIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) 
   );
 }
 
-export default React.memo(TextCircleIcon);
+export default TextCircleIcon;

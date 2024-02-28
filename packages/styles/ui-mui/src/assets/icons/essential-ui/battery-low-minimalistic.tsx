@@ -15,4 +15,4 @@ function BatteryLowMinimalisticIcon({ linearColor = '#1C274C', ...props }: SvgIc
   );
 }
 
-export default React.memo(BatteryLowMinimalisticIcon);
+export default BatteryLowMinimalisticIcon;

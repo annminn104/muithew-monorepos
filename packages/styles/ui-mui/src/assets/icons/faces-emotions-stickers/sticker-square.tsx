@@ -15,4 +15,4 @@ function StickerSquareIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProp
   );
 }
 
-export default React.memo(StickerSquareIcon);
+export default StickerSquareIcon;

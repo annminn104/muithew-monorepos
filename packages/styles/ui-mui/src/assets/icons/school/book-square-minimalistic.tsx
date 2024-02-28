@@ -19,4 +19,4 @@ function BookSquareMinimalisticIcon({ linearColor = '#1C274C', ...props }: SvgIc
   );
 }
 
-export default React.memo(BookSquareMinimalisticIcon);
+export default BookSquareMinimalisticIcon;

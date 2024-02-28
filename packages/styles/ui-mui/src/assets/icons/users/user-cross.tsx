@@ -17,4 +17,4 @@ function UserCrossIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(UserCrossIcon);
+export default UserCrossIcon;

@@ -15,4 +15,4 @@ function DatabaseIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(DatabaseIcon);
+export default DatabaseIcon;

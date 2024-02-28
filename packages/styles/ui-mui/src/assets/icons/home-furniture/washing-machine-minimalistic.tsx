@@ -21,4 +21,4 @@ function WashingMachineMinimalisticIcon({ linearColor = '#1C274C', ...props }: S
   );
 }
 
-export default React.memo(WashingMachineMinimalisticIcon);
+export default WashingMachineMinimalisticIcon;

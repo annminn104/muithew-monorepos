@@ -31,4 +31,4 @@ function UsbSquareIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(UsbSquareIcon);
+export default UsbSquareIcon;

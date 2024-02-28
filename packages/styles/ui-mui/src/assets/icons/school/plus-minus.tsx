@@ -15,4 +15,4 @@ function PlusMinusIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(PlusMinusIcon);
+export default PlusMinusIcon;

@@ -15,4 +15,4 @@ function SubtitlesIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(SubtitlesIcon);
+export default SubtitlesIcon;

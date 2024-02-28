@@ -21,4 +21,4 @@ function LinkIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(LinkIcon);
+export default LinkIcon;

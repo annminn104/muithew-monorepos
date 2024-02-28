@@ -13,4 +13,4 @@ function BowlingIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(BowlingIcon);
+export default BowlingIcon;

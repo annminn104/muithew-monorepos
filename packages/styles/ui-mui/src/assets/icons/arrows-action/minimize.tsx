@@ -11,4 +11,4 @@ function MinimizeIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(MinimizeIcon);
+export default MinimizeIcon;

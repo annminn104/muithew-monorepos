@@ -17,4 +17,4 @@ function UserCheckIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(UserCheckIcon);
+export default UserCheckIcon;

@@ -20,4 +20,4 @@ function FolderOpenIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) 
   );
 }
 
-export default React.memo(FolderOpenIcon);
+export default FolderOpenIcon;

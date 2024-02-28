@@ -14,4 +14,4 @@ function CorkscrewIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(CorkscrewIcon);
+export default CorkscrewIcon;

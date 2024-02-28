@@ -15,4 +15,4 @@ function TrafficEconomyIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnPro
   );
 }
 
-export default React.memo(TrafficEconomyIcon);
+export default TrafficEconomyIcon;

@@ -15,4 +15,4 @@ function FileLeftIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(FileLeftIcon);
+export default FileLeftIcon;

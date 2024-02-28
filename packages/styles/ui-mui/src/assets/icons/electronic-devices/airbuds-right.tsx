@@ -21,4 +21,4 @@ function AirbudsRightIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps
   );
 }
 
-export default React.memo(AirbudsRightIcon);
+export default AirbudsRightIcon;

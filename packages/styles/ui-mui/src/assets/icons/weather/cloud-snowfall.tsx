@@ -15,4 +15,4 @@ function CloudSnowfallIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProp
   );
 }
 
-export default React.memo(CloudSnowfallIcon);
+export default CloudSnowfallIcon;

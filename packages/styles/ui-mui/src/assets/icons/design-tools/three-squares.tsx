@@ -24,4 +24,4 @@ function ThreeSquaresIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps
   );
 }
 
-export default React.memo(ThreeSquaresIcon);
+export default ThreeSquaresIcon;

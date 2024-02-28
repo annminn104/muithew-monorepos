@@ -15,4 +15,4 @@ function ChartIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(ChartIcon);
+export default ChartIcon;

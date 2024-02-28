@@ -15,4 +15,4 @@ function ServerIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(ServerIcon);
+export default ServerIcon;

@@ -20,4 +20,4 @@ function CloudFileIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(CloudFileIcon);
+export default CloudFileIcon;

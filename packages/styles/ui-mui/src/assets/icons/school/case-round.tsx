@@ -25,4 +25,4 @@ function CaseRoundIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(CaseRoundIcon);
+export default CaseRoundIcon;

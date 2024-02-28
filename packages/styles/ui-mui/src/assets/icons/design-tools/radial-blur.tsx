@@ -23,4 +23,4 @@ function RadialBlurIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) 
   );
 }
 
-export default React.memo(RadialBlurIcon);
+export default RadialBlurIcon;

@@ -20,4 +20,4 @@ function JarOfPillsIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) 
   );
 }
 
-export default React.memo(JarOfPillsIcon);
+export default JarOfPillsIcon;

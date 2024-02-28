@@ -19,4 +19,4 @@ function CallMedicineIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps
   );
 }
 
-export default React.memo(CallMedicineIcon);
+export default CallMedicineIcon;

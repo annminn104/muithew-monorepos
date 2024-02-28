@@ -16,4 +16,4 @@ function BookMinimalisticIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnP
   );
 }
 
-export default React.memo(BookMinimalisticIcon);
+export default BookMinimalisticIcon;

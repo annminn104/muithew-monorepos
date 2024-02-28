@@ -20,4 +20,4 @@ function StarRingIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(StarRingIcon);
+export default StarRingIcon;

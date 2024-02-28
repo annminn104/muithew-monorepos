@@ -10,4 +10,4 @@ function HamburgerMenu2Icon({ linearColor = '#1C274C', ...props }: SvgIconOwnPro
   );
 }
 
-export default React.memo(HamburgerMenu2Icon);
+export default HamburgerMenu2Icon;

@@ -20,4 +20,4 @@ function BatteryLowIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) 
   );
 }
 
-export default React.memo(BatteryLowIcon);
+export default BatteryLowIcon;

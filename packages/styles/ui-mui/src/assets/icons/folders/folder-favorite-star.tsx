@@ -19,4 +19,4 @@ function FolderFavoriteStarIcon({ linearColor = '#1C274C', ...props }: SvgIconOw
   );
 }
 
-export default React.memo(FolderFavoriteStarIcon);
+export default FolderFavoriteStarIcon;

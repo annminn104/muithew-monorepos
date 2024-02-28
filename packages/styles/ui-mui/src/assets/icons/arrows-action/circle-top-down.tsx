@@ -11,4 +11,4 @@ function CircleTopDownIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProp
   );
 }
 
-export default React.memo(CircleTopDownIcon);
+export default CircleTopDownIcon;

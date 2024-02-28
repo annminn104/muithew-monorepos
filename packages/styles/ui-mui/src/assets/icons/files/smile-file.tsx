@@ -17,4 +17,4 @@ function SmileFileIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(SmileFileIcon);
+export default SmileFileIcon;

@@ -21,4 +21,4 @@ function ConfoundedSquareIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnP
   );
 }
 
-export default React.memo(ConfoundedSquareIcon);
+export default ConfoundedSquareIcon;

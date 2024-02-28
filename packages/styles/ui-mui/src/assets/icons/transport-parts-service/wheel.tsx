@@ -18,4 +18,4 @@ function WheelIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(WheelIcon);
+export default WheelIcon;

@@ -21,4 +21,4 @@ function FloorLampMinimalisticIcon({ linearColor = '#1C274C', ...props }: SvgIco
   );
 }
 
-export default React.memo(FloorLampMinimalisticIcon);
+export default FloorLampMinimalisticIcon;

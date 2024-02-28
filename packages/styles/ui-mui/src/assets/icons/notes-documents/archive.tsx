@@ -25,4 +25,4 @@ function ArchiveIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(ArchiveIcon);
+export default ArchiveIcon;

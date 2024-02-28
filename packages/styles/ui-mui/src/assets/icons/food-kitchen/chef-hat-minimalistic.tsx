@@ -14,4 +14,4 @@ function ChefHatMinimalisticIcon({ linearColor = '#1C274C', ...props }: SvgIconO
   );
 }
 
-export default React.memo(ChefHatMinimalisticIcon);
+export default ChefHatMinimalisticIcon;

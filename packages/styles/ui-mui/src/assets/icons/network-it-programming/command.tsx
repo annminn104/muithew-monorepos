@@ -14,4 +14,4 @@ function CommandIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(CommandIcon);
+export default CommandIcon;

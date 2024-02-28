@@ -15,4 +15,4 @@ function HomeAddAngleIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps
   );
 }
 
-export default React.memo(HomeAddAngleIcon);
+export default HomeAddAngleIcon;

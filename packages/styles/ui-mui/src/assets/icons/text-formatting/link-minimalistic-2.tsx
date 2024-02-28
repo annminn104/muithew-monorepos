@@ -15,4 +15,4 @@ function LinkMinimalistic2Icon({ linearColor = '#1C274C', ...props }: SvgIconOwn
   );
 }
 
-export default React.memo(LinkMinimalistic2Icon);
+export default LinkMinimalistic2Icon;

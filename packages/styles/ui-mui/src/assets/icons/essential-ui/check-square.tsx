@@ -15,4 +15,4 @@ function CheckSquareIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps)
   );
 }
 
-export default React.memo(CheckSquareIcon);
+export default CheckSquareIcon;

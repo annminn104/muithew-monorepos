@@ -15,4 +15,4 @@ function Home2Icon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(Home2Icon);
+export default Home2Icon;

@@ -15,4 +15,4 @@ function Flag2Icon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(Flag2Icon);
+export default Flag2Icon;

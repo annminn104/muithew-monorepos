@@ -26,4 +26,4 @@ function CPUBoltIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(CPUBoltIcon);
+export default CPUBoltIcon;

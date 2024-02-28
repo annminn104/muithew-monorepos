@@ -23,4 +23,4 @@ function GraphUpNewIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) 
   );
 }
 
-export default React.memo(GraphUpNewIcon);
+export default GraphUpNewIcon;

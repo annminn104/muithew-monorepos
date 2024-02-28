@@ -13,4 +13,4 @@ function KeyMinimalisticIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnPr
   );
 }
 
-export default React.memo(KeyMinimalisticIcon);
+export default KeyMinimalisticIcon;

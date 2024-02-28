@@ -22,4 +22,4 @@ function SirenRoundedIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps
   );
 }
 
-export default React.memo(SirenRoundedIcon);
+export default SirenRoundedIcon;

@@ -13,4 +13,4 @@ function SyringeIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(SyringeIcon);
+export default SyringeIcon;

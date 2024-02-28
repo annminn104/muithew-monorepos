@@ -11,4 +11,4 @@ function ListCheckMinimalisticIcon({ linearColor = '#1C274C', ...props }: SvgIco
   );
 }
 
-export default React.memo(ListCheckMinimalisticIcon);
+export default ListCheckMinimalisticIcon;

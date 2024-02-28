@@ -15,4 +15,4 @@ function TextUnderlineCrossIcon({ linearColor = '#1C274C', ...props }: SvgIconOw
   );
 }
 
-export default React.memo(TextUnderlineCrossIcon);
+export default TextUnderlineCrossIcon;

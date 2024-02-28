@@ -15,4 +15,4 @@ function BoxMinimalisticIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnPr
   );
 }
 
-export default React.memo(BoxMinimalisticIcon);
+export default BoxMinimalisticIcon;

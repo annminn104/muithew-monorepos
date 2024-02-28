@@ -21,4 +21,4 @@ function PaperBinIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(PaperBinIcon);
+export default PaperBinIcon;

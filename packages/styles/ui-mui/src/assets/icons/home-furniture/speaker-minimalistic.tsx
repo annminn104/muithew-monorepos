@@ -16,4 +16,4 @@ function SpeakerMinimalisticIcon({ linearColor = '#1C274C', ...props }: SvgIconO
   );
 }
 
-export default React.memo(SpeakerMinimalisticIcon);
+export default SpeakerMinimalisticIcon;

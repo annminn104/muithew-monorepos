@@ -19,4 +19,4 @@ function SIMCardsIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(SIMCardsIcon);
+export default SIMCardsIcon;

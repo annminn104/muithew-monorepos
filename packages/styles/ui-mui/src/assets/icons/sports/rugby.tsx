@@ -15,4 +15,4 @@ function RugbyIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(RugbyIcon);
+export default RugbyIcon;

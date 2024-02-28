@@ -14,4 +14,4 @@ function LeafIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(LeafIcon);
+export default LeafIcon;

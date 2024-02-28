@@ -14,4 +14,4 @@ function HashtagChatIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps)
   );
 }
 
-export default React.memo(HashtagChatIcon);
+export default HashtagChatIcon;

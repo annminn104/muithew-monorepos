@@ -19,4 +19,4 @@ function PhoneCallingIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps
   );
 }
 
-export default React.memo(PhoneCallingIcon);
+export default PhoneCallingIcon;

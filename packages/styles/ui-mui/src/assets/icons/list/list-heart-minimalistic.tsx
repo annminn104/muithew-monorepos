@@ -14,4 +14,4 @@ function ListHeartMinimalisticIcon({ linearColor = '#1C274C', ...props }: SvgIco
   );
 }
 
-export default React.memo(ListHeartMinimalisticIcon);
+export default ListHeartMinimalisticIcon;

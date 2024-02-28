@@ -16,4 +16,4 @@ function SquareBottomUpIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnPro
   );
 }
 
-export default React.memo(SquareBottomUpIcon);
+export default SquareBottomUpIcon;

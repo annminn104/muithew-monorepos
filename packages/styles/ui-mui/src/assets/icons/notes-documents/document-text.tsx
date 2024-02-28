@@ -15,4 +15,4 @@ function DocumentTextIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps
   );
 }
 
-export default React.memo(DocumentTextIcon);
+export default DocumentTextIcon;

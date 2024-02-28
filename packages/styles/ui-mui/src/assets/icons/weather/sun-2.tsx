@@ -16,4 +16,4 @@ function Sun2Icon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(Sun2Icon);
+export default Sun2Icon;

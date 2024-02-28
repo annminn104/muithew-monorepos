@@ -11,4 +11,4 @@ function SortListIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(SortListIcon);
+export default SortListIcon;

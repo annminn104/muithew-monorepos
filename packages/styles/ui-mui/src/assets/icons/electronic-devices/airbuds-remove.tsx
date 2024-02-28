@@ -23,4 +23,4 @@ function AirbudsRemoveIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProp
   );
 }
 
-export default React.memo(AirbudsRemoveIcon);
+export default AirbudsRemoveIcon;

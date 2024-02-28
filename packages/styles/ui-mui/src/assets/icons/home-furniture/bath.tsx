@@ -19,4 +19,4 @@ function BathIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(BathIcon);
+export default BathIcon;

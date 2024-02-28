@@ -16,4 +16,4 @@ function MedicalKitIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) 
   );
 }
 
-export default React.memo(MedicalKitIcon);
+export default MedicalKitIcon;

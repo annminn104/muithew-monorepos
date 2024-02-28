@@ -15,4 +15,4 @@ function CloudRainIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(CloudRainIcon);
+export default CloudRainIcon;

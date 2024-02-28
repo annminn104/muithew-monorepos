@@ -22,4 +22,4 @@ function FaceMaskSquareIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnPro
   );
 }
 
-export default React.memo(FaceMaskSquareIcon);
+export default FaceMaskSquareIcon;

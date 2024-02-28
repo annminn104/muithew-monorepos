@@ -23,4 +23,4 @@ function Safe2Icon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(Safe2Icon);
+export default Safe2Icon;

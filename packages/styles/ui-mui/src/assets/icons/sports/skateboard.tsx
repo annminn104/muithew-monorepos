@@ -12,4 +12,4 @@ function SkateboardIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) 
   );
 }
 
-export default React.memo(SkateboardIcon);
+export default SkateboardIcon;

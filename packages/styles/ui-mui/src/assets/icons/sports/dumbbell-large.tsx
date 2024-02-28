@@ -13,4 +13,4 @@ function DumbbellLargeIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProp
   );
 }
 
-export default React.memo(DumbbellLargeIcon);
+export default DumbbellLargeIcon;

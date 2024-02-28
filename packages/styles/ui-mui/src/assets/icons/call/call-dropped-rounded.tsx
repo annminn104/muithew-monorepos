@@ -22,4 +22,4 @@ function CallDroppedRoundedIcon({ linearColor = '#1C274C', ...props }: SvgIconOw
   );
 }
 
-export default React.memo(CallDroppedRoundedIcon);
+export default CallDroppedRoundedIcon;

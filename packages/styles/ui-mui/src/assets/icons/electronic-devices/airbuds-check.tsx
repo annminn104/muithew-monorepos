@@ -23,4 +23,4 @@ function AirbudsCheckIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps
   );
 }
 
-export default React.memo(AirbudsCheckIcon);
+export default AirbudsCheckIcon;

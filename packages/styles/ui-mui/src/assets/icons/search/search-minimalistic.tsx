@@ -11,4 +11,4 @@ function SearchMinimalisticIcon({ linearColor = '#1C274C', ...props }: SvgIconOw
   );
 }
 
-export default React.memo(SearchMinimalisticIcon);
+export default SearchMinimalisticIcon;

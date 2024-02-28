@@ -11,4 +11,4 @@ function ListCrossMinimalisticIcon({ linearColor = '#1C274C', ...props }: SvgIco
   );
 }
 
-export default React.memo(ListCrossMinimalisticIcon);
+export default ListCrossMinimalisticIcon;

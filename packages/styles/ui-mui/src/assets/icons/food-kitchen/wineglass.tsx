@@ -19,4 +19,4 @@ function WineglassIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(WineglassIcon);
+export default WineglassIcon;

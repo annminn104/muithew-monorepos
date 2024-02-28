@@ -16,4 +16,4 @@ function CursorIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(CursorIcon);
+export default CursorIcon;

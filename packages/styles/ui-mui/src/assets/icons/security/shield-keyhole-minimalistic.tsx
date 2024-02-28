@@ -15,4 +15,4 @@ function ShieldKeyholeMinimalisticIcon({ linearColor = '#1C274C', ...props }: Sv
   );
 }
 
-export default React.memo(ShieldKeyholeMinimalisticIcon);
+export default ShieldKeyholeMinimalisticIcon;

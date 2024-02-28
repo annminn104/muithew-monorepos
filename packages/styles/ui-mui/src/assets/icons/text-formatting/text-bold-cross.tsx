@@ -19,4 +19,4 @@ function TextBoldCrossIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProp
   );
 }
 
-export default React.memo(TextBoldCrossIcon);
+export default TextBoldCrossIcon;

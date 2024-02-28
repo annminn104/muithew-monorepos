@@ -15,4 +15,4 @@ function StarlightIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(StarlightIcon);
+export default StarlightIcon;

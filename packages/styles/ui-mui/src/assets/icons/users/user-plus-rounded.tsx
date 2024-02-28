@@ -17,4 +17,4 @@ function UserPlusRoundedIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnPr
   );
 }
 
-export default React.memo(UserPlusRoundedIcon);
+export default UserPlusRoundedIcon;

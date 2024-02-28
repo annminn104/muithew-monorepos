@@ -21,4 +21,4 @@ function SpeedometerMaxIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnPro
   );
 }
 
-export default React.memo(SpeedometerMaxIcon);
+export default SpeedometerMaxIcon;

@@ -15,4 +15,4 @@ function UserHeartIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default React.memo(UserHeartIcon);
+export default UserHeartIcon;

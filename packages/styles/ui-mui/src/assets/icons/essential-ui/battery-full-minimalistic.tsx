@@ -20,4 +20,4 @@ function BatteryFullMinimalisticIcon({ linearColor = '#1C274C', ...props }: SvgI
   );
 }
 
-export default React.memo(BatteryFullMinimalisticIcon);
+export default BatteryFullMinimalisticIcon;
