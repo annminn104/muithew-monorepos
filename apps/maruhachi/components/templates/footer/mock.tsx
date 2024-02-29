@@ -1,8 +1,12 @@
-import { AccumulatorIcon } from '@styles/ui-mui/icons';
+import { PhoneCallingIcon } from '@styles/ui-mui/icons';
+
+export enum FooterKey {
+  PhoneNumber = 'phoneNumber'
+}
 
 export const followUsMock = [
   {
-    key: 'phone',
-    icon: <AccumulatorIcon />
+    key: 'phoneNumber',
+    icon: <PhoneCallingIcon />
   }
 ];

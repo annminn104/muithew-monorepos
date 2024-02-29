@@ -1,13 +1,17 @@
 import { Grid } from '@mui/material';
 
 import { useTranslations } from 'next-intl';
-import { followUsMock } from './mock';
+import { FooterKey, followUsMock } from './mock';
 import * as S from './styles';
 
 type FooterProps = {};
 
 const Footer: React.FC<FooterProps> = () => {
   const t = useTranslations('mainLayout.footer');
+
+  const footerTrans = {
+    [FooterKey.PhoneNumber]: t('phoneNumber')
+  };
 
   return (
     <S.FooterWrapper maxWidth='xl'>
@@ -21,7 +25,9 @@ const Footer: React.FC<FooterProps> = () => {
         <Grid item xs={4}>
           <S.FooterTitle variant='body1'>{t('followUs')}</S.FooterTitle>
           {followUsMock.map((item, index) => (
-            <div key={item.key + index}>{item.icon}</div>
+            <div key={item.key + index}>
+              {item.icon} {footerTrans[item.key]}
+            </div>
           ))}
         </Grid>
         <Grid item xs={8}></Grid>

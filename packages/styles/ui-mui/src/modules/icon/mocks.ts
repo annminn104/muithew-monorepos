@@ -1026,7 +1026,29 @@ export const IconsSortMock = {
   videoAudioSound: ['GalleryIcon'],
   mapLocation: ['MapPointIcon'],
   arrows: ['SquareDoubleAltArrowDownIcon'],
-  messagesConversation: ['ChatRoundDotsIcon']
+  messagesConversation: [
+    'ChatRoundDotsIcon',
+    'DialogIcon',
+    'ChatRoundLineIcon',
+    'ChatRoundIcon',
+    'ChatRoundMoneyIcon',
+    'ChatRoundVideoIcon',
+    'ChatRoundLikeIcon',
+    'ChatRoundCheckIcon',
+    'ChatRoundCallIcon',
+    'ChatRoundUnreadIcon',
+    'ChatDotsIcon',
+    'Dialog2Icon',
+    'ChatLineIcon',
+    'ChatUnreadIcon',
+    'ChatSquareIcon',
+    'ChatSquareLikeIcon',
+    'ChatSquareCheckIcon',
+    'ChatSquareArrowIcon',
+    'ChatSquareCallIcon',
+    'CheckReadIcon',
+    'UnreadIcon'
+  ]
 };
 
 export const IconsListingMock = [
