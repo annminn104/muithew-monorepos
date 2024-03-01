@@ -18,7 +18,7 @@ export { default as ChatUnreadIcon } from './chat-unread';
 export { default as CheckReadIcon } from './check-read';
 export { default as DialogIcon } from './dialog';
 export { default as Dialog2Icon } from './dialog-2';
-export { default as ForwardIcon } from './forward';
+export { default as ChatForwardIcon } from './chat-forward';
 export { default as InboxIcon } from './inbox';
 export { default as InboxArchiveIcon } from './inbox-archive';
 export { default as InboxInIcon } from './inbox-in';

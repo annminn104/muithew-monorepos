@@ -1,4 +1,4 @@
-export { default as BillIcon } from './bill';
+export { default as ListBillIcon } from './list-bill';
 export { default as ChecklistIcon } from './checklist';
 export { default as ChecklistMinimalisticIcon } from './checklist-minimalistic';
 export { default as ListIcon } from './list';

@@ -678,7 +678,7 @@ export const IconsSortMock = {
     'ListCrossMinimalisticIcon',
     'ChecklistMinimalisticIcon',
     'ChecklistIcon',
-    'BillIcon'
+    'ListBillIcon'
   ],
   hands: ['HandHeartIcon', 'HandStartsIcon', 'HandPillsIcon', 'HandMoneyIcon', 'HandShakeIcon'],
   transportPartsService: [
@@ -1079,7 +1079,7 @@ export const IconsSortMock = {
     'PauseCircleIcon',
     'RewindBackCircleIcon',
     'StopCircleIcon',
-    'RecordCircleIcon',
+    'RecordCircle2Icon',
     'RewindForwardCircleIcon',
     'VinylRecordIcon',
     'VideoFrameIcon',
@@ -1128,7 +1128,7 @@ export const IconsSortMock = {
     'Pen2Icon',
     'PenNewSquareIcon',
     'PenNewRoundIcon',
-    'ForwardIcon',
+    'ChatForwardIcon',
     'MultipleForwardRightIcon',
     'MultipleForwardLeftIcon',
     'SquareForwardIcon',

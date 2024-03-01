@@ -34,7 +34,7 @@ export { default as PlayCircleIcon } from './play-circle';
 export { default as PauseCircleIcon } from './pause-circle';
 export { default as RewindBackCircleIcon } from './rewind-back-circle';
 export { default as StopCircleIcon } from './stop-circle';
-export { default as RecordCircleIcon } from './record-circle';
+export { default as RecordCircle2Icon } from './record-circle-2';
 export { default as RewindForwardCircleIcon } from './rewind-forward-circle';
 export { default as VinylRecordIcon } from './vinyl-record';
 export { default as VideoFrameIcon } from './video-frame';

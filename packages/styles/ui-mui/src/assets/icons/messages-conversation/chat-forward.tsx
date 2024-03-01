@@ -2,7 +2,7 @@ import React from 'react';
 
 import { SvgIcon, SvgIconOwnProps } from '@mui/material';
 
-function ForwardIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
+function ChatForwardIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   return (
     <SvgIcon {...props} className='linear'>
       <path
@@ -16,4 +16,4 @@ function ForwardIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default ForwardIcon;
+export default ChatForwardIcon;

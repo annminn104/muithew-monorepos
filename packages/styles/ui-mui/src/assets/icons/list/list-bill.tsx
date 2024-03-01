@@ -2,7 +2,7 @@ import React from 'react';
 
 import { SvgIcon, SvgIconOwnProps } from '@mui/material';
 
-function BillIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
+function ListBillIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   return (
     <SvgIcon {...props} className='linear'>
       <path stroke={linearColor} strokeLinecap='round' strokeWidth='1.5' d='M2 2h20' />
@@ -16,4 +16,4 @@ function BillIcon({ linearColor = '#1C274C', ...props }: SvgIconOwnProps) {
   );
 }
 
-export default BillIcon;
+export default ListBillIcon;
