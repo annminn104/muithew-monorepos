@@ -1,4 +1,6 @@
+import { pathFlags } from '../../assets/flags';
 import { pathIcons } from '../../assets/icons';
+
 import { IconUtils } from './utils';
 
 export const IconsSortMock = {
@@ -1300,7 +1302,8 @@ export const IconsSortMock = {
     'PlainIcon',
     'Plain2Icon',
     'Plain3Icon'
-  ]
+  ],
+  squareFlags: ['VietNamIcon', 'JapanIcon']
 };
 
 export const IconsListingMock = [
@@ -1451,5 +1454,10 @@ export const IconsListingMock = [
   {
     label: 'Messages - Conversation',
     components: IconUtils.sortByName(pathIcons['messagesConversationIcons'], IconsSortMock.messagesConversation)
+  },
+
+  {
+    label: 'Square Flags',
+    components: IconUtils.sortByName(pathFlags['squareFlags'], IconsSortMock.squareFlags)
   }
 ];

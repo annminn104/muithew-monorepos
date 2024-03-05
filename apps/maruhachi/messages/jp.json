@@ -6,6 +6,14 @@
     "homePage": {
       "title": "ロレム・イプサム・ドール・シット・アメット"
     },
+    "header": {
+      "navigation": {
+        "home": "ホームページ",
+        "aboutUs": "私たちについて",
+        "services": "サービス",
+        "contact": "お問い合わせ"
+      }
+    },
     "footer": {
       "companyName": "丸八農産",
       "followUs": "Follow us",

@@ -1,5 +1,9 @@
-import Footer from '@components/templates/footer';
 import React from 'react';
+
+import Body from '@components/templates/body';
+import Footer from '@components/templates/footer';
+import Header from '@components/templates/header';
+
 import * as S from './styles';
 
 type MainLayoutProps = {
@@ -11,10 +15,10 @@ const MainLayout = ({ children, params: { locale } }: MainLayoutProps) => {
   return (
     <S.LocaleWrapper>
       <S.LocaleHeader>
-        <S.LocaleHeaderContent />
+        <Header />
       </S.LocaleHeader>
       <S.LocaleBody>
-        <S.LocaleBodyContent>{children}</S.LocaleBodyContent>
+        <Body>{children}</Body>
       </S.LocaleBody>
       <S.LocaleFooter>
         <Footer />

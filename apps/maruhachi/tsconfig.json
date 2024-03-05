@@ -1,14 +1,11 @@
 {
   // "extends": "@configs/typescript/nextjs.json",
   "compilerOptions": {
-    "plugins": [
-      {
-        "name": "next"
-      }
-    ],
+    "plugins": [{ "name": "next" }],
     "baseUrl": ".",
     "paths": {
-      "@components/*": ["components/*"]
+      "@components/*": ["components/*"],
+      "@mocks": ["mocks"]
     },
     "resolveJsonModule": true,
     "lib": ["dom", "dom.iterable", "esnext"],

@@ -1,8 +1,6 @@
 'use client';
 
 import Body from '@components/templates/body';
-import Footer from '@components/templates/footer';
-import Header from '@components/templates/header';
 import { styled } from '@mui/material';
 
 export const LocaleWrapper = styled('div', {})(() => ({}));
@@ -15,8 +13,6 @@ export const LocaleHeader = styled(
   padding: '8px 16px'
 }));
 
-export const LocaleHeaderContent = styled(Header, {})(() => ({}));
-
 export const LocaleBody = styled(
   'main',
   {}
@@ -25,8 +21,6 @@ export const LocaleBody = styled(
   padding: '8px 16px'
 }));
 
-export const LocaleBodyContent = styled(Body, {})(() => ({}));
-
 export const LocaleFooter = styled(
   'footer',
   {}
@@ -34,5 +28,3 @@ export const LocaleFooter = styled(
   backgroundColor: theme.palette.grey['200'],
   padding: '8px 16px'
 }));
-
-export const LocaleFooterContent = styled(Footer, {})(() => ({}));

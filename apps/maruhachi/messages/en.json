@@ -6,6 +6,14 @@
     "homePage": {
       "title": "Lorem ipsum dolor sit amet"
     },
+    "header": {
+      "navigation": {
+        "home": "Home",
+        "aboutUs": "About Us",
+        "services": "Services",
+        "contact": "Contact"
+      }
+    },
     "footer": {
       "companyName": "Maruhachinousan",
       "followUs": "Follow us",

@@ -20,9 +20,10 @@ export const FooterLogoImg = styled(
   'div',
   {}
 )(({ theme }) => ({
+  ...theme.functions.adjustFlex(),
   width: 48,
   height: 48,
-  backgroundColor: theme.palette.grey['400']
+  backgroundColor: theme.palette.grey['300']
 }));
 
 export const FooterLogoName = styled(
@@ -32,4 +33,12 @@ export const FooterLogoName = styled(
   color: theme.palette.info['main']
 }));
 
-export const FooterTitle = styled(Typography, {})(({ theme }) => ({}));
+export const FooterInfoTitle = styled(Typography, {})(({}) => ({}));
+
+export const FooterInfoContent = styled(
+  'div',
+  {}
+)(({ theme }) => ({
+  ...theme.functions.adjustFlex('flex', 'row', 'flex-start', 'center'),
+  columnGap: '8px'
+}));

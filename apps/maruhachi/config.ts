@@ -10,6 +10,6 @@ export const pathnames = {
   // }
 } satisfies Pathnames<typeof locales>;
 
-export const localePrefix = undefined;
+export const localePrefix = 'always';
 
 export type AppPathnames = keyof typeof pathnames;

@@ -8,7 +8,8 @@ export default function SvgIcon(theme: Theme): Components<Omit<Theme, 'component
         root: {
           '&.linear': {
             fill: 'transparent'
-          }
+          },
+          '&.square-flag': {}
         },
         fontSizeLarge: {
           width: 32,
