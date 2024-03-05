@@ -1,6 +1,7 @@
 export { default as UserIcon } from './user';
 export { default as UserBlockIcon } from './user-block';
 export { default as UserBlockRoundedIcon } from './user-block-rounded';
+export { default as UserCallRoundedIcon } from './user-call-rounded';
 export { default as UserCheckIcon } from './user-check';
 export { default as UserCheckRoundedIcon } from './user-check-rounded';
 export { default as UserCircleIcon } from './user-circle';
