@@ -7,9 +7,15 @@
       "title": "Lorem ipsum dolor sit amet"
     },
     "header": {
+      "contactBar": {
+        "info": {
+          "phoneNumber": "0123-456-789",
+          "email": "test@gmail.com"
+        }
+      },
       "navigation": {
         "home": "Home",
-        "aboutUs": "About Us",
+        "aboutUs": "About us",
         "services": "Services",
         "contact": "Contact"
       }

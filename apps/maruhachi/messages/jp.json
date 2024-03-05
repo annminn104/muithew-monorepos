@@ -7,6 +7,12 @@
       "title": "ロレム・イプサム・ドール・シット・アメット"
     },
     "header": {
+      "contactBar": {
+        "info": {
+          "phoneNumber": "0123-456-789",
+          "email": "test@gmail.com"
+        }
+      },
       "navigation": {
         "home": "ホームページ",
         "aboutUs": "私たちについて",
