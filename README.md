@@ -42,4 +42,10 @@ yarn dev # Start all apps 🚀
 yarn storybook:build
 
 yarn storybook:move
+
+# Start mini app
+yarn dev --filter=[app-name]
+
+# Start mini storybook
+yarn storybook --filter=[package-name]
 ```
