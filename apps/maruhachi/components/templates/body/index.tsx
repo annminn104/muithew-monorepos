@@ -1,5 +1,3 @@
-'use client';
-
 import * as S from './styles';
 
 type BodyProps = {
@@ -7,12 +5,7 @@ type BodyProps = {
 };
 
 const Body: React.FC<BodyProps> = ({ children }) => {
-  return (
-    <S.BodyWrapper maxWidth='xl'>
-      Body
-      {children}
-    </S.BodyWrapper>
-  );
+  return <S.BodyWrapper>{children}</S.BodyWrapper>;
 };
 
 export default Body;

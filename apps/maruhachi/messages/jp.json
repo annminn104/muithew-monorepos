@@ -3,14 +3,15 @@
     "title": "丸八農産"
   },
   "mainLayout": {
-    "homePage": {
-      "title": "ロレム・イプサム・ドール・シット・アメット"
-    },
     "header": {
       "contactBar": {
         "info": {
           "phoneNumber": "0123-456-789",
-          "email": "test@gmail.com"
+          "email": "test@gmail.com",
+          "facebook": "http://www.facebook.com",
+          "messenger": "http://www.messenger.com",
+          "instagram": "http://www.instagram.com",
+          "whatsApp": "http://www.whatsapp.com"
         }
       },
       "navigation": {
@@ -24,6 +25,34 @@
       "companyName": "丸八農産",
       "followUs": "Follow us",
       "phoneNumber": "0123-456-789"
+    }
+  },
+  "homePage": {
+    "title": "Lorem ipsum dolor sit amet",
+    "banner": {
+      "slides": [
+        {
+          "key": "1",
+          "subtitle": "subtitle 1",
+          "title": "Welcome to Maruhachinousan JP 1",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae ipsam voluptatibus animi nesciunt deleniti.",
+          "button": "Button"
+        },
+        {
+          "key": "2",
+          "subtitle": "subtitle 2",
+          "title": "Welcome to Maruhachinousan JP 2",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae ipsam voluptatibus animi nesciunt deleniti.",
+          "button": "Button"
+        },
+        {
+          "key": "3",
+          "subtitle": "subtitle 3",
+          "title": "Welcome to Maruhachinousan JP 3",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae ipsam voluptatibus animi nesciunt deleniti.",
+          "button": "Button"
+        }
+      ]
     }
   }
 }

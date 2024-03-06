@@ -2,8 +2,8 @@ import { usePathname, useRouter } from 'navigation';
 import { useParams } from 'next/navigation';
 import React, { useTransition } from 'react';
 
-import { languagesMock } from '@mocks';
 import { IconButton } from '@mui/material';
+import { languagesMock } from 'mocks';
 
 import * as S from './styles';
 

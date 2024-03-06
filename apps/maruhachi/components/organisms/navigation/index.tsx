@@ -1,8 +1,8 @@
 import { useTranslations } from 'next-intl';
 import React from 'react';
 
-import { navigationMock } from '@mocks';
 import { Typography } from '@mui/material';
+import { navigationMock } from 'mocks';
 import * as S from './styles';
 
 type NavigationProps = {};

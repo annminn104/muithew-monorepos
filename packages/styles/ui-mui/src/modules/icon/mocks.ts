@@ -1,5 +1,6 @@
 import { pathFlags } from '../../assets/flags';
 import { pathIcons } from '../../assets/icons';
+import { pathSocials } from '../../assets/socials';
 
 import { IconUtils } from './utils';
 
@@ -1303,7 +1304,12 @@ export const IconsSortMock = {
     'Plain2Icon',
     'Plain3Icon'
   ],
-  squareFlags: ['VietNamIcon', 'JapanIcon']
+  squareFlags: ['VietNamIcon', 'JapanIcon'],
+
+  bgSocials: ['SocialFacebookBgIcon', 'SocialMessengerBgIcon'],
+  colSocials: ['SocialFacebookColIcon', 'SocialMessengerColIcon'],
+  conSocials: ['SocialFacebookConIcon'],
+  outSocials: ['SocialFacebookOutIcon']
 };
 
 export const IconsListingMock = [
@@ -1455,9 +1461,24 @@ export const IconsListingMock = [
     label: 'Messages - Conversation',
     components: IconUtils.sortByName(pathIcons['messagesConversationIcons'], IconsSortMock.messagesConversation)
   },
-
   {
     label: 'Square Flags',
     components: IconUtils.sortByName(pathFlags['squareFlags'], IconsSortMock.squareFlags)
+  },
+  {
+    label: 'Background Socials',
+    components: IconUtils.sortByName(pathSocials['bgSocials'], IconsSortMock.bgSocials)
+  },
+  {
+    label: 'Color Socials',
+    components: IconUtils.sortByName(pathSocials['colSocials'], IconsSortMock.colSocials)
+  },
+  {
+    label: 'Contained Socials',
+    components: IconUtils.sortByName(pathSocials['conSocials'], IconsSortMock.conSocials)
+  },
+  {
+    label: 'Outlined Socials',
+    components: IconUtils.sortByName(pathSocials['outSocials'], IconsSortMock.outSocials)
   }
 ];

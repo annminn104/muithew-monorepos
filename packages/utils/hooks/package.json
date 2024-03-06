@@ -10,7 +10,7 @@
   "scripts": {
     "build": "tsup",
     "dev": "tsup --watch",
-    "clean:build": "rm -rf dist/ .turbo/"
+    "clean:build": "rm -rf dist/ .turbo/ node_modules/"
   },
   "dependencies": {
     "@configs/tsconfig": "*",

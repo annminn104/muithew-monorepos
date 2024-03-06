@@ -1,7 +1,7 @@
 import { useTranslations } from 'next-intl';
 
-import { contactHeaderBarMock } from '@mocks';
 import { Typography } from '@mui/material';
+import { contactHeaderBarMock } from 'mocks';
 
 import * as S from './styles';
 
@@ -18,6 +18,11 @@ const ContactHeaderBar = () => {
           </S.ContactHeaderBarInfoItem>
         ))}
       </S.ContactHeaderBarInfo>
+      <S.ContactHeaderBarSocial>
+        {contactHeaderBarMock.social.map((social) => (
+          <S.ContactHeaderBarSocialItem key={social.key}>{social.icon}</S.ContactHeaderBarSocialItem>
+        ))}
+      </S.ContactHeaderBarSocial>
     </S.ContactHeaderBarWrap>
   );
 };

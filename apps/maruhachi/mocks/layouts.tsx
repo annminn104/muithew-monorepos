@@ -1,4 +1,11 @@
-import { LetterOpenedIcon, PhoneCallingIcon } from '@styles/ui-mui/icons';
+import {
+  LetterOpenedIcon,
+  PhoneCallingIcon,
+  SocialFacebookBgIcon,
+  SocialInstagramBgIcon,
+  SocialMessengerBgIcon,
+  SocialWhatsAppBgIcon
+} from '@styles/ui-mui/icons';
 
 type NavigationI18nType = 'home' | 'aboutUs' | 'services' | 'contact';
 
@@ -17,15 +24,22 @@ export const navigationMock: INavigationMock[] = [
   { key: 'contact', i18n: 'contact', slug: 'contact', scrolling: '#section-contact', name: 'Contact' }
 ];
 
-type ContactHeaderBarI18nType = 'email' | 'phoneNumber';
+type ContactHeaderBarI18nType = 'email' | 'phoneNumber' | 'facebook' | 'messenger' | 'instagram' | 'whatsApp';
 
 interface IContactHeaderBarMock {
   info: Array<{ key: string; name: string; i18n: ContactHeaderBarI18nType; icon: any }>;
+  social: Array<{ key: string; name: string; i18n: ContactHeaderBarI18nType; icon: any }>;
 }
 
 export const contactHeaderBarMock: IContactHeaderBarMock = {
   info: [
-    { key: 'email', name: 'Email', i18n: 'email', icon: <LetterOpenedIcon /> },
-    { key: 'phone', name: 'Phone', i18n: 'phoneNumber', icon: <PhoneCallingIcon /> }
+    { key: 'email', name: 'Email', i18n: 'email', icon: <LetterOpenedIcon fontSize='small' /> },
+    { key: 'phone', name: 'Phone', i18n: 'phoneNumber', icon: <PhoneCallingIcon fontSize='small' /> }
+  ],
+  social: [
+    { key: 'facebook', name: 'Facebook', i18n: 'facebook', icon: <SocialFacebookBgIcon fontSize='small' /> },
+    { key: 'messenger', name: 'Messenger', i18n: 'messenger', icon: <SocialMessengerBgIcon fontSize='small' /> },
+    { key: 'instagram', name: 'Instagram', i18n: 'instagram', icon: <SocialInstagramBgIcon fontSize='small' /> },
+    { key: 'whats-app', name: 'Whats App', i18n: 'whatsApp', icon: <SocialWhatsAppBgIcon fontSize='small' /> }
   ]
 };

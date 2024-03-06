@@ -1,3 +1,10 @@
-import { Container, styled } from '@mui/material';
+'use client';
 
-export const BodyWrapper = styled(Container, {})(({}) => ({}));
+import { styled } from '@mui/material';
+
+export const BodyWrapper = styled(
+  'div',
+  {}
+)(({}) => ({
+  padding: '8px 16px'
+}));

@@ -14,7 +14,7 @@ const Header: React.FC<HeaderProps> = () => {
           <ContactHeaderBar />
         </Grid>
         <Grid item xs={12}>
-          <Navigation />G
+          <Navigation />
         </Grid>
       </Grid>
     </S.HeaderWrapper>

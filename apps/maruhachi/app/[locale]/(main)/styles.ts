@@ -1,6 +1,5 @@
 'use client';
 
-import Body from '@components/templates/body';
 import { styled } from '@mui/material';
 
 export const LocaleWrapper = styled('div', {})(() => ({}));
@@ -17,8 +16,7 @@ export const LocaleBody = styled(
   'main',
   {}
 )(({ theme }) => ({
-  backgroundColor: theme.palette.grey['100'],
-  padding: '8px 16px'
+  backgroundColor: theme.palette.grey['100']
 }));
 
 export const LocaleFooter = styled(
