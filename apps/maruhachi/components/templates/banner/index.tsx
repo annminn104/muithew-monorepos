@@ -24,8 +24,6 @@ const Banner: React.FC<BannerProps> = ({ i18n }) => {
       navigation
       pagination={{ clickable: true }}
       scrollbar={{ draggable: false }}
-      onSwiper={(swiper) => console.log(swiper)}
-      onSlideChange={() => console.log('slide change')}
       // autoplay={{ delay: 2500, disableOnInteraction: false }}
       creativeEffect={{
         prev: { shadow: true, translate: [0, 0, -400] },

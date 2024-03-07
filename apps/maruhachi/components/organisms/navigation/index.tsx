@@ -11,30 +11,32 @@ const Navigation: React.FC<NavigationProps> = () => {
   const t = useTranslations('mainLayout');
 
   return (
-    <S.NavWrap>
-      <S.NavLeft>
-        <S.NavLogo>Logo + name</S.NavLogo>
-      </S.NavLeft>
-      <S.NavCenter>
-        <S.NavLinkList>
-          {navigationMock.map((nav) => (
-            <S.NavLinkItem href={nav.slug} key={nav.key}>
-              <p>{t(`header.navigation.${nav.i18n}`)}</p>
-            </S.NavLinkItem>
-          ))}
-        </S.NavLinkList>
-      </S.NavCenter>
-      <S.NavRight>
-        <S.NavLanguages />
-        <S.NavContactBtn>
-          <S.NavContactBtnIcon />
-          <S.NavContactBtnContent>
-            <Typography variant='body2'>Hotline</Typography>
-            <Typography variant='body2'>0123-456-789</Typography>
-          </S.NavContactBtnContent>
-        </S.NavContactBtn>
-      </S.NavRight>
-    </S.NavWrap>
+    <React.Fragment>
+      <S.NavWrap>
+        <S.NavLeft>
+          <S.NavLogo>Logo + name</S.NavLogo>
+        </S.NavLeft>
+        <S.NavCenter>
+          <S.NavLinkList>
+            {navigationMock.map((nav) => (
+              <S.NavLinkItem href={nav.slug} key={nav.key}>
+                <p>{t(`header.navigation.${nav.i18n}`)}</p>
+              </S.NavLinkItem>
+            ))}
+          </S.NavLinkList>
+        </S.NavCenter>
+        <S.NavRight>
+          <S.NavLanguages />
+          <S.NavContactBtn>
+            <S.NavContactBtnIcon />
+            <S.NavContactBtnContent>
+              <Typography variant='body2'>Hotline</Typography>
+              <Typography variant='body2'>0123-456-789</Typography>
+            </S.NavContactBtnContent>
+          </S.NavContactBtn>
+        </S.NavRight>
+      </S.NavWrap>
+    </React.Fragment>
   );
 };
 

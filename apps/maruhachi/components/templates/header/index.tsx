@@ -4,16 +4,18 @@ import { Grid } from '@mui/material';
 
 import * as S from './styles';
 
-type HeaderProps = {};
+type HeaderProps = {
+  children?: React.ReactNode;
+};
 
-const Header: React.FC<HeaderProps> = () => {
+const Header: React.FC<HeaderProps> = ({ children }) => {
   return (
     <S.HeaderWrapper maxWidth='xl'>
       <Grid container>
-        <Grid item xs={12}>
+        <Grid item>
           <ContactHeaderBar />
         </Grid>
-        <Grid item xs={12}>
+        <Grid item>
           <Navigation />
         </Grid>
       </Grid>
