@@ -1,15 +1,21 @@
-import { useTranslations } from 'next-intl';
 import React from 'react';
 
 import { Typography } from '@mui/material';
 import { navigationMock } from 'mocks';
 import * as S from './styles';
 
-type NavigationProps = {};
+type NavigationProps = {
+  i18n: {
+    navigation: {
+      home: string;
+      aboutUs: string;
+      services: string;
+      contact: string;
+    };
+  };
+};
 
-const Navigation: React.FC<NavigationProps> = () => {
-  const t = useTranslations('mainLayout');
-
+const Navigation: React.FC<NavigationProps> = ({ i18n }) => {
   return (
     <React.Fragment>
       <S.NavWrap>
@@ -20,7 +26,7 @@ const Navigation: React.FC<NavigationProps> = () => {
           <S.NavLinkList>
             {navigationMock.map((nav) => (
               <S.NavLinkItem href={nav.slug} key={nav.key}>
-                <p>{t(`header.navigation.${nav.i18n}`)}</p>
+                <p>{i18n.navigation[`${nav.i18n}`]}</p>
               </S.NavLinkItem>
             ))}
           </S.NavLinkList>

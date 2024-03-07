@@ -16,7 +16,7 @@ export const LocaleBody = styled(
   'main',
   {}
 )(({ theme }) => ({
-  backgroundColor: theme.palette.grey['100']
+  // backgroundColor: theme.palette.grey['100']
 }));
 
 export const LocaleFooter = styled(

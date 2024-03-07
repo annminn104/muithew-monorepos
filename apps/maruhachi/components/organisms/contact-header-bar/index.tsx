@@ -1,14 +1,27 @@
-import { useTranslations } from 'next-intl';
-
 import { Typography } from '@mui/material';
 import { contactHeaderBarMock } from 'mocks';
 
 import React from 'react';
 import * as S from './styles';
 
-const ContactHeaderBar = () => {
-  const t = useTranslations('mainLayout.header.contactBar');
+type ContactHeaderBarProps = {
+  i18n: {
+    contactBar: {
+      info: {
+        phoneNumber: string;
+        email: string;
+      };
+      social: {
+        facebook: string;
+        messenger: string;
+        instagram: string;
+        whatsApp: string;
+      };
+    };
+  };
+};
 
+const ContactHeaderBar: React.FC<ContactHeaderBarProps> = ({ i18n: { contactBar } }) => {
   return (
     <React.Fragment>
       <S.ContactHeaderBarWrap>
@@ -16,7 +29,7 @@ const ContactHeaderBar = () => {
           {contactHeaderBarMock.info.map((inf) => (
             <S.ContactHeaderBarInfoItem key={inf.key}>
               {inf.icon}
-              <Typography variant='caption'>{t(`info.${inf.i18n}`)}</Typography>
+              <Typography variant='caption'>{contactBar.info[`${inf.i18n}`]}</Typography>
             </S.ContactHeaderBarInfoItem>
           ))}
         </S.ContactHeaderBarInfo>

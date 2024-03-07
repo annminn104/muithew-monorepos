@@ -7,7 +7,9 @@
       "contactBar": {
         "info": {
           "phoneNumber": "0123-456-789",
-          "email": "test@gmail.com",
+          "email": "test@gmail.com"
+        },
+        "social": {
           "facebook": "http://www.facebook.com",
           "messenger": "http://www.messenger.com",
           "instagram": "http://www.instagram.com",
@@ -34,25 +36,44 @@
         {
           "key": "1",
           "subtitle": "subtitle 1",
-          "title": "Welcome to Maruhachinousan JP 1",
+          "title": "Welcome to </br> Maruhachinousan",
           "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae ipsam voluptatibus animi nesciunt deleniti.",
-          "button": "Button"
+          "button": "Contact",
+          "background": "/images/bg-banner-1.avif"
         },
         {
           "key": "2",
           "subtitle": "subtitle 2",
-          "title": "Welcome to Maruhachinousan JP 2",
+          "title": "Welcome to </br> Maruhachinousan",
           "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae ipsam voluptatibus animi nesciunt deleniti.",
-          "button": "Button"
+          "button": "Contact",
+          "background": "/images/bg-banner-2.jpg"
         },
         {
           "key": "3",
           "subtitle": "subtitle 3",
-          "title": "Welcome to Maruhachinousan JP 3",
+          "title": "Welcome to </br> Maruhachinousan",
           "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae ipsam voluptatibus animi nesciunt deleniti.",
-          "button": "Button"
+          "button": "Contact",
+          "background": "/images/bg-banner-3.jpeg"
         }
       ]
+    },
+    "introduction": {
+      "images": {
+        "vertical": {
+          "src": "/images/img-introduction-1.jpg",
+          "width": 440,
+          "height": 580,
+          "alt": "Maruhachinousan image introduction vertical"
+        },
+        "horizontal": {
+          "src": "/images/img-introduction-2.webp",
+          "width": 360,
+          "height": 280,
+          "alt": "Maruhachinousan image introduction horizontal"
+        }
+      }
     }
   }
 }

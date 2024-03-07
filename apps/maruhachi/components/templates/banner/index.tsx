@@ -10,6 +10,7 @@ interface ISlide {
   title: string;
   description: string;
   button: string;
+  background: string;
 }
 
 type BannerProps = {
@@ -17,32 +18,41 @@ type BannerProps = {
 };
 
 const Banner: React.FC<BannerProps> = ({ i18n }) => {
+  const createEffect = {
+    prev: { shadow: true, translate: [0, 0, -400] },
+    next: { translate: ['100%', 0, 0] }
+  };
+
   return (
     <S.BannerSwiper
       modules={[A11y, Navigation, Pagination, Scrollbar, Autoplay, EffectCreative]}
-      slidesPerView={1}
-      navigation
       pagination={{ clickable: true }}
       scrollbar={{ draggable: false }}
-      // autoplay={{ delay: 2500, disableOnInteraction: false }}
-      creativeEffect={{
-        prev: { shadow: true, translate: [0, 0, -400] },
-        next: { translate: ['100%', 0, 0] }
-      }}
-      // centeredSlides={true}
+      creativeEffect={createEffect}
       grabCursor={true}
-      effect='creative'
+      slidesPerView={1}
       loop={true}
+      navigation
+      effect='creative'
     >
-      {i18n.slides.map((slide, index) => (
-        <S.BannerSwiperSlide key={slide.key} style={{ backgroundImage: `url(https://source.unsplash.com/random/${index})` }}>
-          <S.BannerWrap maxWidth='xl'>
-            <Grid container>
-              <Grid item xs={12}>
-                {slide.title}
+      {i18n.slides.map((slide) => (
+        <S.BannerSwiperSlide key={slide.key} style={{ backgroundImage: `url(${slide.background})` }}>
+          <S.BannerBox>
+            <S.BannerWrap maxWidth='xl'>
+              <Grid container>
+                <Grid item xs={12}>
+                  <S.BannerContent>
+                    <S.BannerSubtitle variant='h4'>{slide.subtitle}</S.BannerSubtitle>
+                    <S.BannerTitle variant='h1' dangerouslySetInnerHTML={{ __html: slide.title }} />
+                    <S.BannerDesc variant='h5'>{slide.description}</S.BannerDesc>
+                    <S.BannerButton type='button' variant='contained' size='large' color='warning'>
+                      {slide.button}
+                    </S.BannerButton>
+                  </S.BannerContent>
+                </Grid>
               </Grid>
-            </Grid>
-          </S.BannerWrap>
+            </S.BannerWrap>
+          </S.BannerBox>
         </S.BannerSwiperSlide>
       ))}
     </S.BannerSwiper>

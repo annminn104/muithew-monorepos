@@ -4,6 +4,7 @@ import Body from '@components/templates/body';
 import Footer from '@components/templates/footer';
 import Header from '@components/templates/header';
 
+import { unstable_setRequestLocale } from 'next-intl/server';
 import * as S from './styles';
 
 type MainLayoutProps = {
@@ -12,6 +13,8 @@ type MainLayoutProps = {
 };
 
 const MainLayout = ({ children, params: { locale } }: MainLayoutProps) => {
+  unstable_setRequestLocale(locale);
+
   return (
     <S.LocaleWrapper>
       <S.LocaleHeader>
