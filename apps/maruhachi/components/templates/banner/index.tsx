@@ -5,7 +5,7 @@ import { A11y, Autoplay, EffectCreative, Navigation, Pagination, Scrollbar } fro
 import * as S from './styles';
 
 interface ISlide {
-  key: React.Key;
+  key: string;
   subtitle: string;
   title: string;
   description: string;
@@ -13,7 +13,7 @@ interface ISlide {
 }
 
 type BannerProps = {
-  i18n: { slide: Array<ISlide> };
+  i18n: { slides: Array<ISlide> };
 };
 
 const Banner: React.FC<BannerProps> = ({ i18n }) => {
@@ -36,7 +36,7 @@ const Banner: React.FC<BannerProps> = ({ i18n }) => {
       effect='creative'
       loop={true}
     >
-      {i18n.slide.map((slide, index) => (
+      {i18n.slides.map((slide, index) => (
         <S.BannerSwiperSlide key={slide.key} style={{ backgroundImage: `url(https://source.unsplash.com/random/${index})` }}>
           <S.BannerWrap maxWidth='xl'>
             <Grid container>
