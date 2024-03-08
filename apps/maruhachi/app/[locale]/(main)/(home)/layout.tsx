@@ -1,7 +1,7 @@
 import { useTranslations } from 'next-intl';
 import React from 'react';
 
-import Banner from '@components/templates/banner';
+import SectionBanner from '@components/templates/section-banner';
 
 type HomeLayoutProps = {
   params: { locale: string };
@@ -13,7 +13,7 @@ const HomeLayout: React.FC<HomeLayoutProps> = ({ children, params: { locale } })
 
   return (
     <React.Fragment>
-      <Banner i18n={{ slides: t.raw('banner.slides') }} />
+      <SectionBanner i18n={{ slides: t.raw('banner.slides') }} />
       {children}
     </React.Fragment>
   );

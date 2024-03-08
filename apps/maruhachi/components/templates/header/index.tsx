@@ -10,7 +10,7 @@ type HeaderProps = {};
 const Header: React.FC<HeaderProps> = () => {
   const t = useTranslations('mainLayout');
   return (
-    <S.HeaderWrapper maxWidth='xl'>
+    <S.HeaderWrapper maxWidth='lg'>
       <Grid container>
         <Grid item xs={12}>
           <ContactHeaderBar i18n={{ contactBar: t.raw('header.contactBar') }} />

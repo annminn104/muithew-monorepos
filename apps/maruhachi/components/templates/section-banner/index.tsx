@@ -17,7 +17,7 @@ type BannerProps = {
   i18n: { slides: Array<ISlide> };
 };
 
-const Banner: React.FC<BannerProps> = ({ i18n }) => {
+const SectionBanner: React.FC<BannerProps> = ({ i18n }) => {
   const createEffect = {
     prev: { shadow: true, translate: [0, 0, -400] },
     next: { translate: ['100%', 0, 0] }
@@ -38,7 +38,7 @@ const Banner: React.FC<BannerProps> = ({ i18n }) => {
       {i18n.slides.map((slide) => (
         <S.BannerSwiperSlide key={slide.key} style={{ backgroundImage: `url(${slide.background})` }}>
           <S.BannerBox>
-            <S.BannerWrap maxWidth='xl'>
+            <S.BannerWrap maxWidth='lg'>
               <Grid container>
                 <Grid item xs={12}>
                   <S.BannerContent>
@@ -59,4 +59,4 @@ const Banner: React.FC<BannerProps> = ({ i18n }) => {
   );
 };
 
-export default Banner;
+export default SectionBanner;

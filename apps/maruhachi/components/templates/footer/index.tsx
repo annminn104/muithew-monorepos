@@ -15,7 +15,7 @@ const Footer: React.FC<FooterProps> = () => {
   };
 
   return (
-    <S.FooterWrapper maxWidth='xl'>
+    <S.FooterWrapper maxWidth='lg'>
       <Grid container spacing={2}>
         <Grid item xs={12}>
           <S.FooterLogo>
@@ -25,8 +25,8 @@ const Footer: React.FC<FooterProps> = () => {
         </Grid>
         <Grid item xs={4}>
           <S.FooterInfoTitle variant='body1'>{t('followUs')}</S.FooterInfoTitle>
-          {followUsMock.map((item, index) => (
-            <S.FooterInfoContent key={item.key + index}>
+          {followUsMock.map((item) => (
+            <S.FooterInfoContent key={item.key}>
               {item.icon} {footerTrans[item.key]}
             </S.FooterInfoContent>
           ))}

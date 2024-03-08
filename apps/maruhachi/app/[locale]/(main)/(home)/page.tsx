@@ -2,10 +2,9 @@ import { useTranslations } from 'next-intl';
 import { unstable_setRequestLocale } from 'next-intl/server';
 import React from 'react';
 
-import Introduction from '@components/templates/introduction';
-
-import { Grid } from '@mui/material';
-import * as S from './styles';
+import HomePageSection from '@components/organisms/home-page-section';
+import SectionIntroduction from '@components/templates/section-introduction';
+import SectionServices from '@components/templates/section-services';
 
 type MainPageProps = {
   params: { locale: string };
@@ -17,21 +16,15 @@ export default function HomePage({ params: { locale } }: MainPageProps): React.J
   const t = useTranslations('homePage');
 
   const sectionsHomePage = [
-    {
-      key: 'introduction',
-      component: <Introduction {...t.raw('introduction')} />
-    }
+    { key: 'introduction', component: <SectionIntroduction {...t.raw('introduction')} /> },
+    { key: 'sections', component: <SectionServices {...t.raw('sections')} /> }
   ];
 
   return (
-    <S.HomePageWrap maxWidth='xl'>
-      <Grid container>
-        {sectionsHomePage.map((sec) => (
-          <Grid item xs={12} key={sec.key}>
-            <S.HomePageSection>{sec.component}</S.HomePageSection>
-          </Grid>
-        ))}
-      </Grid>
-    </S.HomePageWrap>
+    <React.Fragment>
+      {sectionsHomePage.map((sec) => (
+        <HomePageSection key={sec.key}>{sec.component}</HomePageSection>
+      ))}
+    </React.Fragment>
   );
 }
