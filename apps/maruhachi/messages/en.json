@@ -106,6 +106,87 @@
         "button": "Contact"
       }
     },
-    "sections": {}
+    "services": {
+      "products": {
+        "icon": {
+          "src": "/images/logo-60.png",
+          "width": 60,
+          "height": 60,
+          "alt": "Logo Maruhachinousan product"
+        },
+        "subtitle": "WHAT WE’RE DOING",
+        "title": "Services We Offer",
+        "content": [
+          {
+            "key": "service product 1",
+            "img": {
+              "src": "/images/img-services-product-1.jpg",
+              "width": 268,
+              "height": 220,
+              "alt": "Image Maruhachinousan product 1"
+            },
+            "icon": {
+              "src": "/images/logo-60.png",
+              "width": 80,
+              "height": 80,
+              "alt": "SVG Maruhachinousan chicken egg"
+            },
+            "title": "Dairy Products",
+            "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry"
+          },
+          {
+            "key": "service product 2",
+            "img": {
+              "src": "/images/img-services-product-2.jpg",
+              "width": 268,
+              "height": 220,
+              "alt": "Image Maruhachinousan product 2"
+            },
+            "icon": {
+              "src": "/images/logo-60.png",
+              "width": 80,
+              "height": 80,
+              "alt": "SVG Maruhachinousan chicken egg"
+            },
+            "title": "Dairy Products",
+            "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry"
+          },
+          {
+            "key": "service product 3",
+            "img": {
+              "src": "/images/img-services-product-3.jpg",
+              "width": 268,
+              "height": 220,
+              "alt": "Image Maruhachinousan product 3"
+            },
+            "icon": {
+              "src": "/images/logo-60.png",
+              "width": 80,
+              "height": 80,
+              "alt": "SVG Maruhachinousan chicken egg"
+            },
+            "title": "Dairy Products",
+            "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry"
+          },
+          {
+            "key": "service product 4",
+            "img": {
+              "src": "/images/img-services-product-4.jpg",
+              "width": 268,
+              "height": 220,
+              "alt": "Image Maruhachinousan product 4"
+            },
+            "icon": {
+              "src": "/images/logo-60.png",
+              "width": 80,
+              "height": 80,
+              "alt": "SVG Maruhachinousan chicken egg"
+            },
+            "title": "Dairy Products",
+            "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry"
+          }
+        ]
+      }
+    }
   }
 }

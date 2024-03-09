@@ -17,7 +17,7 @@ export default function HomePage({ params: { locale } }: MainPageProps): React.J
 
   const sectionsHomePage = [
     { key: 'introduction', component: <SectionIntroduction {...t.raw('introduction')} /> },
-    { key: 'sections', component: <SectionServices {...t.raw('sections')} /> }
+    { key: 'services', component: <SectionServices {...t.raw('services')} /> }
   ];
 
   return (

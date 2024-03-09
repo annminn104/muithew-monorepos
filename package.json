@@ -68,7 +68,8 @@
     "eslint-plugin-react-refresh": "^0.4.5",
     "storybook-addon-react-router-v6": "^2.0.10",
     "next-intl": "^3.9.1",
-    "swiper": "^11.0.7"
+    "swiper": "^11.0.7",
+    "usehooks-ts": "^3.0.1"
   },
   "engines": {
     "node": ">=18"
