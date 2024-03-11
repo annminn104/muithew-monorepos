@@ -5,7 +5,20 @@ export default function Button(theme: Theme): Components<Omit<Theme, 'components
     MuiButton: {
       defaultProps: {},
       styleOverrides: {},
-      variants: []
+      variants: [
+        {
+          props: { variant: 'maruhachi' },
+          style: {
+            backgroundColor: theme.palette['maruhachi'],
+            color: 'white',
+            '&:hover': {
+              backgroundColor: theme.palette['maruhachi'],
+              color: 'white',
+              opacity: 0.6
+            }
+          }
+        }
+      ]
     }
   };
 }

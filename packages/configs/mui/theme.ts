@@ -72,7 +72,8 @@ const commonPalette = {
   grey: greyPalette,
   red: redPalette,
   orange: orangePalette,
-  yellow: yellowPalette
+  yellow: yellowPalette,
+  maruhachi: '#FB873A'
 };
 
 export default function palette(themeMode: 'light' | 'dark') {

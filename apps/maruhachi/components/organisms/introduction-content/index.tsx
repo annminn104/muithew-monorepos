@@ -26,7 +26,7 @@ const IntroductionContent: React.FC<IntroductionContentProps> = ({
         ))}
       </S.IntroContentImages>
       <S.IntroContentNotice>{notice}</S.IntroContentNotice>
-      <S.IntroContentButton variant='contained' color='warning' size='large'>
+      <S.IntroContentButton variant='maruhachi' color='warning' size='large'>
         {button}
       </S.IntroContentButton>
     </S.IntroContentWrap>

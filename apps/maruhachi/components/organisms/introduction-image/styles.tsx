@@ -1,6 +1,6 @@
 'use client';
 
-import { styled } from '@mui/material';
+import { alpha, styled } from '@mui/material';
 import Image from 'next/image';
 
 export const IntroWrap = styled(
@@ -25,7 +25,7 @@ export const IntroVertical = styled(
     top: '50%',
     width: '80%',
     aspectRatio: '1 / 1',
-    backgroundColor: theme.palette.grey[300],
+    backgroundColor: alpha(theme.palette['maruhachi'], 0.6),
     borderRadius: '50%',
     transform: 'translate(50%, -50%)',
     zIndex: -1
@@ -35,10 +35,10 @@ export const IntroVertical = styled(
 export const IntroVerticalImg = styled(
   Image,
   {}
-)(({}) => ({
+)(({ theme }) => ({
   objectFit: 'cover',
   borderRadius: '8px',
-  boxShadow: 'rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px',
+  boxShadow: theme.shadows['8'],
   opacity: '0.8'
 }));
 
@@ -58,11 +58,11 @@ export const IntroHorizontal = styled('div', {})(({ theme }) => ({}));
 export const IntroHorizontalImg = styled(
   Image,
   {}
-)(({}) => ({
+)(({ theme }) => ({
   objectFit: 'cover',
   position: 'absolute',
   right: 0,
   bottom: 0,
   borderRadius: '8px',
-  boxShadow: 'rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px'
+  boxShadow: theme.shadows['8']
 }));

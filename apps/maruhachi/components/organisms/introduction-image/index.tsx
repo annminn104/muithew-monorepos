@@ -1,5 +1,6 @@
 import { SectionIntroductionProps } from '@components/templates/section-introduction';
 
+import React from 'react';
 import * as S from './styles';
 
 type IntroductionImageProps = {

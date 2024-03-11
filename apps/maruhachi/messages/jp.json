@@ -108,6 +108,11 @@
       }
     },
     "services": {
+      "video": {
+        "title": "Maruhachinousan",
+        "button": "Contact",
+        "videoSrc": "https://www.youtube.com/watch?v=9K-82fomFhA"
+      },
       "products": {
         "icon": {
           "src": "/images/logo-60.png",

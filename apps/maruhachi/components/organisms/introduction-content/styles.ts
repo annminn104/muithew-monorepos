@@ -14,7 +14,7 @@ export const IntroContentWrap = styled(
 
 export const IntroContentSubtitle = styled(Typography, {})(({}) => ({}));
 
-export const IntroContentTitle = styled(Typography, {})(({}) => ({}));
+export const IntroContentTitle = styled(Typography, {})(({ theme }) => ({ color: theme.palette['maruhachi'] }));
 
 export const IntroContentDescription = styled(Typography, {})(({}) => ({}));
 

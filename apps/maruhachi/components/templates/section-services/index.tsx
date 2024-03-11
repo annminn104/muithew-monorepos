@@ -4,6 +4,11 @@ import { Grid } from '@mui/material';
 import { IImageNext } from 'global';
 
 export type SectionServicesProps = {
+  video: {
+    title: string;
+    button: string;
+    videoSrc: string;
+  };
   products: {
     icon: IImageNext;
     subtitle: string;
@@ -12,11 +17,11 @@ export type SectionServicesProps = {
   };
 };
 
-const SectionServices: React.FC<SectionServicesProps> = ({ products }) => {
+const SectionServices: React.FC<SectionServicesProps> = ({ video, products }) => {
   return (
     <Grid container>
       <Grid item xs={12}>
-        <ServicesVideo />
+        <ServicesVideo i18n={{ video }} />
       </Grid>
       <Grid item xs={12}>
         <ServicesProducts i18n={{ products }} />

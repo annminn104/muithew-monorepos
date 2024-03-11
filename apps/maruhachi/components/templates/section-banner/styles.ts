@@ -47,16 +47,10 @@ export const BannerContent = styled(
   {}
 )(({ theme }) => ({ ...theme.functions.adjustFlex('flex', 'column', 'flex-start', 'initial'), rowGap: '8px' }));
 
-export const BannerTitle = styled(Typography, {})(({ theme }) => ({ color: theme.palette.warning['main'] }));
+export const BannerTitle = styled(Typography, {})(({ theme }) => ({ color: theme.palette['maruhachi'], fontSize: '5vw' }));
 
 export const BannerSubtitle = styled(Typography, {})(({ theme }) => ({ color: theme.palette.mode['main'] }));
 
 export const BannerDesc = styled(Typography, {})(({ theme }) => ({ color: theme.palette.mode['main'] }));
 
-export const BannerButton = styled(
-  Button,
-  {}
-)(({ theme }) => ({
-  width: '200px',
-  height: '60px'
-}));
+export const BannerButton = styled(Button, {})(({ theme }) => ({ width: '200px', height: '60px' }));

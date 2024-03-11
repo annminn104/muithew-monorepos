@@ -45,7 +45,7 @@ const SectionBanner: React.FC<BannerProps> = ({ i18n }) => {
                     <S.BannerSubtitle variant='h4'>{slide.subtitle}</S.BannerSubtitle>
                     <S.BannerTitle variant='h1' dangerouslySetInnerHTML={{ __html: slide.title }} />
                     <S.BannerDesc variant='h5'>{slide.description}</S.BannerDesc>
-                    <S.BannerButton type='button' variant='contained' size='large' color='warning'>
+                    <S.BannerButton type='button' variant='maruhachi' size='large' color='warning'>
                       {slide.button}
                     </S.BannerButton>
                   </S.BannerContent>

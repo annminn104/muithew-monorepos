@@ -9,7 +9,7 @@ interface RootProviderProps {
 }
 
 const RootProvider: React.FC<RootProviderProps> = ({ children }) => {
-  return <MuiReactProvider>{children}</MuiReactProvider>;
+  return <MuiReactProvider themeOptions={{}}>{children}</MuiReactProvider>;
 };
 
 export default RootProvider;

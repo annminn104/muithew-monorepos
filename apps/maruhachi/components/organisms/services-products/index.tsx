@@ -6,6 +6,7 @@ import { useWindowSize } from 'usehooks-ts';
 import { SectionServicesProps } from '@components/templates/section-services';
 import { Grid } from '@mui/material';
 
+import { RoundArrowRightIcon } from '@styles/ui-mui/icons';
 import * as S from './styles';
 
 type ServicesProductsProps = {
@@ -41,8 +42,11 @@ const ServicesProducts: React.FC<ServicesProductsProps> = ({
               <S.SerProItemImg {...item.img} />
               <S.SerProItemIcon {...item.icon} />
               <S.SerProItemText ref={ref}>
-                <S.SerProItemTitle>{item.title}</S.SerProItemTitle>
-                <S.SerProItemContent>{item.content}</S.SerProItemContent>
+                <S.SerProItemTitle variant='h6'>{item.title}</S.SerProItemTitle>
+                <S.SerProItemContent variant='body2'>{item.content}</S.SerProItemContent>
+                <S.SerProItemButton size='large'>
+                  <RoundArrowRightIcon linearColor='white' fontSize='large' />
+                </S.SerProItemButton>
               </S.SerProItemText>
             </S.SerProItem>
           </Grid>
