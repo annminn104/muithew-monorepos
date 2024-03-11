@@ -12,7 +12,7 @@ export const BannerSwiperSlide = styled(
 )(({ theme }) => ({
   '&.swiper-slide': {
     ...theme.functions.adjustFlex(),
-    height: '70vh',
+    height: '80vh',
     backgroundSize: 'cover',
     backgroundPosition: 'center',
     backgroundRepeat: 'no-repeat',

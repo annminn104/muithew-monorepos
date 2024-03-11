@@ -41,6 +41,20 @@ export const SerProWrap = styled('div', { shouldForwardProp: (prop) => prop !== 
   })
 );
 
+export const SerProDivider = styled(
+  'div',
+  {}
+)(({ theme }) => ({
+  position: 'absolute',
+  top: 0,
+  left: 0,
+  backgroundImage: 'url(/images/bg-divider.svg)',
+  backgroundSize: '100%',
+  width: '100%',
+  height: '34px',
+  backgroundRepeat: 'no-repeat'
+}));
+
 export const SerProBox = styled('div', {})(({ theme }) => ({ ...theme.functions.adjustFlex('flex', 'column'), rowGap: '8px' }));
 
 export const SerProLogo = styled(Image, {})(({}) => ({ objectFit: 'cover' }));

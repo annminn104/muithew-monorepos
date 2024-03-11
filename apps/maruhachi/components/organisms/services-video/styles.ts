@@ -33,7 +33,6 @@ export const SerVidButton = styled(
   ...theme.functions.adjustFlex(),
   width: '160px',
   height: '160px',
-  position: 'relative',
   svg: {
     zIndex: 1,
     viewBox: '0 0 96 96 !important',
@@ -75,11 +74,20 @@ export const SerVidDialog = styled(
     maxWidth: '1200px',
     width: '1200px',
     maxHeight: '100%',
-    aspectRatio: '16 / 12'
+    position: 'relative',
+    padding: '16px',
+    backgroundColor: 'transparent',
+    boxShadow: 'none',
+    aspectRatio: '16 / 12',
+    overflow: 'hidden'
   },
   '.MuiDialogContent-root': {
     overflow: 'hidden',
-    padding: 0
+    padding: 0,
+    iframe: {
+      borderWidth: 0,
+      borderRadius: '16px'
+    }
   }
 }));
 
@@ -88,6 +96,13 @@ export const SerVideoCloseBtn = styled(
   {}
 )(({ theme }) => ({
   position: 'absolute',
-  top: '-8px',
-  right: '-8px'
+  top: '-2px',
+  right: '-2px',
+  svg: {
+    transform: 'scale(1.5)',
+    'circle,path': {
+      stroke: theme.palette['maruhachi'],
+      fill: 'white'
+    }
+  }
 }));

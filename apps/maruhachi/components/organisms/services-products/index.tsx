@@ -28,6 +28,7 @@ const ServicesProducts: React.FC<ServicesProductsProps> = ({
 
   return (
     <S.SerProWrap clipPathHeight={itemTextHeight || 0}>
+      <S.SerProDivider />
       <Grid container spacing={4}>
         <Grid item xs={12}>
           <S.SerProBox>
