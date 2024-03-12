@@ -10,9 +10,9 @@ import * as S from './styled';
 const Color: React.FC<unknown> = () => {
   const theme = useTheme();
 
-  const keyOrder = ['common', 'primary', 'secondary', 'success', 'info', 'warning', 'error'];
+  const keyOrder = ['common', 'primary', 'secondary', 'success', 'info', 'warning', 'error', 'maruhachi'];
 
-  const colors: Record<string, Record<string, any>> = omit(theme.palette, [
+  const colors: Record<string, any> = omit(theme.palette, [
     'mode',
     'action',
     'contrastThreshold',

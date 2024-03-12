@@ -14,7 +14,7 @@ const IntroductionContent: React.FC<IntroductionContentProps> = ({
 }) => {
   return (
     <S.IntroContentWrap>
-      <S.IntroContentSubtitle variant='h5'>{subtitle}</S.IntroContentSubtitle>
+      <S.IntroContentSubtitle text={subtitle} />
       <S.IntroContentTitle variant='h3'>{title}</S.IntroContentTitle>
       <S.IntroContentDescription>{description}</S.IntroContentDescription>
       <S.IntroContentImages>

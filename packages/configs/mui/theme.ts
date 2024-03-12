@@ -1,4 +1,5 @@
 import { Color, PaletteOptions } from '@mui/material';
+import { IMaruhachiColorPalette } from './mui-theme';
 
 const greyPalette: Color = {
   50: '#fafafa',
@@ -68,12 +69,19 @@ const yellowPalette: Color = {
   A700: '#ffd600'
 };
 
+const maruhachiPalette: IMaruhachiColorPalette = {
+  contrastText: '#76453B',
+  main: '#E5890A',
+  dark: '#F7D08A',
+  light: '#FAFAFA'
+};
+
 const commonPalette = {
   grey: greyPalette,
   red: redPalette,
   orange: orangePalette,
   yellow: yellowPalette,
-  maruhachi: '#FB873A'
+  maruhachi: maruhachiPalette
 };
 
 export default function palette(themeMode: 'light' | 'dark') {

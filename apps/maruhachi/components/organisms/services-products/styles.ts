@@ -3,12 +3,13 @@
 import { serviceSectionMock } from 'mocks';
 import Image from 'next/image';
 
-import { Button, Typography, styled } from '@mui/material';
+import { Button, styled, Typography } from '@mui/material';
+import { RoundArrowRightIcon } from '@styles/ui-mui/icons';
 
 export const SerProWrap = styled('div', { shouldForwardProp: (prop) => prop !== 'clipPathHeight' })<{ clipPathHeight: number }>(
   ({ theme, clipPathHeight }) => ({
     zIndex: 1,
-    color: theme.palette.common['white'],
+    color: theme.palette.maruhachi['contrastText'],
     '.MuiGrid-container .MuiGrid-item': {
       zIndex: 1
     },
@@ -20,7 +21,7 @@ export const SerProWrap = styled('div', { shouldForwardProp: (prop) => prop !== 
       width: '100%',
       height: `calc(100% - ${clipPathHeight + 127 + serviceSectionMock.height}px)`,
       position: 'absolute',
-      backgroundColor: theme.palette['maruhachi'],
+      backgroundColor: theme.palette.maruhachi['dark'],
       backgroundImage: 'url(/images/bg-service-product.svg)',
       backgroundRepeat: 'no-repeat',
       backgroundSize: 'cover',
@@ -41,17 +42,32 @@ export const SerProWrap = styled('div', { shouldForwardProp: (prop) => prop !== 
   })
 );
 
-export const SerProDivider = styled(
+export const SerProDividerTop = styled(
   'div',
   {}
 )(({ theme }) => ({
   position: 'absolute',
   top: 0,
   left: 0,
-  backgroundImage: 'url(/images/bg-divider.svg)',
+  backgroundImage: 'url(/images/bg-divider-top.svg)',
   backgroundSize: '100%',
   width: '100%',
-  height: '34px',
+  height: `${serviceSectionMock.divider}px`,
+  backgroundRepeat: 'no-repeat'
+}));
+
+export const SerProDividerBottom = styled(
+  'div',
+  {}
+)(({ theme }) => ({
+  position: 'absolute',
+  top: `calc(${serviceSectionMock.height - serviceSectionMock.divider}px)`,
+  left: 0,
+  zIndex: 2,
+  backgroundImage: 'url(/images/bg-divider-bottom.svg)',
+  backgroundSize: '100%',
+  width: '100%',
+  height: `${serviceSectionMock.divider}px`,
   backgroundRepeat: 'no-repeat'
 }));
 
@@ -68,7 +84,7 @@ export const SerProItem = styled(
   {}
 )(({ theme }) => ({
   position: 'relative',
-  backgroundColor: theme.palette['maruhachi'],
+  backgroundColor: theme.palette.maruhachi['dark'],
   borderRadius: '8px',
   overflow: 'hidden',
   boxShadow: theme.shadows['6']
@@ -85,7 +101,7 @@ export const SerProItemIcon = styled(
   left: '50%',
   top: '180px',
   transform: 'translateX(-50%)',
-  backgroundColor: theme.palette['maruhachi'],
+  backgroundColor: theme.palette.maruhachi['dark'],
   padding: '4px',
   borderRadius: '50%'
 }));
@@ -105,9 +121,6 @@ export const SerProItemTitle = styled(Typography, {})(({}) => ({}));
 
 export const SerProItemContent = styled(Typography, {})(({}) => ({}));
 
-export const SerProItemButton = styled(
-  Button,
-  {}
-)(({}) => ({
-  width: '100%'
-}));
+export const SerProItemButton = styled(Button, {})(({ theme }) => ({ width: '100%' }));
+
+export const SerProItemButtonIcon = styled(RoundArrowRightIcon, {})(({ theme }) => ({}));

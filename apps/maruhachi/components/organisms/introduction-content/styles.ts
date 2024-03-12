@@ -1,8 +1,9 @@
 'use client';
 
-import { Button, styled, Typography } from '@mui/material';
-
 import Image from 'next/image';
+
+import Subtitle from '@components/atoms/subtitle';
+import { Button, styled, Typography } from '@mui/material';
 
 export const IntroContentWrap = styled(
   'div',
@@ -12,9 +13,9 @@ export const IntroContentWrap = styled(
   rowGap: '16px'
 }));
 
-export const IntroContentSubtitle = styled(Typography, {})(({}) => ({}));
+export const IntroContentSubtitle = styled(Subtitle, {})(({}) => ({}));
 
-export const IntroContentTitle = styled(Typography, {})(({ theme }) => ({ color: theme.palette['maruhachi'] }));
+export const IntroContentTitle = styled(Typography, {})(({ theme }) => ({ color: theme.palette.maruhachi['contrastText'] }));
 
 export const IntroContentDescription = styled(Typography, {})(({}) => ({}));
 

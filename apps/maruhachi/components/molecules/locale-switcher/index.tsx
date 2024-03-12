@@ -2,7 +2,6 @@ import { usePathname, useRouter } from 'navigation';
 import { useParams } from 'next/navigation';
 import React, { useTransition } from 'react';
 
-import { IconButton } from '@mui/material';
 import { languagesMock } from 'mocks';
 
 import * as S from './styles';
@@ -28,9 +27,9 @@ const LocaleSwitcher: React.FC<LocaleSwitcherProps> = () => {
   return (
     <S.LocaleSwWrap>
       {languagesMock.map((lang) => (
-        <IconButton key={lang.key} onClick={() => handleChangeLanguage(lang.locale)}>
+        <S.LocaleIconButton key={lang.key} onClick={() => handleChangeLanguage(lang.locale)} active={params?.locale === lang.locale}>
           {lang.icon}
-        </IconButton>
+        </S.LocaleIconButton>
       ))}
     </S.LocaleSwWrap>
   );

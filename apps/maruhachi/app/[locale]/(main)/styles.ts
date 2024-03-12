@@ -8,16 +8,12 @@ export const LocaleHeader = styled(
   'header',
   {}
 )(({ theme }) => ({
-  backgroundColor: theme.palette.grey['200'],
+  backgroundColor: theme.palette.maruhachi['light'],
+  boxShadow: theme.shadows[4],
   padding: '8px 16px'
 }));
 
-export const LocaleBody = styled(
-  'main',
-  {}
-)(({ theme }) => ({
-  // backgroundColor: theme.palette.grey['100']
-}));
+export const LocaleBody = styled('main', {})(({ theme }) => ({ backgroundColor: theme.palette.maruhachi['light'] }));
 
 export const LocaleFooter = styled(
   'footer',

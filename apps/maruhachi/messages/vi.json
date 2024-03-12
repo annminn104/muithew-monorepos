@@ -1,6 +1,6 @@
 {
   "localeLayout": {
-    "title": "丸八農産"
+    "title": "Maruhachinousan"
   },
   "mainLayout": {
     "header": {
@@ -17,14 +17,14 @@
         }
       },
       "navigation": {
-        "home": "ホームページ",
-        "aboutUs": "私たちについて",
-        "services": "サービス",
-        "contact": "お問い合わせ"
+        "home": "Trang chủ",
+        "aboutUs": "Về chúng tôi",
+        "services": "Dịch vụ",
+        "contact": "Liên hệ"
       }
     },
     "footer": {
-      "companyName": "丸八農産",
+      "companyName": "Maruhachinousan",
       "followUs": "Follow us",
       "phoneNumber": "0123-456-789"
     }
@@ -88,7 +88,6 @@
           "alt": "Maruhachinousan image introduction horizontal"
         }
       },
-
       "content": {
         "subtitle": "Introduction",
         "title": "WE’RE LEADER IN AGRICULTURE MARKET",

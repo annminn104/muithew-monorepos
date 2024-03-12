@@ -1,5 +1,6 @@
 'use client';
 
+import SwiperArrow from '@components/molecules/swiper-arrow';
 import { Grid } from '@mui/material';
 import { A11y, Autoplay, EffectCreative, Navigation, Pagination, Scrollbar } from 'swiper/modules';
 import * as S from './styles';
@@ -55,6 +56,9 @@ const SectionBanner: React.FC<BannerProps> = ({ i18n }) => {
           </S.BannerBox>
         </S.BannerSwiperSlide>
       ))}
+      <S.BannerSwiperArrow>
+        <SwiperArrow />
+      </S.BannerSwiperArrow>
     </S.BannerSwiper>
   );
 };

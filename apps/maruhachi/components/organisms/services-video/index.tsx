@@ -53,6 +53,7 @@ const ServicesVideo: React.FC<ServicesVideoProps> = ({
           <iframe
             width='100%'
             height='100%'
+            allowFullScreen
             src='https://www.youtube.com/embed/9K-82fomFhA?si=CdKZvIn-yBn6zb2j'
             title='YouTube video player "Maruhachinousan"'
             allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'

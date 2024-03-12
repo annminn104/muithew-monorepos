@@ -25,7 +25,7 @@ export const IntroVertical = styled(
     top: '50%',
     width: '80%',
     aspectRatio: '1 / 1',
-    backgroundColor: alpha(theme.palette['maruhachi'], 0.6),
+    backgroundColor: alpha(theme.palette.maruhachi['main'], 0.6),
     borderRadius: '50%',
     transform: 'translate(50%, -50%)',
     zIndex: -1

@@ -1,3 +1,4 @@
 export const serviceSectionMock = {
-  height: 600
+  height: 700,
+  divider: 37
 };

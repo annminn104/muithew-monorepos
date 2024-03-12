@@ -24,7 +24,7 @@ export const SerVidWrap = styled(
   }
 }));
 
-export const SerVidTitle = styled(Typography, {})(({ theme }) => ({ zIndex: 1, color: theme.palette['maruhachi'], fontSize: '5vw' }));
+export const SerVidTitle = styled(Typography, {})(({ theme }) => ({ zIndex: 1, color: theme.palette.maruhachi['contrastText'], fontSize: '5vw' }));
 
 export const SerVidButton = styled(
   IconButton,
@@ -38,7 +38,7 @@ export const SerVidButton = styled(
     viewBox: '0 0 96 96 !important',
     transform: 'scale(4)',
     'circle,path': {
-      stroke: `${theme.palette['maruhachi']} !important`
+      stroke: `${theme.palette.maruhachi['contrastText']} !important`
     }
   }
 }));
@@ -55,7 +55,7 @@ export const SerVidPing = styled(
   height: '90px',
   transform: 'translate(-50%, -50%)',
   borderRadius: '50%',
-  backgroundColor: theme.palette['maruhachi'],
+  backgroundColor: theme.palette.maruhachi['contrastText'],
   opacity: 0.8,
   animation: 'ping 1s cubic-bezier(0, 0, 0.2, 1) infinite',
   '@keyframes ping': {
@@ -101,7 +101,7 @@ export const SerVideoCloseBtn = styled(
   svg: {
     transform: 'scale(1.5)',
     'circle,path': {
-      stroke: theme.palette['maruhachi'],
+      stroke: theme.palette.maruhachi['contrastText'],
       fill: 'white'
     }
   }

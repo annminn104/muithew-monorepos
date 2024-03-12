@@ -3,6 +3,7 @@ import { unstable_setRequestLocale } from 'next-intl/server';
 import React from 'react';
 
 import HomePageSection from '@components/organisms/home-page-section';
+import SectionAboutUs from '@components/templates/section-about-us';
 import SectionIntroduction from '@components/templates/section-introduction';
 import SectionServices from '@components/templates/section-services';
 
@@ -17,7 +18,8 @@ export default function HomePage({ params: { locale } }: MainPageProps): React.J
 
   const sectionsHomePage = [
     { key: 'introduction', component: <SectionIntroduction {...t.raw('introduction')} /> },
-    { key: 'services', component: <SectionServices {...t.raw('services')} /> }
+    { key: 'services', component: <SectionServices {...t.raw('services')} /> },
+    { key: 'about-us', component: <SectionAboutUs {...t.raw('aboutUs')} /> }
   ];
 
   return (

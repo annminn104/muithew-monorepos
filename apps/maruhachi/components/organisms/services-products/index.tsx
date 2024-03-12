@@ -5,8 +5,8 @@ import { useWindowSize } from 'usehooks-ts';
 
 import { SectionServicesProps } from '@components/templates/section-services';
 import { Grid } from '@mui/material';
+import { useTheme } from '@mui/material/styles';
 
-import { RoundArrowRightIcon } from '@styles/ui-mui/icons';
 import * as S from './styles';
 
 type ServicesProductsProps = {
@@ -21,6 +21,7 @@ const ServicesProducts: React.FC<ServicesProductsProps> = ({
   const [itemTextHeight, setItemTextHeight] = useState<number>(0);
   const { width = 0, height = 0 } = useWindowSize();
   const ref = useRef<HTMLDivElement | null>(null);
+  const theme = useTheme();
 
   useEffect(() => {
     setItemTextHeight(ref.current.clientHeight);
@@ -28,7 +29,8 @@ const ServicesProducts: React.FC<ServicesProductsProps> = ({
 
   return (
     <S.SerProWrap clipPathHeight={itemTextHeight || 0}>
-      <S.SerProDivider />
+      <S.SerProDividerTop />
+      <S.SerProDividerBottom />
       <Grid container spacing={4}>
         <Grid item xs={12}>
           <S.SerProBox>
@@ -46,7 +48,7 @@ const ServicesProducts: React.FC<ServicesProductsProps> = ({
                 <S.SerProItemTitle variant='h6'>{item.title}</S.SerProItemTitle>
                 <S.SerProItemContent variant='body2'>{item.content}</S.SerProItemContent>
                 <S.SerProItemButton size='large'>
-                  <RoundArrowRightIcon linearColor='white' fontSize='large' />
+                  <S.SerProItemButtonIcon linearColor={theme.palette.maruhachi['contrastText']} fontSize='large' />
                 </S.SerProItemButton>
               </S.SerProItemText>
             </S.SerProItem>

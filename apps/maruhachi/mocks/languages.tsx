@@ -1,4 +1,4 @@
-import { JapanIcon, UnitedStatesIcon } from '@styles/ui-mui/icons';
+import { JapanIcon, UnitedStatesIcon, VietNamIcon } from '@styles/ui-mui/icons';
 
 export const languagesMock = [
   {
@@ -14,5 +14,12 @@ export const languagesMock = [
     code: 'JP',
     locale: 'jp',
     icon: <JapanIcon />
+  },
+  {
+    key: 'vi',
+    name: 'Vietnamese',
+    code: 'VI',
+    locale: 'vi',
+    icon: <VietNamIcon />
   }
 ];

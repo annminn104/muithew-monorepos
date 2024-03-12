@@ -1,6 +1,6 @@
 import {
   LetterOpenedIcon,
-  PhoneCallingIcon,
+  PhoneCallingRoundedIcon,
   SocialFacebookBgIcon,
   SocialInstagramBgIcon,
   SocialMessengerBgIcon,
@@ -34,7 +34,7 @@ interface IContactHeaderBarMock {
 export const contactHeaderBarMock: IContactHeaderBarMock = {
   info: [
     { key: 'email', name: 'Email', i18n: 'email', icon: <LetterOpenedIcon fontSize='small' /> },
-    { key: 'phone', name: 'Phone', i18n: 'phoneNumber', icon: <PhoneCallingIcon fontSize='small' /> }
+    { key: 'phone', name: 'Phone', i18n: 'phoneNumber', icon: <PhoneCallingRoundedIcon fontSize='small' /> }
   ],
   social: [
     { key: 'facebook', name: 'Facebook', i18n: 'facebook', icon: <SocialFacebookBgIcon fontSize='small' /> },

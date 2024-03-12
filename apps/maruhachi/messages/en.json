@@ -39,7 +39,7 @@
           "title": "Welcome to </br> Maruhachinousan",
           "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae ipsam voluptatibus animi nesciunt deleniti.",
           "button": "Contact",
-          "background": "/images/bg-banner-1.avif"
+          "background": "/images/bg-banner-1.png"
         },
         {
           "key": "2",
@@ -47,7 +47,7 @@
           "title": "Welcome to </br> Maruhachinousan",
           "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae ipsam voluptatibus animi nesciunt deleniti.",
           "button": "Contact",
-          "background": "/images/bg-banner-2.jpg"
+          "background": "/images/bg-banner-2.png"
         },
         {
           "key": "3",
@@ -55,7 +55,15 @@
           "title": "Welcome to </br> Maruhachinousan",
           "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae ipsam voluptatibus animi nesciunt deleniti.",
           "button": "Contact",
-          "background": "/images/bg-banner-3.jpeg"
+          "background": "/images/bg-banner-3.png"
+        },
+        {
+          "key": "4",
+          "subtitle": "subtitle 4",
+          "title": "Welcome to </br> Maruhachinousan",
+          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae ipsam voluptatibus animi nesciunt deleniti.",
+          "button": "Contact",
+          "background": "/images/bg-banner-4.png"
         }
       ]
     },
@@ -81,7 +89,7 @@
         }
       },
       "content": {
-        "subtitle": "ABOUT AGRICULTURE",
+        "subtitle": "Introduction",
         "title": "WE’RE LEADER IN AGRICULTURE MARKET",
         "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.",
         "images": [
@@ -192,6 +200,71 @@
           }
         ]
       }
+    },
+    "aboutUs": {
+      "content": {
+        "subtitle": "About Us",
+        "title": "Lorem ipsum dolor sit amet",
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
+        "content": ["Lorem ipsum dolor sit amet", "Lorem ipsum dolor sit amet", "Lorem ipsum dolor sit amet", "Lorem ipsum dolor sit amet"],
+        "button": "Contact"
+      },
+      "image": {
+        "src": "/images/img-about-us.webp",
+        "width": 544,
+        "height": 544,
+        "alt": "Maruhachinousan about us image"
+      },
+      "galleries": [
+        {
+          "src": "/images/about-1.jpg",
+          "width": 264,
+          "height": 264,
+          "alt": "Maruhachinousan about us 1",
+          "name": "Name",
+          "position": "Director"
+        },
+        {
+          "src": "/images/about-1.jpg",
+          "width": 264,
+          "height": 264,
+          "alt": "Maruhachinousan about us 2",
+          "name": "Name",
+          "position": "Director"
+        },
+        {
+          "src": "/images/about-1.jpg",
+          "width": 264,
+          "height": 264,
+          "alt": "Maruhachinousan about us 3",
+          "name": "Name",
+          "position": "Director"
+        },
+        {
+          "src": "/images/about-1.jpg",
+          "width": 264,
+          "height": 264,
+          "alt": "Maruhachinousan about us 4",
+          "name": "Name",
+          "position": "Director"
+        },
+        {
+          "src": "/images/about-1.jpg",
+          "width": 264,
+          "height": 264,
+          "alt": "Maruhachinousan about us 5",
+          "name": "Name",
+          "position": "Director"
+        },
+        {
+          "src": "/images/about-1.jpg",
+          "width": 264,
+          "height": 264,
+          "alt": "Maruhachinousan about us 6",
+          "name": "Name",
+          "position": "Director"
+        }
+      ]
     }
   }
 }

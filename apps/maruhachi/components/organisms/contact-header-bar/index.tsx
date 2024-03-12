@@ -23,23 +23,21 @@ type ContactHeaderBarProps = {
 
 const ContactHeaderBar: React.FC<ContactHeaderBarProps> = ({ i18n: { contactBar } }) => {
   return (
-    <React.Fragment>
-      <S.ContactHeaderBarWrap>
-        <S.ContactHeaderBarInfo>
-          {contactHeaderBarMock.info.map((inf) => (
-            <S.ContactHeaderBarInfoItem key={inf.key}>
-              {inf.icon}
-              <Typography variant='caption'>{contactBar.info[`${inf.i18n}`]}</Typography>
-            </S.ContactHeaderBarInfoItem>
-          ))}
-        </S.ContactHeaderBarInfo>
-        <S.ContactHeaderBarSocial>
-          {contactHeaderBarMock.social.map((social) => (
-            <S.ContactHeaderBarSocialItem key={social.key}>{social.icon}</S.ContactHeaderBarSocialItem>
-          ))}
-        </S.ContactHeaderBarSocial>
-      </S.ContactHeaderBarWrap>
-    </React.Fragment>
+    <S.ContactHeaderBarWrap>
+      <S.ContactHeaderBarInfo>
+        {contactHeaderBarMock.info.map((inf) => (
+          <S.ContactHeaderBarInfoItem key={inf.key}>
+            {inf.icon}
+            <Typography variant='caption'>{contactBar.info[`${inf.i18n}`]}</Typography>
+          </S.ContactHeaderBarInfoItem>
+        ))}
+      </S.ContactHeaderBarInfo>
+      <S.ContactHeaderBarSocial>
+        {contactHeaderBarMock.social.map((social) => (
+          <S.ContactHeaderBarSocialItem key={social.key}>{social.icon}</S.ContactHeaderBarSocialItem>
+        ))}
+      </S.ContactHeaderBarSocial>
+    </S.ContactHeaderBarWrap>
   );
 };
 
