@@ -2,7 +2,7 @@
 
 import SwiperArrow from '@components/molecules/swiper-arrow';
 import { Grid } from '@mui/material';
-import { A11y, Autoplay, EffectCreative, Navigation, Pagination, Scrollbar } from 'swiper/modules';
+import { A11y, Autoplay, EffectFade, Navigation, Pagination, Scrollbar } from 'swiper/modules';
 import * as S from './styles';
 
 interface ISlide {
@@ -19,22 +19,17 @@ type BannerProps = {
 };
 
 const SectionBanner: React.FC<BannerProps> = ({ i18n }) => {
-  const createEffect = {
-    prev: { shadow: true, translate: [0, 0, -400] },
-    next: { translate: ['100%', 0, 0] }
-  };
-
   return (
     <S.BannerSwiper
-      modules={[A11y, Navigation, Pagination, Scrollbar, Autoplay, EffectCreative]}
+      modules={[A11y, Navigation, Pagination, Scrollbar, Autoplay, EffectFade]}
       pagination={{ clickable: true }}
       scrollbar={{ draggable: false }}
-      creativeEffect={createEffect}
       grabCursor={true}
       slidesPerView={1}
+      autoplay
       loop={true}
       navigation
-      effect='creative'
+      effect='fade'
     >
       {i18n.slides.map((slide) => (
         <S.BannerSwiperSlide key={slide.key} style={{ backgroundImage: `url(${slide.background})` }}>

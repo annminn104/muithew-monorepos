@@ -10,11 +10,11 @@ const SwiperArrow: React.FC<SwiperArrowProps> = () => {
   const swiper = useSwiper();
 
   return (
-    <S.SwiperArrowWrap>
-      <S.SwiperArrowBtn onClick={() => swiper.slidePrev()} size='large'>
+    <S.SwiperArrowWrap className='swiper-arrow'>
+      <S.SwiperArrowBtn onClick={() => swiper.slidePrev()} size='large' className='swiper-arrow-left'>
         <AltArrowLeftIcon fontSize='large' />
       </S.SwiperArrowBtn>
-      <S.SwiperArrowBtn onClick={() => swiper.slideNext()} size='large'>
+      <S.SwiperArrowBtn onClick={() => swiper.slideNext()} size='large' className='swiper-arrow-right'>
         <AltArrowRightIcon fontSize='large' />
       </S.SwiperArrowBtn>
     </S.SwiperArrowWrap>

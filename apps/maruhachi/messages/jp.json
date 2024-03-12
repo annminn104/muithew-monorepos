@@ -24,13 +24,10 @@
       }
     },
     "footer": {
-      "companyName": "丸八農産",
-      "followUs": "Follow us",
-      "phoneNumber": "0123-456-789"
+      "text": "Copyright © 2024 <b>Maruhachinousan</b>. All rights reserved."
     }
   },
   "homePage": {
-    "title": "Lorem ipsum dolor sit amet",
     "banner": {
       "slides": [
         {
@@ -265,6 +262,24 @@
           "name": "Name",
           "position": "Director"
         }
+      ]
+    },
+    "contact": {
+      "info": [
+        { "key": "phone", "href": "tel:+0123-456-789", "label": "0123-456-789", "isBlank": false },
+        { "key": "mail", "href": "mailto:test@gmail.com", "label": "test@gmail.com", "isBlank": false },
+        {
+          "key": "address",
+          "href": "https://www.google.com/maps/place/Landmark+81/@10.7952228,106.7192166,17z/data=!3m1!4b1!4m6!3m5!1s0x317527c2f8f30911:0x36ac5073f8c91acd!8m2!3d10.7952228!4d106.7217915!16s%2Fm%2F012hcpml?entry=ttu",
+          "label": "720A Dien Bien Phu St, Vinhomes Tan Cang, Binh Thanh, HCM, Viet Nam",
+          "isBlank": true
+        }
+      ],
+      "social": [
+        { "key": "facebook", "href": "facebook.com", "label": "facebook", "isBlank": true },
+        { "key": "messenger", "href": "messenger.com", "label": "messenger", "isBlank": true },
+        { "key": "instagram", "href": "instagram.com", "label": "instagram", "isBlank": true },
+        { "key": "whatsApp", "href": "whatsapp.com", "label": "whatsApp", "isBlank": true }
       ]
     }
   }
