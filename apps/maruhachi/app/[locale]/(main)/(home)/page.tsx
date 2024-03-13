@@ -4,7 +4,7 @@ import React from 'react';
 
 import HomePageSection from '@components/organisms/home-page-section';
 import SectionAboutUs from '@components/templates/section-about-us';
-import SectionContent from '@components/templates/section-contact';
+import SectionContact from '@components/templates/section-contact';
 import SectionIntroduction from '@components/templates/section-introduction';
 import SectionServices from '@components/templates/section-services';
 
@@ -18,16 +18,16 @@ export default function HomePage({ params: { locale } }: MainPageProps): React.J
   const t = useTranslations('homePage');
 
   const sectionsHomePage = [
-    { key: 'introduction', component: <SectionIntroduction {...t.raw('introduction')} /> },
-    { key: 'services', component: <SectionServices {...t.raw('services')} /> },
-    { key: 'about-us', component: <SectionAboutUs {...t.raw('aboutUs')} /> },
-    { key: 'contact', component: <SectionContent /> }
+    { key: 'introduction', scrolling: 'section-home', component: <SectionIntroduction {...t.raw('introduction')} /> },
+    { key: 'services', scrolling: 'section-services', component: <SectionServices {...t.raw('services')} /> },
+    { key: 'about-us', scrolling: 'section-about-us', component: <SectionAboutUs {...t.raw('aboutUs')} /> },
+    { key: 'contact', scrolling: 'section-contact', component: <SectionContact {...t.raw('contact')} /> }
   ];
 
   return (
     <React.Fragment>
       {sectionsHomePage.map((sec) => (
-        <HomePageSection key={sec.key}>{sec.component}</HomePageSection>
+        <HomePageSection key={sec.key} id={sec.scrolling}>{sec.component}</HomePageSection>
       ))}
     </React.Fragment>
   );

@@ -49,3 +49,8 @@ yarn dev --filter=[app-name]
 # Start mini storybook
 yarn storybook --filter=[package-name]
 ```
+
+
+### Frameworks/Libraries
+
+- React - Nextjs - Astro - Gatsby - Remix - Qwik

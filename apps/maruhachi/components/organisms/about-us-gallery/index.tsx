@@ -1,35 +1,29 @@
 'use client';
 
+import Image from 'next/image';
 import React from 'react';
-import { A11y, Autoplay, Scrollbar } from 'swiper/modules';
-import { Swiper, SwiperSlide } from 'swiper/react';
+import { Autoplay, EffectCards } from 'swiper/modules';
+import { Swiper } from 'swiper/react';
 
 import { SectionAboutUsProps } from '@components/templates/section-about-us';
-import { Grid } from '@mui/material';
 
 import * as S from './styles';
 
 type AboutUsGalleryProps = {
-  i18n: Pick<SectionAboutUsProps, 'galleries'>;
+  i18n: Pick<SectionAboutUsProps, 'gallery'>;
 };
 
-const AboutUsGallery: React.FC<AboutUsGalleryProps> = ({ i18n: { galleries } }) => {
+const AboutUsGallery: React.FC<AboutUsGalleryProps> = ({ i18n: { gallery } }) => {
   return (
-    <S.AboutUsGalleryWrap container spacing={4}>
-      <Grid item xs={12}>
-        <Swiper modules={[A11y, Scrollbar, Autoplay]} scrollbar={{ draggable: false }} grabCursor={true} slidesPerView={4} spaceBetween={24} autoplay>
-          {galleries.map((gall, index) => (
-            <SwiperSlide key={index}>
-              <S.AboutUsGalleryItem>
-                <S.AboutUsGalleryImg {...gall} />
-                <S.AboutUsGalleryName variant='h6'>{gall.name}</S.AboutUsGalleryName>
-                <S.AboutUsGalleryPosition variant='h6'>{gall.position}</S.AboutUsGalleryPosition>
-              </S.AboutUsGalleryItem>
-            </SwiperSlide>
-          ))}
-        </Swiper>
-      </Grid>
-    </S.AboutUsGalleryWrap>
+    <S.AboutUsImgWrap>
+      <Swiper effect='cards' grabCursor={true} modules={[EffectCards, Autoplay]} autoplay loop={true} className='mySwiper'>
+        {Array.from({ length: 9 }, (_, index) => (
+          <S.AboutUsImgItem key={index}>
+            <Image src={`https://source.unsplash.com/random/${index}`} width={300} height={420} alt={`Maruhachinousan About Us image ${index}`} />
+          </S.AboutUsImgItem>
+        ))}
+      </Swiper>
+    </S.AboutUsImgWrap>
   );
 };
 

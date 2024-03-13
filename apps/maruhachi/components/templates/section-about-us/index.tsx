@@ -3,7 +3,7 @@ import React from 'react';
 
 import AboutUsContent from '@components/organisms/about-us-content';
 import AboutUsGallery from '@components/organisms/about-us-gallery';
-import AboutUsImage from '@components/organisms/about-us-image';
+import AboutUsInfo from '@components/organisms/about-us-info';
 import { Grid } from '@mui/material';
 
 import * as S from './styles';
@@ -16,11 +16,16 @@ export type SectionAboutUsProps = {
     content: Array<string>;
     button: string;
   };
-  image: IImageNext;
-  galleries: Array<IImageNext & { name: string; position: string }>;
+  gallery: Array<IImageNext>;
+  info: {
+    name: string;
+    position: string;
+    image: IImageNext;
+    quote: string;
+  };
 };
 
-const SectionAboutUs: React.FC<SectionAboutUsProps> = ({ content, image, galleries }) => {
+const SectionAboutUs: React.FC<SectionAboutUsProps> = ({ content, gallery, info }) => {
   return (
     <S.SecAboutUsWrap>
       <Grid container spacing={8}>
@@ -28,10 +33,10 @@ const SectionAboutUs: React.FC<SectionAboutUsProps> = ({ content, image, galleri
           <AboutUsContent i18n={{ content }} />
         </Grid>
         <Grid item xs={6}>
-          <AboutUsImage i18n={{ image }} />
+          <AboutUsGallery i18n={{ gallery }} />
         </Grid>
         <Grid item xs={12}>
-          <AboutUsGallery i18n={{ galleries }} />
+          <AboutUsInfo i18n={{ info }} />
         </Grid>
       </Grid>
     </S.SecAboutUsWrap>

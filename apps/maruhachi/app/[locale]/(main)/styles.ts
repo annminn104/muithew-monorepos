@@ -10,10 +10,13 @@ export const LocaleHeader = styled(
 )(({ theme }) => ({
   backgroundColor: theme.palette.maruhachi['light'],
   boxShadow: theme.shadows[4],
-  padding: '8px 16px'
+  padding: '8px 16px',
+  position: 'fixed',
+  zIndex: '1051',
+  width: '100%'
 }));
 
-export const LocaleBody = styled('main', {})(({ theme }) => ({ backgroundColor: theme.palette.maruhachi['light'] }));
+export const LocaleBody = styled('main', {})(({ theme }) => ({ backgroundColor: theme.palette.maruhachi['light'], paddingTop: '116px' }));
 
 export const LocaleFooter = styled(
   'footer',

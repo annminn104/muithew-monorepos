@@ -19,7 +19,7 @@ interface INavigationMock {
 
 export const navigationMock: INavigationMock[] = [
   { key: 'home', i18n: 'home', slug: 'home', scrolling: '#section-home', name: 'Home' },
-  { key: 'about', i18n: 'aboutUs', slug: 'about', scrolling: '#section-about', name: 'About us' },
+  { key: 'about', i18n: 'aboutUs', slug: 'about', scrolling: '#section-about-us', name: 'About us' },
   { key: 'services', i18n: 'services', slug: 'services', scrolling: '#section-services', name: 'Services' },
   { key: 'contact', i18n: 'contact', slug: 'contact', scrolling: '#section-contact', name: 'Contact' }
 ];

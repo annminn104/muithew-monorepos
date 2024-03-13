@@ -206,64 +206,28 @@
         "content": ["Lorem ipsum dolor sit amet", "Lorem ipsum dolor sit amet", "Lorem ipsum dolor sit amet", "Lorem ipsum dolor sit amet"],
         "button": "Contact"
       },
-      "image": {
-        "src": "/images/img-about-us.webp",
-        "width": 544,
-        "height": 544,
-        "alt": "Maruhachinousan about us image"
-      },
-      "galleries": [
+      "gallery": [
         {
-          "src": "/images/about-1.jpg",
-          "width": 264,
-          "height": 264,
-          "alt": "Maruhachinousan about us 1",
-          "name": "Name",
-          "position": "Director"
-        },
-        {
-          "src": "/images/about-1.jpg",
-          "width": 264,
-          "height": 264,
-          "alt": "Maruhachinousan about us 2",
-          "name": "Name",
-          "position": "Director"
-        },
-        {
-          "src": "/images/about-1.jpg",
-          "width": 264,
-          "height": 264,
-          "alt": "Maruhachinousan about us 3",
-          "name": "Name",
-          "position": "Director"
-        },
-        {
-          "src": "/images/about-1.jpg",
-          "width": 264,
-          "height": 264,
-          "alt": "Maruhachinousan about us 4",
-          "name": "Name",
-          "position": "Director"
-        },
-        {
-          "src": "/images/about-1.jpg",
-          "width": 264,
-          "height": 264,
-          "alt": "Maruhachinousan about us 5",
-          "name": "Name",
-          "position": "Director"
-        },
-        {
-          "src": "/images/about-1.jpg",
-          "width": 264,
-          "height": 264,
-          "alt": "Maruhachinousan about us 6",
-          "name": "Name",
-          "position": "Director"
+          "src": "/images/img-about-us.webp",
+          "width": 544,
+          "height": 544,
+          "alt": "Maruhachinousan about us image"
         }
-      ]
+      ],
+      "info": {
+        "name": "Your Name",
+        "position": "Director/Founder",
+        "image": {
+          "src": "/images/img-about-us-founder.avif",
+          "width": 544,
+          "height": 544,
+          "alt": "Maruhachinousan about us image director"
+        },
+        "quote": "<p><b>Lorem Ipsum</b> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p><p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>"
+      }
     },
     "contact": {
+      "title": "Contact Now",
       "info": [
         { "key": "phone", "href": "tel:+0123-456-789", "label": "0123-456-789", "isBlank": false },
         { "key": "mail", "href": "mailto:test@gmail.com", "label": "test@gmail.com", "isBlank": false },
@@ -279,7 +243,10 @@
         { "key": "messenger", "href": "messenger.com", "label": "messenger", "isBlank": true },
         { "key": "instagram", "href": "instagram.com", "label": "instagram", "isBlank": true },
         { "key": "whatsApp", "href": "whatsapp.com", "label": "whatsApp", "isBlank": true }
-      ]
+      ],
+      "map": {
+        "iframe": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15676.840006633112!2d106.7217912!3d10.7952219!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317527c2f8f30911%3A0x36ac5073f8c91acd!2sT%C3%B2a%20nh%C3%A0%20The%20Landmark%2081!5e0!3m2!1svi!2s!4v1710310496049!5m2!1svi!2s"
+      }
     }
   }
 }

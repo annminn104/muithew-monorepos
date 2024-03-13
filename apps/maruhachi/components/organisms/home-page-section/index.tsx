@@ -5,11 +5,12 @@ import * as S from './styles';
 
 type HomePageSectionProps = {
   children?: React.ReactNode;
+  id: string;
 };
 
-const HomePageSection: React.FC<HomePageSectionProps> = ({ children }) => {
+const HomePageSection: React.FC<HomePageSectionProps> = ({ children, id }) => {
   return (
-    <S.HomePageSection>
+    <S.HomePageSection id={id}>
       <S.HomePageSectionWrap maxWidth='lg'>
         <Grid container>
           <Grid item xs={12}>

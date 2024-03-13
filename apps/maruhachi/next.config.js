@@ -4,7 +4,15 @@ const withNextIntl = createNextIntlPlugin();
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   transpilePackages: ['@styles/ui'],
-  reactStrictMode: false
+  reactStrictMode: false,
+  images: {
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'source.unsplash.com'
+      }
+    ]
+  }
   // async rewrites() {
   //   return [
   //     {
