@@ -27,7 +27,9 @@ export default function HomePage({ params: { locale } }: MainPageProps): React.J
   return (
     <React.Fragment>
       {sectionsHomePage.map((sec) => (
-        <HomePageSection key={sec.key} id={sec.scrolling}>{sec.component}</HomePageSection>
+        <HomePageSection key={sec.key} id={sec.scrolling}>
+          {sec.component}
+        </HomePageSection>
       ))}
     </React.Fragment>
   );

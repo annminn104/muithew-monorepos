@@ -50,7 +50,6 @@ yarn dev --filter=[app-name]
 yarn storybook --filter=[package-name]
 ```
 
-
 ### Frameworks/Libraries
 
 - React - Nextjs - Astro - Gatsby - Remix - Qwik

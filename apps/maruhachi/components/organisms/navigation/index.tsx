@@ -21,7 +21,7 @@ const Navigation: React.FC<NavigationProps> = ({ i18n }) => {
   const handleScrollToSection = (elementId: string) => {
     const element = document.querySelector(elementId);
     console.log(element);
-    element?.scrollIntoView({ behavior: 'smooth', block: 'start', inline: 'nearest', });
+    element?.scrollIntoView({ behavior: 'smooth', block: 'start', inline: 'nearest' });
   };
 
   return (
