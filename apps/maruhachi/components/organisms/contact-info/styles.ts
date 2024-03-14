@@ -12,8 +12,6 @@ export const ContactInfoWrap = styled(
   color: theme.palette.maruhachi['contrastText']
 }));
 
-export const ContactInfoTitle = styled(Typography, {})(({}) => ({ marginBottom: '16px' }));
-
 export const ContactInfoList = styled(
   'div',
   {}

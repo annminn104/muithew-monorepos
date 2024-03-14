@@ -12,6 +12,11 @@ const nextConfig = {
         hostname: 'source.unsplash.com'
       }
     ]
+  },
+  logging: {
+    fetches: {
+      fullUrl: true
+    }
   }
   // async rewrites() {
   //   return [

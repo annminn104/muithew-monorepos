@@ -6,13 +6,12 @@ import { contactSectionMock } from '@mocks';
 import * as S from './styles';
 
 type ContactInfoProps = {
-  i18n: Pick<SectionContentProps, 'title' | 'info' | 'social'>;
+  i18n: Pick<SectionContentProps, 'info' | 'social'>;
 };
 
-const ContactInfo: React.FC<ContactInfoProps> = ({ i18n: { title, info, social } }) => {
+const ContactInfo: React.FC<ContactInfoProps> = ({ i18n: { info, social } }) => {
   return (
     <S.ContactInfoWrap>
-      <S.ContactInfoTitle variant='h3'>{title}</S.ContactInfoTitle>
       <S.ContactInfoList>
         {info.map((inf, index) => (
           <S.ContactInfoItem key={index} href={inf.href} target={inf.isBlank ? '_blank' : '_self'}>
