@@ -20,8 +20,6 @@ type BannerProps = {
 };
 
 const SectionBanner: React.FC<BannerProps> = ({ i18n }) => {
-  console.log(AnimateUtils.fadeIn());
-
   return (
     <S.BannerSwiper
       modules={[A11y, Navigation, Pagination, Scrollbar, Autoplay, EffectFade]}
