@@ -1,7 +1,12 @@
+'use client';
+
 import React from 'react';
+import { ScrollingUtils } from 'utils';
 
 import { SectionAboutUsProps } from '@components/templates/section-about-us';
+import { scrollingContactId } from '@mocks';
 import { CheckReadIcon } from '@styles/ui-mui/icons';
+
 import * as S from './styles';
 
 type AboutUsContentProps = {
@@ -24,7 +29,9 @@ const AboutUsContent: React.FC<AboutUsContentProps> = ({
           <S.AboutUsContentItemText>{itm}</S.AboutUsContentItemText>
         </S.AboutUsContentItem>
       ))}
-      <S.AboutUsContentBtn variant='maruhachi'>{button}</S.AboutUsContentBtn>
+      <S.AboutUsContentBtn variant='maruhachi' onClick={() => ScrollingUtils.session(scrollingContactId)}>
+        {button}
+      </S.AboutUsContentBtn>
     </S.AboutUsContentWrap>
   );
 };

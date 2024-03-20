@@ -5,7 +5,6 @@ import { contactFormMocks } from '@mocks';
 import { FormControl, FormHelperText, Grid, TextField } from '@mui/material';
 import { Controller, SubmitHandler, useForm } from 'react-hook-form';
 
-import { ContactTypeRequest } from 'global';
 import { useState } from 'react';
 import { ContactSchemaType, contactSchema } from 'schemas';
 import * as S from './styles';
@@ -29,16 +28,11 @@ const ContactForm = () => {
   const onSubmit: SubmitHandler<ContactSchemaType> = async (data) => {
     try {
       setIsLoading(true);
-      const rawData: Omit<ContactTypeRequest, 'to'> = {
-        from: data.email,
-        subject: 'Test Contact',
-        html: data.message
-      };
-      await fetch('/api/contact', { method: 'POST', body: JSON.stringify(rawData) });
-      reset();
+      await fetch('/api/contact', { method: 'POST', body: JSON.stringify(data) });
     } catch (error) {
       console.error(error);
     } finally {
+      reset();
       setIsLoading(false);
     }
   };

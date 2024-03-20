@@ -1,22 +1,37 @@
 import envConfig from 'environments';
 import { ContactTypeRequest } from 'global';
 import nodemailer from 'nodemailer';
+import { TemplateUtils } from 'utils/template';
 
 export async function POST(request: Request) {
   try {
-    const {
-      email: { address, password }
-    } = envConfig;
+    const { firstName, lastName, phone, email, address, zipCode, message } = await request.json();
 
-    const { from, subject, html } = await request.json();
+    if (!email || !message || !firstName || !lastName || !phone || !email)
+      return Response.json({ message: 'Error missing fields send to email' }, { status: 400 });
 
-    if (!from || !subject || !html) return Response.json({ message: 'Error missing fields send to email' }, { status: 400 });
+    const sendMsg: ContactTypeRequest = {
+      from: envConfig.email.send,
+      to: email,
+      subject: 'noreply: [MARUHACHINOUSAN] - Thanks for contacting us',
+      html: TemplateUtils.emailSend({ firstName, lastName, phone, email, address, zipCode, message })
+    };
 
-    const sendMsg: ContactTypeRequest = { from: from, to: address, subject: subject, html: `${html}` };
+    const receiveMsg: ContactTypeRequest = {
+      from: envConfig.email.send,
+      to: envConfig.email.receive,
+      subject: `noreply: [MARUHACHINOUSAN] - ${lastName} contact`,
+      html: TemplateUtils.emailReceive({ firstName, lastName, phone, email, address, zipCode, message })
+    };
 
-    const transporter = nodemailer.createTransport({ service: 'Gmail', port: 465, secure: true, auth: { user: address, pass: password } });
+    const transporter = nodemailer.createTransport({
+      service: 'Gmail',
+      port: 465,
+      secure: true,
+      auth: { user: envConfig.email.send, pass: envConfig.email.password }
+    });
 
-    await transporter.sendMail(sendMsg);
+    await Promise.all([transporter.sendMail(sendMsg), transporter.sendMail(receiveMsg)]);
 
     return Response.json({ message: 'Email send successfully' }, { status: 200 });
   } catch (error) {

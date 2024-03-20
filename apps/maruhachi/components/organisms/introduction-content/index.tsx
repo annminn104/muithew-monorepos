@@ -1,6 +1,10 @@
+'use client';
+
 import { SectionIntroductionProps } from '@components/templates/section-introduction';
 
+import { scrollingContactId } from '@mocks';
 import { pick } from 'lodash';
+import { ScrollingUtils } from 'utils';
 import * as S from './styles';
 
 type IntroductionContentProps = {
@@ -26,7 +30,7 @@ const IntroductionContent: React.FC<IntroductionContentProps> = ({
         ))}
       </S.IntroContentImages>
       <S.IntroContentNotice>{notice}</S.IntroContentNotice>
-      <S.IntroContentButton variant='maruhachi' color='warning' size='large'>
+      <S.IntroContentButton variant='maruhachi' color='warning' size='large' onClick={() => ScrollingUtils.session(scrollingContactId)}>
         {button}
       </S.IntroContentButton>
     </S.IntroContentWrap>

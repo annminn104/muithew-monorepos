@@ -2,14 +2,16 @@ import { z } from 'zod';
 
 const configSchema = z.object({
   email: z.object({
-    address: z.string(),
+    send: z.string(),
+    receive: z.string(),
     password: z.string()
   })
 });
 
 const configEnv = configSchema.safeParse({
   email: {
-    address: process.env.NEXT_PUBLIC_GMAIL_EMAIL_ADDRESS,
+    send: process.env.NEXT_PUBLIC_GMAIL_EMAIL_SEND,
+    receive: process.env.NEXT_PUBLIC_GMAIL_EMAIL_RECEIVE,
     password: process.env.NEXT_PUBLIC_GMAIL_EMAIL_PASSWORD
   }
 });

@@ -32,7 +32,7 @@ export const contactSectionMock = {
 export const contactFormMocks: Array<ITextField<ContactSchemaType>> = [
   {
     col: { xs: 6 },
-    textField: { name: 'firstName', id: 'firstName', autoComplete: 'first-name', label: 'First Name', required: true, autoFocus: true }
+    textField: { name: 'firstName', id: 'firstName', autoComplete: 'first-name', label: 'First Name', required: true }
   },
   {
     col: { xs: 6 },

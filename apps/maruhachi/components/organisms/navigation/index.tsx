@@ -1,9 +1,11 @@
 'use client';
 
+import { navigationMock } from 'mocks';
 import React from 'react';
+import { ScrollingUtils } from 'utils';
 
 import { Typography } from '@mui/material';
-import { navigationMock } from 'mocks';
+
 import * as S from './styles';
 
 type NavigationProps = {
@@ -18,12 +20,6 @@ type NavigationProps = {
 };
 
 const Navigation: React.FC<NavigationProps> = ({ i18n }) => {
-  const handleScrollToSection = (elementId: string) => {
-    const element = document.querySelector(elementId);
-    console.log(element);
-    element?.scrollIntoView({ behavior: 'smooth', block: 'start', inline: 'nearest' });
-  };
-
   return (
     <React.Fragment>
       <S.NavWrap>
@@ -33,7 +29,7 @@ const Navigation: React.FC<NavigationProps> = ({ i18n }) => {
         <S.NavCenter>
           <S.NavLinkList>
             {navigationMock.map((nav) => (
-              <S.NavLinkItem href={''} key={nav.key} onClick={() => handleScrollToSection(nav.scrolling)}>
+              <S.NavLinkItem href='' key={nav.key} onClick={() => ScrollingUtils.session(nav.scrolling)}>
                 <p>{i18n.navigation[`${nav.i18n}`]}</p>
               </S.NavLinkItem>
             ))}
