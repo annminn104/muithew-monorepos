@@ -8,7 +8,7 @@ RUN apk update
 WORKDIR /app
 RUN yarn global add turbo
 COPY . .
-RUN turbo prune maruhachi --docker
+RUN turbo prune @apps/maruhachi --docker
 
 FROM base AS installer
 RUN apk add --no-cache libc6-compat
