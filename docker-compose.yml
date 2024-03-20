@@ -1,0 +1,17 @@
+version: '3'
+
+services:
+  maruhachi:
+    container_name: maruhachi
+    build:
+      context: .
+      dockerfile: ./apps/maruhachi/Dockerfile
+    restart: always
+    ports:
+      - 5030:5030
+    networks:
+      - app_network
+
+networks:
+  app_network:
+    external: true
