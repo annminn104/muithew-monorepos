@@ -13,6 +13,7 @@ const nextConfig = {
       }
     ]
   },
+  output: 'standalone',
   logging: {
     fetches: {
       fullUrl: true
