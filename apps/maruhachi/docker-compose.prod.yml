@@ -1,0 +1,10 @@
+version: '3.8'
+services:
+  frontend:
+    container_name: frontend
+    build: .
+    restart: always
+    environment:
+      - NODE_ENV=production
+    ports:
+      - 5030:5030
