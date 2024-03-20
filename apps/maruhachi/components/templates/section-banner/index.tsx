@@ -3,6 +3,7 @@
 import SwiperArrow from '@components/molecules/swiper-arrow';
 import { Grid } from '@mui/material';
 import { A11y, Autoplay, EffectFade, Navigation, Pagination, Scrollbar } from 'swiper/modules';
+import { AnimateUtils } from 'utils';
 import * as S from './styles';
 
 interface ISlide {
@@ -19,6 +20,8 @@ type BannerProps = {
 };
 
 const SectionBanner: React.FC<BannerProps> = ({ i18n }) => {
+  console.log(AnimateUtils.fadeIn());
+
   return (
     <S.BannerSwiper
       modules={[A11y, Navigation, Pagination, Scrollbar, Autoplay, EffectFade]}
@@ -38,10 +41,14 @@ const SectionBanner: React.FC<BannerProps> = ({ i18n }) => {
               <Grid container>
                 <Grid item xs={12}>
                   <S.BannerContent>
-                    <S.BannerSubtitle variant='h4'>{slide.subtitle}</S.BannerSubtitle>
-                    <S.BannerTitle variant='h1' dangerouslySetInnerHTML={{ __html: slide.title }} />
-                    <S.BannerDesc variant='h5'>{slide.description}</S.BannerDesc>
-                    <S.BannerButton type='button' variant='maruhachi' size='large' color='warning'>
+                    <S.BannerSubtitle variant='h4' {...AnimateUtils.fadeIn(0.4)}>
+                      {slide.subtitle}
+                    </S.BannerSubtitle>
+                    <S.BannerTitle variant='h1' dangerouslySetInnerHTML={{ __html: slide.title }} {...AnimateUtils.fadeIn(0.3)} />
+                    <S.BannerDesc variant='h5' {...AnimateUtils.fadeIn(0.5)}>
+                      {slide.description}
+                    </S.BannerDesc>
+                    <S.BannerButton type='button' variant='maruhachi' size='large' color='warning' {...AnimateUtils.fadeIn(0.6)}>
                       {slide.button}
                     </S.BannerButton>
                   </S.BannerContent>

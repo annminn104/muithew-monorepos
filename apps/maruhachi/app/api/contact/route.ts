@@ -1,7 +1,7 @@
 import envConfig from 'environments';
 import { ContactTypeRequest } from 'global';
 import nodemailer from 'nodemailer';
-import { TemplateUtils } from 'utils/template';
+import { TemplateUtils } from 'utils';
 
 export async function POST(request: Request) {
   try {

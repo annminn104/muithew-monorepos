@@ -4,6 +4,8 @@ import { serviceSectionMock } from 'mocks';
 
 import { Dialog, IconButton, Typography, styled } from '@mui/material';
 
+import { motion } from 'framer-motion';
+
 export const SerVidWrap = styled(
   'div',
   {}
@@ -24,10 +26,10 @@ export const SerVidWrap = styled(
   }
 }));
 
-export const SerVidTitle = styled(Typography, {})(({ theme }) => ({ zIndex: 1, color: theme.palette.maruhachi['main'], fontSize: '5vw' }));
+export const SerVidTitle = styled(motion(Typography), {})(({ theme }) => ({ zIndex: 1, color: theme.palette.maruhachi['main'], fontSize: '5vw' }));
 
 export const SerVidButton = styled(
-  IconButton,
+  motion(IconButton),
   {}
 )(({ theme }) => ({
   ...theme.functions.adjustFlex(),

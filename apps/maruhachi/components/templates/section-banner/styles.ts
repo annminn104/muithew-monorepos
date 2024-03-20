@@ -4,6 +4,8 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 
 import { alpha, Button, Container, styled, Typography } from '@mui/material';
 
+import { motion } from 'framer-motion';
+
 export const BannerSwiper = styled(
   Swiper,
   {}
@@ -62,13 +64,13 @@ export const BannerContent = styled(
   {}
 )(({ theme }) => ({ ...theme.functions.adjustFlex('flex', 'column', 'flex-start', 'initial'), rowGap: '8px' }));
 
-export const BannerTitle = styled(Typography, {})(({ theme }) => ({ color: theme.palette.maruhachi['contrastText'], fontSize: '5vw' }));
+export const BannerTitle = styled(motion(Typography), {})(({ theme }) => ({ color: theme.palette.maruhachi['contrastText'], fontSize: '5vw' }));
 
-export const BannerSubtitle = styled(Typography, {})(({ theme }) => ({ color: theme.palette.mode['main'] }));
+export const BannerSubtitle = styled(motion(Typography), {})(({ theme }) => ({ color: theme.palette.mode['main'] }));
 
-export const BannerDesc = styled(Typography, {})(({ theme }) => ({ color: theme.palette.mode['main'] }));
+export const BannerDesc = styled(motion(Typography), {})(({ theme }) => ({ color: theme.palette.mode['main'] }));
 
-export const BannerButton = styled(Button, {})(({ theme }) => ({ width: '200px', height: '60px' }));
+export const BannerButton = styled(motion(Button), {})(({ theme }) => ({ width: '200px', height: '60px' }));
 
 export const BannerSwiperArrow = styled(
   'div',

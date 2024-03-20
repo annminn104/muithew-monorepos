@@ -5,6 +5,8 @@ import Image from 'next/image';
 import Subtitle from '@components/atoms/subtitle';
 import { Button, styled, Typography } from '@mui/material';
 
+import { motion } from 'framer-motion';
+
 export const IntroContentWrap = styled(
   'div',
   {}
@@ -15,12 +17,12 @@ export const IntroContentWrap = styled(
 
 export const IntroContentSubtitle = styled(Subtitle, {})(({}) => ({}));
 
-export const IntroContentTitle = styled(Typography, {})(({ theme }) => ({ color: theme.palette.maruhachi['contrastText'] }));
+export const IntroContentTitle = styled(motion(Typography), {})(({ theme }) => ({ color: theme.palette.maruhachi['contrastText'] }));
 
-export const IntroContentDescription = styled(Typography, {})(({}) => ({}));
+export const IntroContentDescription = styled(motion(Typography), {})(({}) => ({}));
 
 export const IntroContentImages = styled(
-  'div',
+  motion.div,
   {}
 )(({ theme }) => ({
   ...theme.functions.adjustFlex('flex', 'row', 'flex-start', 'center'),
@@ -37,6 +39,6 @@ export const IntroContentItem = styled(
 
 export const IntroContentIcon = styled(Image, {})(({}) => ({}));
 
-export const IntroContentNotice = styled(Typography, {})(({}) => ({}));
+export const IntroContentNotice = styled(motion(Typography), {})(({}) => ({}));
 
-export const IntroContentButton = styled(Button, {})(({}) => ({}));
+export const IntroContentButton = styled(motion(Button), {})(({}) => ({}));

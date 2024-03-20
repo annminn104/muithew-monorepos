@@ -2,6 +2,7 @@
 
 import { useEffect, useRef, useState } from 'react';
 import { useWindowSize } from 'usehooks-ts';
+import { AnimateUtils } from 'utils';
 
 import { SectionServicesProps } from '@components/templates/section-services';
 import { Grid } from '@mui/material';
@@ -34,14 +35,18 @@ const ServicesProducts: React.FC<ServicesProductsProps> = ({
       <Grid container spacing={4}>
         <Grid item xs={12}>
           <S.SerProBox>
-            <S.SerProLogo {...icon} />
-            <S.SerProSubtitle variant='h6'>{subtitle}</S.SerProSubtitle>
-            <S.SerProTitle variant='h3'>{title}</S.SerProTitle>
+            <S.SerProLogo {...icon} {...AnimateUtils.fadeIn(0.4)} />
+            <S.SerProSubtitle variant='h6' {...AnimateUtils.fadeIn(0.5)}>
+              {subtitle}
+            </S.SerProSubtitle>
+            <S.SerProTitle variant='h3' {...AnimateUtils.fadeIn(0.6)}>
+              {title}
+            </S.SerProTitle>
           </S.SerProBox>
         </Grid>
-        {content.map((item) => (
+        {content.map((item, index) => (
           <Grid item xs={3} key={item.key}>
-            <S.SerProItem>
+            <S.SerProItem {...AnimateUtils.fadeDirection('left', 0.5, 100, 0.3 * index)}>
               <S.SerProItemImg {...item.img} />
               <S.SerProItemIcon {...item.icon} />
               <S.SerProItemText ref={ref}>

@@ -1,7 +1,8 @@
 'use client';
 
+import { Swiper, SwiperSlide } from 'swiper/react';
+
 import { styled } from '@mui/material';
-import { SwiperSlide } from 'swiper/react';
 
 export const AboutUsImgWrap = styled(
   'div',
@@ -14,6 +15,8 @@ export const AboutUsImgWrap = styled(
     height: '480px'
   }
 }));
+
+export const AboutUsImgSwiper = styled(Swiper, {})(({ theme }) => ({}));
 
 export const AboutUsImgItem = styled(
   SwiperSlide,

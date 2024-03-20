@@ -1,5 +1,7 @@
 'use client';
 
-import { Typography, styled } from '@mui/material';
+import { motion } from 'framer-motion';
 
-export const SubtitleText = styled(Typography, {})(({}) => ({}));
+import { styled, Typography } from '@mui/material';
+
+export const SubtitleText = styled(motion(Typography), {})(({}) => ({}));

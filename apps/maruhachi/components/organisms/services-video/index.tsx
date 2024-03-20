@@ -7,6 +7,7 @@ import { CloseCircleIcon, PlayCircleIcon } from '@styles/ui-mui/icons';
 
 import { DialogContent, Slide } from '@mui/material';
 import { TransitionProps } from '@mui/material/transitions';
+import { AnimateUtils } from 'utils';
 
 import * as S from './styles';
 
@@ -40,8 +41,10 @@ const ServicesVideo: React.FC<ServicesVideoProps> = ({
 
   return (
     <S.SerVidWrap>
-      <S.SerVidTitle variant='h3'>{title}</S.SerVidTitle>
-      <S.SerVidButton onClick={handleClickOpen}>
+      <S.SerVidTitle variant='h3' {...AnimateUtils.fadeIn(0.4)}>
+        {title}
+      </S.SerVidTitle>
+      <S.SerVidButton onClick={handleClickOpen} {...AnimateUtils.fadeIn(0.5)}>
         <PlayCircleIcon />
         <S.SerVidPing />
       </S.SerVidButton>

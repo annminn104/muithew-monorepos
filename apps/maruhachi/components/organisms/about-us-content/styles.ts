@@ -1,5 +1,7 @@
 'use client';
 
+import { motion } from 'framer-motion';
+
 import Subtitle from '@components/atoms/subtitle';
 import { Button, styled, Typography } from '@mui/material';
 
@@ -10,15 +12,15 @@ export const AboutUsContentWrap = styled(
 
 export const AboutUsContentSubtitle = styled(Subtitle, {})(({ theme }) => ({}));
 
-export const AboutUsContentTitle = styled(Typography, {})(({ theme }) => ({ color: theme.palette.maruhachi['contrastText'] }));
+export const AboutUsContentTitle = styled(motion(Typography), {})(({ theme }) => ({ color: theme.palette.maruhachi['contrastText'] }));
 
-export const AboutUsContentDesc = styled(Typography, {})(({ theme }) => ({}));
+export const AboutUsContentDesc = styled(motion(Typography), {})(({ theme }) => ({}));
 
 export const AboutUsContentItem = styled(
-  'div',
+  motion.div,
   {}
 )(({ theme }) => ({ ...theme.functions.adjustFlex('flex', 'row', 'flex-start'), columnGap: '8px', paddingLeft: '8px' }));
 
 export const AboutUsContentItemText = styled(Typography, {})(({ theme }) => ({}));
 
-export const AboutUsContentBtn = styled(Button, {})(({ theme }) => ({ width: '100%' }));
+export const AboutUsContentBtn = styled(motion(Button), {})(({ theme }) => ({ width: '100%' }));

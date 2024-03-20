@@ -1,6 +1,7 @@
 'use client';
 
 import { alpha, styled } from '@mui/material';
+import { motion } from 'framer-motion';
 import Image from 'next/image';
 
 export const IntroWrap = styled(
@@ -33,7 +34,7 @@ export const IntroVertical = styled(
 }));
 
 export const IntroVerticalImg = styled(
-  Image,
+  motion(Image),
   {}
 )(({ theme }) => ({
   objectFit: 'cover',
@@ -43,7 +44,7 @@ export const IntroVerticalImg = styled(
 }));
 
 export const IntroVerticalLogo = styled(
-  Image,
+  motion(Image),
   {}
 )(({ width }) => ({
   objectFit: 'cover',
@@ -56,7 +57,7 @@ export const IntroVerticalLogo = styled(
 export const IntroHorizontal = styled('div', {})(({ theme }) => ({}));
 
 export const IntroHorizontalImg = styled(
-  Image,
+  motion(Image),
   {}
 )(({ theme }) => ({
   objectFit: 'cover',

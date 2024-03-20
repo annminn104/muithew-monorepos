@@ -4,7 +4,11 @@ export default function CssBaseline(theme: Theme): Components<Omit<Theme, 'compo
   return {
     MuiCssBaseline: {
       defaultProps: {},
-      styleOverrides: {},
+      styleOverrides: {
+        body: {
+          scrollBehavior: 'smooth'
+        }
+      },
       variants: []
     }
   };

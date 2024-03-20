@@ -5,6 +5,7 @@ import Image from 'next/image';
 
 import { Button, styled, Typography } from '@mui/material';
 import { RoundArrowRightIcon } from '@styles/ui-mui/icons';
+import { motion } from 'framer-motion';
 
 export const SerProWrap = styled('div', { shouldForwardProp: (prop) => prop !== 'clipPathHeight' })<{ clipPathHeight: number }>(
   ({ theme, clipPathHeight }) => ({
@@ -73,14 +74,14 @@ export const SerProDividerBottom = styled(
 
 export const SerProBox = styled('div', {})(({ theme }) => ({ ...theme.functions.adjustFlex('flex', 'column'), rowGap: '8px' }));
 
-export const SerProLogo = styled(Image, {})(({}) => ({ objectFit: 'cover' }));
+export const SerProLogo = styled(motion(Image), {})(({}) => ({ objectFit: 'cover' }));
 
-export const SerProSubtitle = styled(Typography, {})(({}) => ({}));
+export const SerProSubtitle = styled(motion(Typography), {})(({}) => ({}));
 
-export const SerProTitle = styled(Typography, {})(({}) => ({}));
+export const SerProTitle = styled(motion(Typography), {})(({}) => ({}));
 
 export const SerProItem = styled(
-  'div',
+  motion.div,
   {}
 )(({ theme }) => ({
   position: 'relative',
