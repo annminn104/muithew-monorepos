@@ -36,18 +36,6 @@ pipeline {
                 sh 'yarn build'
             }
         }
-
-        stage('Test') {
-            steps {
-                // Optionally, add tests here
-            }
-        }
-
-        stage('Deploy') {
-            steps {
-                // Optionally, add deployment steps here
-            }
-        }
     }
 
     post {
