@@ -1,6 +1,6 @@
 pipeline {
   agent any
-  stages{
+  stages {
     stage("Checkout") {
       steps {
         checkout scm
@@ -8,12 +8,13 @@ pipeline {
     }
     stage("Install dependencies") {
       steps {
-        'yarn install'
+        sh 'sudo apt install yarn'
+        sh 'yarn install'
       }
     }
     stage("Build") {
       steps {
-        'yarn build'
+        sh 'yarn build'
       }
     }
   }
