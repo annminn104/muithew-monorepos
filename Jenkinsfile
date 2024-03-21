@@ -13,7 +13,9 @@ pipeline {
                 // Install NVM
                 sh 'curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash'
 
-                sh 'source ~/.nvm/nvm.sh'
+                 // Set up NVM
+                sh 'export NVM_DIR="$HOME/.nvm"'
+                sh '[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm'
 
                 // Install Node.js 18 using NVM
                 sh 'nvm install 18'
