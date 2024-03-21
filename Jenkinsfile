@@ -8,7 +8,6 @@ pipeline {
     }
     stage("Install dependencies") {
       steps {
-        sh 'sudo apt install yarn'
         sh 'yarn install'
       }
     }
