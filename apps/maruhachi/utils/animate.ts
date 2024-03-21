@@ -3,7 +3,7 @@ export class AnimateUtils {
     return { viewport: { once: false, amount: 0.8 } };
   };
 
-  static fadeIn = (duration = 0.5, delay = 0: { duration: number; delay: number }) => {
+  static fadeIn = (duration = 0.5, delay = 0) => {
     return { ...this.whileInViewport, initial: { opacity: 0, scale: 0.5 }, whileInView: { opacity: 1, scale: 1 }, transition: { duration, delay } };
   };
 
