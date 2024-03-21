@@ -6,10 +6,9 @@ pipeline {
         checkout scm
       }
     }
-    stage("Install dependencies") {
+    stage("Install package manager") {
       steps {
         sh 'sudo apt install yarn'
-        sh 'yarn install'
       }
     }
     stage("Build") {
