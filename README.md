@@ -58,6 +58,16 @@ docker network create app_network
 docker-compose -f docker-compose.yml up -d
 ```
 
+### Configure Server
+
+- [Docker](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-22-04)
+
+- [Nginx](https://www.digitalocean.com/community/tutorials/how-to-install-nginx-on-ubuntu-22-04)
+
+- [Certbot](https://www.digitalocean.com/community/tutorials/how-to-secure-nginx-with-let-s-encrypt-on-ubuntu-22-04https://www.digitalocean.com/community/tutorials/how-to-secure-nginx-with-let-s-encrypt-on-ubuntu-22-04)
+
+- [Jenkins](https://www.digitalocean.com/community/tutorials/how-to-install-jenkins-on-ubuntu-22-04)
+
 ### Frameworks/Libraries
 
 - React - Nextjs - Astro - Gatsby - Remix - Qwik
