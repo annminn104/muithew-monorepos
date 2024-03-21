@@ -50,6 +50,14 @@ yarn dev --filter=[app-name]
 yarn storybook --filter=[package-name]
 ```
 
+### Docker command
+
+```bash
+docker network create app_network
+
+docker-compose -f docker-compose.yml up -d
+```
+
 ### Frameworks/Libraries
 
 - React - Nextjs - Astro - Gatsby - Remix - Qwik
