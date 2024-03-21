@@ -37,13 +37,4 @@ pipeline {
             }
         }
     }
-
-    post {
-        success {
-            // Optionally, perform actions if the pipeline succeeds
-        }
-        failure {
-            // Optionally, perform actions if the pipeline fails
-        }
-    }
 }
