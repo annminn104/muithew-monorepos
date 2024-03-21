@@ -71,3 +71,7 @@ docker-compose -f docker-compose.yml up -d
 ### Frameworks/Libraries
 
 - React - Nextjs - Astro - Gatsby - Remix - Qwik
+
+### More
+
+- [CI/CD](https://viblo.asia/p/ci-cd-lab-su-dung-jenkins-nginx-deploy-du-an-reactjs-umijs-len-aws-ec2-bWrZnWgmlxw)
