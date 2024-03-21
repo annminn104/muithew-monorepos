@@ -1,1 +1,1 @@
-trigger build
+trigger build .
