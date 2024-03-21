@@ -9,7 +9,7 @@ pipeline {
     stage("Install dependencies") {
       steps {
         sh 'sudo apt-get install yarn'
-        sh 'yarn install'
+        sh 'yarn'
       }
     }
     stage("Build") {
