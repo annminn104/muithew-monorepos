@@ -10,9 +10,9 @@ RUN yarn install --ignore-scripts
 
 RUN yarn build --filter=./packages/**
 
-RUN yarn turbo storybook:build
+RUN yarn storybook:build
 
-RUN yarn turbo storybook:move
+RUN yarn storybook:move
 
 COPY . .
 
