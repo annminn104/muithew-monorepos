@@ -21,6 +21,6 @@ RUN rm -rf /usr/share/nginx/html/* && rm -rf /docker-entrypoint.d/*
 
 COPY --from=builder /app/apps/admin/dist /usr/share/nginx/html
 
-EXPOSE 80
+EXPOSE 5010
 
 CMD ["nginx", "-g", "daemon off;"]
