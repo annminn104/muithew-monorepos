@@ -38,7 +38,7 @@ services:
     container_name: docs
     build:
       context: .
-      dockerfile: ./Dockerfile
+      dockerfile: ./Dockerfile.docs
     restart: always
     ports:
       - 5040:5040
