@@ -18,9 +18,9 @@ FROM nginx:1.21-alpine AS production
 
 ENV NODE_ENV production
 
-RUN rm -rf /usr/share/nginx/html/* && rm -rf /docker-entrypoint.d/*
+RUN rm -rf /usr/share/nginx/app-admin/* && rm -rf /docker-entrypoint.d/*
 
-COPY --from=builder /app/dist /usr/share/nginx/html
+COPY --from=builder /app/dist /usr/share/nginx/app-admin
 
 EXPOSE 5010
 

@@ -1,0 +1,29 @@
+FROM node:18-alpine AS builder
+
+WORKDIR /app
+
+RUN yarn global add turbo
+
+COPY package.json yarn.lock ./
+
+RUN yarn install --ignore-scripts
+
+RUN yarn build --filter=./packages/**
+
+RUN yarn turbo storybook:build
+
+RUN yarn turbo storybook:move
+
+COPY . .
+
+FROM nginx:1.21-alpine AS production
+
+ENV NODE_ENV production
+
+RUN rm -rf /usr/share/nginx/app-storybook/* && rm -rf /docker-entrypoint.d/*
+
+COPY --from=builder /app/storybook-static /usr/share/nginx/app-storybook
+
+EXPOSE 5040
+
+CMD ["nginx", "-g", "daemon off;"]
