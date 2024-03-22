@@ -5,6 +5,8 @@ RUN apk update
 
 WORKDIR /app
 
+COPY . .
+
 RUN yarn global add turbo
 
 COPY package.json yarn.lock ./
@@ -14,8 +16,6 @@ RUN yarn install
 RUN yarn storybook:build
 
 RUN yarn storybook:move
-
-COPY . .
 
 FROM nginx:1.21-alpine AS production
 
