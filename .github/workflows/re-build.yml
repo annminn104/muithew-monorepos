@@ -31,5 +31,5 @@ jobs:
       - name: Build storybooks
         run: yarn storybook:build
 
-      - name: Turbo build Apps
+      - name: Turbo build apps
         run: yarn build --filter=./apps/**
