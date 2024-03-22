@@ -25,11 +25,11 @@ jobs:
       - name: Install dependencies
         run: yarn install --ignore-scripts --frozen-lockfile
 
-      - name: Build storybooks
-        run: yarn storybook:build
-
       - name: Build turbo packages
         run: yarn build --filter=./packages/**
+
+      - name: Build storybooks
+        run: yarn storybook:build
 
       - name: Turbo build Apps
         run: yarn build --filter=./apps/**
