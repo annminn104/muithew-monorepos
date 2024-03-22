@@ -5,13 +5,14 @@ WORKDIR /app
 RUN yarn global add turbo
 
 COPY package.json yarn.lock ./
-COPY . .
-
-RUN turbo prune @apps/admin --docker
 
 RUN yarn install --ignore-scripts
 
+RUN turbo prune @apps/admin --docker
+
 RUN yarn turbo build --filter=admin
+
+COPY . .
 
 FROM nginx:1.21-alpine AS production
 
