@@ -1,0 +1,35 @@
+name: MUITHEW-MONOREPOS RE-BUILD
+
+on:
+  pull_request:
+    types: [opened, reopened]
+    branches: [master, develop]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+        with:
+          ref: ${{ github.event.pull_request.head.ref }}
+          repository: ${{github.event.pull_request.head.repo.full_name}}
+          fetch-depth: 0
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: 18
+
+      - name: Install dependencies
+        run: yarn install --ignore-scripts --frozen-lockfile
+
+      - name: Build storybooks
+        run: yarn storybook:build
+
+      - name: Build turbo packages
+        run: yarn build --filter=./packages/**
+
+      - name: Turbo build Apps
+        run: yarn build --filter=./apps/**
