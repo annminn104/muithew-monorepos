@@ -1,6 +1,17 @@
 version: '3'
 
 services:
+  admin:
+    container_name: admin
+    build:
+      context: .
+      dockerfile: ./apps/admin/Dockerfile
+    restart: always
+    ports:
+      - 5010:5010
+    networks:
+      - app_network
+
   landing:
     container_name: landing
     build:
