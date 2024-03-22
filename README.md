@@ -55,7 +55,7 @@ yarn storybook --filter=[package-name]
 ```bash
 docker network create app_network
 
-docker-compose -f docker-compose.yml up -d
+docker compose -f docker-compose.yml up -d
 ```
 
 ### Configure Server

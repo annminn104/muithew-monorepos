@@ -1,6 +1,17 @@
 version: '3'
 
 services:
+  landing:
+    container_name: landing
+    build:
+      context: .
+      dockerfile: ./apps/landing/Dockerfile
+    restart: always
+    ports:
+      - 5020:5020
+    networks:
+      - app_network
+
   maruhachi:
     container_name: maruhachi
     build:
