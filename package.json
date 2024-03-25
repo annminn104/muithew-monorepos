@@ -40,7 +40,8 @@
     "@astrojs/rss": "^4.0.5",
     "@astrojs/sitemap": "^3.1.1",
     "astro": "^4.5.9",
-    "@astrojs/check": "^0.5.10"
+    "@astrojs/check": "^0.5.10",
+    "@astrojs/node": "^8.2.5"
   },
   "devDependencies": {
     "@commitlint/cli": "^18.4.4",
