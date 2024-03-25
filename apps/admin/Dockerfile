@@ -6,11 +6,11 @@ RUN yarn global add turbo
 
 COPY package.json yarn.lock ./
 
-RUN yarn install --ignore-scripts
-
 RUN turbo prune @apps/admin --docker
 
-RUN yarn turbo build --filter=admin..
+RUN yarn install --ignore-scripts
+
+RUN yarn turbo build --filter=admin...
 
 COPY . .
 
