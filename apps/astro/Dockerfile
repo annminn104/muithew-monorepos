@@ -37,8 +37,7 @@ COPY --from=installer /app/apps/astro/package.json .
 
 COPY --from=installer --chown=astrojs:nodejs /app/apps/astro/dist/server ./
 COPY --from=installer --chown=astrojs:nodejs /app/apps/astro/dist/client ./apps/astro/dist/client
-COPY --from=installer --chown=nextjs:nodejs /app/apps/astro/public ./apps/astro/public
-
+COPY --from=installer --chown=astrojs:nodejs /app/apps/astro/public ./apps/astro/public
 
 EXPOSE 5040
 
