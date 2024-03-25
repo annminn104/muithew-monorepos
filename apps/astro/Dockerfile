@@ -34,9 +34,6 @@ USER astrojs
 
 COPY --from=installer /app/apps/astro/astro.config.mjs .
 COPY --from=installer /app/apps/astro/package.json .
-
-COPY --from=installer --chown=astrojs:nodejs /app/apps/astro/node_modules ./apps/astro/node_modules
-COPY --from=installer --chown=astrojs:nodejs /app/apps/astro/public ./apps/astro/public
 COPY --from=installer --chown=astrojs:nodejs /app/apps/astro/dist ./apps/astro/dist
 
 EXPOSE 5040
