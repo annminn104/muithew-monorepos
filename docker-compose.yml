@@ -34,6 +34,17 @@ services:
     networks:
       - app_network
 
+  astro:
+    container_name: astro
+    build:
+      context: .
+      dockerfile: ./apps/astro/Dockerfile
+    restart: always
+    ports:
+      - 5040:5040
+    networks:
+      - app_network
+
   # docs:
   #   container_name: docs
   #   build:

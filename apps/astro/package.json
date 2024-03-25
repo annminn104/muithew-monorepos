@@ -1,0 +1,14 @@
+{
+  "name": "@apps/astro",
+  "type": "module",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "astro dev --port 3400",
+    "start": "astro dev",
+    "build": "astro check && astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "clean:build": "rm -rf dist/ .turbo/ node_modules/ storybook-static/ .astro"
+  },
+  "dependencies": {}
+}

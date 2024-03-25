@@ -2,6 +2,14 @@
 
 This repository is set up as a Monorepo using Vercel's Turbo Repos. It consists of two main projects: the admin dashboard and the landing page.
 
+### Run Docker
+
+```bash
+docker network create app_network
+
+docker compose -f docker-compose.yml up -d
+```
+
 ### Admin Dashboard
 
 - **Framework/Languages**: React 18
@@ -48,14 +56,6 @@ yarn dev --filter=[app-name]
 
 # Start mini storybook
 yarn storybook --filter=[package-name]
-```
-
-### Docker command
-
-```bash
-docker network create app_network
-
-docker compose -f docker-compose.yml up -d
 ```
 
 ### Configure Server
