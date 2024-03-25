@@ -11,7 +11,9 @@ RUN yarn global add turbo
 
 COPY package.json yarn.lock ./
 
-RUN yarn install
+RUN yarn install --ignore-scripts
+
+RUN yarn build --filter=./packages/**
 
 RUN yarn storybook:build
 
