@@ -43,4 +43,4 @@ EXPOSE 5040
 
 ENV PORT 5040
 
-CMD node ./apps/astro/dist/server/entry.mjs
+CMD node ./apps/astro/server/entry.mjs
