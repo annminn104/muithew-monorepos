@@ -16,11 +16,11 @@ RUN apk update
 WORKDIR /app
 
 COPY .gitignore .gitignore
-COPY --from=builder /app/maruhachi-out/json/ .
-COPY --from=builder /app/maruhachi-out/yarn.lock ./yarn.lock
+COPY --from=builder /app/out/json/ .
+COPY --from=builder /app/out/yarn.lock ./yarn.lock
 RUN yarn install --ignore-scripts
 
-COPY --from=builder /app/maruhachi-out/full/ .
+COPY --from=builder /app/out/full/ .
 COPY turbo.json turbo.json
 
 RUN yarn turbo build --filter=maruhachi...
