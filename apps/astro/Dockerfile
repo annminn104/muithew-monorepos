@@ -38,6 +38,8 @@ COPY --from=installer /app/apps/astro/package.json .
 COPY --from=installer --chown=astrojs:nodejs /app/apps/astro/node_modules ./node_modules
 COPY --from=installer --chown=astrojs:nodejs /app/apps/astro/dist ./dist
 
+ENV HOST=0.0.0.0
+
 EXPOSE 5040
 
 ENV PORT 5040
