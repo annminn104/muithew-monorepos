@@ -4,27 +4,31 @@ WORKDIR /app
 
 RUN yarn global add turbo
 
-COPY package.json yarn.lock ./
-
-RUN yarn install --ignore-scripts
-
-RUN yarn turbo build --filter=./packages/**
+COPY . .
 
 RUN turbo prune @apps/admin --docker
 
+FROM node:18-alpine AS installer
+WORKDIR /app
+
+COPY .gitignore .gitignore
+COPY --from=builder /app/out/json/ .
+COPY --from=builder /app/out/yarn.lock ./yarn.lock
+
+RUN yarn install --ignore-scripts
+
+COPY --from=builder /app/out/full/ .
+COPY turbo.json turbo.json
 
 RUN yarn turbo build --filter=admin...
 
-COPY . .
+FROM nginx:stable-alpine AS runner
 
-FROM nginx:1.21-alpine AS production
-
-ENV NODE_ENV production
-
-RUN rm -rf /usr/share/nginx/app-admin/* && rm -rf /docker-entrypoint.d/*
-
-COPY --from=builder /app/dist /usr/share/nginx/app-admin
+COPY --from=installer /app/apps/admin/dist /usr/share/nginx/html
+#COPY --from=installer /app/apps/admin/nginx.conf /etc/nginx/conf.d/default.conf
 
 EXPOSE 5010
+
+ENV PORT 5010
 
 CMD ["nginx", "-g", "daemon off;"]
