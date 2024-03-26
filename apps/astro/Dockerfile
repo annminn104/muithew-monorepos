@@ -32,11 +32,11 @@ RUN addgroup --system --gid 1001 nodejs
 RUN adduser --system --uid 1001 astrojs
 USER astrojs
 
+
 COPY --from=installer /app/apps/astro/astro.config.mjs .
 COPY --from=installer /app/apps/astro/package.json .
 
-COPY --from=installer --chown=astrojs:nodejs /app/apps/astro/node_modules ./node_modules
-COPY --from=installer --chown=astrojs:nodejs /app/apps/astro/dist ./dist
+COPY --from=installer /app .
 
 ENV HOST=0.0.0.0
 
@@ -44,4 +44,4 @@ EXPOSE 5040
 
 ENV PORT 5040
 
-CMD node apps/astro/dist/server/entry.mjs
+CMD node ./apps/astro/dist/server/entry.mjs

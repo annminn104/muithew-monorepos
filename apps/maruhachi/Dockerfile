@@ -8,7 +8,7 @@ RUN apk update
 WORKDIR /app
 RUN yarn global add turbo
 COPY . .
-RUN turbo prune @apps/astro --docker
+RUN turbo prune @apps/maruhachi --docker
 
 FROM base AS installer
 RUN apk add --no-cache libc6-compat
@@ -23,25 +23,24 @@ RUN yarn install --ignore-scripts
 COPY --from=builder /app/out/full/ .
 COPY turbo.json turbo.json
 
-RUN yarn turbo build --filter=astro...
+RUN yarn turbo build --filter=maruhachi...
 
 FROM base AS runner
 WORKDIR /app
 
 RUN addgroup --system --gid 1001 nodejs
-RUN adduser --system --uid 1001 astrojs
-USER astrojs
+RUN adduser --system --uid 1001 nextjs
+USER nextjs
 
+COPY --from=installer /app/apps/maruhachi/next.config.js .
+COPY --from=installer /app/apps/maruhachi/package.json .
 
-COPY --from=installer /app/apps/astro/astro.config.mjs .
-COPY --from=installer /app/apps/astro/package.json .
+COPY --from=installer --chown=nextjs:nodejs /app/apps/maruhachi/.next/standalone ./
+COPY --from=installer --chown=nextjs:nodejs /app/apps/maruhachi/.next/static ./apps/maruhachi/.next/static
+COPY --from=installer --chown=nextjs:nodejs /app/apps/maruhachi/public ./apps/maruhachi/public
 
-COPY --from=installer /app .
+EXPOSE 5030
 
-ENV HOST=0.0.0.0
+ENV PORT 5030
 
-EXPOSE 5040
-
-ENV PORT 5040
-
-CMD node ./apps/astro/dist/server/entry.mjs
+CMD node apps/maruhachi/server.js
