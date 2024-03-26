@@ -1,8 +1,10 @@
-# Muithew using Turbo Repos - Monorepos by Vercel
+# Muithew-monorepos
 
-This repository is set up as a Monorepo using Vercel's Turbo Repos. It consists of two main projects: the admin dashboard and the landing page.
+## Muithew using Turbo monorepos
 
-### Run Docker
+This repository is set up as a Monorepo using Vercel's Turbo Repos.
+
+### Docker
 
 ```bash
 docker network create app_network
@@ -10,38 +12,46 @@ docker network create app_network
 docker compose -f docker-compose.yml up -d
 ```
 
-### Admin Dashboard
+### Admin dashboard
 
 - **Framework/Languages**: React 18
 - **Build Tool**: Vite
-- **Demo**: <https://muithew-admin.vercel.app>
+- **Demo**: <https://admin.maruhachinousan.com>
 
-### Landing Page
+### Landing page
 
 - **Framework/Languages**: Next.js 14
-- **Demo**: <https://muithew-landing.vercel.app>
+- **Demo**: <https://landing.maruhachinousan.com>
 
-### Storybook Documentation
+### Maruhachinousan landing page
+
+- **Framework/Languages**: Next.js 14
+- **Demo**: <https://maruhachinousan.com>
+
+### Astro blog
+
+- **Framework/Languages**: Astro 4.5
+- **Demo**: <https://astro.maruhachinousan.com>
+
+### Storybook documentation
 
 - **Framework/Languages**: Storybook v7
-- **Demo**: <https://muithew-docs.vercel.app>
+<!-- - **Demo**: <https://muithew-docs.vercel.app> -->
 
-#### Packages Used
+#### Packages used
 
 1. [Styled Components](https://styled-components.com/) - Used for styling components.
 2. [Material-UI (MUI)](https://mui.com/) - Provides a set of React components that implement Google's Material Design.
 3. [Storybook](https://storybook.js.org/) - Used for developing UI components in isolation.
 
-## Getting Started
+### Getting started
 
 ```bash
 git clone https://github.com/annminn104/muithew-monorepos.git
 
 cd muithew-monorepos
 
-yarn # Using Node version 18
-
-yarn build
+yarn install # Using Node version 18
 
 yarn dev # Start all apps 🚀
 
@@ -58,20 +68,32 @@ yarn dev --filter=[app-name]
 yarn storybook --filter=[package-name]
 ```
 
+### Frameworks/Libraries in apps
+
+- [React](https://react.dev)
+
+- [Nextjs](https://nextjs.org)
+
+- [Astro](https://astro.build)
+
+- [Remix](https://remix.run)
+
+- [Gatsby](https://gatsbyjs.com)
+
+- [Qwik](https://qwik.builder.io)
+
+- [Storybook](https://storybook.js.org)
+
 ### Configure Server
 
-- [Docker](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-22-04)
+- [Docker](https://digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-22-04)
 
-- [Nginx](https://www.digitalocean.com/community/tutorials/how-to-install-nginx-on-ubuntu-22-04)
+- [Nginx](https://digitalocean.com/community/tutorials/how-to-install-nginx-on-ubuntu-22-04)
 
-- [Certbot](https://www.digitalocean.com/community/tutorials/how-to-secure-nginx-with-let-s-encrypt-on-ubuntu-22-04)
+- [Certbot](https://digitalocean.com/community/tutorials/how-to-secure-nginx-with-let-s-encrypt-on-ubuntu-22-04)
 
-- [Jenkins](https://www.digitalocean.com/community/tutorials/how-to-install-jenkins-on-ubuntu-22-04)
+- [Jenkins](https://digitalocean.com/community/tutorials/how-to-install-jenkins-on-ubuntu-22-04)
 
-### Frameworks/Libraries
+- CI/CD:
 
-- React - Nextjs - Astro - Gatsby - Remix - Qwik
-
-### More
-
-- [CI/CD](https://viblo.asia/p/ci-cd-lab-su-dung-jenkins-nginx-deploy-du-an-reactjs-umijs-len-aws-ec2-bWrZnWgmlxw)
+  - [Config Jenkins](https://viblo.asia/p/ci-cd-lab-su-dung-jenkins-nginx-deploy-du-an-reactjs-umijs-len-aws-ec2-bWrZnWgmlxw)
