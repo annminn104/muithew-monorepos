@@ -28,14 +28,6 @@ RUN yarn turbo build --filter=astro...
 FROM base AS runner
 WORKDIR /app
 
-RUN addgroup --system --gid 1001 nodejs
-RUN adduser --system --uid 1001 astrojs
-USER astrojs
-
-
-COPY --from=installer /app/apps/astro/astro.config.mjs .
-COPY --from=installer /app/apps/astro/package.json .
-
 COPY --from=installer /app .
 
 ENV HOST=0.0.0.0

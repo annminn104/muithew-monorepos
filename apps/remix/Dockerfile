@@ -28,18 +28,12 @@ RUN yarn turbo build --filter=remix...
 FROM base AS runner
 WORKDIR /app
 
-RUN addgroup --system --gid 1001 nodejs
-RUN adduser --system --uid 1001 remixjs
-USER remixjs
+COPY --from=installer /app .
 
-COPY --from=installer /app/apps/remix/vite.config.ts .
-COPY --from=installer /app/apps/remix/package.json .
-
-COPY --from=installer --chown=remixjs:nodejs /app/apps/remix/build/server ./
-COPY --from=installer --chown=remixjs:nodejs /app/apps/remix/build/client ./apps/remix/build/client
+ENV HOST=0.0.0.0
 
 EXPOSE 5050
 
 ENV PORT 5050
 
-CMD node apps/remix/index.js
+CMD node ./apps/remix/build/server/index.js

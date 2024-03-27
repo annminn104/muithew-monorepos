@@ -9,7 +9,7 @@ This repository is set up as a Monorepo using Vercel's Turbo Repos.
 ```bash
 docker network create app_network
 
-docker compose -f docker-compose.yml up -d
+docker compose -f docker-compose.yml up -d --build
 ```
 
 ### Admin dashboard
