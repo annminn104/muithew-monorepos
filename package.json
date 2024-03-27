@@ -11,7 +11,7 @@
     "storybook:move": "turbo run storybook:move --filter=docs && turbo run storybook:move --filter=!docs",
     "clean:storybook": "rm -rf storybook-static",
     "clean:build": "turbo clean:build",
-    "start": "yarn clean:build && yarn build && yarn dev",
+    "start": "turbo run start --parallel",
     "prepare": "husky install && yarn build --filter ./packages/**"
   },
   "dependencies": {

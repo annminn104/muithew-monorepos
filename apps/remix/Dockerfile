@@ -36,4 +36,4 @@ EXPOSE 5050
 
 ENV PORT 5050
 
-CMD node ./apps/remix/build/server/index.js
+CMD ["yarn", "start", "--filter=remix"]
