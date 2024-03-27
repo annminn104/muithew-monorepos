@@ -9,7 +9,7 @@
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
-    "clean:build": "rm -rf dist/ .turbo/ node_modules/ storybook-static/ .astro"
+    "clean:build": "rm -rf dist/ .turbo/ node_modules/ storybook-static/ .astro/"
   },
   "dependencies": {}
 }

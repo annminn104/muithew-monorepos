@@ -33,6 +33,11 @@ docker compose -f docker-compose.yml up -d
 - **Framework/Languages**: Astro 4.5
 - **Demo**: <https://astro.maruhachinousan.com>
 
+### Remix example
+
+- **Framework/Languages**: Remix 2.8
+- **Demo**: <https://remix.maruhachinousan.com>
+
 ### Storybook documentation
 
 - **Framework/Languages**: Storybook v7
@@ -43,6 +48,7 @@ docker compose -f docker-compose.yml up -d
 1. [Styled Components](https://styled-components.com/) - Used for styling components.
 2. [Material-UI (MUI)](https://mui.com/) - Provides a set of React components that implement Google's Material Design.
 3. [Storybook](https://storybook.js.org/) - Used for developing UI components in isolation.
+4. [Framer Motion](https://framer.com/motion/) - Animation library
 
 ### Getting started
 

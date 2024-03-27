@@ -18,6 +18,10 @@
       "dependsOn": ["^build"],
       "outputs": [".dist/**"]
     },
+    "remix#build": {
+      "dependsOn": ["^build"],
+      "outputs": ["build/**", "!.cache/"]
+    },
     "lint": {
       "dependsOn": ["^lint"]
     },
