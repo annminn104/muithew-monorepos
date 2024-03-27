@@ -29,6 +29,9 @@
       "cache": false,
       "persistent": true
     },
+    "start": {
+      "cache": false
+    },
     "storybook": {
       "cache": false
     },
@@ -39,6 +42,7 @@
     "storybook:move": {
       "cache": false
     },
+
     "clean:build": {
       "cache": false
     }

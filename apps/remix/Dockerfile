@@ -6,7 +6,7 @@ RUN apk add --no-cache libc6-compat
 RUN apk update
 
 WORKDIR /app
-RUN yarn global add turbo
+RUN yarn global add turbo @remix-run/serve
 COPY . .
 RUN turbo prune @apps/remix --docker
 
@@ -36,4 +36,4 @@ EXPOSE 5050
 
 ENV PORT 5050
 
-CMD node ./apps/remix/build/server/index.js
+CMD ["yarn", "start", "--filter=remix"]
