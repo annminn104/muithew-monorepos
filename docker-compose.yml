@@ -45,6 +45,17 @@ services:
     networks:
       - app_network
 
+  remix:
+    container_name: remix
+    build:
+      context: .
+      dockerfile: ./apps/remix/Dockerfile
+    restart: always
+    ports:
+      - 5050:5050
+    networks:
+      - app_network
+
   # docs:
   #   container_name: docs
   #   build:
