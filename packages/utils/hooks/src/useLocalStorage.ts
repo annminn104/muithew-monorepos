@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 
 import { ExistHelpers } from '@utils/helpers';
 
-export default function useLocalStorage<T>(key: string, defaultValue: T) {
+export function useLocalStorage<T>(key: string, defaultValue: T) {
   const storageAvailable = ExistHelpers.localStorageAvailable();
 
   const [value, setValue] = useState(() => {

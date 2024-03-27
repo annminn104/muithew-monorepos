@@ -18,7 +18,11 @@ const nextConfig = {
     fetches: {
       fullUrl: true
     }
+  },
+  compiler: {
+    styledComponents: true
   }
+
   // async rewrites() {
   //   return [
   //     {

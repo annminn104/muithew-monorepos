@@ -6,5 +6,6 @@ module.exports = {
   parserOptions: {
     project: true,
     tsconfigRootDir: __dirname
-  }
+  },
+  plugins: [['styled-components', { ssr: true }]]
 };

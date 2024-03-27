@@ -26,7 +26,7 @@ export default function LocaleLayout({ children, params: { locale } }: LocaleLay
 
   return (
     <React.Fragment>
-      <html lang={locale}>
+      <html lang={locale} suppressHydrationWarning={false}>
         <body>
           <NextIntlClientProvider locale={locale} messages={{}}>
             {children}
