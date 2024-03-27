@@ -6,7 +6,7 @@ RUN apk add --no-cache libc6-compat
 RUN apk update
 
 WORKDIR /app
-RUN yarn global add turbo
+RUN yarn global add turbo @remix-run/serve
 COPY . .
 RUN turbo prune @apps/remix --docker
 
