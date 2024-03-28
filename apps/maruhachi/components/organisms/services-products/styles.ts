@@ -62,7 +62,7 @@ export const SerProDividerBottom = styled(
   {}
 )(({ theme }) => ({
   position: 'absolute',
-  top: `calc(${serviceSectionMock.height - serviceSectionMock.divider}px)`,
+  top: `calc(${serviceSectionMock.height - serviceSectionMock.divider}px + 1px)`,
   left: 0,
   zIndex: 2,
   backgroundImage: 'url(/images/bg-divider-bottom.svg)',

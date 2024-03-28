@@ -1,3 +1,4 @@
+import { PaletteMode } from '@mui/material';
 import {
   LetterOpenedIcon,
   PhoneCallingRoundedIcon,
@@ -6,6 +7,16 @@ import {
   SocialMessengerBgIcon,
   SocialWhatsAppBgIcon
 } from '@styles/ui-mui/icons';
+
+export enum AppModeEnum {
+  Dark = 'dark',
+  Light = 'light'
+}
+
+export const appModeMock: { key: string; defaultMode: PaletteMode } = {
+  key: 'APP_MODE_KEY',
+  defaultMode: AppModeEnum.Light
+};
 
 type NavigationI18nType = 'home' | 'aboutUs' | 'services' | 'contact';
 

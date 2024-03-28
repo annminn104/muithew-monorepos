@@ -1,4 +1,4 @@
-import { Color, PaletteOptions } from '@mui/material';
+import { Color, PaletteMode, PaletteOptions } from '@mui/material';
 import { IMaruhachiColorPalette } from './mui-theme';
 
 const greyPalette: Color = {
@@ -84,16 +84,12 @@ const commonPalette = {
   maruhachi: maruhachiPalette
 };
 
-export default function palette(themeMode: 'light' | 'dark') {
-  const light: PaletteOptions = {
-    ...commonPalette,
-    mode: 'light'
-  };
+export default function palette(themeMode: PaletteMode) {
+  const lightMode: PaletteOptions = { ...commonPalette, mode: 'light' };
 
-  const dark: PaletteOptions = {
-    ...commonPalette,
-    mode: 'dark'
-  };
+  const darkMode: PaletteOptions = { ...commonPalette, mode: 'dark' };
 
-  return themeMode === 'light' ? light : dark;
+  const paletteMode: Record<PaletteMode, PaletteOptions> = { light: lightMode, dark: darkMode };
+
+  return paletteMode[themeMode];
 }

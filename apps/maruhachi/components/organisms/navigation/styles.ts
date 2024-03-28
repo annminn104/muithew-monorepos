@@ -1,7 +1,5 @@
 'use client';
 
-import Link from 'next/link';
-
 import LocaleSwitcher from '@components/molecules/locale-switcher';
 import { Button, styled } from '@mui/material';
 import { PhoneCallingRoundedIcon } from '@styles/ui-mui/icons';
@@ -53,10 +51,11 @@ export const NavContactBtnContent = styled(
 export const NavLinkList = styled('div', {})(({ theme }) => ({ ...theme.functions.adjustFlex(), columnGap: '8px' }));
 
 export const NavLinkItem = styled(
-  Link,
+  Button,
   {}
 )(({ theme }) => ({
   padding: '4px 8px',
+  height: '64px',
   minWidth: '120px',
   textAlign: 'center',
   textDecoration: 'none',

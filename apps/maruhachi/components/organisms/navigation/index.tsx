@@ -6,6 +6,7 @@ import { ScrollingUtils } from 'utils';
 
 import { Typography } from '@mui/material';
 
+import ToggleMode from '@components/molecules/toggle-mode';
 import * as S from './styles';
 
 type NavigationProps = {
@@ -20,9 +21,6 @@ type NavigationProps = {
 };
 
 const Navigation: React.FC<NavigationProps> = ({ i18n }) => {
-  // const colorMode = React.useContext(MuiThemeContext);
-  // const theme = useTheme();
-
   return (
     <React.Fragment>
       <S.NavWrap>
@@ -30,12 +28,9 @@ const Navigation: React.FC<NavigationProps> = ({ i18n }) => {
           <S.NavLogo>Logo + name</S.NavLogo>
         </S.NavLeft>
         <S.NavCenter>
-          {/* <ToggleButton value='check' onChange={() => colorMode.toggleColorMode()}>
-            {theme.palette.mode}
-          </ToggleButton> */}
           <S.NavLinkList>
             {navigationMock.map((nav) => (
-              <S.NavLinkItem href='' key={nav.key} onClick={() => ScrollingUtils.session(nav.scrolling)}>
+              <S.NavLinkItem key={nav.key} onClick={() => ScrollingUtils.session(nav.scrolling)}>
                 <p>{i18n.navigation[`${nav.i18n}`]}</p>
               </S.NavLinkItem>
             ))}
@@ -43,6 +38,7 @@ const Navigation: React.FC<NavigationProps> = ({ i18n }) => {
         </S.NavCenter>
         <S.NavRight>
           <S.NavLanguages />
+          <ToggleMode />
           <S.NavContactBtn>
             <S.NavContactBtnIcon />
             <S.NavContactBtnContent>
