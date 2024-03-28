@@ -1,7 +1,11 @@
 import { getTranslations, unstable_setRequestLocale } from 'next-intl/server';
 import React from 'react';
 
+import { AppModeEnum, appModeMock } from '@mocks';
+import { PaletteMode } from '@mui/material';
+import RootProvider from 'app/provider';
 import { NextIntlClientProvider } from 'next-intl';
+import { cookies } from 'next/headers';
 import { locales } from '../../config';
 
 type LocaleLayoutProps = {
@@ -21,15 +25,16 @@ export async function generateMetadata({ params: { locale } }: Omit<LocaleLayout
   };
 }
 
-export default function LocaleLayout({ children, params: { locale } }: LocaleLayoutProps): JSX.Element {
+export default function LocaleLayout({ children, params: { locale } }: LocaleLayoutProps): React.JSX.Element {
   unstable_setRequestLocale(locale);
+  const cookieStorage = cookies();
 
   return (
     <React.Fragment>
       <html lang={locale}>
-        <body>
+        <body suppressHydrationWarning={true}>
           <NextIntlClientProvider locale={locale} messages={{}}>
-            {children}
+            <RootProvider mode={(cookieStorage.get(appModeMock.key)?.value || AppModeEnum.Light) as PaletteMode}>{children}</RootProvider>
           </NextIntlClientProvider>
         </body>
       </html>

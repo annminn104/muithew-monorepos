@@ -11,15 +11,9 @@ export const BannerSwiper = styled(
   {}
 )(({ theme }) => ({
   '&.swiper-horizontal .swiper-scrollbar': { display: 'none' },
-  '.swiper-button': {
-    '&-prev, &-next': {
-      display: 'none'
-    }
-  },
+  '.swiper-button': { '&-prev, &-next': { display: 'none' } },
   '.swiper-pagination-bullet': {
-    '&-active': {
-      background: theme.palette.maruhachi['contrastText']
-    }
+    '&-active': { background: theme.palette.maruhachi['contrastText'] }
   }
 }));
 

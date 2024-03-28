@@ -6,8 +6,6 @@ import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 
-import RootProvider from './provider';
-
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
@@ -16,5 +14,5 @@ export const metadata: Metadata = {
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }): React.JSX.Element {
-  return <RootProvider>{children}</RootProvider>;
+  return <>{children}</>;
 }
