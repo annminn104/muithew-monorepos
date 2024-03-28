@@ -1,6 +1,7 @@
 {
   "name": "@apps/docs",
   "version": "1.0.0",
+  "private": true,
   "scripts": {
     "storybook": "storybook dev -p 6006",
     "storybook:build": "storybook build --quiet -o storybook-static",

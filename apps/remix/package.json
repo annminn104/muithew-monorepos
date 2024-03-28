@@ -6,12 +6,19 @@
   "type": "module",
   "scripts": {
     "build": "remix vite:build",
-    "dev": "remix vite:dev",
+    "dev": "remix vite:dev -p 3500",
     "lint": "eslint --ignore-path .gitignore --cache --cache-location ./node_modules/.cache/eslint .",
     "start": "remix-serve ./build/server/index.js",
     "clean:build": "rm -rf build/ .turbo/ .cache/ node_modules/ storybook-static/",
     "typecheck": "tsc"
   },
-  "dependencies": {},
-  "devDependencies": {}
+  "dependencies": {
+    "@remix-run/node": "^2.8.1",
+    "@remix-run/react": "^2.8.1",
+    "@remix-run/serve": "^2.8.1",
+    "isbot": "^4.1.0"
+  },
+  "devDependencies": {
+    "@remix-run/dev": "^2.8.1"
+  }
 }
