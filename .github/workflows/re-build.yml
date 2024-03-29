@@ -26,7 +26,7 @@ jobs:
         run: yarn global add turbo gatsby remix
 
       - name: Install dependencies
-        run: yarn install --ignore-scripts --frozen-lockfile
+        run: yarn install --ignore-scripts --frozen-lockfile --verbose sharp
 
       - name: Build turbo packages
         run: yarn build --filter=./packages/**
