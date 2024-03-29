@@ -63,7 +63,7 @@ services:
       dockerfile: ./apps/gatsby/Dockerfile
     restart: always
     ports:
-      - 5060:5060
+      - 5060:80
     networks:
       - app_network
 
