@@ -103,3 +103,64 @@ yarn storybook --filter=[package-name]
 - CI/CD:
 
   - [Config Jenkins](https://viblo.asia/p/ci-cd-lab-su-dung-jenkins-nginx-deploy-du-an-reactjs-umijs-len-aws-ec2-bWrZnWgmlxw)
+
+```shell
+.
+├── node_modules/
+├── package.json
+├── apps/
+│   ├── react/
+│   │   ├── package.json
+│   ├── nextjs/
+│   │   ├── package.json
+│   ├── remix/
+│   │   ├── package.json
+│   ├── gatsby/
+│   │   ├── package.json
+│   ├── qwik/
+│   │   ├── package.json
+
+```
+
+```shell
+importers:
+
+  .:
+    devDependencies:
+      eslint:
+        specifier: ^8.57.0
+        version: 8.57.0
+      prettier:
+        specifier: ^3.2.5
+        version: 3.2.5
+      turbo:
+        specifier: ^1.12.4
+        version: 1.12.4
+
+  apps/docs:
+    dependencies:
+      react:
+        specifier: 18.2.0
+        version: 18.2.0
+      react-dom:
+        specifier: 18.2.0
+        version: 18.2.0(react@18.2.0)
+    devDependencies:
+        typescript:
+        specifier: ^5.3.3
+        version: 5.3.3
+
+  apps/web:
+    dependencies:
+      react:
+        specifier: ^18.2.0
+        version: 18.2.0
+      react-dom:
+        specifier: ^18.2.0
+        version: 18.2.0(react@18.2.0)
+    devDependencies:
+      typescript:
+        specifier: ^5.3.3
+        version: 5.3.3
+
+```

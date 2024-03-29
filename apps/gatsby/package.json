@@ -4,9 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "gatsby develop -p 3600",
-    "start": "gatsby develop",
+    "start": "gatsby serve",
     "build": "gatsby build",
-    "serve": "gatsby serve",
     "clean": "gatsby clean",
     "typecheck": "tsc --noEmit"
   },
