@@ -56,16 +56,16 @@ services:
     networks:
       - app_network
 
-  # docs:
-  #   container_name: docs
-  #   build:
-  #     context: .
-  #     dockerfile: ./Dockerfile.docs
-  #   restart: always
-  #   ports:
-  #     - 5040:80
-  #   networks:
-  #     - app_network
+  gatsby:
+    container_name: gatsby
+    build:
+      context: .
+      dockerfile: ./apps/gatsby/Dockerfile
+    restart: always
+    ports:
+      - 5060:80
+    networks:
+      - app_network
 
 networks:
   app_network:

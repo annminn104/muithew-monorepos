@@ -50,12 +50,6 @@
     "turbo": "^1.12.2",
     "typescript": "^5.2.2",
     "vite": "^5.0.8",
-    "@astrojs/mdx": "^2.2.1",
-    "@astrojs/rss": "^4.0.5",
-    "@astrojs/sitemap": "^3.1.1",
-    "astro": "^4.5.9",
-    "@astrojs/check": "^0.5.10",
-    "@astrojs/node": "^8.2.5",
     "@mdx-js/react": "^3.0.1"
   },
   "devDependencies": {
