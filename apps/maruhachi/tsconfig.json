@@ -2,11 +2,7 @@
   // "extends": "@configs/typescript/nextjs.json",
   "compilerOptions": {
     "plugins": [{ "name": "next" }],
-    "baseUrl": ".",
-    "paths": {
-      "@components/*": ["components/*"],
-      "@mocks": ["mocks"]
-    },
+    "types": ["node"],
     "resolveJsonModule": true,
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,
@@ -18,7 +14,12 @@
     "module": "esnext",
     "moduleResolution": "node",
     "isolatedModules": true,
-    "jsx": "preserve"
+    "jsx": "preserve",
+    "baseUrl": ".",
+    "paths": {
+      "@components/*": ["components/*"],
+      "@mocks": ["mocks"]
+    }
   },
   "include": ["next-env.d.ts", "next.config.js", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "../../packages/configs/mui/mui-theme.d.ts"],
   "exclude": ["node_modules"]
