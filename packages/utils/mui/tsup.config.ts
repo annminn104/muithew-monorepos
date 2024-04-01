@@ -4,7 +4,7 @@ export default defineConfig((options) => ({
   entry: ['src/index.ts'],
   format: ['esm', 'cjs'],
   external: ['react', 'react-dom', '@mui/material', /^@emotion/],
-  dts: false,
+  dts: true,
   splitting: false,
   minify: true,
   clean: true,

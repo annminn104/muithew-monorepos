@@ -20,7 +20,8 @@
     "declaration": true,
     "declarationMap": true,
     "jsx": "react-jsx",
-    "target": "ES6"
+    "target": "ES6",
+    "types": ["node"]
   },
   // Storybook
   "ts-node": {
