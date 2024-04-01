@@ -22,11 +22,11 @@ jobs:
         with:
           node-version: 18
 
+      - name: Ignore cache
+        run: yarn cache clean
+
       - name: Install serve
         run: yarn global add turbo gatsby remix
-
-      - name: Install sharp fixing gatsby build
-        run: yarn add --verbose sharp
 
       - name: Install dependencies
         run: yarn install --ignore-scripts --frozen-lockfile

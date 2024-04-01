@@ -1,14 +1,13 @@
 import { defineConfig } from 'tsup';
 
-const tsupConfig = defineConfig({
+export default defineConfig((options) => ({
   entry: ['src/index.ts'],
   format: ['esm', 'cjs'],
-  dts: true,
   external: ['react', 'react-dom', '@mui/material', /^@emotion/],
+  dts: false,
   splitting: false,
   minify: true,
   clean: true,
-  tsconfig: 'tsconfig.prod.json'
-});
-
-export default tsupConfig;
+  tsconfig: 'tsconfig.prod.json',
+  ...options
+}));
