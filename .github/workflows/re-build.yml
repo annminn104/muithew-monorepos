@@ -11,32 +11,29 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
         with:
           ref: ${{ github.event.pull_request.head.ref }}
           repository: ${{github.event.pull_request.head.repo.full_name}}
           fetch-depth: 0
 
-      - name: Set up Node.js
-        uses: actions/setup-node@v3
+      - name: Set up Bun
+        uses: oven-sh/setup-bun@v1
         with:
-          node-version: 18
-
-      - name: Ignore cache
-        run: yarn cache clean
+          bun-version: 1.1.0
 
       - name: Install serve
-        run: yarn global add turbo gatsby remix
+        run: bun install turbo gatsby remix --global
 
       - name: Install dependencies
-        run: yarn install --ignore-scripts --frozen-lockfile
+        run: bun install --ignore-scripts --frozen-lockfile
 
       - name: Build turbo packages
-        run: yarn build --filter=./packages/**
+        run: bun run --cwd packages build
 
       - name: Build storybooks
-        run: yarn storybook:build
+        run: bun run storybook:build
 
       - name: Turbo build apps
-        run: yarn build --filter=./apps/**
+        run: bun run --cwd apps build

@@ -26,7 +26,7 @@
     "clean:storybook": "rm -rf storybook-static",
     "clean:build": "turbo clean:build",
     "start": "turbo run start --parallel",
-    "prepare": "husky install && yarn build --filter ./packages/**"
+    "prepare": "husky install && bun run --cwd packages build"
   },
   "dependencies": {
     "@emotion/cache": "^11.11.0",
@@ -70,7 +70,6 @@
     "@storybook/react": "^7.6.8",
     "@storybook/react-vite": "^7.6.8",
     "@storybook/test": "^7.6.9",
-    "@turbo/gen": "^1.11.3",
     "@types/node": "^20.11.19",
     "@types/react": "^18.2.43",
     "@types/react-dom": "^18.2.17",
@@ -102,7 +101,6 @@
   "engines": {
     "node": ">=18"
   },
-  "packageManager": "yarn@1.22.21",
   "workspaces": [
     "apps/*",
     "packages/*",
