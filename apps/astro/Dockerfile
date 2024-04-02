@@ -1,18 +1,13 @@
 FROM oven/bun:1 AS base
 
 FROM base AS builder
-
-RUN apk add --no-cache libc6-compat
-RUN apk update
-
 WORKDIR /app
+
 RUN bun install turbo --global
 COPY . .
 RUN turbo prune @apps/astro --docker
 
 FROM base AS installer
-RUN apk add --no-cache libc6-compat
-RUN apk update
 WORKDIR /app
 
 COPY .gitignore .gitignore
