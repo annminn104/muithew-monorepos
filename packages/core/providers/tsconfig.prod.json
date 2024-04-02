@@ -5,7 +5,7 @@
     "paths": {
       ".": ["."]
     },
-    "outDir": "dist"
+    "declaration": true
   },
 
   "include": ["src/**/*", "../../configs/mui/mui-theme.d.ts"],

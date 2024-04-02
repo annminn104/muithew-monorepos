@@ -22,6 +22,10 @@
       "dependsOn": ["^build"],
       "outputs": ["build/**", "!.cache/"]
     },
+    "gatsby#build": {
+      "dependsOn": ["^build"],
+      "outputs": ["public/**", "!.cache/"]
+    },
     "lint": {
       "dependsOn": ["^lint"]
     },

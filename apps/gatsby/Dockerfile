@@ -1,26 +1,26 @@
-FROM node:18-alpine AS builder
+FROM oven/bun:1 AS builder
 
 WORKDIR /app
 
-RUN yarn global add turbo gatsby
+RUN bun install turbo gatsby --global
 
 COPY . .
 
 RUN turbo prune @apps/gatsby --docker
 
-FROM node:18-alpine AS installer
+FROM oven/bun:1 AS installer
 WORKDIR /app
 
 COPY .gitignore .gitignore
 COPY --from=builder /app/out/json/ .
-COPY --from=builder /app/out/yarn.lock ./yarn.lock
+COPY --from=builder /app/out/bun.lockb ./bun.lockb
 
-RUN yarn install --ignore-scripts
+RUN bun install --ignore-scripts
 
 COPY --from=builder /app/out/full/ .
 COPY turbo.json turbo.json
 
-RUN yarn turbo build --filter=gatsby...
+RUN bun run turbo build --filter=gatsby...
 
 FROM nginx:stable-alpine AS runner
 
