@@ -1,5 +1,4 @@
 FROM oven/bun:1 AS builder
-
 WORKDIR /app
 
 RUN bun install turbo --global
