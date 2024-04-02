@@ -23,6 +23,11 @@ jobs:
         with:
           bun-version: 1.1.0
 
+      - name: Set up Nodejs
+        uses: actions/setup-node@v1
+        with:
+          node-version: 18
+
       - name: Install Platform
         run: bun install --platform=linux --arch=x6
 
