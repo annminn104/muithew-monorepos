@@ -1,25 +1,27 @@
-FROM oven/bun:1 AS builder
+FROM node:18-alpine AS base
+
+FROM base AS builder
 WORKDIR /app
 
-RUN bun install turbo --global
+RUN yarn add global turbo
 
 COPY . .
 
 RUN turbo prune @apps/admin --docker
 
-FROM oven/bun:1 AS installer
+FROM base AS installer
 WORKDIR /app
 
 COPY .gitignore .gitignore
 COPY --from=builder /app/out/json/ .
-COPY --from=builder /app/out/bun.lockb ./bun.lockb
+COPY --from=builder /app/out/yarn.lock ./yarn.lock
 
-RUN bun install --ignore-scripts
+RUN yarn install --ignore-scripts
 
 COPY --from=builder /app/out/full/ .
 COPY turbo.json turbo.json
 
-RUN bun run turbo build --filter=admin...
+RUN turbo build --filter=admin...
 
 FROM nginx:stable-alpine AS runner
 

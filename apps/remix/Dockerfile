@@ -1,9 +1,9 @@
-FROM oven/bun:1 AS base
+FROM node:18-alpine AS base
 
 FROM base AS builder
 WORKDIR /app
 
-RUN bun install turbo @remix-run/serve --global
+RUN yarn add global turbo @remix-run/serve
 COPY . .
 RUN turbo prune @apps/remix --docker
 
@@ -12,15 +12,15 @@ WORKDIR /app
 
 COPY .gitignore .gitignore
 COPY --from=builder /app/out/json/ .
-COPY --from=builder /app/out/bun.lockb ./bun.lockb
-RUN bun install --ignore-scripts
+COPY --from=builder /app/out/yarn.lock ./yarn.lock
+RUN yarn install --ignore-scripts
 
 COPY --from=builder /app/out/full/ .
 COPY turbo.json turbo.json
 
-RUN bun run turbo build --filter=remix...
+RUN turbo build --filter=remix...
 
-FROM node:18-alpine AS runner
+FROM base AS runner
 WORKDIR /app
 
 COPY --from=installer /app .

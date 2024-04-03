@@ -1,9 +1,9 @@
-FROM oven/bun:1 AS base
+FROM node:18-alpine AS base
 
 FROM base AS builder
 WORKDIR /app
 
-RUN bun install turbo --global
+RUN yarn add global turbo
 COPY . .
 RUN turbo prune @apps/astro --docker
 
@@ -12,13 +12,13 @@ WORKDIR /app
 
 COPY .gitignore .gitignore
 COPY --from=builder /app/out/json/ .
-COPY --from=builder /app/out/bun.lockb ./bun.lockb 
-RUN bun install --ignore-scripts
+COPY --from=builder /app/out/yarn.lock ./yarn.lock
+RUN yarn install --ignore-scripts
 
 COPY --from=builder /app/out/full/ .
 COPY turbo.json turbo.json
 
-RUN bun run turbo build --filter=astro...
+RUN turbo build --filter=astro...
 
 FROM node:18-alpine AS runner
 WORKDIR /app

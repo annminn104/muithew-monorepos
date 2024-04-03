@@ -1,9 +1,9 @@
-FROM oven/bun:1 AS base
+FROM node:18-alpine AS base
 
 FROM base AS builder
 WORKDIR /app
 
-RUN bun install turbo --global
+RUN yarn add global turbo
 COPY . .
 RUN turbo prune @apps/maruhachi --docker
 
@@ -12,15 +12,15 @@ WORKDIR /app
 
 COPY .gitignore .gitignore
 COPY --from=builder /app/out/json/ .
-COPY --from=builder /app/out/bun.lockb ./bun.lockb
-RUN bun install --ignore-scripts
+COPY --from=builder /app/out/yarn.lock ./yarn.lock
+RUN yarn install --ignore-scripts
 
 COPY --from=builder /app/out/full/ .
 COPY turbo.json turbo.json
 
-RUN bun run turbo build --filter=maruhachi...
+RUN turbo build --filter=maruhachi...
 
-FROM node:18-alpine AS runner
+FROM base AS runner
 WORKDIR /app
 
 RUN addgroup --system --gid 1001 nodejs
