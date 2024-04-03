@@ -18,7 +18,7 @@ RUN yarn install --ignore-scripts
 COPY --from=builder /app/out/full/ .
 COPY turbo.json turbo.json
 
-RUN turbo build --filter=remix...
+RUN yarn turbo run build --filter=remix...
 
 FROM base AS runner
 WORKDIR /app

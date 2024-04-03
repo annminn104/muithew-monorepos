@@ -21,7 +21,7 @@ RUN yarn install --ignore-scripts
 COPY --from=builder /app/out/full/ .
 COPY turbo.json turbo.json
 
-RUN turbo build --filter=gatsby...
+RUN yarn turbo run build --filter=gatsby...
 
 FROM nginx:stable-alpine AS runner
 
