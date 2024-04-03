@@ -18,7 +18,7 @@ RUN yarn install --ignore-scripts
 COPY --from=builder /app/out/full/ .
 COPY turbo.json turbo.json
 
-RUN turbo build --filter=maruhachi...
+RUN yarn turbo run build --filter=maruhachi...
 
 FROM base AS runner
 WORKDIR /app

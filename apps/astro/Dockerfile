@@ -18,7 +18,7 @@ RUN yarn install --ignore-scripts
 COPY --from=builder /app/out/full/ .
 COPY turbo.json turbo.json
 
-RUN turbo build --filter=astro...
+RUN yarn turbo run build --filter=astro...
 
 FROM node:18-alpine AS runner
 WORKDIR /app
