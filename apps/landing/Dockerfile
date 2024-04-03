@@ -3,7 +3,7 @@ FROM node:18-alpine AS base
 FROM oven/bun:1 AS builder
 WORKDIR /app
 
-RUN yarn add global turbo
+RUN bun install --global turbo
 COPY . .
 RUN turbo prune @apps/landing --docker
 
