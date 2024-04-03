@@ -3,7 +3,7 @@ FROM node:18-alpine AS base
 FROM oven/bun:1 AS builder
 WORKDIR /app
 
-RUN bun install --global turbo
+RUN bun install turbo@1.12.2 --global
 COPY . .
 RUN turbo prune @apps/admin --docker
 
