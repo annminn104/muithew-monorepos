@@ -3,7 +3,7 @@ FROM node:18-alpine AS base
 FROM oven/bun:1 AS builder
 WORKDIR /app
 
-RUN yarn add global turbo @remix-run/serve
+RUN bun install --global turbo @remix-run/serve
 COPY . .
 RUN turbo prune @apps/remix --docker
 
