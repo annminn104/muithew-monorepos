@@ -3,7 +3,6 @@ FROM node:18-alpine AS base
 FROM base AS builder
 RUN apk add --no-cache libc6-compat
 RUN apk update
-
 WORKDIR /app
 
 RUN yarn add global turbo
@@ -13,6 +12,8 @@ COPY . .
 RUN turbo prune @apps/admin --docker
 
 FROM base AS installer
+RUN apk add --no-cache libc6-compat
+RUN apk update
 WORKDIR /app
 
 COPY .gitignore .gitignore
