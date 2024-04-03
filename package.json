@@ -28,7 +28,7 @@
     "start": "turbo run start --parallel",
     "prepare": "husky install && bun run --cwd packages build"
   },
-  "packageManager": "yarn@1.1.22",
+  "packageManager": "yarn@1.22.19",
   "dependencies": {
     "@emotion/cache": "^11.11.0",
     "@emotion/react": "^11.11.3",
