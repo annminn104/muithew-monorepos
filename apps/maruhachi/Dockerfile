@@ -1,8 +1,6 @@
 FROM node:18-alpine AS base
 
 FROM oven/bun:1 AS builder
-RUN apk add --no-cache libc6-compat
-RUN apk update
 WORKDIR /app
 
 RUN yarn add global turbo
