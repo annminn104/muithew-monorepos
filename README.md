@@ -38,6 +38,11 @@ docker compose -f docker-compose.yml up -d --build
 - **Framework/Languages**: Remix 2.8
 - **Demo**: <https://remix.maruhachinousan.com>
 
+### Gatsby example
+
+- **Framework/Languages**: Gatsby 5.13
+- **Demo**: <https://gatsby.maruhachinousan.com>
+
 ### Storybook documentation
 
 - **Framework/Languages**: Storybook v7
