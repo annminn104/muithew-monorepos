@@ -1,8 +1,8 @@
 FROM node:18-alpine AS base
 
 FROM base AS builder
-RUN apt install -y libc6-compat
-RUN apt update -y
+RUN apk add --no-cache libc6-compat
+RUN apk update
 WORKDIR /app
 
 RUN yarn add global turbo@1.12.2 gatsby@5.13.3
