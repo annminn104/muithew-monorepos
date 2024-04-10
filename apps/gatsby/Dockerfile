@@ -1,9 +1,11 @@
 FROM node:18-alpine AS base
 
-FROM oven/bun:1 AS builder
+FROM base AS builder
+RUN apt install -y libc6-compat
+RUN apt update -y
 WORKDIR /app
 
-RUN bun install --global turbo gatsby
+RUN yarn add global turbo@1.12.2 gatsby@5.13.3
 COPY . .
 RUN turbo prune @apps/gatsby --docker
 
