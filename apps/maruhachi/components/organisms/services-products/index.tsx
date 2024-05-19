@@ -36,22 +36,22 @@ const ServicesProducts: React.FC<ServicesProductsProps> = ({
         <Grid item xs={12}>
           <S.SerProBox>
             <S.SerProLogo {...icon} {...AnimateUtils.fadeIn(0.4)} />
-            <S.SerProSubtitle variant='h6' {...AnimateUtils.fadeIn(0.5)}>
+            {/* <S.SerProSubtitle variant='h6' {...AnimateUtils.fadeIn(0.5)}>
               {subtitle}
-            </S.SerProSubtitle>
+            </S.SerProSubtitle> */}
             <S.SerProTitle variant='h3' {...AnimateUtils.fadeIn(0.6)}>
               {title}
             </S.SerProTitle>
           </S.SerProBox>
         </Grid>
         {content.map((item, index) => (
-          <Grid item xs={3} key={item.key}>
+          <Grid item xs={5} key={item.key}>
             <S.SerProItem {...AnimateUtils.fadeDirection('left', 0.5, 100, 0.3 * index)}>
               <S.SerProItemImg {...item.img} />
               <S.SerProItemIcon {...item.icon} />
               <S.SerProItemText ref={ref}>
                 <S.SerProItemTitle variant='h6'>{item.title}</S.SerProItemTitle>
-                <S.SerProItemContent variant='body2'>{item.content}</S.SerProItemContent>
+                <S.SerProItemContent variant='body2' dangerouslySetInnerHTML={{ __html: item.content }} />
                 <S.SerProItemButton size='large'>
                   <S.SerProItemButtonIcon linearColor={theme.palette.maruhachi['contrastText']} fontSize='large' />
                 </S.SerProItemButton>

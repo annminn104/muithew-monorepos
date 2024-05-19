@@ -51,7 +51,7 @@ export const IntroVerticalLogo = styled(
   position: 'absolute',
   left: `calc(-${width}px / 2)`,
   top: '50%',
-  transform: 'translateY(-50%)'
+  transform: 'translateY(-50%) !important'
 }));
 
 export const IntroHorizontal = styled('div', {})(({ theme }) => ({}));

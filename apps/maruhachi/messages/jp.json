@@ -33,33 +33,33 @@
         {
           "key": "1",
           "subtitle": "subtitle 1",
-          "title": "Welcome to </br> Maruhachinousan",
-          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae ipsam voluptatibus animi nesciunt deleniti.",
-          "button": "Contact",
+          "title": "合同会社 </br> まるはち農産",
+          "description": "畜産業(平飼い鶏卵) </br> 農業(野菜・果物)",
+          "button": "お問い合わせ",
           "background": "/images/bg-banner-1.png"
         },
         {
           "key": "2",
           "subtitle": "subtitle 2",
-          "title": "Welcome to </br> Maruhachinousan",
-          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae ipsam voluptatibus animi nesciunt deleniti.",
-          "button": "Contact",
+          "title": "合同会社 </br> まるはち農産",
+          "description": "畜産業(平飼い鶏卵) </br> 農業(野菜・果物)",
+          "button": "お問い合わせ",
           "background": "/images/bg-banner-2.png"
         },
         {
           "key": "3",
           "subtitle": "subtitle 3",
-          "title": "Welcome to </br> Maruhachinousan",
-          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae ipsam voluptatibus animi nesciunt deleniti.",
-          "button": "Contact",
+          "title": "合同会社 </br> まるはち農産",
+          "description": "畜産業(平飼い鶏卵) </br> 農業(野菜・果物)",
+          "button": "お問い合わせ",
           "background": "/images/bg-banner-3.png"
         },
         {
           "key": "4",
           "subtitle": "subtitle 4",
-          "title": "Welcome to </br> Maruhachinousan",
-          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae ipsam voluptatibus animi nesciunt deleniti.",
-          "button": "Contact",
+          "title": "合同会社 </br> まるはち農産",
+          "description": "畜産業(平飼い鶏卵) </br> 農業(野菜・果物)",
+          "button": "お問い合わせ",
           "background": "/images/bg-banner-4.png"
         }
       ]
@@ -87,13 +87,13 @@
       },
 
       "content": {
-        "subtitle": "Introduction",
-        "title": "WE’RE LEADER IN AGRICULTURE MARKET",
-        "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.",
+        "subtitle": "会社概要",
+        "title": "平飼い卵",
+        "description": "鶏舎内や養鶏場の屋外で放し飼いにする鶏の産む卵のことです。味と品質が良く、濃厚で旨みとコクのある味わいが特徴の卵です。",
         "images": [
           {
             "key": "egg",
-            "text": "Lorem Ipsum is simply dummy text",
+            "text": "ロードアイランドレッド",
             "src": "/images/icon-introduction-1.svg",
             "width": 102,
             "height": 60,
@@ -101,7 +101,7 @@
           },
           {
             "key": "chicken",
-            "text": "Lorem Ipsum is simply dummy text",
+            "text": "鳥骨鶏",
             "src": "/images/icon-introduction-2.svg",
             "width": 50,
             "height": 60,
@@ -109,13 +109,13 @@
           }
         ],
         "notice": "If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.",
-        "button": "Contact"
+        "button": "お問い合わせ"
       }
     },
     "services": {
       "video": {
-        "title": "Maruhachinousan",
-        "button": "Contact",
+        "title": "まるはち農産",
+        "button": "お問い合わせ",
         "videoSrc": "https://www.youtube.com/watch?v=9K-82fomFhA"
       },
       "products": {
@@ -126,7 +126,7 @@
           "alt": "Logo Maruhachinousan product"
         },
         "subtitle": "WHAT WE’RE DOING",
-        "title": "Services We Offer",
+        "title": "商品紹介",
         "content": [
           {
             "key": "service product 1",
@@ -142,8 +142,8 @@
               "height": 80,
               "alt": "SVG Maruhachinousan chicken egg"
             },
-            "title": "Dairy Products",
-            "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry"
+            "title": "ロードアイランドレッド",
+            "content": "卵肉兼用種として飼育されている。</br> 赤玉卵と呼ばれ、消費者に好まれる傾向にあります。"
           },
           {
             "key": "service product 2",
@@ -159,42 +159,8 @@
               "height": 80,
               "alt": "SVG Maruhachinousan chicken egg"
             },
-            "title": "Dairy Products",
-            "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry"
-          },
-          {
-            "key": "service product 3",
-            "img": {
-              "src": "/images/img-services-product-3.jpg",
-              "width": 268,
-              "height": 220,
-              "alt": "Image Maruhachinousan product 3"
-            },
-            "icon": {
-              "src": "/images/logo-60.png",
-              "width": 80,
-              "height": 80,
-              "alt": "SVG Maruhachinousan chicken egg"
-            },
-            "title": "Dairy Products",
-            "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry"
-          },
-          {
-            "key": "service product 4",
-            "img": {
-              "src": "/images/img-services-product-4.jpg",
-              "width": 268,
-              "height": 220,
-              "alt": "Image Maruhachinousan product 4"
-            },
-            "icon": {
-              "src": "/images/logo-60.png",
-              "width": 80,
-              "height": 80,
-              "alt": "SVG Maruhachinousan chicken egg"
-            },
-            "title": "Dairy Products",
-            "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry"
+            "title": "鳥骨鶏",
+            "content": "ニワトリとしては小型で肉量は少ないが、栄養学的に優れた組成を持つと考えられており、スープなどにして食用される。また卵も栄養学的に優れているとされ人気が高い。"
           }
         ]
       }

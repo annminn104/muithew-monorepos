@@ -39,13 +39,11 @@ const SectionBanner: React.FC<BannerProps> = ({ i18n }) => {
               <Grid container>
                 <Grid item xs={12}>
                   <S.BannerContent>
-                    <S.BannerSubtitle variant='h4' {...AnimateUtils.fadeIn(0.4)}>
+                    {/* <S.BannerSubtitle variant='h4' {...AnimateUtils.fadeIn(0.4)}>
                       {slide.subtitle}
-                    </S.BannerSubtitle>
+                    </S.BannerSubtitle> */}
                     <S.BannerTitle variant='h1' dangerouslySetInnerHTML={{ __html: slide.title }} {...AnimateUtils.fadeIn(0.3)} />
-                    <S.BannerDesc variant='h5' {...AnimateUtils.fadeIn(0.5)}>
-                      {slide.description}
-                    </S.BannerDesc>
+                    <S.BannerDesc variant='h5' {...AnimateUtils.fadeIn(0.5)} dangerouslySetInnerHTML={{ __html: slide.description }} />
                     <S.BannerButton type='button' variant='maruhachi' size='large' color='warning' {...AnimateUtils.fadeIn(0.6)}>
                       {slide.button}
                     </S.BannerButton>
