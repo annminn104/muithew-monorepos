@@ -34,7 +34,7 @@
           "key": "1",
           "subtitle": "subtitle 1",
           "title": "Welcome to </br> Maruhachinousan",
-          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae ipsam voluptatibus animi nesciunt deleniti.",
+          "description": "Poultry farming (Chicken eggs) </br> Agriculture (vegetables/fruits)",
           "button": "Contact",
           "background": "/images/bg-banner-1.png"
         },
@@ -42,25 +42,9 @@
           "key": "2",
           "subtitle": "subtitle 2",
           "title": "Welcome to </br> Maruhachinousan",
-          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae ipsam voluptatibus animi nesciunt deleniti.",
+          "description": "Poultry farming (Chicken eggs) </br> Agriculture (vegetables/fruits)",
           "button": "Contact",
           "background": "/images/bg-banner-2.png"
-        },
-        {
-          "key": "3",
-          "subtitle": "subtitle 3",
-          "title": "Welcome to </br> Maruhachinousan",
-          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae ipsam voluptatibus animi nesciunt deleniti.",
-          "button": "Contact",
-          "background": "/images/bg-banner-3.png"
-        },
-        {
-          "key": "4",
-          "subtitle": "subtitle 4",
-          "title": "Welcome to </br> Maruhachinousan",
-          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae ipsam voluptatibus animi nesciunt deleniti.",
-          "button": "Contact",
-          "background": "/images/bg-banner-4.png"
         }
       ]
     },

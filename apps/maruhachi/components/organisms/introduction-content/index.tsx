@@ -32,7 +32,7 @@ const IntroductionContent: React.FC<IntroductionContentProps> = ({
           </S.IntroContentItem>
         ))}
       </S.IntroContentImages>
-      <S.IntroContentNotice {...AnimateUtils.fadeDirection('right', 0.4, 100)}>{notice}</S.IntroContentNotice>
+      {/* <S.IntroContentNotice {...AnimateUtils.fadeDirection('right', 0.4, 100)}>{notice}</S.IntroContentNotice> */}
       <S.IntroContentButton
         variant='maruhachi'
         color='warning'
