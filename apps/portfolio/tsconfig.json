@@ -1,0 +1,12 @@
+{
+  "extends": "@configs/typescript/nextjs.json",
+  "compilerOptions": {
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ]
+  },
+  "include": ["next-env.d.ts", "next.config.js", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "../../packages/configs/mui/mui-theme.d.ts"],
+  "exclude": ["node_modules"]
+}

@@ -45,22 +45,6 @@
           "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae ipsam voluptatibus animi nesciunt deleniti.",
           "button": "Contact",
           "background": "/images/bg-banner-2.png"
-        },
-        {
-          "key": "3",
-          "subtitle": "subtitle 3",
-          "title": "Welcome to </br> Maruhachinousan",
-          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae ipsam voluptatibus animi nesciunt deleniti.",
-          "button": "Contact",
-          "background": "/images/bg-banner-3.png"
-        },
-        {
-          "key": "4",
-          "subtitle": "subtitle 4",
-          "title": "Welcome to </br> Maruhachinousan",
-          "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae ipsam voluptatibus animi nesciunt deleniti.",
-          "button": "Contact",
-          "background": "/images/bg-banner-4.png"
         }
       ]
     },

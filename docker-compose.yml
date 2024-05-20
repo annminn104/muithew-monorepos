@@ -67,6 +67,17 @@ services:
     networks:
       - app_network
 
+  portfolio:
+    container_name: portfolio
+    build:
+      context: .
+      dockerfile: ./apps/portfolio/Dockerfile
+    restart: always
+    ports:
+      - 5070:5070
+    networks:
+      - app_network
+
 networks:
   app_network:
     external: true
