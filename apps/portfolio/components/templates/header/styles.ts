@@ -1,6 +1,6 @@
 'use client';
 
-import { styled } from '@mui/material';
+import { alpha, styled } from '@mui/material';
 
 export const HeaderWrap = styled('div', {})(({}) => ({ zIndex: 999, position: 'relative' }));
 
@@ -22,9 +22,10 @@ export const HeaderNavList = styled(
   ...theme.functions.adjustFlex(),
   columnGap: '4vw',
   border: `1px solid ${theme.palette.grey?.[200]}`,
-  padding: '8px 32px',
+  padding: '16px 40px',
   borderRadius: '40px',
-  margin: 0
+  margin: 0,
+  backgroundColor: alpha(theme.palette.grey?.[900] || '#333', 0.5)
 }));
 
 export const HeaderNavItem = styled('li', {})(({ theme }) => ({ a: { color: theme.palette.grey?.[200], textDecoration: 'none' } }));

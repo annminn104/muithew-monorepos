@@ -8,5 +8,5 @@ export const WrapperContent = styled(
   'div',
   {}
 )(({ theme }) => ({
-  paddingTop: '80px'
+  paddingTop: '100px'
 }));

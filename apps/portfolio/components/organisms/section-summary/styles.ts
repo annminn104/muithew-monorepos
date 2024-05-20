@@ -21,3 +21,7 @@ export const SummaryContent = styled(
   fontSize: '16px',
   color: theme.palette.common?.white
 }));
+
+export const SummaryResume = styled('div', {})(({ theme }) => ({ ...theme.functions.adjustFlex() }));
+
+export const SummarySocials = styled('div', {})(({ theme }) => ({ ...theme.functions.adjustFlex(), columnGap: '16px', marginTop: '16px' }));
