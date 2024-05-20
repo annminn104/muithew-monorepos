@@ -5,7 +5,13 @@
       {
         "name": "next"
       }
-    ]
+    ],
+    "baseUrl": "./",
+    "paths": {
+      "@/*": ["*"],
+      "@/components/*": ["components/*"],
+      "@/common/*": ["common/*"]
+    }
   },
   "include": ["next-env.d.ts", "next.config.js", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "../../packages/configs/mui/mui-theme.d.ts"],
   "exclude": ["node_modules"]
