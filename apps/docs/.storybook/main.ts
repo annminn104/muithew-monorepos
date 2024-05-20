@@ -20,6 +20,10 @@ const main: StorybookConfig = {
     'ui-mui': {
       title: 'UI-MUI',
       url: process.env.NODE_ENV === 'development' ? 'http://localhost:8008/' : 'ui-mui/'
+    },
+    portfolio: {
+      title: 'Portfolio',
+      url: process.env.NODE_ENV === 'development' ? 'http://localhost:9010/' : 'portfolio/'
     }
   },
   features: {
