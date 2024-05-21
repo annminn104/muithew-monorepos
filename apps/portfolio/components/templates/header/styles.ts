@@ -25,7 +25,7 @@ export const HeaderNavList = styled(
   padding: '16px 40px',
   borderRadius: '40px',
   margin: 0,
-  backgroundColor: alpha(theme.palette.grey?.[900] || '#333', 0.5)
+  backgroundColor: alpha(theme.palette.grey?.[900] || '#333', 1)
 }));
 
 export const HeaderNavItem = styled('li', {})(({ theme }) => ({ a: { color: theme.palette.grey?.[200], textDecoration: 'none' } }));

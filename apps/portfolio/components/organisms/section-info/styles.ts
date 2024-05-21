@@ -3,7 +3,7 @@
 import { styled } from '@mui/material';
 
 export const SectionInfoWrap = styled(
-  'div',
+  'section',
   {}
 )(({ theme }) => ({
   ...theme.functions.adjustFlex(),
@@ -19,7 +19,7 @@ export const SectionInfoName = styled(
   span: { fontSize: '28px', margin: 0 }
 }));
 
-export const InfoName = styled('h1', {})(({ theme }) => ({ fontSize: '40px', margin: 0 }));
+export const InfoName = styled('h1', {})(({ theme }) => ({ fontSize: '60px', margin: 0 }));
 
 export const InfoWelcome = styled('p', {})(({ theme }) => ({ fontSize: '28px', margin: 0 }));
 
@@ -27,7 +27,7 @@ export const InfoRole = styled(
   'h2',
   {}
 )(({ theme }) => ({
-  fontSize: '60px',
+  fontSize: '68px',
   margin: 0,
   textTransform: 'uppercase',
   color: 'rgb(165, 180, 252)'

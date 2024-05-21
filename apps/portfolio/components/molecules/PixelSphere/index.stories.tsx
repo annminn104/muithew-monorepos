@@ -1,22 +1,20 @@
 import { Meta, StoryObj } from '@storybook/react';
 
-import SectionSkills from '.';
+import PixelSphere from '.';
 
 const meta = {
-  title: 'Components/Organisms/SectionSkills',
-  component: SectionSkills,
+  title: 'Components/Molecules/PixelSphere',
+  component: PixelSphere,
   parameters: {
     layout: 'fullscreen'
   },
   tags: ['autodocs'],
   argTypes: {}
-} satisfies Meta<typeof SectionSkills>;
+} satisfies Meta<typeof PixelSphere>;
 
 export default meta;
 type Story = StoryObj<typeof meta>;
 
 export const Normal: Story = {
-  args: {
-    techStacks: []
-  }
+  args: {}
 };

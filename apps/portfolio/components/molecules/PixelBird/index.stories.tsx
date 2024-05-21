@@ -1,22 +1,20 @@
 import { Meta, StoryObj } from '@storybook/react';
 
-import SectionSkills from '.';
+import PixelBird from '.';
 
 const meta = {
-  title: 'Components/Organisms/SectionSkills',
-  component: SectionSkills,
+  title: 'Components/Molecules/PixelBird',
+  component: PixelBird,
   parameters: {
     layout: 'fullscreen'
   },
   tags: ['autodocs'],
   argTypes: {}
-} satisfies Meta<typeof SectionSkills>;
+} satisfies Meta<typeof PixelBird>;
 
 export default meta;
 type Story = StoryObj<typeof meta>;
 
 export const Normal: Story = {
-  args: {
-    techStacks: []
-  }
+  args: {}
 };

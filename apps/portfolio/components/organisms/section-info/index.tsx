@@ -13,9 +13,9 @@ const SectionInfo: React.FC<SectionInfoProps> = ({ name, role }) => {
   return (
     <S.SectionInfoWrap>
       <S.SectionInfoName>
-        <span>Hello, Myself</span> <S.InfoName>{name}</S.InfoName>
+        <span>Hello, My name is</span> <S.InfoName>{name}</S.InfoName>
       </S.SectionInfoName>
-      <S.InfoWelcome>Welcome Here, I am a</S.InfoWelcome>
+      <S.InfoWelcome>Welcome Here, I'm a</S.InfoWelcome>
       <S.InfoRole>
         <BuddleText content={role} />
       </S.InfoRole>

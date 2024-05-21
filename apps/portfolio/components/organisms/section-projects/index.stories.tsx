@@ -1,22 +1,23 @@
 import { Meta, StoryObj } from '@storybook/react';
 
-import SectionSkills from '.';
+import SectionProjects from '.';
 
 const meta = {
-  title: 'Components/Organisms/SectionSkills',
-  component: SectionSkills,
+  title: 'Components/Organisms/SectionProjects',
+  component: SectionProjects,
   parameters: {
     layout: 'fullscreen'
   },
   tags: ['autodocs'],
   argTypes: {}
-} satisfies Meta<typeof SectionSkills>;
+} satisfies Meta<typeof SectionProjects>;
 
 export default meta;
 type Story = StoryObj<typeof meta>;
 
 export const Normal: Story = {
   args: {
-    techStacks: []
+    projects: [],
+    moreLink: ''
   }
 };

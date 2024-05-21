@@ -1,4 +1,5 @@
 import { Button } from '@mui/material';
+import { FileDownloadIcon } from '@styles/ui-mui/icons';
 import Link from 'next/link';
 import * as S from './styles';
 
@@ -19,7 +20,9 @@ const SectionSummary: React.FC<SectionSummaryProps> = ({ summary, resume, social
       </S.SummaryContent>
       <S.SummaryResume>
         <Link href={resume} target='_blank'>
-          <Button variant='outlined'>Check My Résume</Button>
+          <S.SummaryResumeBtn variant='outlined'>
+            <span>Check My Resume</span> <FileDownloadIcon fontSize='large' />
+          </S.SummaryResumeBtn>
         </Link>
       </S.SummaryResume>
       <S.SummarySocials>

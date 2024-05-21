@@ -1,11 +1,33 @@
+import React from 'react';
 import * as S from './styles';
 
-type SectionSkillsProps = {};
+type SectionSkillsProps = {
+  techStacks: {
+    title: string;
+    keys: string[];
+  }[];
+};
 
-const SectionSkills: React.FC<SectionSkillsProps> = () => {
+const SectionSkills: React.FC<SectionSkillsProps> = ({ techStacks }) => {
   return (
     <S.SectionSkillsWrap>
-      <S.SectionSkillsTitle>My Tech Stacks</S.SectionSkillsTitle>
+      <S.SectionSkillsTitle variant='h3' color='primary'>
+        My Tech Stacks
+      </S.SectionSkillsTitle>
+      <S.SectionSkillsTech>
+        {techStacks.map((item) => (
+          <div key={item.title}>
+            <S.SectionSkillsSubtitle>{item.title}</S.SectionSkillsSubtitle>
+            <S.SectionSkillsList>
+              {item.keys.map((key) => (
+                <S.SectionSkillsItem key={key} variant='outlined' size='small'>
+                  {key}
+                </S.SectionSkillsItem>
+              ))}
+            </S.SectionSkillsList>
+          </div>
+        ))}
+      </S.SectionSkillsTech>
     </S.SectionSkillsWrap>
   );
 };
