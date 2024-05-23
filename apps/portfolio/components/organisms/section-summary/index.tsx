@@ -15,15 +15,15 @@ const SectionSummary: React.FC<SectionSummaryProps> = ({ summary, resume, social
       <S.SummaryTitle>Summary:</S.SummaryTitle>
       <S.SummaryContent>
         {summary.map((item, index) => (
-          <p key={index}>{item}</p>
+          <p key={item + index}>{item}</p>
         ))}
       </S.SummaryContent>
       <S.SummaryResume>
-        <Link href={resume} target='_blank'>
+        <S.SummaryResumeLink href={resume} target='_blank'>
           <S.SummaryResumeBtn variant='outlined'>
             <span>Check My Resume</span> <FileDownloadIcon fontSize='large' />
           </S.SummaryResumeBtn>
-        </Link>
+        </S.SummaryResumeLink>
       </S.SummaryResume>
       <S.SummarySocials>
         {socials.map((item, index) => (

@@ -1,5 +1,12 @@
+'use client';
+
 import { IHeaderNav } from '@/common/@types';
-import Link from 'next/link';
+import { BreakPointEnum } from '@/common/enums';
+import { ScrollingUtils } from '@/common/utils';
+import { Button } from '@mui/material';
+import { HamburgerMenuIcon } from '@styles/ui-mui/icons';
+import React, { useEffect, useState } from 'react';
+import { useWindowSize } from 'usehooks-ts';
 import * as S from './styles';
 
 type HeaderProps = {
@@ -7,15 +14,23 @@ type HeaderProps = {
 };
 
 const Header: React.FC<HeaderProps> = ({ nav }) => {
+  const { width = 0 } = useWindowSize();
+  const [isMobile, setIsMobile] = useState<boolean>(width < BreakPointEnum.Mobile);
+
+  useEffect(() => {
+    if (width && width < BreakPointEnum.Mobile) {
+      setIsMobile(true);
+    }
+  }, [width]);
+
   return (
     <S.HeaderWrap>
       <S.HeaderNav>
-        <S.HeaderNavList>
-          {nav.map((item) => (
-            <S.HeaderNavItem key={item.hash}>
-              <Link href={item.hash}>{item.name}</Link>
-            </S.HeaderNavItem>
-          ))}
+        <S.HeaderNavIcon onClick={() => setIsMobile(!isMobile)}>
+          <HamburgerMenuIcon fontSize='large' />
+        </S.HeaderNavIcon>
+        <S.HeaderNavList isMobile={isMobile}>
+          <Navigation nav={nav} />
         </S.HeaderNavList>
       </S.HeaderNav>
     </S.HeaderWrap>
@@ -23,3 +38,15 @@ const Header: React.FC<HeaderProps> = ({ nav }) => {
 };
 
 export default Header;
+
+const Navigation: React.FC<{ nav: IHeaderNav }> = ({ nav }) => {
+  return (
+    <React.Fragment>
+      {nav.map((item) => (
+        <S.HeaderNavItem key={item.hash}>
+          <Button onClick={() => ScrollingUtils.session(item.hash, 100)}>{item.name}</Button>
+        </S.HeaderNavItem>
+      ))}
+    </React.Fragment>
+  );
+};

@@ -1370,7 +1370,7 @@ export const IconsListingMock = [
     components: IconUtils.sortByName(pathIcons['settingsFineTuningIcons'], IconsSortMock.settingsFineTuning)
   },
   {
-    label: 'Settings, Fine Tunning',
+    label: 'Network It Programming',
     components: IconUtils.sortByName(pathIcons['networkItProgrammingIcons'], IconsSortMock.networkItProgramming)
   },
   {

@@ -1,24 +1,25 @@
 import { IHeaderNav } from '@/common/@types';
+import { HeaderSectionEnum } from '../enums';
 
 export const HeaderNavMocks: IHeaderNav = [
   {
     name: 'Home',
-    hash: '#home'
+    hash: HeaderSectionEnum.Home
   },
   {
     name: 'Skills',
-    hash: '#skills'
+    hash: HeaderSectionEnum.Skills
   },
   {
-    name: 'Experience',
-    hash: '#experience'
+    name: 'Experiences',
+    hash: HeaderSectionEnum.Experiences
   },
   {
     name: 'Projects',
-    hash: '#projects'
+    hash: HeaderSectionEnum.Projects
   },
   {
     name: 'Contact',
-    hash: '#contact'
+    hash: HeaderSectionEnum.Contact
   }
 ] as const;

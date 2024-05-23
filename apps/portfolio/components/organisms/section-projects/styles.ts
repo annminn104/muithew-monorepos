@@ -3,7 +3,7 @@
 import { styled, Typography } from '@mui/material';
 import Link from 'next/link';
 
-export const SecProWrap = styled('section', {})(({ theme }) => ({}));
+export const SecProWrap = styled('div', {})(({ theme }) => ({}));
 
 export const SecProTitle = styled(Typography, {})(({ theme }) => ({ fontSize: '48px', textAlign: 'center', fontWeight: 'bold', margin: '24px 0' }));
 

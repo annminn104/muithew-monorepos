@@ -1,4 +1,4 @@
-import { SocialFacebookOutIcon, SocialGithubOutIcon, SocialLinkedinOutIcon } from '@styles/ui-mui/icons';
+import { LetterOpenedIcon, PhoneCallingIcon, SocialFacebookOutIcon, SocialGithubOutIcon, SocialLinkedinOutIcon } from '@styles/ui-mui/icons';
 
 export const InfoMocks = {
   color: 'rgb(165, 180, 252)',
@@ -146,5 +146,17 @@ export const InfoMocks = {
       desc: 'This is a comprehensive Angular application which is designed to be scalable, maintainable and robust. The application follows a clear directory structure along with a set of predefined scripts for build, development, testing and formatting. This application has been enhanced with a range of libraries such as Husky, Commitlint, AutoChangelog, Bootstrap, and ng-bootstrap.'
     }
   ],
-  moreLink: 'https://github.com/annminn104'
+  moreLink: 'https://github.com/annminn104',
+  contact: [
+    {
+      icon: <LetterOpenedIcon fontSize='large' />,
+      link: 'annminn100@gmail.com',
+      key: 'mailto:'
+    },
+    {
+      icon: <PhoneCallingIcon fontSize='large' />,
+      link: '(+84)374742756',
+      key: 'tel:'
+    }
+  ]
 };

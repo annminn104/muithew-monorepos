@@ -2,7 +2,7 @@
 
 import { alpha, Button, styled, Typography } from '@mui/material';
 
-export const SectionSkillsWrap = styled('section', {})(({ theme }) => ({}));
+export const SectionSkillsWrap = styled('div', {})(({ theme }) => ({}));
 
 export const SectionSkillsTitle = styled(
   Typography,

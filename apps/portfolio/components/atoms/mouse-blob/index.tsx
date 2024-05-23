@@ -16,14 +16,11 @@ const MouseBlob: React.FC<MouseBlobProps> = ({ children, radius, borderWidth }) 
     if (!allCardsRef.current) return;
 
     const allCards = allCardsRef.current.querySelectorAll('.mouse-blob-container');
-    console.log(allCards);
 
     const handleMouseMove = (ev) => {
       allCards.forEach((e) => {
         const blob = e.querySelector<HTMLDivElement>('.animate-blob');
         const fakeBlob = e.querySelector<HTMLDivElement>('.animate-fake-blob');
-
-        console.log('blob', blob);
 
         const rec = fakeBlob.getBoundingClientRect();
 

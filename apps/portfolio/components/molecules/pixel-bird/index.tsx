@@ -1,17 +1,19 @@
 'use client';
 
 import { useFrame } from '@react-three/fiber';
-import { useRef } from 'react';
+
+import { Suspense, useRef } from 'react';
+import * as THREE from 'three';
 
 type PixelBirdProps = {};
 
 const PixelBird: React.FC<PixelBirdProps> = () => {
-  const groupRef = useRef();
+  const groupRef = useRef<THREE.Group | null>();
 
-  useFrame(({ clock }: { clock: any }) => {
+  useFrame(({ clock }: { clock: THREE.Clock }) => {
     if (!groupRef.current) return;
     const elapsedTime = clock.getElapsedTime();
-    (groupRef.current as any).children.forEach((bird: { position: { x: number; y: number; z: number } }, index: number) => {
+    groupRef.current.children.forEach((bird: { position: { x: number; y: number; z: number } }, index: number) => {
       const angle = (elapsedTime + index * 0.2) % (2 * Math.PI);
       const radius = 2.3 + Math.random() * 0.0001;
       bird.position.x = radius * Math.cos(angle) - Math.sin(elapsedTime * 0.5 + index);
@@ -30,7 +32,11 @@ const PixelBird: React.FC<PixelBirdProps> = () => {
     );
   });
 
-  return <group ref={groupRef as any}>{birds}</group>;
+  return (
+    <Suspense fallback={null}>
+      <group ref={groupRef}>{birds}</group>
+    </Suspense>
+  );
 };
 
 export default PixelBird;

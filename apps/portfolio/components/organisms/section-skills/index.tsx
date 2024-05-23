@@ -15,8 +15,8 @@ const SectionSkills: React.FC<SectionSkillsProps> = ({ techStacks }) => {
         My Tech Stacks
       </S.SectionSkillsTitle>
       <S.SectionSkillsTech>
-        {techStacks.map((item) => (
-          <div key={item.title}>
+        {techStacks.map((item, index) => (
+          <div key={item.title + index}>
             <S.SectionSkillsSubtitle>{item.title}</S.SectionSkillsSubtitle>
             <S.SectionSkillsList>
               {item.keys.map((key) => (

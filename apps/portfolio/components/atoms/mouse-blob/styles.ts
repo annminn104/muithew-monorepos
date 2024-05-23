@@ -9,8 +9,9 @@ export const MouseBlobWrap = styled('div', { shouldForwardProp: (prop) => prop !
   position: 'relative',
   overflow: 'hidden',
   borderRadius: `${radius || 0}px`,
-  padding: `${borderWidth}px`,
-  background: alpha(theme.palette.grey?.[600], 0.3)
+  padding: `${borderWidth || 0}px`,
+  background: alpha(theme.palette.grey?.[600], 0.3),
+  width: '100%'
 }));
 
 export const MouseBlobContainer = styled('div', { shouldForwardProp: (prop) => prop !== 'radius' })<{

@@ -2,7 +2,7 @@
 
 import { styled, Typography } from '@mui/material';
 
-export const SecExpWrap = styled('section', {})(({ theme }) => ({}));
+export const SecExpWrap = styled('div', {})(({ theme }) => ({}));
 
 export const SecExpTitle = styled(Typography, {})(({ theme }) => ({ fontSize: '48px', textAlign: 'center', fontWeight: 'bold', margin: '24px 0' }));
 
