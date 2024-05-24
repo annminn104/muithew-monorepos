@@ -14,22 +14,26 @@ type HeaderProps = {
 };
 
 const Header: React.FC<HeaderProps> = ({ nav }) => {
-  const { width = 0 } = useWindowSize();
+  const { width } = useWindowSize();
   const [isMobile, setIsMobile] = useState<boolean>(width < BreakPointEnum.Mobile);
+  const [isOpenMenu, setIsOpenMenu] = useState<boolean>(false);
 
   useEffect(() => {
-    if (width && width < BreakPointEnum.Mobile) {
+    if (width < BreakPointEnum.Mobile) {
       setIsMobile(true);
+      setIsOpenMenu(false);
+    } else {
+      setIsOpenMenu(true);
     }
   }, [width]);
 
   return (
     <S.HeaderWrap>
       <S.HeaderNav>
-        <S.HeaderNavIcon onClick={() => setIsMobile(!isMobile)}>
+        <S.HeaderNavIcon onClick={() => setIsOpenMenu(!isOpenMenu)}>
           <HamburgerMenuIcon fontSize='large' />
         </S.HeaderNavIcon>
-        <S.HeaderNavList isMobile={isMobile}>
+        <S.HeaderNavList isMobile={isMobile} isOpenMenu={isOpenMenu}>
           <Navigation nav={nav} />
         </S.HeaderNavList>
       </S.HeaderNav>
