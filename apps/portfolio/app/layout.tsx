@@ -4,8 +4,11 @@ import RootProvider from './provider';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-  title: 'Muithew Portfolio',
-  description: ''
+  title: 'Matthew Portfolio',
+  description: 'Matthew Portfolio • Frontend Developer',
+  openGraph: {
+    images: ['./thumbnail.png']
+  }
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }): JSX.Element {
