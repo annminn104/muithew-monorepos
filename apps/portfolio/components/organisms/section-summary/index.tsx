@@ -28,7 +28,9 @@ const SectionSummary: React.FC<SectionSummaryProps> = ({ summary, resume, social
       <S.SummarySocials>
         {socials.map((item, index) => (
           <Link href={item.link} key={index} target='_blank'>
-            <Button variant='outlined'>{item.icon}</Button>
+            <Button variant='outlined' aria-label={item.name}>
+              {item.icon}
+            </Button>
           </Link>
         ))}
       </S.SummarySocials>
