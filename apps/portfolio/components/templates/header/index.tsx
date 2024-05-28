@@ -22,7 +22,7 @@ const Header: React.FC<HeaderProps> = ({ nav }) => {
   return (
     <S.HeaderWrap>
       <S.HeaderNav>
-        <S.HeaderNavIcon onClick={toggleDrawer(true)}>
+        <S.HeaderNavIcon onClick={toggleDrawer(true)} aria-label='menu-hamburger'>
           <HamburgerMenuIcon fontSize='large' />
         </S.HeaderNavIcon>
         <Drawer open={open} onClose={toggleDrawer(false)}>
