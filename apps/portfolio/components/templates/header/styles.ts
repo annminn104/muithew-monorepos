@@ -1,6 +1,6 @@
 'use client';
 
-import { alpha, IconButton, styled } from '@mui/material';
+import { IconButton, styled } from '@mui/material';
 
 export const HeaderWrap = styled('div', {})(({}) => ({ zIndex: 999, position: 'relative' }));
 
@@ -28,28 +28,26 @@ export const HeaderNavIcon = styled(
   }
 }));
 
-export const HeaderNavList = styled('ul', { shouldForwardProp: (prop) => prop !== 'isMobile' && prop !== 'isOpenMenu' })<{
-  isMobile: boolean;
-  isOpenMenu: boolean;
-}>(({ theme, isMobile, isOpenMenu }) => ({
+export const HeaderNavList = styled(
+  'ul',
+  {}
+)(({ theme }) => ({
   listStyleType: 'none',
-  ...theme.functions.adjustFlex(),
+  ...theme.functions.adjustFlex('flex', 'column'),
+  rowGap: '16px',
+  width: '300px',
   columnGap: '4vw',
-  border: `1px solid ${theme.palette.grey?.[200]}`,
-  padding: '16px 40px',
-  borderRadius: '40px',
-  margin: 0,
-  backgroundColor: alpha(theme.palette.grey?.[900] || '#333', 1),
-  ...(isMobile
-    ? {
-        borderRadius: 0,
-        position: 'fixed',
-        top: '0',
-        flexDirection: 'column',
-        width: '100%',
-        ...(isOpenMenu ? { display: 'flex' } : { display: 'none' })
-      }
-    : { borderRadius: '40px' })
+  padding: '24px 16px',
+  margin: 0
 }));
 
-export const HeaderNavItem = styled('li', {})(({ theme }) => ({ a: { color: theme.palette.grey?.[200], textDecoration: 'none' } }));
+export const HeaderNavItem = styled(
+  'li',
+  {}
+)(({ theme }) => ({
+  a: { color: theme.palette.grey?.[200], textDecoration: 'none' },
+  width: '100%',
+  backgroundColor: theme.palette.grey?.[700],
+  borderRadius: '4px',
+  overflow: 'hidden'
+}));

@@ -7,10 +7,28 @@ export const CardGithubWrap = styled(
   'div',
   {}
 )(({ theme }) => ({
-  padding: '24px'
+  padding: '24px',
+  '@media screen and (max-width: 768px)': {
+    padding: '12px'
+  }
 }));
 
-export const CardGithubTitle = styled('div', {})(({ theme }) => ({ marginBottom: '16px', fontSize: '24px', fontWeight: 'bold' }));
+export const CardGithubTitle = styled(
+  'div',
+  {}
+)(({ theme }) => ({
+  marginBottom: '16px',
+  fontSize: '24px',
+  fontWeight: 'bold',
+  display: '-webkit-box',
+  WebkitLineClamp: '1',
+  WebkitBoxOrient: 'vertical',
+  overflow: 'hidden',
+  '@media screen and (max-width: 768px)': {
+    marginBottom: '8px',
+    fontSize: '20px'
+  }
+}));
 
 export const CardGithubDesc = styled(
   'div',

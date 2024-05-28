@@ -10,10 +10,10 @@ export const WrapperContent = styled(
   'div',
   {}
 )(({ theme }) => ({
-  paddingTop: '100px'
+  paddingTop: '60px'
 }));
 
-export const WrapperBg = styled('div', {})(({ theme }) => ({ position: 'fixed', inset: 0, width: '100%', height: '100vh', zIndex: -20 }));
+export const WrapperBg = styled('div', {})(({ theme }) => ({ position: 'fixed', inset: 0, width: '100%', height: '100vh', zIndex: -1 }));
 
 export const WrapperBgThreeJS = styled(Canvas, {})(({ theme }) => ({}));
 

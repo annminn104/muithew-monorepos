@@ -11,7 +11,10 @@ export const MouseBlobWrap = styled('div', { shouldForwardProp: (prop) => prop !
   borderRadius: `${radius || 0}px`,
   padding: `${borderWidth || 0}px`,
   background: alpha(theme.palette.grey?.[600], 0.3),
-  width: '100%'
+  width: '100%',
+  '@media screen and (max-width: 768px)': {
+    padding: `${borderWidth / 2 || 0}px`
+  }
 }));
 
 export const MouseBlobContainer = styled('div', { shouldForwardProp: (prop) => prop !== 'radius' })<{

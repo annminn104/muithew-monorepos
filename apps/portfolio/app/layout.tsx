@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }): JSX.Element {
   return (
     <html lang='en'>
-      <body>
+      <body className='noScroll'>
         <RootProvider>
           <Wrapper>{children}</Wrapper>
         </RootProvider>

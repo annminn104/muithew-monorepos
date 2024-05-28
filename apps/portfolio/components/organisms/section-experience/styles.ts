@@ -4,7 +4,7 @@ import { styled, Typography } from '@mui/material';
 
 export const SecExpWrap = styled('div', {})(({ theme }) => ({}));
 
-export const SecExpTitle = styled(Typography, {})(({ theme }) => ({ fontSize: '48px', textAlign: 'center', fontWeight: 'bold', margin: '24px 0' }));
+export const SecExpTitle = styled(Typography, {})(({ theme }) => ({}));
 
 export const SecExpList = styled(
   'div',
@@ -26,9 +26,30 @@ export const SecExpResList = styled(
   }
 }));
 
-export const SecExpHeadline = styled('div', {})(({ theme }) => ({ ...theme.functions.adjustFlex('flex', 'row', 'flex-start', 'center') }));
+export const SecExpHeadline = styled(
+  'div',
+  {}
+)(({ theme }) => ({
+  ...theme.functions.adjustFlex('flex', 'row', 'flex-start', 'center'),
+  '@media screen and (max-width: 768px)': {
+    ...theme.functions.adjustFlex('flex', 'column', 'center', 'center'),
+    columnGap: '8px',
+    textAlign: 'center',
+    marginBottom: '12px'
+  }
+}));
 
-export const SecExpCompany = styled('span', {})(({ theme }) => ({ fontSize: '24px', textTransform: 'uppercase', fontWeight: 'bold' }));
+export const SecExpCompany = styled(
+  'span',
+  {}
+)(({ theme }) => ({
+  fontSize: '24px',
+  textTransform: 'uppercase',
+  fontWeight: 'bold',
+  '@media screen and (max-width: 768px)': {
+    fontSize: '18px'
+  }
+}));
 
 export const SecExpDate = styled('span', {})(({ theme }) => ({ fontSize: '16px', color: theme.palette.grey?.['700'] }));
 

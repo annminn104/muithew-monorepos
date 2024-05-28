@@ -7,10 +7,7 @@ import Link from 'next/link';
 
 export const SecContactWrap = styled('div', {})(({ theme }) => ({}));
 
-export const SecContactTitle = styled(
-  Typography,
-  {}
-)(({ theme }) => ({ fontSize: '44px', textAlign: 'center', margin: '24px 0', fontWeight: 'bold' }));
+export const SecContactTitle = styled(Typography, {})(({ theme }) => ({}));
 
 export const SecContactList = styled(
   'div',
@@ -34,6 +31,15 @@ export const SecContactLink = styled(
   }
 }));
 
-export const SecContactThreeJS = styled(Canvas, {})(({ theme }) => ({ height: '500px !important', padding: '24px 0' }));
+export const SecContactThreeJS = styled(
+  Canvas,
+  {}
+)(({ theme }) => ({
+  height: '500px !important',
+  padding: '24px 0',
+  '@media screen and (max-width: 768px)': {
+    height: '250px !important'
+  }
+}));
 
 export const SecContactOrbitControls = styled(OrbitControls, {})(({ theme }) => ({}));

@@ -6,7 +6,12 @@ export default function CssBaseline(theme: Theme): Components<Omit<Theme, 'compo
       defaultProps: {},
       styleOverrides: {
         body: {
-          scrollBehavior: 'smooth'
+          scrollBehavior: 'smooth',
+          '&.noScroll': {
+            '&::-webkit-scrollbar': {
+              width: 0
+            }
+          }
         }
       },
       variants: []

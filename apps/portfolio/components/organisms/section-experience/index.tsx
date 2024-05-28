@@ -30,7 +30,7 @@ const SectionExperience: React.FC<SectionExperienceProps> = ({ experiences }) =>
             <S.SecExpItem>
               <S.SecExpHeadline>
                 <S.SecExpCompany>{concatenateWithAnd(exp.company)}</S.SecExpCompany>
-                &nbsp;&#x2022;&nbsp;<span>{concatenateWithAnd(exp.position, '/')}</span>&nbsp;&#x2022;&nbsp;
+                <span>&nbsp;&#x2022;&nbsp;{concatenateWithAnd(exp.position, '/')}&nbsp;&#x2022;&nbsp;</span>
                 <S.SecExpDate>
                   {exp.startDate} - {exp.endDate}
                 </S.SecExpDate>

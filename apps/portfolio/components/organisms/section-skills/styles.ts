@@ -4,10 +4,7 @@ import { alpha, Button, styled, Typography } from '@mui/material';
 
 export const SectionSkillsWrap = styled('div', {})(({ theme }) => ({}));
 
-export const SectionSkillsTitle = styled(
-  Typography,
-  {}
-)(({ theme }) => ({ fontSize: '44px', textAlign: 'center', margin: '24px 0', fontWeight: 'bold' }));
+export const SectionSkillsTitle = styled(Typography, {})(({ theme }) => ({}));
 
 export const SectionSkillsTech = styled(
   'div',
