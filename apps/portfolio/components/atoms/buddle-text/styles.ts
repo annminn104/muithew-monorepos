@@ -7,7 +7,8 @@ export const BubbleTextItem = styled(
   {}
 )(({ theme }) => ({
   fontWeight: 300,
-  lineHeight: 1,
+  fontSize: '68px',
+  lineHeight: '70px',
   transition: '0.35s font-weight, 0.35s color',
   '&:hover': {
     fontWeight: 900,
@@ -26,5 +27,9 @@ export const BubbleTextItem = styled(
   },
   '&:has(+ & + &:hover)': {
     fontWeight: 300
+  },
+  '@media screen and (max-width: 768px)': {
+    fontSize: '40px',
+    lineHeight: '44px'
   }
 }));

@@ -40,13 +40,8 @@ export const InfoRole = styled(
   'h2',
   {}
 )(({ theme }) => ({
-  fontSize: '68px',
-  lineHeight: 1,
   margin: 0,
   textTransform: 'uppercase',
   color: 'rgb(165, 180, 252)',
-  textAlign: 'center',
-  '@media screen and (max-width: 768px)': {
-    fontSize: '40px'
-  }
+  textAlign: 'center'
 }));
