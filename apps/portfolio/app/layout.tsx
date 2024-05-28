@@ -7,7 +7,10 @@ export const metadata: Metadata = {
   title: 'Matthew Portfolio',
   description: 'Matthew Portfolio • Frontend Developer',
   openGraph: {
-    images: ['./thumbnail.png']
+    title: 'Matthew Portfolio',
+    description: 'Matthew Portfolio • Frontend Developer',
+    type: 'website',
+    images: ['https://raw.githubusercontent.com/annminn104/muithew-monorepos/master/apps/portfolio/public/thumbnail.png']
   }
 };
 
