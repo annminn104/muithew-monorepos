@@ -36,6 +36,8 @@
     "@mdx-js/react": "^3.0.1",
     "@mui/material": "^5.15.11",
     "@mui/material-nextjs": "^5.15.11",
+    "@react-three/drei": "^9.105.6",
+    "@react-three/fiber": "^8.16.6",
     "@turbo/gen": "^1.11.3",
     "eslint": "^8.55.0",
     "eslint-plugin-mdx": "^3.1.5",
@@ -95,7 +97,7 @@
     "react-hook-form": "^7.51.0",
     "storybook-addon-react-router-v6": "^2.0.10",
     "swiper": "^11.0.7",
-    "usehooks-ts": "^3.0.1",
+    "usehooks-ts": "^3.1.0",
     "vite-tsconfig-paths": "^4.2.1",
     "zod": "^3.22.4"
   },
