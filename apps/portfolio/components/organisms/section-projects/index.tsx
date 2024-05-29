@@ -17,8 +17,8 @@ const SectionProjects: React.FC<SectionProjectsProps> = ({ projects, moreLink })
       </S.SecProTitle>
       <Grid container spacing={3}>
         {projects.map((pro) => (
-          <Grid item xs={6}>
-            <MouseBlob key={pro.title} borderWidth={4} radius={16}>
+          <Grid item xs={6} key={pro.title}>
+            <MouseBlob borderWidth={4} radius={16}>
               <CardGithub {...pro} />
             </MouseBlob>
           </Grid>

@@ -3,14 +3,14 @@
 import { useFrame } from '@react-three/fiber';
 
 import { Suspense, useRef } from 'react';
-import * as THREE from 'three';
+import { Clock as ThreeClock, Points as ThreePoints } from 'three';
 
 type PixelSphereProps = {};
 
 const PixelSphere: React.FC<PixelSphereProps> = () => {
-  const sphereRef = useRef<THREE.Points | null>(null);
+  const sphereRef = useRef<ThreePoints | null>(null);
 
-  useFrame(({ clock }: { clock: THREE.Clock }) => {
+  useFrame(({ clock }: { clock: ThreeClock }) => {
     if (sphereRef.current) {
       sphereRef.current.rotation.y = clock.getElapsedTime() * 1.2;
       sphereRef.current.rotation.z = clock.getElapsedTime() * 0.7;

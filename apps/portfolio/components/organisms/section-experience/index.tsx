@@ -26,7 +26,7 @@ const SectionExperience: React.FC<SectionExperienceProps> = ({ experiences }) =>
 
       <S.SecExpList>
         {experiences.map((exp, index) => (
-          <MouseBlob key={index} borderWidth={4} radius={24}>
+          <MouseBlob key={`exp-${index}`} borderWidth={4} radius={24}>
             <S.SecExpItem>
               <S.SecExpHeadline>
                 <S.SecExpCompany>{concatenateWithAnd(exp.company)}</S.SecExpCompany>
@@ -37,7 +37,7 @@ const SectionExperience: React.FC<SectionExperienceProps> = ({ experiences }) =>
               </S.SecExpHeadline>
               <S.SecExpResList aria-label='⚝ Responsibilities:'>
                 {exp.responsibilities.map((res, index) => (
-                  <li key={index}>{res}</li>
+                  <li key={`${concatenateWithAnd(exp.company)}-${index}`}>{res}</li>
                 ))}
               </S.SecExpResList>
               {exp.techStacks.map((item) => (

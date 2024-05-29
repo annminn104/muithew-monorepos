@@ -1,7 +1,9 @@
 import MouseBlob from '@/components/atoms/mouse-blob';
-import PixelBird from '@/components/molecules/pixel-bird';
-import PixelSphere from '@/components/molecules/pixel-sphere';
+import dynamic from 'next/dynamic';
 import * as S from './styles';
+
+const PixelSphere = dynamic(() => import('@/components/molecules/pixel-sphere'), { ssr: false });
+const PixelBird = dynamic(() => import('@/components/molecules/pixel-bird'), { ssr: false });
 
 type SectionContactProps = {
   contact: { icon: React.ReactNode; link: string; key: string }[];
@@ -14,8 +16,8 @@ const SectionContact: React.FC<SectionContactProps> = ({ contact }) => {
         Contact
       </S.SecContactTitle>
       <S.SecContactList>
-        {contact.map((item, index) => (
-          <MouseBlob borderWidth={4} radius={8} key={item.link + index}>
+        {contact.map((item) => (
+          <MouseBlob borderWidth={4} radius={8} key={item.link}>
             <S.SecContactLink href={item.key + item.link}>
               {item.icon}
               {item.link}

@@ -36,6 +36,9 @@
     "start": {
       "cache": false
     },
+    "analyze": {
+      "cache": false
+    },
     "storybook": {
       "cache": false
     },
