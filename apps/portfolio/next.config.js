@@ -18,9 +18,6 @@ const nextConfig = {
   transpilePackages: ['@mui/material', '@styles/ui', '@styles/ui-mui', 'three'],
   reactStrictMode: true,
   output: 'standalone',
-  experimental: {
-    optimizePackageImports: ['three']
-  },
   modularizeImports: {
     '@mui/material/?(((\\w*)?/?)*)': {
       transform: '@mui/material/{{ matches.[1] }}/{{member}}'
