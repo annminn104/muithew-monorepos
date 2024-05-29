@@ -25,10 +25,12 @@ const PixelBird: React.FC<PixelBirdProps> = () => {
   const birds = [...Array(50)].map((_, i) => {
     const size = i % 2 === 0 ? 0.03 : 0.05;
     return (
-      <mesh key={i} position={[1, 0, 0]}>
-        <planeGeometry args={[size, size]} />
-        <meshBasicMaterial color='white' />
-      </mesh>
+      <Suspense fallback={null} key={i}>
+        <mesh position={[1, 0, 0]}>
+          <planeGeometry args={[size, size]} />
+          <meshBasicMaterial color='white' />
+        </mesh>
+      </Suspense>
     );
   });
 
