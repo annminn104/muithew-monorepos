@@ -9,6 +9,7 @@ export const BubbleTextItem = styled(
   fontWeight: 300,
   fontSize: '68px',
   lineHeight: '70px',
+  minWidth: '8px',
   transition: '0.35s font-weight, 0.35s color',
   '&:hover': {
     fontWeight: 900,
@@ -30,6 +31,7 @@ export const BubbleTextItem = styled(
   },
   '@media screen and (max-width: 768px)': {
     fontSize: '40px',
-    lineHeight: '44px'
+    lineHeight: '44px',
+    minWidth: '4px'
   }
 }));

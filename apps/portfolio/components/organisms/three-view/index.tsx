@@ -1,26 +1,22 @@
 'use client';
 
-import { OrbitControls, View } from '@react-three/drei';
+import { OrbitControls } from '@react-three/drei';
 import { Canvas, CanvasProps } from '@react-three/fiber';
-import { forwardRef, Suspense, useImperativeHandle, useRef } from 'react';
+import { Suspense } from 'react';
 
 type ThreeViewProps = {
   canvas: CanvasProps;
 } & React.HTMLAttributes<HTMLDivElement>;
 
-const ThreeView = forwardRef(({ canvas, ...rest }: ThreeViewProps, ref) => {
-  const localRef = useRef(null);
-  useImperativeHandle(ref, () => localRef.current);
+const ThreeView: React.FC<ThreeViewProps> = ({ canvas, ...rest }) => {
   return (
     <div {...rest}>
       <Canvas {...canvas}>
-        <View track={localRef}>
-          <Suspense fallback={false}>{canvas.children}</Suspense>
-          <OrbitControls enableZoom={false} />
-        </View>
+        <Suspense fallback={false}>{canvas.children}</Suspense>
+        <OrbitControls enableZoom={false} />
       </Canvas>
     </div>
   );
-});
+};
 
 export default ThreeView;
