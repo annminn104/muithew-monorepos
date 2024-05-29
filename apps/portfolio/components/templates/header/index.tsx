@@ -5,7 +5,6 @@ import { ScrollingUtils } from '@/common/utils';
 import { Button, Drawer } from '@mui/material';
 import { HamburgerMenuIcon } from '@styles/ui-mui/icons';
 import React, { useState } from 'react';
-import { useWindowSize } from 'usehooks-ts';
 import * as S from './styles';
 
 type HeaderProps = {
@@ -13,12 +12,12 @@ type HeaderProps = {
 };
 
 const Header: React.FC<HeaderProps> = ({ nav }) => {
-  const { width } = useWindowSize();
   const [open, setOpen] = useState<boolean>(false);
 
   const toggleDrawer = (newOpen: boolean) => () => {
     setOpen(newOpen);
   };
+
   return (
     <S.HeaderWrap>
       <S.HeaderNav>

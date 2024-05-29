@@ -6,6 +6,7 @@
     "dev": "next dev -p 3700",
     "build": "next build",
     "start": "next start",
+    "analyze": "cross-env ANALYZE=true next build",
     "lint": "eslint . --max-warnings 0",
     "storybook": "storybook dev -p 9010",
     "clean:build": "rm -rf dist/ .turbo/ node_modules/ storybook-static/ .next",

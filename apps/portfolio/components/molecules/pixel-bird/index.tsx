@@ -3,14 +3,14 @@
 import { useFrame } from '@react-three/fiber';
 
 import { Suspense, useRef } from 'react';
-import * as THREE from 'three';
+import { Clock as ThreeClock, Group as ThreeGroup } from 'three';
 
 type PixelBirdProps = {};
 
 const PixelBird: React.FC<PixelBirdProps> = () => {
-  const groupRef = useRef<THREE.Group | null>();
+  const groupRef = useRef<ThreeGroup | null>();
 
-  useFrame(({ clock }: { clock: THREE.Clock }) => {
+  useFrame(({ clock }: { clock: ThreeClock }) => {
     if (!groupRef.current) return;
     const elapsedTime = clock.getElapsedTime();
     groupRef.current.children.forEach((bird: { position: { x: number; y: number; z: number } }, index: number) => {

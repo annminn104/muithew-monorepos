@@ -1,8 +1,8 @@
 import { HeaderNavMocks } from '@/common/mocks';
-import BgStar from '@/components/molecules/bg-star';
 import dynamic from 'next/dynamic';
 import * as S from './styles';
 
+const BgStar = dynamic(() => import('@/components/molecules/bg-star'), { ssr: false });
 const DynamicHeader = dynamic(() => import('@/components/templates/header'), {});
 
 type WrapperProps = {

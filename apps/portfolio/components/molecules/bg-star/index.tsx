@@ -4,12 +4,12 @@ import { PointMaterial, Points } from '@react-three/drei';
 import { useFrame } from '@react-three/fiber';
 import * as random from 'maath/random/dist/maath-random.esm';
 import { Suspense, useRef, useState } from 'react';
-import * as THREE from 'three';
+import { Points as ThreePoints } from 'three';
 
 type BgStarProps = {};
 
 const BgStar: React.FC<BgStarProps> = (props: any) => {
-  const ref = useRef<THREE.Points | null>(null);
+  const ref = useRef<ThreePoints | null>(null);
 
   const [sphere] = useState(() => random.inSphere(new Float32Array(5001), { radius: 1.2 }));
 
