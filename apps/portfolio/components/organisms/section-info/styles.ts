@@ -27,10 +27,11 @@ export const InfoName = styled(
 )(({ theme }) => ({
   fontSize: '60px',
   margin: 0,
-  lineHeight: 1,
+  lineHeight: '68px',
   '@media screen and (max-width: 768px)': {
     textAlign: 'center',
-    fontSize: '40px'
+    fontSize: '40px',
+    lineHeight: '48px'
   }
 }));
 
@@ -43,5 +44,11 @@ export const InfoRole = styled(
   margin: 0,
   textTransform: 'uppercase',
   color: 'rgb(165, 180, 252)',
-  textAlign: 'center'
+  textAlign: 'center',
+  display: 'grid',
+  gridAutoFlow: 'column',
+  font: '120% system-ui',
+  '@media screen and (max-width: 768px)': {
+    display: 'block'
+  }
 }));
