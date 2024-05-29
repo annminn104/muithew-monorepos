@@ -5,7 +5,7 @@ export const InfoMocks = {
   name: 'Matthew Nguyen',
   role: 'Frontend Developer',
   summary: [
-    'With over 3 years of experiences as a Frontend Developer, I specialize in creating dynamic and responsive web applications using Angular, React, and Next.js. My expertise includes developing robust user interfaces, implementing state management, and ensuring seamless performance across various devices. I am proficient in HTML, CSS, and JavaScript, and have a strong background in TypeScript and modern front-end libraries such as Redux and RxJS. I have a proven track record of delivering high-quality, maintainable code, collaborating effectively with cross-functional teams, and continuously learning and adapting to new technologies.'
+    'With over 3 years of experiences as a Frontend Developer, I specialize in creating dynamic and responsive web applications using Angular, ReactJS, and NextJS. My expertise includes developing robust user interfaces, implementing state management, and ensuring seamless performance across various devices. I am proficient in HTML, CSS, JavaScript, and have a strong background in TypeScript and modern Frontend libraries such as Redux and RxJS. I have a proven track record of delivering high-quality, maintainable code, collaborating effectively with cross-functional teams, and continuously learning and adapting to new technologies.'
   ],
   resume: 'https://drive.google.com/file/d/1rXEa4Uwye0iTvup6qkqUTDUJkf1tTeBH/view?usp=sharing',
   socials: [
@@ -85,7 +85,7 @@ export const InfoMocks = {
       endDate: 'Present',
       responsibilities: [
         'Create and assign tasks using Jira.',
-        'Develop the source code structure following Atomic Design principles.',
+        'Develop the source code structure following Atomic-Design principles.',
         'Establish a process for code pushing and committing using Husky, Commit-lint, and GitHub Actions.',
         'Implement the website interface based on design specifications, from management pages to user pages, utilizing Turbo (Vercel) for monorepos.',
         'Configure Socket connections with the Backend and develop Service Workers.',
@@ -97,7 +97,7 @@ export const InfoMocks = {
       techStacks: [
         {
           title: 'Programming languages:',
-          keys: 'React 18, Nextjs 13, HTML, SCSS, Javascript, Typescript.'
+          keys: 'ReactJS 18, NextJS 13, HTML, SCSS, Javascript, Typescript.'
         },
         {
           title: 'UI libraries:',
@@ -105,7 +105,7 @@ export const InfoMocks = {
         },
         {
           title: 'Other:',
-          keys: 'Vite configuration, Redux, Redux-toolkit, React-Query (Tanstack-query), Storybook V7, Styled-component, Socket.io, Service Workers, Docker, Nginx, Github Actions, Jest,.... '
+          keys: 'Vite configuration, Redux, Redux-toolkit, React-Query (Tanstack-query), Storybook V7, Styled-component, Socket.io, Service Workers, Docker, Nginx, Github Actions, Jest,....'
         }
       ]
     },
@@ -138,12 +138,12 @@ export const InfoMocks = {
     {
       title: 'Monorepos',
       link: 'https://github.com/annminn104/muithew-monorepos',
-      desc: "This repository is configured as a monorepo utilizing Vercel's Turbo Repos. It includes multiple frameworks and libraries such as React, Next.js, Astro, Gatsby and Remix. The monorepo structure allows for efficient code sharing, consistent development practices, and streamlined CI/CD processes."
+      desc: "This repository is configured as a monorepos utilizing Vercel's Turbo Repos. It includes multiple frameworks and libraries such as React, Next.js, Astro, Gatsby and Remix. The monorepo structure allows for efficient code sharing, consistent development practices, and streamlined CI/CD processes."
     },
     {
       title: 'Angular-boilerplate',
       link: 'https://github.com/annminn104/Angular-Template',
-      desc: 'This is a comprehensive Angular application which is designed to be scalable, maintainable and robust. The application follows a clear directory structure along with a set of predefined scripts for build, development, testing and formatting. This application has been enhanced with a range of libraries such as Husky, Commitlint, AutoChangelog, Bootstrap, and ng-bootstrap.'
+      desc: 'This is a comprehensive Angular application which is designed to be scalable, maintainable and robust. The application follows a clear directory structure along with a set of predefined scripts for build, development, testing and formatting. This application has been enhanced with a range of libraries such as Husky, Commitlint, AutoChangelog, Bootstrap, and Ng-Bootstrap.'
     }
   ],
   moreLink: 'https://github.com/annminn104',
