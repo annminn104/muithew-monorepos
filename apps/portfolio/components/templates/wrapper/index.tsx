@@ -1,3 +1,5 @@
+'use client';
+
 import { HeaderNavMocks } from '@/common/mocks';
 import dynamic from 'next/dynamic';
 import * as S from './styles';
@@ -12,12 +14,7 @@ type WrapperProps = {
 const Wrapper: React.FC<WrapperProps> = ({ children }) => {
   return (
     <S.WrapperWrap>
-      <S.WrapperBg>
-        <S.WrapperBgThreeJS camera={{ position: [0, 0, 1], fov: 70 }}>
-          <BgStar />
-          <S.WrapperBgOrbitControls enableZoom={false} />
-        </S.WrapperBgThreeJS>
-      </S.WrapperBg>
+      <S.WrapperBgThreeJS canvas={{ children: <BgStar />, camera: { position: [0, 0, 1], fov: 70 } }} />
       <DynamicHeader nav={HeaderNavMocks} />
       <S.WrapperContent>{children}</S.WrapperContent>
     </S.WrapperWrap>

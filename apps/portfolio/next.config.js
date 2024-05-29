@@ -1,10 +1,28 @@
 const withPlugins = require('next-compose-plugins');
 
+const withBundleAnalyzer = require('@next/bundle-analyzer')({
+  enabled: process.env.ANALYZE === 'true'
+});
+
+// const MillionLint = require('@million/lint').next({});
+
+/**
+ * A fork of 'next-pwa' that has app directory support
+ * @see https://github.com/shadowwalker/next-pwa/issues/424#issuecomment-1332258575
+ */
+const withPWA = require('@ducanh2912/next-pwa').default({
+  dest: 'public',
+  disable: process.env.NODE_ENV === 'development'
+});
+
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  transpilePackages: ['@mui/material', '@styles/ui', '@styles/ui-mui'],
+  transpilePackages: ['@mui/material', '@styles/ui', '@styles/ui-mui', 'three'],
   reactStrictMode: true,
   output: 'standalone',
+  experimental: {
+    optimizePackageImports: ['three']
+  },
   modularizeImports: {
     '@mui/material/?(((\\w*)?/?)*)': {
       transform: '@mui/material/{{ matches.[1] }}/{{member}}'
@@ -12,31 +30,6 @@ const nextConfig = {
     // '@mui/icons-material/?(((\\w*)?/?)*)': {
     //   transform: '@mui/icons-material/{{ matches.[1] }}/{{member}}'
     // }
-  },
-  webpack(config, { isServer }) {
-    if (!isServer) {
-      config.externals.push('sharp');
-    }
-    // audio support
-    config.module.rules.push({
-      test: /\.(ogg|mp3|wav|mpe?g)$/i,
-      exclude: config.exclude,
-      use: [
-        {
-          loader: require.resolve('url-loader'),
-          options: {
-            limit: config.inlineImageLimit,
-            fallback: require.resolve('file-loader'),
-            publicPath: `${config.assetPrefix}/_next/static/images/`,
-            outputPath: `${isServer ? '../' : ''}static/images/`,
-            name: '[name]-[hash].[ext]',
-            esModule: config.esModule || false
-          }
-        }
-      ]
-    });
-
-    return config;
   },
 
   async headers() {
@@ -75,8 +68,4 @@ const nextConfig = {
   }
 };
 
-const withBundleAnalyzer = require('@next/bundle-analyzer')({
-  enabled: process.env.ANALYZE === 'true'
-});
-
-module.exports = withPlugins([[withBundleAnalyzer], nextConfig]);
+module.exports = withPlugins([[withBundleAnalyzer, withPWA], nextConfig]);

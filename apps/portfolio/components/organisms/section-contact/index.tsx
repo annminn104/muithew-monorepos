@@ -1,5 +1,6 @@
 import MouseBlob from '@/components/atoms/mouse-blob';
 import dynamic from 'next/dynamic';
+import React from 'react';
 import * as S from './styles';
 
 const PixelSphere = dynamic(() => import('@/components/molecules/pixel-sphere'), { ssr: false });
@@ -25,11 +26,18 @@ const SectionContact: React.FC<SectionContactProps> = ({ contact }) => {
           </MouseBlob>
         ))}
       </S.SecContactList>
-      <S.SecContactThreeJS camera={{ fov: 50, position: [0, 0, 5] }} gl={{ antialias: false }}>
-        <PixelSphere />
-        <PixelBird />
-        <S.SecContactOrbitControls enableZoom={false} />
-      </S.SecContactThreeJS>
+      <S.SecContactThreeJS
+        canvas={{
+          children: (
+            <>
+              <PixelSphere />
+              <PixelBird />
+            </>
+          ),
+          camera: { fov: 50, position: [0, 0, 5] },
+          gl: { antialias: false }
+        }}
+      />
     </S.SecContactWrap>
   );
 };

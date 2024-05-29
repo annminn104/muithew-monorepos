@@ -2,7 +2,7 @@
 
 import { useFrame } from '@react-three/fiber';
 
-import { Suspense, useRef } from 'react';
+import { useRef } from 'react';
 import { Clock as ThreeClock, Group as ThreeGroup } from 'three';
 
 type PixelBirdProps = {};
@@ -25,20 +25,14 @@ const PixelBird: React.FC<PixelBirdProps> = () => {
   const birds = [...Array(50)].map((_, i) => {
     const size = i % 2 === 0 ? 0.03 : 0.05;
     return (
-      <Suspense fallback={null} key={i}>
-        <mesh position={[1, 0, 0]}>
-          <planeGeometry args={[size, size]} />
-          <meshBasicMaterial color='white' />
-        </mesh>
-      </Suspense>
+      <mesh position={[1, 0, 0]} key={i}>
+        <planeGeometry args={[size, size]} />
+        <meshBasicMaterial color='white' />
+      </mesh>
     );
   });
 
-  return (
-    <Suspense fallback={null}>
-      <group ref={groupRef}>{birds}</group>
-    </Suspense>
-  );
+  return <group ref={groupRef}>{birds}</group>;
 };
 
 export default PixelBird;

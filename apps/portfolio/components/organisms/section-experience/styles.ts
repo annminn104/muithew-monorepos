@@ -51,7 +51,7 @@ export const SecExpCompany = styled(
   }
 }));
 
-export const SecExpDate = styled('span', {})(({ theme }) => ({ fontSize: '16px', color: theme.palette.grey?.['700'] }));
+export const SecExpDate = styled('span', {})(({ theme }) => ({ fontSize: '16px', color: theme.palette.grey?.['500'] }));
 
 export const SecExpOther = styled('div', {})(({ theme }) => ({ marginBottom: '8px' }));
 

@@ -1,6 +1,5 @@
-import React from 'react';
-
 import MouseBlob from '@/components/atoms/mouse-blob';
+import React from 'react';
 import * as S from './styles';
 
 type SectionExperienceProps = {
@@ -23,7 +22,6 @@ const SectionExperience: React.FC<SectionExperienceProps> = ({ experiences }) =>
       <S.SecExpTitle variant='h3' color='primary'>
         Experiences
       </S.SecExpTitle>
-
       <S.SecExpList>
         {experiences.map((exp, index) => (
           <MouseBlob key={`exp-${index}`} borderWidth={4} radius={24}>
