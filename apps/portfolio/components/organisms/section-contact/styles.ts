@@ -1,9 +1,10 @@
 'use client';
 
 import { styled, Typography } from '@mui/material';
-import { OrbitControls } from '@react-three/drei';
-import { Canvas } from '@react-three/fiber';
+import dynamic from 'next/dynamic';
 import Link from 'next/link';
+
+const ThreeView = dynamic(() => import('@/components/organisms/three-view'), { ssr: false, loading: null });
 
 export const SecContactWrap = styled('div', {})(({ theme }) => ({}));
 
@@ -32,14 +33,14 @@ export const SecContactLink = styled(
 }));
 
 export const SecContactThreeJS = styled(
-  Canvas,
+  ThreeView,
   {}
 )(({ theme }) => ({
-  height: '500px !important',
-  padding: '24px 0',
-  '@media screen and (max-width: 768px)': {
-    height: '250px !important'
+  '& > *': {
+    height: '500px !important',
+    padding: '24px 0',
+    '@media screen and (max-width: 768px)': {
+      height: '250px !important'
+    }
   }
 }));
-
-export const SecContactOrbitControls = styled(OrbitControls, {})(({ theme }) => ({}));

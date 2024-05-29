@@ -1,8 +1,7 @@
 'use client';
 
 import { useFrame } from '@react-three/fiber';
-
-import { Suspense, useRef } from 'react';
+import { useRef } from 'react';
 import { Clock as ThreeClock, Points as ThreePoints } from 'three';
 
 type PixelSphereProps = {};
@@ -18,12 +17,10 @@ const PixelSphere: React.FC<PixelSphereProps> = () => {
   });
 
   return (
-    <Suspense fallback={null}>
-      <points ref={sphereRef}>
-        <icosahedronGeometry args={[2, 5]} />
-        <pointsMaterial color='white' size={0.05} />
-      </points>
-    </Suspense>
+    <points ref={sphereRef}>
+      <icosahedronGeometry args={[2, 5]} />
+      <pointsMaterial color='white' size={0.05} />
+    </points>
   );
 };
 
