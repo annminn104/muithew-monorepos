@@ -12,7 +12,7 @@ export const SectionSkillsTech = styled(
 )(({ theme }) => ({ ...theme.functions.adjustFlex('flex', 'column', 'flex-start', 'flex-start'), rowGap: '24px' }));
 
 export const SectionSkillsSubtitle = styled(
-  'h5',
+  'p',
   {}
 )(({}) => ({
   margin: '0 0 16px 0',

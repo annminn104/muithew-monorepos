@@ -6,7 +6,7 @@ import Link from 'next/link';
 export const SummaryWrap = styled('div', {})(({ theme }) => ({}));
 
 export const SummaryTitle = styled(
-  'h4',
+  'p',
   {}
 )(({ theme }) => ({
   fontSize: '24px',
