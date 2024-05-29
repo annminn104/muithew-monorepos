@@ -4,8 +4,6 @@ const withBundleAnalyzer = require('@next/bundle-analyzer')({
   enabled: process.env.ANALYZE === 'true'
 });
 
-// const MillionLint = require('@million/lint').next({});
-
 /**
  * A fork of 'next-pwa' that has app directory support
  * @see https://github.com/shadowwalker/next-pwa/issues/424#issuecomment-1332258575
