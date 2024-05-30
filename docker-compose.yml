@@ -78,6 +78,17 @@ services:
     networks:
       - app_network
 
+  saas-builder:
+    container_name: saas-builder
+    build:
+      context: .
+      dockerfile: ./apps/saas-builder/Dockerfile
+    restart: always
+    ports:
+      - 5080:5080
+    networks:
+      - app_network
+
 networks:
   app_network:
     external: true
