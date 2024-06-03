@@ -1,4 +1,6 @@
-import { List, ListItem } from '@mui/material';
+import { ListItem } from '@mui/material';
+
+import * as S from './styles';
 
 type NavigationProps = {
   list: { key: string; name: string }[];
@@ -6,11 +8,11 @@ type NavigationProps = {
 
 const Navigation: React.FC<NavigationProps> = ({ list }) => {
   return (
-    <List>
+    <S.NavList>
       {list.map((item, index) => (
         <ListItem key={index}>{item.name}</ListItem>
       ))}
-    </List>
+    </S.NavList>
   );
 };
 

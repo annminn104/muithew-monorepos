@@ -1,12 +1,9 @@
-import { layoutMocks } from '@/common/mocks/layout';
-import Logo from '@/components/atoms/logo';
-import Navigation from '@/components/molecules/navigation';
+import Header from '@/components/templates/header';
 
 function Home() {
   return (
     <section>
-      <Logo />
-      <Navigation list={layoutMocks.navigation} />
+      <Header />
     </section>
   );
 }
