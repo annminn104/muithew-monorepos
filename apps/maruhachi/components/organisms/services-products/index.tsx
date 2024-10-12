@@ -16,7 +16,7 @@ type ServicesProductsProps = {
 
 const ServicesProducts: React.FC<ServicesProductsProps> = ({
   i18n: {
-    products: { icon, subtitle, title, content }
+    products: { icon, title, content }
   }
 }) => {
   const [itemTextHeight, setItemTextHeight] = useState<number>(0);
@@ -30,22 +30,18 @@ const ServicesProducts: React.FC<ServicesProductsProps> = ({
 
   return (
     <S.SerProWrap clipPathHeight={itemTextHeight || 0}>
-      <S.SerProDividerTop />
-      <S.SerProDividerBottom />
+      <S.SerProDivider />
       <Grid container spacing={4}>
         <Grid item xs={12}>
           <S.SerProBox>
             <S.SerProLogo {...icon} {...AnimateUtils.fadeIn(0.4)} />
-            {/* <S.SerProSubtitle variant='h6' {...AnimateUtils.fadeIn(0.5)}>
-              {subtitle}
-            </S.SerProSubtitle> */}
             <S.SerProTitle variant='h3' {...AnimateUtils.fadeIn(0.6)}>
               {title}
             </S.SerProTitle>
           </S.SerProBox>
         </Grid>
         {content.map((item, index) => (
-          <Grid item xs={5} key={item.key}>
+          <Grid item xs={4} key={item.key}>
             <S.SerProItem {...AnimateUtils.fadeDirection('left', 0.5, 100, 0.3 * index)}>
               <S.SerProItemImg {...item.img} />
               <S.SerProItemIcon {...item.icon} />
