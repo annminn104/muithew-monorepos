@@ -4,7 +4,7 @@ import { NextRequest, NextResponse } from 'next/server';
 import { appModeMock } from '@mocks';
 import { localePrefix, locales, pathnames } from './config';
 
-export default createMiddleware({ defaultLocale: 'en', locales, pathnames, localePrefix });
+export default createMiddleware({ defaultLocale: 'jp', locales, pathnames, localePrefix });
 
 export function middleware(request: NextRequest) {
   const response = NextResponse.next();

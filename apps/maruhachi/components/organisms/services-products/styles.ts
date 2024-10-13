@@ -43,10 +43,10 @@ export const SerProWrap = styled('div', { shouldForwardProp: (prop) => prop !== 
   })
 );
 
-export const SerProDividerTop = styled(
+export const SerProDivider = styled(
   'div',
   {}
-)(({ theme }) => ({
+)(({}) => ({
   position: 'absolute',
   top: 0,
   left: 0,
@@ -57,26 +57,9 @@ export const SerProDividerTop = styled(
   backgroundRepeat: 'no-repeat'
 }));
 
-export const SerProDividerBottom = styled(
-  'div',
-  {}
-)(({ theme }) => ({
-  position: 'absolute',
-  top: `calc(${serviceSectionMock.height - serviceSectionMock.divider}px + 1px)`,
-  left: 0,
-  zIndex: 2,
-  backgroundImage: 'url(/images/bg-divider-bottom.svg)',
-  backgroundSize: '100%',
-  width: '100%',
-  height: `${serviceSectionMock.divider}px`,
-  backgroundRepeat: 'no-repeat'
-}));
-
 export const SerProBox = styled('div', {})(({ theme }) => ({ ...theme.functions.adjustFlex('flex', 'column'), rowGap: '8px' }));
 
 export const SerProLogo = styled(motion(Image), {})(({}) => ({ objectFit: 'cover' }));
-
-export const SerProSubtitle = styled(motion(Typography), {})(({}) => ({}));
 
 export const SerProTitle = styled(motion(Typography), {})(({}) => ({}));
 

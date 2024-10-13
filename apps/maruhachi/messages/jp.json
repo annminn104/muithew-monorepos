@@ -125,7 +125,6 @@
           "height": 60,
           "alt": "Logo Maruhachinousan product"
         },
-        "subtitle": "WHAT WE’RE DOING",
         "title": "商品紹介",
         "content": [
           {
@@ -144,23 +143,6 @@
             },
             "title": "ロードアイランドレッド",
             "content": "卵肉兼用種として飼育されている。</br> 赤玉卵と呼ばれ、消費者に好まれる傾向にあります。"
-          },
-          {
-            "key": "service product 2",
-            "img": {
-              "src": "/images/img-services-product-2.jpg",
-              "width": 268,
-              "height": 220,
-              "alt": "Image Maruhachinousan product 2"
-            },
-            "icon": {
-              "src": "/images/logo-60.png",
-              "width": 80,
-              "height": 80,
-              "alt": "SVG Maruhachinousan chicken egg"
-            },
-            "title": "鳥骨鶏",
-            "content": "ニワトリとしては小型で肉量は少ないが、栄養学的に優れた組成を持つと考えられており、スープなどにして食用される。また卵も栄養学的に優れているとされ人気が高い。"
           }
         ]
       }
