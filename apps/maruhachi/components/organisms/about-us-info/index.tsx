@@ -19,8 +19,7 @@ const AboutUsInfo: React.FC<AboutUsInfoProps> = ({
       <Grid item xs={5}>
         <S.AboutUsInfoLeft>
           <S.AboutUsInfoImage {...image} />
-          <S.AboutUsInfoName variant='h4'>{name}</S.AboutUsInfoName>
-          <S.AboutUsInfoPosition variant='h5'>{position}</S.AboutUsInfoPosition>
+          {/* <S.AboutUsInfoName variant='h4'>{name}</S.AboutUsInfoName> */}
         </S.AboutUsInfoLeft>
       </Grid>
       <Grid item xs={7}>

@@ -24,7 +24,7 @@ export class TemplateUtils {
   static emailSend = (data: ContactSchemaType) => {
     return `<div style="font-size: 24px;">
       <p>Xin chào <span style="font-weight: 600;">${data.firstName + ' ' + data.lastName}</span> cảm ơn bạn đã tin tưởng vào <span
-          style="color: #76453B; font-weight: 600;">Maruhachinousan</span></p>
+          style="color: #76453B; font-weight: 600;">Maruhachi Nousan</span></p>
       <p>Chúng tôi sẽ liên hệ với bạn trong thời gian sớm nhất</p>
       <p style="text-align: center; font-weight: 600;">Thanks!</p>
     </div>`;

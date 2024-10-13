@@ -3,6 +3,7 @@
 import LocaleSwitcher from '@components/molecules/locale-switcher';
 import { Button, styled } from '@mui/material';
 import { PhoneCallingRoundedIcon } from '@styles/ui-mui/icons';
+import Link from 'next/link';
 
 export const NavWrap = styled(
   'div',
@@ -61,3 +62,8 @@ export const NavLinkItem = styled(
   textDecoration: 'none',
   color: theme.palette.maruhachi['contrastText']
 }));
+
+export const NavLinkTel = styled(
+  Link,
+  {}
+)(({ theme }) => ({ textDecoration: 'none', color: theme.palette.maruhachi['contrastText'], display: 'flex' }));

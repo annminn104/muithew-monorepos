@@ -10,10 +10,10 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
   title: {
-    default: 'Maruhachinousan',
-    template: '%s - Maruhachinousan'
+    default: 'Maruhachi Nousan',
+    template: '%s - Maruhachi Nousan'
   },
-  description: 'Maruhachinousan',
+  description: 'Maruhachi Nousan',
   twitter: {
     card: 'summary_large_image'
   },

@@ -6,14 +6,13 @@
     "header": {
       "contactBar": {
         "info": {
-          "phoneNumber": "0123-456-789",
-          "email": "test@gmail.com"
+          "phoneNumber": "(+81) 80 7552 4801",
+          "email": "n-hiep@maruhachi-nousan.com"
         },
         "social": {
           "facebook": "http://www.facebook.com",
           "messenger": "http://www.messenger.com",
-          "instagram": "http://www.instagram.com",
-          "whatsApp": "http://www.whatsapp.com"
+          "instagram": "http://www.instagram.com"
         }
       },
       "navigation": {
@@ -24,7 +23,7 @@
       }
     },
     "footer": {
-      "text": "Copyright © 2024 <b>Maruhachinousan</b>. All rights reserved."
+      "text": "Copyright © 2024 <b>Maruhachi Nousan</b>. All rights reserved."
     }
   },
   "homePage": {
@@ -70,19 +69,19 @@
           "src": "/images/img-introduction-1.jpg",
           "width": 440,
           "height": 580,
-          "alt": "Maruhachinousan image introduction vertical"
+          "alt": "Maruhachi Nousan image introduction vertical"
         },
         "logo": {
           "src": "/images/logo-480.png",
           "width": 160,
           "height": 160,
-          "alt": "Logo Maruhachinousan"
+          "alt": "Logo Maruhachi Nousan"
         },
         "horizontal": {
           "src": "/images/img-introduction-2.webp",
           "width": 360,
           "height": 280,
-          "alt": "Maruhachinousan image introduction horizontal"
+          "alt": "Maruhachi Nousan image introduction horizontal"
         }
       },
 
@@ -97,7 +96,7 @@
             "src": "/images/icon-introduction-1.svg",
             "width": 102,
             "height": 60,
-            "alt": "Maruhachinousan chicken eggs"
+            "alt": "Maruhachi Nousan chicken eggs"
           },
           {
             "key": "chicken",
@@ -105,7 +104,7 @@
             "src": "/images/icon-introduction-2.svg",
             "width": 50,
             "height": 60,
-            "alt": "Maruhachinousan chicken"
+            "alt": "Maruhachi Nousan chicken"
           }
         ],
         "notice": "If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.",
@@ -123,7 +122,7 @@
           "src": "/images/logo-60.png",
           "width": 60,
           "height": 60,
-          "alt": "Logo Maruhachinousan product"
+          "alt": "Logo Maruhachi Nousan product"
         },
         "title": "商品紹介",
         "content": [
@@ -133,16 +132,33 @@
               "src": "/images/img-services-product-1.jpg",
               "width": 268,
               "height": 220,
-              "alt": "Image Maruhachinousan product 1"
+              "alt": "Image Maruhachi Nousan product 1"
             },
             "icon": {
               "src": "/images/logo-60.png",
               "width": 80,
               "height": 80,
-              "alt": "SVG Maruhachinousan chicken egg"
+              "alt": "SVG Maruhachi Nousan chicken egg"
             },
             "title": "ロードアイランドレッド",
             "content": "卵肉兼用種として飼育されている。</br> 赤玉卵と呼ばれ、消費者に好まれる傾向にあります。"
+          },
+          {
+            "key": "service product 2",
+            "img": {
+              "src": "/images/img-services-product-2.jpg",
+              "width": 268,
+              "height": 220,
+              "alt": "Image Maruhachi Nousan product 2"
+            },
+            "icon": {
+              "src": "/images/logo-60.png",
+              "width": 80,
+              "height": 80,
+              "alt": "SVG Maruhachi Nousan chicken egg"
+            },
+            "title": "うこっけい",
+            "content": "卵の甘みと濃厚さをしっかり感じられる一番人気の鳥骨鶏卵です。"
           }
         ]
       }
@@ -160,41 +176,40 @@
           "src": "/images/img-about-us.webp",
           "width": 544,
           "height": 544,
-          "alt": "Maruhachinousan about us image"
+          "alt": "Maruhachi Nousan about us image"
         }
       ],
       "info": {
-        "name": "Your Name",
+        "name": "グエン　マン　ヒエプ NGUYEN MANH HIEP",
         "position": "Director/Founder",
         "image": {
-          "src": "/images/img-about-us-founder.avif",
+          "src": "/images/img-about-us-founder.jfif",
           "width": 544,
           "height": 544,
-          "alt": "Maruhachinousan about us image director"
+          "alt": "Maruhachi Nousan about us image director"
         },
-        "quote": "<p><b>Lorem Ipsum</b> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p><p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>"
+        "quote": "<p><b>Maruhachi Nousan</b></p>"
       }
     },
     "contact": {
       "title": "Contact Now",
       "info": [
-        { "key": "phone", "href": "tel:+0123-456-789", "label": "0123-456-789", "isBlank": false },
-        { "key": "mail", "href": "mailto:test@gmail.com", "label": "test@gmail.com", "isBlank": false },
+        { "key": "phone", "href": "tel:+(+81) 80 7552 4801", "label": "(+81) 80 7552 4801", "isBlank": false },
+        { "key": "mail", "href": "mailto:n-hiep@maruhachi-nousan.com", "label": "n-hiep@maruhachi-nousan.com", "isBlank": false },
         {
           "key": "address",
           "href": "https://www.google.com/maps/place/Landmark+81/@10.7952228,106.7192166,17z/data=!3m1!4b1!4m6!3m5!1s0x317527c2f8f30911:0x36ac5073f8c91acd!8m2!3d10.7952228!4d106.7217915!16s%2Fm%2F012hcpml?entry=ttu",
-          "label": "720A Dien Bien Phu St, Vinhomes Tan Cang, Binh Thanh, HCM, Viet Nam",
+          "label": "2386番地1 Tamashima Yashima, Kurashiki, Okayama 713-8113, Japan",
           "isBlank": true
         }
       ],
       "social": [
         { "key": "facebook", "href": "facebook.com", "label": "facebook", "isBlank": true },
         { "key": "messenger", "href": "messenger.com", "label": "messenger", "isBlank": true },
-        { "key": "instagram", "href": "instagram.com", "label": "instagram", "isBlank": true },
-        { "key": "whatsApp", "href": "whatsapp.com", "label": "whatsApp", "isBlank": true }
+        { "key": "instagram", "href": "instagram.com", "label": "instagram", "isBlank": true }
       ],
       "map": {
-        "iframe": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15676.840006633112!2d106.7217912!3d10.7952219!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x317527c2f8f30911%3A0x36ac5073f8c91acd!2sT%C3%B2a%20nh%C3%A0%20The%20Landmark%2081!5e0!3m2!1svi!2s!4v1710310496049!5m2!1svi!2s"
+        "iframe": "https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13140.773290056553!2d133.6698047!3d34.5739746!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x35515b94473229b1%3A0xfe1885792902240e!2sMaruhachi%20Nousan!5e0!3m2!1svi!2s!4v1728793071921!5m2!1svi!2s"
       }
     }
   }

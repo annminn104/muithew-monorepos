@@ -1,12 +1,5 @@
 import { PaletteMode } from '@mui/material';
-import {
-  LetterOpenedIcon,
-  PhoneCallingRoundedIcon,
-  SocialFacebookBgIcon,
-  SocialInstagramBgIcon,
-  SocialMessengerBgIcon,
-  SocialWhatsAppBgIcon
-} from '@styles/ui-mui/icons';
+import { LetterOpenedIcon, PhoneCallingRoundedIcon, SocialFacebookBgIcon, SocialInstagramBgIcon, SocialMessengerBgIcon } from '@styles/ui-mui/icons';
 
 export enum AppModeEnum {
   Dark = 'dark',
@@ -37,7 +30,7 @@ export const navigationMock: INavigationMock[] = [
   { key: 'contact', i18n: 'contact', slug: 'contact', scrolling: scrollingContactId, name: 'Contact' }
 ];
 
-type ContactHeaderBarI18nType = 'email' | 'phoneNumber' | 'facebook' | 'messenger' | 'instagram' | 'whatsApp';
+type ContactHeaderBarI18nType = 'email' | 'phoneNumber' | 'facebook' | 'messenger' | 'instagram';
 
 interface IContactHeaderBarMock {
   info: Array<{ key: string; name: string; i18n: ContactHeaderBarI18nType; icon: any }>;
@@ -52,7 +45,6 @@ export const contactHeaderBarMock: IContactHeaderBarMock = {
   social: [
     { key: 'facebook', name: 'Facebook', i18n: 'facebook', icon: <SocialFacebookBgIcon fontSize='small' /> },
     { key: 'messenger', name: 'Messenger', i18n: 'messenger', icon: <SocialMessengerBgIcon fontSize='small' /> },
-    { key: 'instagram', name: 'Instagram', i18n: 'instagram', icon: <SocialInstagramBgIcon fontSize='small' /> },
-    { key: 'whats-app', name: 'Whats App', i18n: 'whatsApp', icon: <SocialWhatsAppBgIcon fontSize='small' /> }
+    { key: 'instagram', name: 'Instagram', i18n: 'instagram', icon: <SocialInstagramBgIcon fontSize='small' /> }
   ]
 };

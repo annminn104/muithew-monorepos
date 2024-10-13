@@ -13,14 +13,14 @@ export async function POST(request: Request) {
     const sendMsg: ContactTypeRequest = {
       from: envConfig.email.send,
       to: email,
-      subject: 'noreply: [MARUHACHINOUSAN] - Thanks for contacting us',
+      subject: 'noreply: [MARUHACHI NOUSAN] - Thanks for contacting us',
       html: TemplateUtils.emailSend({ firstName, lastName, phone, email, address, zipCode, message })
     };
 
     const receiveMsg: ContactTypeRequest = {
       from: envConfig.email.send,
       to: envConfig.email.receive,
-      subject: `noreply: [MARUHACHINOUSAN] - ${lastName} contact`,
+      subject: `noreply: [MARUHACHI NOUSAN] - ${lastName} contact`,
       html: TemplateUtils.emailReceive({ firstName, lastName, phone, email, address, zipCode, message })
     };
 

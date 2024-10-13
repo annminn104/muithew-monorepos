@@ -15,7 +15,6 @@ type ContactHeaderBarProps = {
         facebook: string;
         messenger: string;
         instagram: string;
-        whatsApp: string;
       };
     };
   };

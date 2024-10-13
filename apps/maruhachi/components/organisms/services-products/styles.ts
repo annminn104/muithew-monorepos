@@ -103,7 +103,10 @@ export const SerProItemText = styled(
 
 export const SerProItemTitle = styled(Typography, {})(({}) => ({}));
 
-export const SerProItemContent = styled(Typography, {})(({}) => ({}));
+export const SerProItemContent = styled(
+  Typography,
+  {}
+)(({}) => ({ fontSize: '20px', display: '-webkit-box', '-webkit-line-clamp': '3', overflow: 'hidden', minHeight: '88px' }));
 
 export const SerProItemButton = styled(Button, {})(({ theme }) => ({ width: '100%' }));
 

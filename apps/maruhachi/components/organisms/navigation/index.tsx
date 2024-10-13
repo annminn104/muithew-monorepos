@@ -43,7 +43,9 @@ const Navigation: React.FC<NavigationProps> = ({ i18n }) => {
             <S.NavContactBtnIcon />
             <S.NavContactBtnContent>
               <Typography variant='body2'>Hotline</Typography>
-              <Typography variant='body2'>0123-456-789</Typography>
+              <S.NavLinkTel href='tel:+818075524801'>
+                <Typography variant='body2'>(+81) 80 7552 4801</Typography>
+              </S.NavLinkTel>
             </S.NavContactBtnContent>
           </S.NavContactBtn>
         </S.NavRight>
