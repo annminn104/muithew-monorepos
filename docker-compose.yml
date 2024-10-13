@@ -34,60 +34,60 @@ services:
     networks:
       - app_network
 
-  astro:
-    container_name: astro
-    build:
-      context: .
-      dockerfile: ./apps/astro/Dockerfile
-    restart: always
-    ports:
-      - 5040:5040
-    networks:
-      - app_network
+  # astro:
+  #   container_name: astro
+  #   build:
+  #     context: .
+  #     dockerfile: ./apps/astro/Dockerfile
+  #   restart: always
+  #   ports:
+  #     - 5040:5040
+  #   networks:
+  #     - app_network
 
-  remix:
-    container_name: remix
-    build:
-      context: .
-      dockerfile: ./apps/remix/Dockerfile
-    restart: always
-    ports:
-      - 5050:5050
-    networks:
-      - app_network
+  # remix:
+  #   container_name: remix
+  #   build:
+  #     context: .
+  #     dockerfile: ./apps/remix/Dockerfile
+  #   restart: always
+  #   ports:
+  #     - 5050:5050
+  #   networks:
+  #     - app_network
 
-  gatsby:
-    container_name: gatsby
-    build:
-      context: .
-      dockerfile: ./apps/gatsby/Dockerfile
-    restart: always
-    ports:
-      - 5060:80
-    networks:
-      - app_network
+  # gatsby:
+  #   container_name: gatsby
+  #   build:
+  #     context: .
+  #     dockerfile: ./apps/gatsby/Dockerfile
+  #   restart: always
+  #   ports:
+  #     - 5060:80
+  #   networks:
+  #     - app_network
 
-  portfolio:
-    container_name: portfolio
-    build:
-      context: .
-      dockerfile: ./apps/portfolio/Dockerfile
-    restart: always
-    ports:
-      - 5070:5070
-    networks:
-      - app_network
+  # portfolio:
+  #   container_name: portfolio
+  #   build:
+  #     context: .
+  #     dockerfile: ./apps/portfolio/Dockerfile
+  #   restart: always
+  #   ports:
+  #     - 5070:5070
+  #   networks:
+  #     - app_network
 
-  saas-builder:
-    container_name: saas-builder
-    build:
-      context: .
-      dockerfile: ./apps/saas-builder/Dockerfile
-    restart: always
-    ports:
-      - 5080:5080
-    networks:
-      - app_network
+  # saas-builder:
+  #   container_name: saas-builder
+  #   build:
+  #     context: .
+  #     dockerfile: ./apps/saas-builder/Dockerfile
+  #   restart: always
+  #   ports:
+  #     - 5080:5080
+  #   networks:
+  #     - app_network
 
 networks:
   app_network:
