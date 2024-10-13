@@ -41,7 +41,7 @@ const ServicesProducts: React.FC<ServicesProductsProps> = ({
           </S.SerProBox>
         </Grid>
         {content.map((item, index) => (
-          <Grid item xs={4} key={item.key}>
+          <Grid item xs={6} key={item.key}>
             <S.SerProItem {...AnimateUtils.fadeDirection('left', 0.5, 100, 0.3 * index)}>
               <S.SerProItemImg {...item.img} />
               <S.SerProItemIcon {...item.icon} />

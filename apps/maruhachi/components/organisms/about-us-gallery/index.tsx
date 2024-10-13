@@ -18,7 +18,7 @@ const AboutUsGallery: React.FC<AboutUsGalleryProps> = ({ i18n: { gallery } }) =>
       <S.AboutUsImgSwiper effect='cards' grabCursor={true} modules={[EffectCards, Autoplay]} autoplay loop={true} className='mySwiper'>
         {Array.from({ length: 9 }, (_, index) => (
           <S.AboutUsImgItem key={index}>
-            <Image src={`https://source.unsplash.com/random/${index}`} width={300} height={420} alt={`Maruhachinousan About Us image ${index}`} />
+            <Image src={`https://source.unsplash.com/random/${index}`} width={300} height={420} alt={`Maruhachi Nousan About Us image ${index}`} />
           </S.AboutUsImgItem>
         ))}
       </S.AboutUsImgSwiper>

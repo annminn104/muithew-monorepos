@@ -1,4 +1,4 @@
-export const titleEmailMock = ` <h1 style="text-align: center; font-size: 32px; font-weight: 700; color: #76453B">MARUHACHINOUSAN</h1>`;
+export const titleEmailMock = ` <h1 style="text-align: center; font-size: 32px; font-weight: 700; color: #76453B">MARUHACHI NOUSAN</h1>`;
 
 export const footerEmailMock = `<hr>
     <div style="margin-bottom: 8px;">
@@ -13,8 +13,6 @@ export const footerEmailMock = `<hr>
           style="color: blue; text-decoration: none;">https://www.instagram.com</a></div>
       <div> - Messenger: <a href="https://www.messenger.com" target="_blank"
           style="color: blue; text-decoration: none;">https://www.messenger.com</a></div>
-      <div> - whatsapp: <a href="https://www.whatsapp.com" target="_blank"
-          style="color: blue; text-decoration: none;">https://whatsapp.com</a></div>
     </div>
     <div style="margin-bottom: 8px;">
       <b>Address: </b>
@@ -24,4 +22,4 @@ export const footerEmailMock = `<hr>
         Viet Nam</a>
     </div>
     <p style="text-align: center;">Copyright © 2024 <span
-        style="font-weight: 700; color: #76453B">Maruhachinousan</span>. All rights reserved.</p>`;
+        style="font-weight: 700; color: #76453B">Maruhachi Nousan</span>. All rights reserved.</p>`;

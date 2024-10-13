@@ -26,7 +26,10 @@ export const AboutUsInfoImage = styled(
   aspectRatio: '1 / 1'
 }));
 
-export const AboutUsInfoName = styled(Typography, {})(({ theme }) => ({ color: theme.palette.maruhachi['contrastText'], fontWeight: 'bold' }));
+export const AboutUsInfoName = styled(
+  Typography,
+  {}
+)(({ theme }) => ({ color: theme.palette.maruhachi['contrastText'], fontWeight: 'bold', textAlign: 'center' }));
 
 export const AboutUsInfoPosition = styled(Typography, {})(({ theme }) => ({}));
 

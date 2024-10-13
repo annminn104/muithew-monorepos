@@ -4,8 +4,7 @@ import {
   PointOnMapIcon,
   SocialFacebookBgIcon,
   SocialInstagramBgIcon,
-  SocialMessengerBgIcon,
-  SocialWhatsAppBgIcon
+  SocialMessengerBgIcon
 } from '@styles/ui-mui/icons';
 import { ITextField } from 'global';
 import { ContactSchemaType } from 'schemas';
@@ -24,8 +23,7 @@ export const contactSectionMock = {
   social: [
     { key: 'facebook', icon: <SocialFacebookBgIcon /> },
     { key: 'messenger', icon: <SocialMessengerBgIcon /> },
-    { key: 'instagram', icon: <SocialInstagramBgIcon /> },
-    { key: 'whatsApp', icon: <SocialWhatsAppBgIcon /> }
+    { key: 'instagram', icon: <SocialInstagramBgIcon /> }
   ]
 };
 
