@@ -26,7 +26,11 @@ export const IntroContentImages = styled(
   {}
 )(({ theme }) => ({
   ...theme.functions.adjustFlex('flex', 'row', 'flex-start', 'center'),
-  columnGap: '16px'
+  columnGap: '16px',
+  [theme.breakpoints.down('md')]: {
+    flexDirection: 'column',
+    alignItems: 'flex-start'
+  }
 }));
 
 export const IntroContentItem = styled(

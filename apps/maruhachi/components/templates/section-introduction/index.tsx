@@ -21,11 +21,11 @@ export type SectionIntroductionProps = {
 
 const SectionIntroduction: React.FC<SectionIntroductionProps> = ({ images, content }) => {
   return (
-    <Grid container spacing={8} alignItems='center'>
-      <Grid item xs={6}>
+    <Grid container spacing={8} alignItems='center' justifyContent='center'>
+      <Grid item xs={12} md={8} xl={6}>
         <IntroductionImage i18n={{ images }} />
       </Grid>
-      <Grid item xs={6}>
+      <Grid item xs={12} md={8} xl={6}>
         <IntroductionContent i18n={{ content }} />
       </Grid>
     </Grid>

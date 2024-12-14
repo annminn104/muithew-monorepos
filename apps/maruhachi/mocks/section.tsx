@@ -29,31 +29,31 @@ export const contactSectionMock = {
 
 export const contactFormMocks: Array<ITextField<ContactSchemaType>> = [
   {
-    col: { xs: 6 },
+    col: { xs: 12, md: 6 },
     textField: { name: 'firstName', id: 'firstName', autoComplete: 'first-name', label: 'First Name', required: true }
   },
   {
-    col: { xs: 6 },
+    col: { xs: 12, md: 6 },
     textField: { name: 'lastName', id: 'lastName', autoComplete: 'last-name', label: 'Last Name', required: true }
   },
   {
-    col: { xs: 6 },
+    col: { xs: 12, md: 6 },
     textField: { name: 'phone', id: 'phone', autoComplete: 'phone', label: 'Phone', required: true }
   },
   {
-    col: { xs: 6 },
+    col: { xs: 12, md: 6 },
     textField: { name: 'email', id: 'email', autoComplete: 'email', label: 'Email', required: true }
   },
   {
-    col: { xs: 10 },
+    col: { xs: 12, md: 10 },
     textField: { name: 'address', id: 'address', autoComplete: 'address', label: 'Address', required: false }
   },
   {
-    col: { xs: 2 },
+    col: { xs: 12, md: 2 },
     textField: { name: 'zipCode', id: 'zipCode', autoComplete: 'zipCode', label: 'Zip-code', required: false }
   },
   {
-    col: { xs: 12 },
+    col: { xs: 12, md: 12 },
     textField: { name: 'message', id: 'message', autoComplete: 'message', label: 'Message', required: true, rows: 7, multiline: true }
   }
 ];

@@ -101,13 +101,13 @@ export const SerProItemText = styled(
   padding: '0px 16px 16px'
 }));
 
-export const SerProItemTitle = styled(Typography, {})(({}) => ({}));
+export const SerProItemTitle = styled(Typography, {})(({}) => ({ fontWeight: 'bold' }));
 
 export const SerProItemContent = styled(
   Typography,
   {}
 )(({}) => ({ fontSize: '20px', display: '-webkit-box', '-webkit-line-clamp': '3', overflow: 'hidden', minHeight: '88px' }));
 
-export const SerProItemButton = styled(Button, {})(({ theme }) => ({ width: '100%' }));
+export const SerProItemButton = styled(Button, {})(({}) => ({ width: '100%' }));
 
 export const SerProItemButtonIcon = styled(RoundArrowRightIcon, {})(({ theme }) => ({}));
