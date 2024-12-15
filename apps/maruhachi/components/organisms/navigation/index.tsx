@@ -27,7 +27,7 @@ const Navigation: React.FC<NavigationProps> = ({ i18n }) => {
       <S.NavWrap>
         <S.NavLeft>
           <S.NavLogo>
-            <Image src='/images/logo-480.png' width={40} height={40} alt='Logo maruhachinousan' />
+            <Image src='/images/logo-480.png' width={40} height={40} alt='Logo maruhachinousan' quality={100} />
           </S.NavLogo>
         </S.NavLeft>
         <S.NavCenter>

@@ -57,7 +57,7 @@ const ServicesVideo: React.FC<ServicesVideoProps> = ({
             width='100%'
             height='100%'
             allowFullScreen
-            src='https://www.youtube.com/embed/9K-82fomFhA?si=CdKZvIn-yBn6zb2j'
+            src='https://www.youtube.com/embed/uQinVTkcdoU?si=Oqnp6EHeKzsxwFo8'
             title='YouTube video player "Maruhachi Nousan"'
             allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share'
           />

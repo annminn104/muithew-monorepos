@@ -101,7 +101,16 @@ export const SerProItemText = styled(
   padding: '0px 16px 16px'
 }));
 
-export const SerProItemImgProduct = styled(Image, {})(({}) => ({ objectFit: 'cover', width: 'auto', height: '220px', filter: 'contrast(1)' }));
+export const SerProItemImgProduct = styled(
+  Image,
+  {}
+)(({ theme }) => ({
+  objectFit: 'cover',
+  width: 'auto',
+  height: '180px',
+  filter: 'contrast(1)',
+  [theme.breakpoints.down('md')]: { height: '120px' }
+}));
 
 export const SerProItemTitle = styled(Typography, {})(({}) => ({ fontWeight: 'bold' }));
 
@@ -110,6 +119,13 @@ export const SerProItemContent = styled(
   {}
 )(({}) => ({ fontSize: '20px', display: '-webkit-box', '-webkit-line-clamp': '3', overflow: 'hidden', minHeight: '88px' }));
 
-export const SerProItemButton = styled(Button, {})(({}) => ({ width: '100%' }));
+export const SerProItemName = styled(Typography, {})(({}) => ({ fontSize: '20px', fontWeight: 'medium' }));
+
+export const SerProItemPrice = styled(Typography, {})(({ theme }) => ({ fontSize: '24px', fontWeight: 'bold', color: theme.palette.red['700'] }));
+
+export const SerProItemButton = styled(
+  Button,
+  {}
+)(({ theme }) => ({ width: '100%', color: theme.palette.maruhachi['contrastText'], fontSize: '24px', fontWeight: 'medium' }));
 
 export const SerProItemButtonIcon = styled(RoundArrowRightIcon, {})(({ theme }) => ({}));

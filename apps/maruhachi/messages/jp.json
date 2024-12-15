@@ -18,7 +18,7 @@
       "navigation": {
         "home": "ホームページ",
         "aboutUs": "私たちについて",
-        "services": "サービス",
+        "services": "ネットで注文",
         "contact": "お問い合わせ"
       }
     },
@@ -29,14 +29,6 @@
   "homePage": {
     "banner": {
       "slides": [
-        {
-          "key": "1",
-          "subtitle": "subtitle 1",
-          "title": "合同会社 </br> まるはち農産",
-          "description": "畜産業(平飼い鶏卵) </br> 農業(野菜・果物)",
-          "button": "お問い合わせ",
-          "background": "/images/bg-banner-1.png"
-        },
         {
           "key": "2",
           "subtitle": "subtitle 2",
@@ -115,7 +107,7 @@
       "video": {
         "title": "まるはち農産",
         "button": "お問い合わせ",
-        "videoSrc": "https://youtu.be/uQinVTkcdoU"
+        "videoSrc": "https://www.youtube.com/watch?v=uQinVTkcdoU"
       },
       "products": {
         "icon": {
@@ -125,6 +117,7 @@
           "alt": "Logo Maruhachi Nousan product"
         },
         "title": "商品紹介",
+        "buy": "ご注文へ",
         "content": [
           {
             "key": "service product 1",
@@ -147,7 +140,9 @@
               "width": 268,
               "height": 220,
               "alt": "Image Maruhachi Nousan eggs 10"
-            }
+            },
+            "eggName": "ロードアイランドレッド　有精卵　10個入　(送料別)",
+            "price": "販売価格: 480円（税込）"
           },
           {
             "key": "service product 2",
@@ -170,7 +165,9 @@
               "width": 528,
               "height": 365,
               "alt": "Image Maruhachi Nousan eggs 6"
-            }
+            },
+            "eggName": "烏骨鶏　有精卵　6個入　(送料別)",
+            "price": "販売価格: 530円（税込）"
           }
         ]
       }

@@ -2,12 +2,13 @@
 
 import { useEffect, useRef, useState } from 'react';
 import { useWindowSize } from 'usehooks-ts';
-import { AnimateUtils } from 'utils';
+import { AnimateUtils, ScrollingUtils } from 'utils';
 
 import { SectionServicesProps } from '@components/templates/section-services';
 import { Grid } from '@mui/material';
 import { useTheme } from '@mui/material/styles';
 
+import { scrollingContactId } from '@mocks';
 import * as S from './styles';
 
 type ServicesProductsProps = {
@@ -16,7 +17,7 @@ type ServicesProductsProps = {
 
 const ServicesProducts: React.FC<ServicesProductsProps> = ({
   i18n: {
-    products: { icon, title, content }
+    products: { icon, title, content, buy }
   }
 }) => {
   const [itemTextHeight, setItemTextHeight] = useState<number>(0);
@@ -29,7 +30,7 @@ const ServicesProducts: React.FC<ServicesProductsProps> = ({
   }, [width]);
 
   return (
-    <S.SerProWrap clipPathHeight={itemTextHeight || 0}>
+    <S.SerProWrap clipPathHeight={itemTextHeight || 0} id='section-services-video'>
       <S.SerProDivider />
       <Grid container spacing={4}>
         <Grid item xs={12}>
@@ -49,7 +50,10 @@ const ServicesProducts: React.FC<ServicesProductsProps> = ({
                 <S.SerProItemTitle variant='h6'>{item.title}</S.SerProItemTitle>
                 <S.SerProItemContent variant='body2' dangerouslySetInnerHTML={{ __html: item.content }} />
                 <S.SerProItemImgProduct {...item.imgProduct} />
-                <S.SerProItemButton size='large'>
+                <S.SerProItemName variant='body2'>{item.eggName}</S.SerProItemName>
+                <S.SerProItemPrice variant='body2'>{item.price}</S.SerProItemPrice>
+                <S.SerProItemButton size='large' onClick={() => ScrollingUtils.session(scrollingContactId)}>
+                  {buy}
                   <S.SerProItemButtonIcon linearColor={theme.palette.maruhachi['contrastText']} fontSize='large' />
                 </S.SerProItemButton>
               </S.SerProItemText>

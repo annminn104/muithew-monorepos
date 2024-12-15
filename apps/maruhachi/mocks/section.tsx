@@ -30,6 +30,10 @@ export const contactSectionMock = {
 export const contactFormMocks: Array<ITextField<ContactSchemaType>> = [
   {
     col: { xs: 12, md: 12 },
+    textField: { name: 'title', id: 'title', autoComplete: 'title', label: 'お問い合わせ種別', required: true }
+  },
+  {
+    col: { xs: 12, md: 12 },
     textField: { name: 'businessName', id: 'businessName', autoComplete: 'business-name', label: '会社名・組織名', required: false }
   },
   {

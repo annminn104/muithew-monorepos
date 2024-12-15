@@ -124,7 +124,15 @@
               "alt": "SVG Maruhachi Nousan chicken egg"
             },
             "title": "Dairy Products",
-            "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry"
+            "content": "Lorem Ipsum is simply dummy text of the printing and typesetting industry",
+            "imgProduct": {
+              "src": "/images/img-services-egg-1.jpg",
+              "width": 268,
+              "height": 220,
+              "alt": "Image Maruhachi Nousan eggs 10"
+            },
+            "eggName": "烏骨鶏　有精卵　6個入　(送料別)",
+            "price": "販売価格:700円（税込）"
           },
           {
             "key": "service product 2",
@@ -147,7 +155,9 @@
               "width": 268,
               "height": 220,
               "alt": "Image Maruhachi Nousan eggs 10"
-            }
+            },
+            "eggName": "烏骨鶏　有精卵　6個入　(送料別)",
+            "price": "販売価格:700円（税込）"
           },
           {
             "key": "service product 3",
@@ -170,7 +180,9 @@
               "width": 268,
               "height": 220,
               "alt": "Image Maruhachi Nousan eggs 6"
-            }
+            },
+            "eggName": "烏骨鶏　有精卵　6個入　(送料別)",
+            "price": "販売価格:700円（税込）"
           }
         ]
       }
