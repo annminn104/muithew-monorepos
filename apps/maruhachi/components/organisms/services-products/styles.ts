@@ -101,6 +101,8 @@ export const SerProItemText = styled(
   padding: '0px 16px 16px'
 }));
 
+export const SerProItemImgProduct = styled(Image, {})(({}) => ({ objectFit: 'cover', width: 'auto', height: '220px', filter: 'contrast(1)' }));
+
 export const SerProItemTitle = styled(Typography, {})(({}) => ({ fontWeight: 'bold' }));
 
 export const SerProItemContent = styled(

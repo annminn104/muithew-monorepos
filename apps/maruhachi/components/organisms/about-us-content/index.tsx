@@ -20,8 +20,8 @@ const AboutUsContent: React.FC<AboutUsContentProps> = ({
 }) => {
   return (
     <S.AboutUsContentWrap>
-      <S.AboutUsContentSubtitle text={subtitle} />
-      <S.AboutUsContentTitle variant='h3' {...AnimateUtils.fadeDirection('left', 0.4, 200)}>
+      <S.AboutUsContentSubtitle text={subtitle} variant='h4' />
+      <S.AboutUsContentTitle variant='body1' {...AnimateUtils.fadeDirection('left', 0.4, 200)}>
         {title}
       </S.AboutUsContentTitle>
       <S.AboutUsContentDesc variant='body1' {...AnimateUtils.fadeDirection('left', 0.5, 200)}>

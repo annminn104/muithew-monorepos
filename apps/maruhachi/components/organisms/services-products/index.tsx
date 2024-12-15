@@ -48,6 +48,7 @@ const ServicesProducts: React.FC<ServicesProductsProps> = ({
               <S.SerProItemText ref={ref}>
                 <S.SerProItemTitle variant='h6'>{item.title}</S.SerProItemTitle>
                 <S.SerProItemContent variant='body2' dangerouslySetInnerHTML={{ __html: item.content }} />
+                <S.SerProItemImgProduct {...item.imgProduct} />
                 <S.SerProItemButton size='large'>
                   <S.SerProItemButtonIcon linearColor={theme.palette.maruhachi['contrastText']} fontSize='large' />
                 </S.SerProItemButton>

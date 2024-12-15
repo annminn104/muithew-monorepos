@@ -29,31 +29,47 @@ export const contactSectionMock = {
 
 export const contactFormMocks: Array<ITextField<ContactSchemaType>> = [
   {
-    col: { xs: 12, md: 6 },
-    textField: { name: 'firstName', id: 'firstName', autoComplete: 'first-name', label: 'First Name', required: true }
+    col: { xs: 12, md: 12 },
+    textField: { name: 'businessName', id: 'businessName', autoComplete: 'business-name', label: '会社名・組織名', required: false }
   },
   {
     col: { xs: 12, md: 6 },
-    textField: { name: 'lastName', id: 'lastName', autoComplete: 'last-name', label: 'Last Name', required: true }
+    textField: { name: 'firstName', id: 'firstName', autoComplete: 'first-name', label: '姓', required: true }
   },
   {
     col: { xs: 12, md: 6 },
-    textField: { name: 'phone', id: 'phone', autoComplete: 'phone', label: 'Phone', required: true }
+    textField: { name: 'lastName', id: 'lastName', autoComplete: 'last-name', label: '名前', required: true }
   },
   {
     col: { xs: 12, md: 6 },
-    textField: { name: 'email', id: 'email', autoComplete: 'email', label: 'Email', required: true }
+    textField: { name: 'phone', id: 'phone', autoComplete: 'phone', label: '電話番号', required: true }
   },
   {
-    col: { xs: 12, md: 10 },
-    textField: { name: 'address', id: 'address', autoComplete: 'address', label: 'Address', required: false }
-  },
-  {
-    col: { xs: 12, md: 2 },
-    textField: { name: 'zipCode', id: 'zipCode', autoComplete: 'zipCode', label: 'Zip-code', required: false }
+    col: { xs: 12, md: 6 },
+    textField: { name: 'fax', id: 'fax', autoComplete: 'fax', label: 'FAX番号', required: false }
   },
   {
     col: { xs: 12, md: 12 },
-    textField: { name: 'message', id: 'message', autoComplete: 'message', label: 'Message', required: true, rows: 7, multiline: true }
+    textField: { name: 'email', id: 'email', autoComplete: 'email', label: 'メール', required: true }
+  },
+  {
+    col: { xs: 12, md: 10 },
+    textField: { name: 'address', id: 'address', autoComplete: 'address', label: 'ご住所', required: true }
+  },
+  {
+    col: { xs: 12, md: 2 },
+    textField: { name: 'zipCode', id: 'zipCode', autoComplete: 'zipCode', label: '郵便番号', required: true }
+  },
+  {
+    col: { xs: 12, md: 12 },
+    textField: {
+      name: 'message',
+      id: 'message',
+      autoComplete: 'message',
+      label: 'お問い合わせ内容について',
+      required: true,
+      rows: 7,
+      multiline: true
+    }
   }
 ];

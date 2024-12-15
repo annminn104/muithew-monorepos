@@ -28,7 +28,7 @@ export type SectionAboutUsProps = {
 const SectionAboutUs: React.FC<SectionAboutUsProps> = ({ content, gallery, info }) => {
   return (
     <S.SecAboutUsWrap>
-      <Grid container spacing={8}>
+      <Grid container spacing={8} alignItems='center'>
         <Grid item xs={12} md={6}>
           <AboutUsContent i18n={{ content }} />
         </Grid>

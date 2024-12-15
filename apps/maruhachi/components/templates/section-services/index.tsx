@@ -13,7 +13,7 @@ export type SectionServicesProps = {
     icon: IImageNext;
     subtitle: string;
     title: string;
-    content: Array<{ key: string; img: IImageNext; icon: IImageNext; title: string; content: string }>;
+    content: Array<{ key: string; img: IImageNext; icon: IImageNext; title: string; content: string; imgProduct: IImageNext }>;
   };
 };
 

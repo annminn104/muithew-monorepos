@@ -15,7 +15,7 @@ const AboutUsInfo: React.FC<AboutUsInfoProps> = ({
   }
 }) => {
   return (
-    <Grid container spacing={8} alignItems='center' justifyContent='center'>
+    <Grid container spacing={{ xs: 4, md: 8 }} alignItems='center' justifyContent='center'>
       <Grid item xs={10} md={5}>
         <S.AboutUsInfoLeft>
           <S.AboutUsInfoImage {...image} />

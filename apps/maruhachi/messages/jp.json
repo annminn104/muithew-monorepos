@@ -100,9 +100,9 @@
           },
           {
             "key": "chicken",
-            "text": "鳥骨鶏",
             "src": "/images/icon-introduction-2.svg",
-            "width": 50,
+            "text": "鳥骨鶏",
+            "width": 150,
             "height": 60,
             "alt": "Maruhachi Nousan chicken"
           }
@@ -115,7 +115,7 @@
       "video": {
         "title": "まるはち農産",
         "button": "お問い合わせ",
-        "videoSrc": "https://www.youtube.com/watch?v=9K-82fomFhA"
+        "videoSrc": "https://youtu.be/uQinVTkcdoU"
       },
       "products": {
         "icon": {
@@ -141,7 +141,13 @@
               "alt": "SVG Maruhachi Nousan chicken egg"
             },
             "title": "ロードアイランドレッド",
-            "content": "卵肉兼用種として飼育されている。</br> 赤玉卵と呼ばれ、消費者に好まれる傾向にあります。"
+            "content": "卵肉兼用種として飼育されている。</br> 赤玉卵と呼ばれ、消費者に好まれる傾向にあります。",
+            "imgProduct": {
+              "src": "/images/img-services-egg-1.jpg",
+              "width": 268,
+              "height": 220,
+              "alt": "Image Maruhachi Nousan eggs 10"
+            }
           },
           {
             "key": "service product 2",
@@ -158,25 +164,86 @@
               "alt": "SVG Maruhachi Nousan chicken egg"
             },
             "title": "うこっけい",
-            "content": "卵の甘みと濃厚さをしっかり感じられる一番人気の鳥骨鶏卵です。"
+            "content": "卵の甘みと濃厚さをしっかり感じられる一番人気の鳥骨鶏卵です。",
+            "imgProduct": {
+              "src": "/images/img-services-egg-2.jpg",
+              "width": 528,
+              "height": 365,
+              "alt": "Image Maruhachi Nousan eggs 6"
+            }
           }
         ]
       }
     },
     "aboutUs": {
       "content": {
-        "subtitle": "About Us",
-        "title": "Lorem ipsum dolor sit amet",
-        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-        "content": ["Lorem ipsum dolor sit amet", "Lorem ipsum dolor sit amet", "Lorem ipsum dolor sit amet", "Lorem ipsum dolor sit amet"],
-        "button": "Contact"
+        "subtitle": "合同会社まるはち農産について",
+        "title": "設 立 2024年02月26日",
+        "description": "主な事業",
+        "content": [
+          "畜産業(鶏卵)",
+          "農作物の生産、加工、販売及び輸出入",
+          "果物、野菜の生産、加工、販売及び輸出入",
+          "食品の製造、販売及び輸出入",
+          "各種飲料の製造、販売及び輸出入",
+          "飲食サービス業"
+        ],
+        "button": "お問い合わせ"
       },
       "gallery": [
         {
-          "src": "/images/img-about-us.webp",
+          "src": "/images/gallery-1.jpg",
           "width": 544,
           "height": 544,
-          "alt": "Maruhachi Nousan about us image"
+          "alt": "Maruhachi Nousan gallery 1"
+        },
+        {
+          "src": "/images/gallery-2.jpg",
+          "width": 544,
+          "height": 544,
+          "alt": "Maruhachi Nousan gallery 2"
+        },
+        {
+          "src": "/images/gallery-3.jpg",
+          "width": 544,
+          "height": 544,
+          "alt": "Maruhachi Nousan gallery 3"
+        },
+        {
+          "src": "/images/gallery-4.jpg",
+          "width": 544,
+          "height": 544,
+          "alt": "Maruhachi Nousan gallery 4"
+        },
+        {
+          "src": "/images/gallery-5.jpg",
+          "width": 544,
+          "height": 544,
+          "alt": "Maruhachi Nousan gallery 5"
+        },
+        {
+          "src": "/images/gallery-6.jpg",
+          "width": 544,
+          "height": 544,
+          "alt": "Maruhachi Nousan gallery 6"
+        },
+        {
+          "src": "/images/gallery-7.jpg",
+          "width": 544,
+          "height": 544,
+          "alt": "Maruhachi Nousan gallery 7"
+        },
+        {
+          "src": "/images/gallery-8.jpg",
+          "width": 544,
+          "height": 544,
+          "alt": "Maruhachi Nousan gallery 8"
+        },
+        {
+          "src": "/images/gallery-9.jpg",
+          "width": 544,
+          "height": 544,
+          "alt": "Maruhachi Nousan gallery 9"
         }
       ],
       "info": {
@@ -188,11 +255,11 @@
           "height": 544,
           "alt": "Maruhachi Nousan about us image director"
         },
-        "quote": "<p><b>Maruhachi Nousan</b></p>"
+        "quote": "<p>当社は令和06年02月26日に創業以来、<strong>全て平飼い鶏</strong>です。</p><p>環境に配慮した飼育方法がこだわりの農場の卵となります。鶏にストレスがかからないエイビアリー方式アニマルウェルフェアにのっとって健康で動き回れる環境で育てられました。</p><p>平飼いはケージ飼いに比べて生産効率が悪く、卵の価格も割高になりますが、本物のいい卵を生産したいとの思いから、<strong>まるはち農産</strong>は平飼いにこだわっています。</p><p>鶏は、米、トウモロコシ、合成ふすまなどの主食に加え、栄養を補うために草や昆虫なども採食します。</p><p><strong>まるはち農産</strong>では、鶏の健康にとって、そして卵の美味しさにとって、平飼いが優れていると考えていますので、飼育コストは高くなりますが平飼いを採用しています。</p>"
       }
     },
     "contact": {
-      "title": "Contact Now",
+      "title": "お問い合わせ",
       "info": [
         { "key": "phone", "href": "tel:+(+81) 80 7552 4801", "label": "(+81) 80 7552 4801", "isBlank": false },
         { "key": "mail", "href": "mailto:n-hiep@maruhachi-nousan.com", "label": "n-hiep@maruhachi-nousan.com", "isBlank": false },
