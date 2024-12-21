@@ -1,6 +1,5 @@
 'use client';
 
-import SwiperArrow from '@components/molecules/swiper-arrow';
 import { Grid } from '@mui/material';
 import { A11y, Autoplay, EffectFade, Navigation, Pagination, Scrollbar } from 'swiper/modules';
 import { AnimateUtils } from 'utils';
@@ -30,6 +29,7 @@ const SectionBanner: React.FC<BannerProps> = ({ i18n }) => {
       autoplay
       loop={true}
       navigation
+      a11y={{ prevSlideMessage: 'Previous slide', nextSlideMessage: 'Next slide' }}
       effect='fade'
     >
       {i18n.slides.map((slide) => (
@@ -54,9 +54,9 @@ const SectionBanner: React.FC<BannerProps> = ({ i18n }) => {
           </S.BannerBox>
         </S.BannerSwiperSlide>
       ))}
-      <S.BannerSwiperArrow>
+      {/* <S.BannerSwiperArrow>
         <SwiperArrow />
-      </S.BannerSwiperArrow>
+      </S.BannerSwiperArrow> */}
     </S.BannerSwiper>
   );
 };

@@ -7,6 +7,7 @@ import { ScrollingUtils } from 'utils';
 import { Typography } from '@mui/material';
 
 import ToggleMode from '@components/molecules/toggle-mode';
+import Image from 'next/image';
 import * as S from './styles';
 
 type NavigationProps = {
@@ -25,7 +26,9 @@ const Navigation: React.FC<NavigationProps> = ({ i18n }) => {
     <React.Fragment>
       <S.NavWrap>
         <S.NavLeft>
-          <S.NavLogo>Logo + name</S.NavLogo>
+          <S.NavLogo>
+            <Image src='/images/logo-480.png' width={40} height={40} alt='Logo maruhachinousan' quality={100} />
+          </S.NavLogo>
         </S.NavLeft>
         <S.NavCenter>
           <S.NavLinkList>

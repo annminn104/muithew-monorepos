@@ -3,6 +3,7 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 import { styled } from '@mui/material';
+import Image from 'next/image';
 
 export const AboutUsImgWrap = styled(
   'div',
@@ -13,6 +14,12 @@ export const AboutUsImgWrap = styled(
   '.swiper': {
     width: '320px',
     height: '480px'
+  },
+  [theme.breakpoints.down('md')]: {
+    '.swiper': {
+      width: '280px',
+      height: '360px'
+    }
   }
 }));
 
@@ -36,3 +43,5 @@ export const AboutUsImgItem = styled(
     borderRadius: '8px'
   }
 }));
+
+export const AboutUsImageSwiper = styled(Image, {})(({}) => ({}));

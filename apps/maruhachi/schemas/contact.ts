@@ -1,13 +1,16 @@
 import { z } from 'zod';
 
 export const contactSchema = z.object({
-  firstName: z.string().min(1, { message: 'First Name is required' }),
-  lastName: z.string().min(1, { message: 'Last Name is required' }),
-  email: z.string().min(1, { message: 'Email is required' }).email('Please specify a valid email'),
-  phone: z.string().min(1, { message: 'Phone is required' }),
-  address: z.string(),
-  zipCode: z.string(),
-  message: z.string().min(1, { message: 'Message is required' })
+  title: z.string().min(1, { message: '必須' }),
+  businessName: z.string(),
+  firstName: z.string().min(1, { message: '必須' }),
+  lastName: z.string().min(1, { message: '必須' }),
+  email: z.string().min(1, { message: '必須' }).email('送信されるメールアドレスが無効です。ご確認お願いいたします。'),
+  phone: z.string().min(1, { message: '必須' }),
+  fax: z.string(),
+  address: z.string().min(1, { message: '必須' }),
+  zipCode: z.string().min(1, { message: '必須' }),
+  message: z.string().min(1, { message: '必須' })
 });
 
 export type ContactSchemaType = z.infer<typeof contactSchema>;

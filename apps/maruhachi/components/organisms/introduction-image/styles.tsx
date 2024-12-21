@@ -29,7 +29,14 @@ export const IntroVertical = styled(
     backgroundColor: alpha(theme.palette.maruhachi['dark'], 0.6),
     borderRadius: '50%',
     transform: 'translate(50%, -50%)',
-    zIndex: -1
+    zIndex: -1,
+    [theme.breakpoints.down('md')]: {
+      display: 'none',
+      backgroundColor: 'transparent'
+    }
+  },
+  [theme.breakpoints.down('md')]: {
+    zIndex: 1
   }
 }));
 
@@ -40,18 +47,27 @@ export const IntroVerticalImg = styled(
   objectFit: 'cover',
   borderRadius: '8px',
   boxShadow: theme.shadows['8'],
-  opacity: '0.8'
+  opacity: '0.8',
+  [theme.breakpoints.down('md')]: {
+    width: '300px',
+    height: 'auto'
+  }
 }));
 
 export const IntroVerticalLogo = styled(
   motion(Image),
   {}
-)(({ width }) => ({
+)(({ width, theme }) => ({
   objectFit: 'cover',
   position: 'absolute',
   left: `calc(-${width}px / 2)`,
   top: '50%',
-  transform: 'translateY(-50%) !important'
+  transform: 'translateY(-50%) !important',
+  [theme.breakpoints.down('md')]: {
+    top: '100%',
+    left: '50%',
+    transform: 'translate(-50%, -50%) !important'
+  }
 }));
 
 export const IntroHorizontal = styled('div', {})(({ theme }) => ({}));
@@ -65,5 +81,9 @@ export const IntroHorizontalImg = styled(
   right: 0,
   bottom: 0,
   borderRadius: '8px',
-  boxShadow: theme.shadows['8']
+  boxShadow: theme.shadows['8'],
+  [theme.breakpoints.down('md')]: {
+    width: '220px',
+    height: 'auto'
+  }
 }));

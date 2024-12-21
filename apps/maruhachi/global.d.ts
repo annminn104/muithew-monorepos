@@ -8,7 +8,7 @@ export declare interface IImageNext {
 }
 
 export declare interface ITextField<T> {
-  col: { xs: number };
+  col: { xs: number; md: number };
   textField: TextFieldProps & {
     name: typeof T;
   };

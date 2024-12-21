@@ -16,10 +16,7 @@ export const NavCenter = styled('div', {})(({}) => ({}));
 
 export const NavRight = styled('div', {})(({ theme }) => ({ ...theme.functions.adjustFlex(), columnGap: '16px' }));
 
-export const NavLogo = styled(
-  'div',
-  {}
-)(({ theme }) => ({ ...theme.functions.adjustFlex(), width: 160, height: 40, backgroundColor: theme.palette.grey['300'] }));
+export const NavLogo = styled('div', {})(({ theme }) => ({ ...theme.functions.adjustFlex() }));
 
 export const NavLanguages = styled(LocaleSwitcher, {})(({}) => ({}));
 
@@ -34,7 +31,8 @@ export const NavContactBtn = styled(
     path: {
       stroke: theme.palette.maruhachi['contrastText']
     }
-  }
+  },
+  [theme.breakpoints.down('lg')]: { display: 'none' }
 }));
 
 export const NavContactBtnIcon = styled(PhoneCallingRoundedIcon, {})(({ theme }) => ({}));
@@ -49,7 +47,10 @@ export const NavContactBtnContent = styled(
   color: theme.palette.maruhachi['contrastText']
 }));
 
-export const NavLinkList = styled('div', {})(({ theme }) => ({ ...theme.functions.adjustFlex(), columnGap: '8px' }));
+export const NavLinkList = styled(
+  'div',
+  {}
+)(({ theme }) => ({ ...theme.functions.adjustFlex(), columnGap: '8px', [theme.breakpoints.down('lg')]: { display: 'none' } }));
 
 export const NavLinkItem = styled(
   Button,
@@ -66,4 +67,8 @@ export const NavLinkItem = styled(
 export const NavLinkTel = styled(
   Link,
   {}
-)(({ theme }) => ({ textDecoration: 'none', color: theme.palette.maruhachi['contrastText'], display: 'flex' }));
+)(({ theme }) => ({
+  textDecoration: 'none',
+  color: theme.palette.maruhachi['contrastText'],
+  display: 'flex'
+}));

@@ -15,14 +15,14 @@ const AboutUsInfo: React.FC<AboutUsInfoProps> = ({
   }
 }) => {
   return (
-    <Grid container spacing={8} alignItems='center'>
-      <Grid item xs={5}>
+    <Grid container spacing={{ xs: 4, md: 8 }} alignItems='center' justifyContent='center'>
+      <Grid item xs={10} md={5}>
         <S.AboutUsInfoLeft>
           <S.AboutUsInfoImage {...image} />
           {/* <S.AboutUsInfoName variant='h4'>{name}</S.AboutUsInfoName> */}
         </S.AboutUsInfoLeft>
       </Grid>
-      <Grid item xs={7}>
+      <Grid item xs={12} md={7}>
         <S.AboutUsInfoRight>
           <S.AboutUsInfoQuote variant='body1' as='div' dangerouslySetInnerHTML={{ __html: quote }} />
         </S.AboutUsInfoRight>

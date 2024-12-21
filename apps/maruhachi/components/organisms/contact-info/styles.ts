@@ -19,7 +19,11 @@ export const ContactInfoList = styled(
   ...theme.functions.adjustFlex('flex', 'row', 'flex-start', 'center'),
   flexWrap: 'wrap',
   width: '100%',
-  gap: '16px'
+  gap: '16px',
+  borderRadius: '16px',
+  [theme.breakpoints.down('md')]: {
+    flexDirection: 'column'
+  }
 }));
 
 export const ContactInfoItem = styled(
@@ -27,17 +31,35 @@ export const ContactInfoItem = styled(
   {}
 )(({ theme }) => ({
   ...theme.functions.adjustFlex('flex', 'column', 'flex-start', 'center'),
+  borderRadius: '8px',
   padding: '16px',
   flex: '1 0 calc(50% - 16px)',
   textDecoration: 'none',
   border: `1px solid ${theme.palette.maruhachi['contrastText']}`,
-  borderRadius: '16px'
+  backgroundColor: theme.palette.grey['100'],
+  [theme.breakpoints.down('md')]: {
+    width: '100%',
+    flex: '1 0 100%',
+    textAlign: 'center',
+    padding: '8px'
+  }
 }));
 
-export const ContactInfoIcon = styled('div', {})(({}) => ({ svg: { width: '60px', height: '60px' } }));
+export const ContactInfoIcon = styled(
+  'div',
+  {}
+)(({ theme }) => ({
+  svg: { width: '60px', height: '60px' },
+  [theme.breakpoints.down('md')]: {
+    svg: { width: '40px', height: '40px' }
+  }
+}));
 
 export const ContactInfoText = styled(Typography, {})(({ theme }) => ({ color: theme.palette.maruhachi['contrastText'] }));
 
 export const ContactInfoSocialList = styled('div', {})(({ theme }) => ({ ...theme.functions.adjustFlex(), columnGap: '24px' }));
 
-export const ContactInfoSocialItem = styled(Link, {})(({}) => ({ svg: { width: '100px', height: '100px' } }));
+export const ContactInfoSocialItem = styled(
+  Link,
+  {}
+)(({ theme }) => ({ svg: { width: '100px', height: '100px' }, [theme.breakpoints.down('md')]: { svg: { width: '60px', height: '60px' } } }));

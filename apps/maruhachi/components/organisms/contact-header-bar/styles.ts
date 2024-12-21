@@ -17,6 +17,11 @@ export const ContactHeaderBarInfo = styled(
     path: {
       stroke: theme.palette.maruhachi['contrastText']
     }
+  },
+  [theme.breakpoints.down('md')]: {
+    '.MuiTypography-root': {
+      display: 'none'
+    }
   }
 }));
 
@@ -24,4 +29,10 @@ export const ContactHeaderBarInfoItem = styled('div', {})(({ theme }) => ({ ...t
 
 export const ContactHeaderBarSocial = styled('div', {})(({ theme }) => ({ ...theme.functions.adjustFlex() }));
 
-export const ContactHeaderBarSocialItem = styled(IconButton, {})(({}) => ({}));
+export const ContactHeaderBarSocialItem = styled(
+  IconButton,
+  {}
+)(({}) => ({
+  width: '32px',
+  height: '32px'
+}));

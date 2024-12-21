@@ -57,7 +57,7 @@ const ContactForm = () => {
         ))}
         <Grid item xs={12}>
           <S.ContactFormSubmit type='submit' fullWidth variant='maruhachi' disabled={isLoading}>
-            Send Message
+            送信
           </S.ContactFormSubmit>
         </Grid>
       </Grid>

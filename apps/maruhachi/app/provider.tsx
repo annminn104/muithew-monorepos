@@ -12,7 +12,14 @@ interface RootProviderProps {
 
 const RootProvider: React.FC<RootProviderProps> = ({ children, mode }) => {
   return (
-    <MuiReactProvider themeOptions={{}} defaultMode={mode}>
+    <MuiReactProvider
+      themeOptions={{
+        typography: {
+          fontFamily: '"Noto Sans JP", sans-serif;'
+        }
+      }}
+      defaultMode={mode}
+    >
       {children}
     </MuiReactProvider>
   );

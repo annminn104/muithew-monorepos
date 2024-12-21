@@ -12,7 +12,7 @@ export const AboutUsContentWrap = styled(
 
 export const AboutUsContentSubtitle = styled(Subtitle, {})(({ theme }) => ({}));
 
-export const AboutUsContentTitle = styled(motion(Typography), {})(({ theme }) => ({ color: theme.palette.maruhachi['contrastText'] }));
+export const AboutUsContentTitle = styled(motion(Typography), {})(({ theme }) => ({}));
 
 export const AboutUsContentDesc = styled(motion(Typography), {})(({ theme }) => ({}));
 

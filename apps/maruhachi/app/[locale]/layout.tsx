@@ -32,6 +32,11 @@ export default function LocaleLayout({ children, params: { locale } }: LocaleLay
   return (
     <React.Fragment>
       <html lang={locale}>
+        <head>
+          <link rel='preconnect' href='https://fonts.googleapis.com' />
+          <link rel='preconnect' href='https://fonts.gstatic.com' />
+          <link href='https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap' rel='stylesheet' />
+        </head>
         <body suppressHydrationWarning={true}>
           <NextIntlClientProvider locale={locale} messages={{}}>
             <RootProvider mode={(cookieStorage.get(appModeMock.key)?.value || AppModeEnum.Light) as PaletteMode}>{children}</RootProvider>

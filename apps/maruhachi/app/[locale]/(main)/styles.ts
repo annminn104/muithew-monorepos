@@ -2,7 +2,7 @@
 
 import { styled } from '@mui/material';
 
-export const LocaleWrapper = styled('div', {})(() => ({}));
+export const LocaleWrapper = styled('div', {})(() => ({ overflow: 'hidden' }));
 
 export const LocaleHeader = styled(
   'header',
@@ -16,7 +16,14 @@ export const LocaleHeader = styled(
   width: '100%'
 }));
 
-export const LocaleBody = styled('main', {})(({ theme }) => ({ backgroundColor: theme.palette.maruhachi['light'], paddingTop: '116px' }));
+export const LocaleBody = styled(
+  'main',
+  {}
+)(({ theme }) => ({
+  backgroundColor: theme.palette.maruhachi['light'],
+  paddingTop: '116px',
+  [theme.breakpoints.down('lg')]: { paddingTop: '90px' }
+}));
 
 export const LocaleFooter = styled(
   'footer',

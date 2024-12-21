@@ -36,6 +36,12 @@ export const BannerSwiperSlide = styled(
       zIndex: '-1',
       opacity: 0.2
     }
+  },
+  [theme.breakpoints.down('md')]: {
+    '&.swiper-slide': {
+      minHeight: '500px',
+      height: 'auto'
+    }
   }
 }));
 
@@ -64,7 +70,10 @@ export const BannerSubtitle = styled(motion(Typography), {})(({ theme }) => ({ c
 
 export const BannerDesc = styled(motion(Typography), {})(({ theme }) => ({ color: theme.palette.mode['main'] }));
 
-export const BannerButton = styled(motion(Button), {})(({ theme }) => ({ width: '200px', height: '60px' }));
+export const BannerButton = styled(
+  motion(Button),
+  {}
+)(({ theme }) => ({ width: '200px', height: '60px', [theme.breakpoints.down('md')]: { width: '120px', height: '40px' } }));
 
 export const BannerSwiperArrow = styled(
   'div',
