@@ -10,12 +10,17 @@ export type SectionIntroductionProps = {
     horizontal: IImageNext;
   };
   content: {
-    subtitle: string;
-    title: string;
-    description: string;
-    images: Array<IImageNext & { key: string; text: string }>;
-    notice: string;
     button: string;
+    section: {
+      tab: string;
+      tabContent: {
+        title: string;
+        description: {
+          text: string[];
+          images: Array<IImageNext & { key: string; text: string }>;
+        }[];
+      }[];
+    }[];
   };
 };
 

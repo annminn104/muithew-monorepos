@@ -1,6 +1,6 @@
 {
   "localeLayout": {
-    "title": "丸八農産"
+    "title": "まるはち農産"
   },
   "mainLayout": {
     "header": {
@@ -16,9 +16,9 @@
         }
       },
       "navigation": {
-        "home": "ホームページ",
-        "aboutUs": "私たちについて",
-        "services": "ネットで注文",
+        "home": "私たちについて",
+        "aboutUs": "会社概要",
+        "services": "商品紹介",
         "contact": "お問い合わせ"
       }
     },
@@ -70,7 +70,7 @@
           "alt": "Logo Maruhachi Nousan"
         },
         "horizontal": {
-          "src": "/images/img-introduction-2.webp",
+          "src": "/images/img-introduction-2.jpg",
           "width": 360,
           "height": 280,
           "alt": "Maruhachi Nousan image introduction horizontal"
@@ -78,29 +78,104 @@
       },
 
       "content": {
-        "subtitle": "会社概要",
-        "title": "平飼い卵",
-        "description": "鶏舎内や養鶏場の屋外で放し飼いにする鶏の産む卵のことです。味と品質が良く、濃厚で旨みとコクのある味わいが特徴の卵です。",
-        "images": [
+        "button": "お問い合わせ",
+        "section": [
           {
-            "key": "egg",
-            "text": "ロードアイランドレッド",
-            "src": "/images/icon-introduction-1.svg",
-            "width": 102,
-            "height": 60,
-            "alt": "Maruhachi Nousan chicken eggs"
-          },
-          {
-            "key": "chicken",
-            "src": "/images/icon-introduction-2.svg",
-            "text": "鳥骨鶏",
-            "width": 150,
-            "height": 60,
-            "alt": "Maruhachi Nousan chicken"
+            "tab": "畜産業",
+            "tabContent": [
+              {
+                "title": "平飼い卵",
+                "description": [
+                  {
+                    "text": [
+                      "当社は令和06年02月26日に創業以来、<strong>全て平飼い鶏</strong>です。",
+                      "環境に配慮した飼育方法がこだわりの農場の卵となります。鶏にストレスがかからないエイビアリー方式アニマルウェルフェアにのっとって健康で動き回れる環境で育てられました。",
+                      "平飼いはケージ飼いに比べて生産効率が悪く、卵の価格も割高になりますが、本物のいい卵を生産したいとの思いから、<strong>まるはち農産</strong>は平飼いにこだわっています。",
+                      "鶏は、米、トウモロコシ、合成ふすまなどの主食に加え、栄養を補うために草や昆虫なども採食します。",
+                      "<strong>まるはち農産</strong>では、鶏の健康にとって、そして卵の美味しさにとって、平飼いが優れていると考えていますので、飼育コストは高くなりますが平飼いを採用しています。"
+                    ],
+                    "images": [
+                      {
+                        "key": "chicken",
+                        "text": "",
+                        "src": "/images/intro1.jpg",
+                        "width": 220,
+                        "height": 180,
+                        "alt": "Maruhachi Nousan chicken"
+                      },
+                      {
+                        "key": "chicken",
+                        "src": "/images/intro2.jpg",
+                        "text": "",
+                        "width": 220,
+                        "height": 180,
+                        "alt": "Maruhachi Nousan chicken"
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "まるはち農産の鶏",
+                "description": [
+                  {
+                    "text": [
+                      "<strong style='font-size: 1.2em;'>純国産鶏もみじ:</strong> 体が強くよく産む鶏と鮮やかな褐色の卵を産む鶏を交配させたのが純国産鶏もみじです。",
+                      "生産するまるはち農産では、他とは違ったこだわりの卵を皆さんにお届けしたい想いで、一羽一羽愛情をもって育てています。小さな養鶏場だからこそできる行き届いた管理で、健康な鶏を育てることができています。",
+                      "一級品の鶏たちにこのこだわりぬいた飼料を与えることで、旨味の強い美味しいたまごを作っています。",
+                      "なお、飼料には抗生物質や薬類などを一切使用しておりません。ぜひこのこだわりぬいた新鮮な卵の味わいをお楽しみください。"
+                    ],
+                    "images": [
+                      {
+                        "key": "egg",
+                        "text": "",
+                        "src": "/images/intro5.jpg",
+                        "width": 220,
+                        "height": 180,
+                        "alt": "Maruhachi Nousan chicken eggs"
+                      },
+                      {
+                        "key": "egg",
+                        "text": "",
+                        "src": "/images/intro6.jpg",
+                        "width": 220,
+                        "height": 180,
+                        "alt": "Maruhachi Nousan chicken eggs"
+                      }
+                    ]
+                  },
+                  {
+                    "text": [
+                      "<strong style='font-size: 1.2em;'>うこっけい:</strong> 烏骨（黒い骨）という名が示す通り、皮膚、内臓、骨に至るまで黒色である。羽毛は白色のものが多く、他に赤褐色、黒色のものがある。体羽は細く裂けて絹糸状となっており、頭の上に羽冠があり、脚も羽毛でおおわれている。",
+                      "骨鶏の原産地は中国、インド、ベトナムなどの東南アジア方面とされ、日本にやってきたのは17世紀と言われている。",
+                      "1942年（昭和16年）7月21日に烏骨鶏が日本の天然記念物に指定される。",
+                      "ニワトリとしては小型で肉量は少ないが、栄養学的に優れた組成を持つと考えられており、スープなどにして食用される。また卵も栄養学的に優れているとされ人気が高い。",
+                      "まるはち農産には烏鶏骨を伸び伸びと放し飼いにし健康なペアから元気な有精卵を産ませています。"
+                    ],
+                    "images": [
+                      {
+                        "key": "egg",
+                        "text": "",
+                        "src": "/images/intro3.jpg",
+                        "width": 220,
+                        "height": 180,
+                        "alt": "Maruhachi Nousan chicken eggs"
+                      },
+                      {
+                        "key": "egg",
+                        "text": "",
+                        "src": "/images/intro4.jpg",
+                        "width": 220,
+                        "height": 180,
+                        "alt": "Maruhachi Nousan chicken eggs"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
           }
-        ],
-        "notice": "If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.",
-        "button": "お問い合わせ"
+        ]
       }
     },
     "services": {
@@ -142,7 +217,7 @@
               "alt": "Image Maruhachi Nousan eggs 10"
             },
             "eggName": "ロードアイランドレッド　有精卵　10個入　(送料別)",
-            "price": "販売価格: 480円（税込）"
+            "price": "販売価格: 450円（税込）"
           },
           {
             "key": "service product 2",
@@ -167,7 +242,7 @@
               "alt": "Image Maruhachi Nousan eggs 6"
             },
             "eggName": "烏骨鶏　有精卵　6個入　(送料別)",
-            "price": "販売価格: 530円（税込）"
+            "price": "販売価格: 480円（税込）"
           }
         ]
       }
@@ -241,6 +316,12 @@
           "width": 544,
           "height": 544,
           "alt": "Maruhachi Nousan gallery 9"
+        },
+        {
+          "src": "/images/gallery-10.jpg",
+          "width": 544,
+          "height": 544,
+          "alt": "Maruhachi Nousan gallery 10"
         }
       ],
       "info": {
