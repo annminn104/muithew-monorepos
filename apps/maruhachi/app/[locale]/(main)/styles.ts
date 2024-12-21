@@ -20,7 +20,7 @@ export const LocaleBody = styled(
   'main',
   {}
 )(({ theme }) => ({
-  backgroundColor: theme.palette.maruhachi['light'],
+  // backgroundColor: theme.palette.maruhachi['light'],
   paddingTop: '116px',
   [theme.breakpoints.down('lg')]: { paddingTop: '90px' }
 }));
