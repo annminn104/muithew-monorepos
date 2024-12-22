@@ -14,7 +14,7 @@ export const AboutUsContentSubtitle = styled(Subtitle, {})(({ theme }) => ({}));
 
 export const AboutUsContentTitle = styled(motion(Typography), {})(({ theme }) => ({}));
 
-export const AboutUsContentDesc = styled(motion(Typography), {})(({ theme }) => ({}));
+export const AboutUsContentDesc = styled(motion(Typography), {})(({ theme }) => ({ fontWeight: 'bold' }));
 
 export const AboutUsContentItem = styled(
   motion.div,

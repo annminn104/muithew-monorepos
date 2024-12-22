@@ -15,7 +15,7 @@ type AboutUsContentProps = {
 
 const AboutUsContent: React.FC<AboutUsContentProps> = ({
   i18n: {
-    content: { subtitle, title, description, content, button }
+    content: { subtitle, title, tab, button }
   }
 }) => {
   return (
@@ -24,14 +24,18 @@ const AboutUsContent: React.FC<AboutUsContentProps> = ({
       <S.AboutUsContentTitle variant='body1' {...AnimateUtils.fadeDirection('left', 0.4, 200)}>
         {title}
       </S.AboutUsContentTitle>
-      <S.AboutUsContentDesc variant='body1' {...AnimateUtils.fadeDirection('left', 0.5, 200)}>
-        {description}
-      </S.AboutUsContentDesc>
-      {content.map((itm, index) => (
-        <S.AboutUsContentItem key={index} {...AnimateUtils.fadeDirection('left', 0.6, 200, 0.3 * index)}>
-          <CheckReadIcon />
-          <S.AboutUsContentItemText>{itm}</S.AboutUsContentItemText>
-        </S.AboutUsContentItem>
+      {tab.map((item, index) => (
+        <React.Fragment key={'about-us-content-tab' + index.toString()}>
+          <S.AboutUsContentDesc variant='body1' {...AnimateUtils.fadeDirection('left', 0.5, 200)}>
+            {item.description}
+          </S.AboutUsContentDesc>
+          {item.content.map((itm, index) => (
+            <S.AboutUsContentItem key={index} {...AnimateUtils.fadeDirection('left', 0.6, 200, 0.3 * index)}>
+              <CheckReadIcon />
+              <S.AboutUsContentItemText>{itm}</S.AboutUsContentItemText>
+            </S.AboutUsContentItem>
+          ))}
+        </React.Fragment>
       ))}
       <S.AboutUsContentBtn variant='maruhachi' onClick={() => ScrollingUtils.session(scrollingContactId)} {...AnimateUtils.fadeIn(0.7)}>
         {button}
