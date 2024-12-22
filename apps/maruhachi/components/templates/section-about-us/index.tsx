@@ -12,8 +12,7 @@ export type SectionAboutUsProps = {
   content: {
     subtitle: string;
     title: string;
-    description: string;
-    content: Array<string>;
+    tab: { description: string; content: Array<string> }[];
     button: string;
   };
   gallery: Array<IImageNext>;
