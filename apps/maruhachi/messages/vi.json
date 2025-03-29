@@ -7,7 +7,7 @@
       "contactBar": {
         "info": {
           "phoneNumber": "(+81) 80 7552 4801",
-          "email": "n-hiep@maruhachi-nousan.com"
+          "email": "maru8@maruhachi-nousan.com"
         },
         "social": {
           "facebook": "http://www.facebook.com",
@@ -195,7 +195,7 @@
         "name": "Your Name",
         "position": "Director/Founder",
         "image": {
-          "src": "/images/img-about-us-founder.jfif",
+          "src": "/images/img-about-us-founder.png",
           "width": 544,
           "height": 544,
           "alt": "Maruhachi Nousan about us image director"
@@ -207,7 +207,7 @@
       "title": "Contact Now",
       "info": [
         { "key": "phone", "href": "tel:+(+81) 80 7552 4801", "label": "(+81) 80 7552 4801", "isBlank": false },
-        { "key": "mail", "href": "mailto:n-hiep@maruhachi-nousan.com", "label": "n-hiep@maruhachi-nousan.com", "isBlank": false },
+        { "key": "mail", "href": "mailto:maru8@maruhachi-nousan.com", "label": "maru8@maruhachi-nousan.com", "isBlank": false },
         {
           "key": "address",
           "href": "https://www.google.com/maps/place/Landmark+81/@10.7952228,106.7192166,17z/data=!3m1!4b1!4m6!3m5!1s0x317527c2f8f30911:0x36ac5073f8c91acd!8m2!3d10.7952228!4d106.7217915!16s%2Fm%2F012hcpml?entry=ttu",
