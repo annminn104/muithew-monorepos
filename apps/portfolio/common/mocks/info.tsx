@@ -5,9 +5,10 @@ export const InfoMocks = {
   name: 'Matthew Nguyen',
   role: 'Frontend Developer',
   summary: [
-    'With over 3 years of experiences as a Frontend Developer, I specialize in creating dynamic and responsive web applications using Angular, ReactJS, and NextJS. My expertise includes developing robust user interfaces, implementing state management, and ensuring seamless performance across various devices. I am proficient in HTML, CSS, JavaScript, and have a strong background in TypeScript and modern Frontend libraries such as Redux and RxJS. I have a proven track record of delivering high-quality, maintainable code, collaborating effectively with cross-functional teams, and continuously learning and adapting to new technologies.'
+    'I am a detail-oriented Frontend Developer with over 4 years of hands-on experience crafting responsive, high-performance web applications. I specialize in building clean, scalable user interfaces using modern frameworks such as React, Next.js, Remix, and Angular, with a strong focus on component architecture, accessibility, and seamless user experiences.',
+    'I thrive in collaborative environments, enjoy solving complex UI challenges, and constantly seek ways to push the boundaries of what frontend development can achieve—both in terms of performance and user delight.'
   ],
-  resume: 'https://drive.google.com/file/d/1pW576rhzfD5wVSj_PQmfSFsYPHUd3NuA/view?usp=sharing',
+  resume: 'https://drive.google.com/file/d/1OcSwcuQ-zQ0E5WA8-m4251VdF2023l8d/view?usp=sharing',
   socials: [
     {
       name: 'linkedin',
