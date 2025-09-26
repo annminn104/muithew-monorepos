@@ -5,7 +5,7 @@ export const InfoMocks = {
   name: 'Matthew Nguyen',
   role: 'Frontend Developer',
   summary: [
-    'I am a detail-oriented Frontend Developer with over 4 years of hands-on experience crafting responsive, high-performance web applications. I specialize in building clean, scalable user interfaces using modern frameworks such as React, Next.js, Remix, and Angular, with a strong focus on component architecture, accessibility, and seamless user experiences.',
+    'I am a detail-oriented Frontend Developer with 5 years of hands-on experience crafting responsive, high-performance web applications. I specialize in building clean, scalable user interfaces using modern frameworks such as React, Next.js, Remix, and Angular, with a strong focus on component architecture, accessibility, and seamless user experiences.',
     'My journey has taken me from developing powerful admin and fulfillment tools at Gearment—where I helped build a full-scale print-on-demand ecosystem, including back-office systems, warehouse management, and real-time operations—to leading front-end development at Sanbul Solutions, where I worked with monorepos, CI/CD pipelines, OAuth, and Service Workers in a dynamic, fast-paced environment.',
     'On the creative side, I’ve had the opportunity to collaborate with AMIT Group & Totally Awesome to deliver animated, engaging microsites for global brands such as Disney, Marvel, and Moose Toys. These projects allowed me to blend code with storytelling—using tools like GSAP, AOS, and Owl Carousel to bring designs to life in localized, kid-friendly experiences across multiple markets.',
     'I thrive in collaborative environments, enjoy solving complex UI challenges, and constantly seek ways to push the boundaries of what frontend development can achieve—both in terms of performance and user delight.'
@@ -114,7 +114,7 @@ export const InfoMocks = {
     {
       company: ['Sanbul Solutions'],
       position: ['Frontend Developer'],
-      startDate: '04/2023',
+      startDate: '03/2023',
       endDate: '8/2024',
       responsibilities: [
         'Create and assign tasks using Jira.',
@@ -145,8 +145,8 @@ export const InfoMocks = {
     {
       company: ['Amit Group JSC', 'TotallyAwesome'],
       position: ['Frontend Developer'],
-      startDate: '06/2021',
-      endDate: '04/2023',
+      startDate: '06/2020',
+      endDate: '03/2023',
       responsibilities: [
         'Develop and program the web interface (Micro-site).',
         'Implement motion effects and animations.',
