@@ -43,7 +43,7 @@ export const InfoMocks = {
         'Ant Design',
         'Ng-Zorro',
         'Angular Material',
-        'Shacdn/ui',
+        'Shadcn/ui',
         'Radix UI',
         'MUI React',
         'Framer Motion',
@@ -103,7 +103,7 @@ export const InfoMocks = {
         },
         {
           title: 'UI libraries:',
-          keys: 'Shacdn/ui, Radix UI, TailwindCSS'
+          keys: 'Shadcn/ui, Radix UI, TailwindCSS'
         },
         {
           title: 'Other:',
